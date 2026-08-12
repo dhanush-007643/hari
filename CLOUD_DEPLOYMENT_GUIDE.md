@@ -50,7 +50,7 @@ This guide details how to deploy the **Explainable AI Natural Language Query & A
      --region us-central1 \
      --allow-unauthenticated \
      --port 8092 \
-     --set-env-vars SECRET_KEY="<YOUR_SECRET_KEY>",ALLOWED_ORIGINS="*"
+     --set-env-vars SECRET_KEY="<YOUR_SECRET_KEY>",ALLOWED_ORIGINS='["*"]'
    ```
 
 ### Frontend: Firebase Hosting / Cloud Storage

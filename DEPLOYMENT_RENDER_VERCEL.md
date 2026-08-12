@@ -40,7 +40,7 @@ git push -u origin main
    | `PYTHON_VERSION` | `3.11.0` |
    | `DEBUG` | `false` |
    | `SECRET_KEY` | `datavista-production-secret-key-2025` |
-   | `ALLOWED_ORIGINS` | `*` |
+   | `ALLOWED_ORIGINS` | `["*"]` |
 6. Click **Create Web Service**.
 7. Wait 2-3 minutes for Render to build. Once complete, copy your **Render Backend URL** at the top left:
    > Example: `https://datavista-backend.onrender.com`
