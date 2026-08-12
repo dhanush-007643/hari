@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile.backend
+    ports:
+      - "8092:8092"
+    volumes:
+      - ./backend/datavista.db:/app/datavista.db
+      - ./backend/uploads:/app/uploads
+      - ./backend/exports:/app/exports
+      - ./backend/models:/app/models
+    environment:
+      - SECRET_KEY=super_secret_enterprise_key_change_in_production
+      - ALLOWED_ORIGINS=["http://localhost:5192","http://localhost:3000","http://localhost"]
+      - DATABASE_URL=sqlite+aiosqlite:///./datavista.db
+    restart: always
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile.frontend
+    ports:
+      - "8093:8093"
+    depends_on:
+      - backend
+    restart: always
