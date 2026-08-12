@@ -1,8 +1,20 @@
 import baseAxios from 'axios';
 import { toast } from 'react-hot-toast';
 
+const apiUrl = import.meta.env.VITE_API_URL;
+if (!apiUrl && import.meta.env.PROD) {
+  console.error("CRITICAL ERROR: VITE_API_URL is not set! Requests will go to Vercel and fail with 405 Method Not Allowed.");
+}
+let baseURL = '/api/v1';
+if (apiUrl) {
+  // Strip trailing slashes
+  const cleanUrl = apiUrl.replace(/\/+$/, '');
+  // Append /api/v1 only if they didn't already include it
+  baseURL = cleanUrl.endsWith('/api/v1') ? cleanUrl : `${cleanUrl}/api/v1`;
+}
+
 const api = baseAxios.create({
-  baseURL: import.meta.env.VITE_API_URL ? `${import.meta.env.VITE_API_URL}/api/v1` : '/api/v1',
+  baseURL,
   headers: {
     'Content-Type': 'application/json',
   },
