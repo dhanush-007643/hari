@@ -47,7 +47,7 @@ class ActivityLog(Base):
     user_id = Column(Integer, ForeignKey("users.id"))
     action_type = Column(String(100))  # query, login, upload, predict, export
     description = Column(Text)
-    metadata = Column(JSON)
+    meta_data = Column(JSON)
     created_at = Column(DateTime(timezone=True), server_default=func.now())
 
     user = relationship("User", back_populates="activity_logs")
