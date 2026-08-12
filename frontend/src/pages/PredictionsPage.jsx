@@ -1,0 +1,358 @@
+import React, { useState, useEffect } from 'react';
+import { BrainCircuit, Play, BarChart, FileSearch, CheckCircle2 } from 'lucide-react';
+import api from '../api/axios';
+import toast from 'react-hot-toast';
+
+const PredictionsPage = () => {
+  const [models, setModels] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [activeTab, setActiveTab] = useState('list'); // list, train, predict
+  
+  // Train Form State
+  const [datasetId, setDatasetId] = useState('');
+  const [targetColumn, setTargetColumn] = useState('');
+  const [modelName, setModelName] = useState('');
+  const [training, setTraining] = useState(false);
+
+  // Predict State
+  const [selectedModel, setSelectedModel] = useState(null);
+  const [predictInputs, setPredictInputs] = useState({});
+  const [predictionResult, setPredictionResult] = useState(null);
+  const [predicting, setPredicting] = useState(false);
+
+  useEffect(() => {
+    fetchModels();
+  }, []);
+
+  const fetchModels = async () => {
+    setLoading(true);
+    try {
+      const res = await api.get('/ml/models');
+      setModels(res.data);
+    } catch (e) {
+      toast.error('Failed to load models');
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const handleTrain = async (e) => {
+    e.preventDefault();
+    if (!datasetId || !targetColumn || !modelName) {
+      toast.error('Please fill all required fields');
+      return;
+    }
+    setTraining(true);
+    try {
+      const res = await api.post('/ml/train', {
+        dataset_id: parseInt(datasetId),
+        target_column: targetColumn,
+        model_name: modelName
+      });
+      toast.success('Model trained successfully!');
+      fetchModels();
+      setActiveTab('list');
+    } catch (e) {
+      toast.error(e.response?.data?.detail || 'Training failed');
+    } finally {
+      setTraining(false);
+    }
+  };
+
+  const handlePredict = async (e) => {
+    e.preventDefault();
+    if (!selectedModel) return;
+
+    // Convert inputs to numbers if they look like numbers
+    const cleanInputs = {};
+    for (const [key, val] of Object.entries(predictInputs)) {
+      cleanInputs[key] = isNaN(val) || val === '' ? val : Number(val);
+    }
+
+    setPredicting(true);
+    setPredictionResult(null);
+    try {
+      const res = await api.post('/ml/predict', {
+        model_id: selectedModel.id,
+        input_data: cleanInputs
+      });
+      
+      // Also fetch explanation
+      const expRes = await api.get(`/ml/explain/${selectedModel.id}`);
+      
+      setPredictionResult({
+        prediction: res.data.prediction,
+        confidence: res.data.confidence,
+        explanation: expRes.data
+      });
+    } catch (e) {
+      toast.error('Prediction failed');
+    } finally {
+      setPredicting(false);
+    }
+  };
+
+  return (
+    <div style={{ display: 'flex', flexDirection: 'column', gap: '24px' }}>
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+        <div>
+          <h2>Predictive AI & Models</h2>
+          <p style={{ color: 'var(--text-secondary)' }}>Train ML models and get explainable predictions.</p>
+        </div>
+        <div style={{ display: 'flex', gap: '12px' }}>
+          <button className={`btn ${activeTab === 'list' ? 'btn-primary' : 'btn-outline'}`} onClick={() => setActiveTab('list')}>
+            My Models
+          </button>
+          <button className={`btn ${activeTab === 'train' ? 'btn-primary' : 'btn-outline'}`} onClick={() => setActiveTab('train')}>
+            Train New Model
+          </button>
+          <button className={`btn ${activeTab === 'predict' ? 'btn-primary' : 'btn-outline'}`} onClick={() => setActiveTab('predict')}>
+            Make Prediction
+          </button>
+        </div>
+      </div>
+
+      {activeTab === 'list' && (
+        <div className="glass-panel">
+          <h3 style={{ marginBottom: '20px' }}>Trained Models</h3>
+          {loading ? (
+            <p>Loading...</p>
+          ) : models.length === 0 ? (
+            <div style={{ padding: '40px', textAlign: 'center', color: 'var(--text-secondary)' }}>
+              <BrainCircuit size={48} style={{ opacity: 0.5, marginBottom: '16px' }} />
+              <p>No models trained yet.</p>
+              <button className="btn btn-primary" onClick={() => setActiveTab('train')} style={{ marginTop: '16px' }}>Train your first model</button>
+            </div>
+          ) : (
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))', gap: '20px' }}>
+              {models.map(model => (
+                <div key={model.id} style={{ 
+                  background: 'var(--bg-main)', border: '1px solid var(--border-glass)', 
+                  padding: '20px', borderRadius: '12px' 
+                }}>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '12px' }}>
+                    <h4 style={{ margin: 0 }}>{model.name}</h4>
+                    <span style={{ 
+                      fontSize: '0.75rem', background: 'rgba(5, 205, 153, 0.1)', 
+                      color: 'var(--success)', padding: '2px 8px', borderRadius: '12px', fontWeight: 600
+                    }}>
+                      {model.status}
+                    </span>
+                  </div>
+                  <div style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', marginBottom: '16px' }}>
+                    Type: <span style={{ color: 'var(--text-primary)', fontWeight: 500 }}>{model.model_type}</span> ({model.algorithm})
+                    <br/>
+                    Target: <span style={{ color: 'var(--primary)', fontWeight: 500 }}>{model.target_column}</span>
+                  </div>
+                  
+                  {model.metrics && (
+                    <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '8px', marginBottom: '16px' }}>
+                      {model.model_type === 'classification' ? (
+                        <>
+                          <div style={{ background: 'var(--bg-card)', padding: '8px', borderRadius: '6px', textAlign: 'center' }}>
+                            <div style={{ fontSize: '1.2rem', fontWeight: 700, color: 'var(--primary)' }}>{Math.round(model.metrics.accuracy * 100)}%</div>
+                            <div style={{ fontSize: '0.75rem', color: 'var(--text-secondary)' }}>Accuracy</div>
+                          </div>
+                          <div style={{ background: 'var(--bg-card)', padding: '8px', borderRadius: '6px', textAlign: 'center' }}>
+                            <div style={{ fontSize: '1.2rem', fontWeight: 700, color: 'var(--secondary)' }}>{Math.round(model.metrics.f1_score * 100)}%</div>
+                            <div style={{ fontSize: '0.75rem', color: 'var(--text-secondary)' }}>F1 Score</div>
+                          </div>
+                        </>
+                      ) : (
+                        <>
+                          <div style={{ background: 'var(--bg-card)', padding: '8px', borderRadius: '6px', textAlign: 'center' }}>
+                            <div style={{ fontSize: '1.2rem', fontWeight: 700, color: 'var(--primary)' }}>{model.metrics.r2_score?.toFixed(2)}</div>
+                            <div style={{ fontSize: '0.75rem', color: 'var(--text-secondary)' }}>R² Score</div>
+                          </div>
+                          <div style={{ background: 'var(--bg-card)', padding: '8px', borderRadius: '6px', textAlign: 'center' }}>
+                            <div style={{ fontSize: '1.2rem', fontWeight: 700, color: 'var(--secondary)' }}>{model.metrics.rmse?.toFixed(2)}</div>
+                            <div style={{ fontSize: '0.75rem', color: 'var(--text-secondary)' }}>RMSE</div>
+                          </div>
+                        </>
+                      )}
+                    </div>
+                  )}
+
+                  <button className="btn btn-primary" style={{ width: '100%', fontSize: '0.85rem', padding: '8px' }} onClick={() => {
+                    setSelectedModel(model);
+                    setActiveTab('predict');
+                  }}>
+                    Use Model
+                  </button>
+                </div>
+              ))}
+            </div>
+          )}
+        </div>
+      )}
+
+      {activeTab === 'train' && (
+        <div className="glass-panel" style={{ maxWidth: '600px', margin: '0 auto', width: '100%' }}>
+          <h3 style={{ marginBottom: '20px', display: 'flex', alignItems: 'center', gap: '8px' }}>
+            <BrainCircuit size={20} color="var(--primary)" /> AutoML Training
+          </h3>
+          <p style={{ color: 'var(--text-secondary)', marginBottom: '24px', fontSize: '0.9rem' }}>
+            Select a dataset and the column you want to predict. DataVista+ will automatically clean the data, engineer features, select the best algorithm, and tune hyperparameters.
+          </p>
+
+          <form onSubmit={handleTrain} style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
+            <div>
+              <label style={{ display: 'block', marginBottom: '8px', fontWeight: 500 }}>Dataset ID *</label>
+              <input type="number" value={datasetId} onChange={e => setDatasetId(e.target.value)} placeholder="e.g. 1" required
+                style={{ width: '100%', padding: '10px', borderRadius: '8px', border: '1px solid var(--border-glass)', background: 'var(--bg-main)', color: 'var(--text-primary)' }}
+              />
+            </div>
+            <div>
+              <label style={{ display: 'block', marginBottom: '8px', fontWeight: 500 }}>Target Column to Predict *</label>
+              <input type="text" value={targetColumn} onChange={e => setTargetColumn(e.target.value)} placeholder="e.g. churn, sales, default" required
+                style={{ width: '100%', padding: '10px', borderRadius: '8px', border: '1px solid var(--border-glass)', background: 'var(--bg-main)', color: 'var(--text-primary)' }}
+              />
+            </div>
+            <div>
+              <label style={{ display: 'block', marginBottom: '8px', fontWeight: 500 }}>Model Name *</label>
+              <input type="text" value={modelName} onChange={e => setModelName(e.target.value)} placeholder="e.g. Q4 Churn Predictor" required
+                style={{ width: '100%', padding: '10px', borderRadius: '8px', border: '1px solid var(--border-glass)', background: 'var(--bg-main)', color: 'var(--text-primary)' }}
+              />
+            </div>
+            <button type="submit" className="btn btn-primary" disabled={training} style={{ padding: '14px', marginTop: '10px' }}>
+              {training ? 'Training Model...' : 'Start Training'}
+            </button>
+          </form>
+        </div>
+      )}
+
+      {activeTab === 'predict' && (
+        <div style={{ display: 'flex', gap: '24px', flexWrap: 'wrap' }}>
+          {/* Input Form */}
+          <div className="glass-panel" style={{ flex: '1 1 300px' }}>
+            <h3 style={{ marginBottom: '20px' }}>Make Prediction</h3>
+            
+            <div style={{ marginBottom: '20px' }}>
+              <label style={{ display: 'block', marginBottom: '8px', fontWeight: 500 }}>Select Model</label>
+              <select 
+                value={selectedModel?.id || ''} 
+                onChange={(e) => {
+                  const m = models.find(x => x.id === parseInt(e.target.value));
+                  setSelectedModel(m);
+                  setPredictionResult(null);
+                  
+                  // Initialize inputs based on feature names if available in metrics
+                  const inputs = {};
+                  if (m?.metrics?.feature_importance) {
+                    m.metrics.feature_importance.forEach(f => inputs[f.feature] = '');
+                  } else {
+                    inputs['feature_1'] = ''; // fallback
+                  }
+                  setPredictInputs(inputs);
+                }}
+                style={{ width: '100%', padding: '10px', borderRadius: '8px', border: '1px solid var(--border-glass)', background: 'var(--bg-main)', color: 'var(--text-primary)' }}
+              >
+                <option value="">-- Select a Model --</option>
+                {models.map(m => (
+                  <option key={m.id} value={m.id}>{m.name} ({m.model_type})</option>
+                ))}
+              </select>
+            </div>
+
+            {selectedModel && (
+              <form onSubmit={handlePredict}>
+                <div style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', marginBottom: '12px' }}>
+                  Enter values for features:
+                </div>
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '12px', marginBottom: '20px', maxHeight: '400px', overflowY: 'auto', paddingRight: '8px' }}>
+                  {Object.keys(predictInputs).map(feature => (
+                    <div key={feature}>
+                      <label style={{ display: 'block', marginBottom: '4px', fontSize: '0.85rem' }}>{feature}</label>
+                      <input 
+                        type="text"
+                        value={predictInputs[feature]}
+                        onChange={(e) => setPredictInputs({...predictInputs, [feature]: e.target.value})}
+                        style={{ width: '100%', padding: '8px', borderRadius: '6px', border: '1px solid var(--border-glass)', background: 'var(--bg-main)', color: 'var(--text-primary)' }}
+                      />
+                    </div>
+                  ))}
+                </div>
+                <button type="submit" className="btn btn-primary" disabled={predicting} style={{ width: '100%' }}>
+                  {predicting ? 'Predicting...' : 'Generate Prediction'}
+                </button>
+              </form>
+            )}
+          </div>
+
+          {/* Results & XAI */}
+          <div className="glass-panel" style={{ flex: '2 1 500px', minHeight: '400px' }}>
+            <h3 style={{ marginBottom: '20px', display: 'flex', alignItems: 'center', gap: '8px' }}>
+              <FileSearch size={20} color="var(--primary)" /> Explainable AI (XAI) Results
+            </h3>
+            
+            {predicting ? (
+              <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '300px', color: 'var(--text-secondary)' }}>
+                Running prediction and SHAP analysis...
+              </div>
+            ) : predictionResult ? (
+              <div className="animate-fade-in" style={{ display: 'flex', flexDirection: 'column', gap: '24px' }}>
+                <div style={{ display: 'flex', gap: '16px' }}>
+                  <div style={{ flex: 1, background: 'rgba(108, 99, 255, 0.1)', padding: '24px', borderRadius: '12px', border: '1px solid rgba(108, 99, 255, 0.2)', textAlign: 'center' }}>
+                    <div style={{ fontSize: '0.9rem', color: 'var(--text-secondary)', marginBottom: '8px' }}>Predicted {selectedModel.target_column}</div>
+                    <div style={{ fontSize: '2.5rem', fontWeight: 700, color: 'var(--primary)' }}>
+                      {typeof predictionResult.prediction === 'number' && !Number.isInteger(predictionResult.prediction) 
+                        ? predictionResult.prediction.toFixed(2) 
+                        : String(predictionResult.prediction)}
+                    </div>
+                  </div>
+                  <div style={{ flex: 1, background: 'rgba(5, 205, 153, 0.05)', padding: '24px', borderRadius: '12px', border: '1px solid rgba(5, 205, 153, 0.2)', textAlign: 'center' }}>
+                    <div style={{ fontSize: '0.9rem', color: 'var(--text-secondary)', marginBottom: '8px' }}>Confidence</div>
+                    <div style={{ fontSize: '2.5rem', fontWeight: 700, color: 'var(--success)' }}>
+                      {Math.round(predictionResult.confidence * 100)}%
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <h4 style={{ marginBottom: '16px' }}>SHAP Feature Contributions</h4>
+                  <div style={{ background: 'var(--bg-main)', borderRadius: '12px', padding: '20px', border: '1px solid var(--border-glass)' }}>
+                    {predictionResult.explanation?.shap?.waterfall ? (
+                      <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
+                        {predictionResult.explanation.shap.waterfall.map((item, idx) => (
+                          <div key={idx} style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+                            <div style={{ width: '120px', fontSize: '0.85rem', textAlign: 'right', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
+                              {item.feature}
+                            </div>
+                            <div style={{ flex: 1, height: '24px', background: 'var(--border-glass)', borderRadius: '4px', position: 'relative' }}>
+                              {/* simple bar visualization */}
+                              <div style={{ 
+                                position: 'absolute', 
+                                left: item.contribution > 0 ? '50%' : `calc(50% - ${Math.min(50, Math.abs(item.contribution * 100))}%)`,
+                                width: `${Math.min(50, Math.abs(item.contribution * 100))}%`, 
+                                height: '100%', 
+                                background: item.contribution > 0 ? 'var(--success)' : 'var(--danger)',
+                                borderRadius: '4px'
+                              }}></div>
+                              {/* Center line */}
+                              <div style={{ position: 'absolute', left: '50%', top: 0, bottom: 0, width: '1px', background: 'rgba(0,0,0,0.2)' }}></div>
+                            </div>
+                            <div style={{ width: '60px', fontSize: '0.85rem', color: item.contribution > 0 ? 'var(--success)' : 'var(--danger)', fontWeight: 600 }}>
+                              {item.contribution > 0 ? '+' : ''}{item.contribution.toFixed(2)}
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                    ) : (
+                      <p style={{ color: 'var(--text-secondary)' }}>SHAP explanation data not available for this model.</p>
+                    )}
+                  </div>
+                </div>
+              </div>
+            ) : (
+              <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '300px', color: 'var(--text-secondary)' }}>
+                Select a model and generate a prediction to see AI explanations.
+              </div>
+            )}
+          </div>
+        </div>
+      )}
+    </div>
+  );
+};
+
+export default PredictionsPage;
