@@ -131,29 +131,18 @@ async def upload_dataset(
     await db.commit()
     await db.refresh(dataset)
 
-    # Return column profile
-    column_profile = []
-    for col in df.columns:
-        profile = {
+    column_profile = [
+        {
             "name": col,
             "dtype": str(df[col].dtype),
             "null_count": int(df[col].isnull().sum()),
             "unique_count": int(df[col].nunique()),
+            "min": round(float(df[col].min()), 4) if pd.api.types.is_numeric_dtype(df[col]) and not df[col].isnull().all() else None,
+            "max": round(float(df[col].max()), 4) if pd.api.types.is_numeric_dtype(df[col]) and not df[col].isnull().all() else None,
+            "mean": round(float(df[col].mean()), 4) if pd.api.types.is_numeric_dtype(df[col]) and not df[col].isnull().all() else None,
         }
-        if pd.api.types.is_numeric_dtype(df[col]):
-            profile.update({
-                "min": round(float(df[col].min()), 4) if not df[col].isnull().all() else None,
-                "max": round(float(df[col].max()), 4) if not df[col].isnull().all() else None,
-                "mean": round(float(df[col].mean()), 4) if not df[col].isnull().all() else None,
-            })
-        return_data = {
-            "dataset_id": dataset.id,
-            "name": dataset.name,
-            "rows": len(df),
-            "columns": len(df.columns),
-            "quality_score": quality_score,
-            "column_profile": column_profile,
-        }
+        for col in df.columns
+    ]
 
     return {
         "dataset_id": dataset.id,
@@ -161,20 +150,45 @@ async def upload_dataset(
         "rows": len(df),
         "columns": len(df.columns),
         "quality_score": quality_score,
-        "column_profile": [
-            {
-                "name": col,
-                "dtype": str(df[col].dtype),
-                "null_count": int(df[col].isnull().sum()),
-                "unique_count": int(df[col].nunique()),
-                "min": round(float(df[col].min()), 4) if pd.api.types.is_numeric_dtype(df[col]) and not df[col].isnull().all() else None,
-                "max": round(float(df[col].max()), 4) if pd.api.types.is_numeric_dtype(df[col]) and not df[col].isnull().all() else None,
-                "mean": round(float(df[col].mean()), 4) if pd.api.types.is_numeric_dtype(df[col]) and not df[col].isnull().all() else None,
-            }
-            for col in df.columns
-        ],
+        "column_profile": column_profile,
         "sample_rows": df.head(5).to_dict(orient="records"),
     }
+
+
+@router.get("/datasets")
+async def list_datasets(
+    current_user: User = Depends(get_current_user),
+    db: AsyncSession = Depends(get_db),
+):
+    """List all uploaded datasets with their columns for ML model training."""
+    result = await db.execute(
+        select(Dataset).where(Dataset.owner_id == current_user.id).order_by(desc(Dataset.created_at))
+    )
+    datasets = result.scalars().all()
+
+    response = []
+    for d in datasets:
+        cols = []
+        if d.file_path and os.path.exists(d.file_path):
+            try:
+                if d.file_path.endswith(".csv"):
+                    df_head = pd.read_csv(d.file_path, nrows=2)
+                else:
+                    df_head = pd.read_excel(d.file_path, nrows=2)
+                cols = list(df_head.columns)
+            except Exception:
+                pass
+        
+        response.append({
+            "id": d.id,
+            "name": d.name,
+            "row_count": d.row_count,
+            "column_count": d.column_count,
+            "columns": cols,
+            "data_quality_score": d.data_quality_score,
+            "created_at": d.created_at,
+        })
+    return response
 
 
 # ─── Model Training ───────────────────────────────────────────────────────────
@@ -433,9 +447,12 @@ async def detect_anomalies(
         raise HTTPException(404, "Dataset not found")
 
     try:
-        df = pd.read_csv(dataset.file_path)
-    except Exception:
-        raise HTTPException(400, "Could not load dataset")
+        if dataset.file_path.endswith(".csv"):
+            df = pd.read_csv(dataset.file_path)
+        else:
+            df = pd.read_excel(dataset.file_path)
+    except Exception as e:
+        raise HTTPException(400, f"Could not load dataset: {e}")
 
     if column not in df.columns:
         raise HTTPException(400, f"Column '{column}' not found")

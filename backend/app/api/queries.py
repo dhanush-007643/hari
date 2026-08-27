@@ -9,7 +9,7 @@ import pandas as pd
 from typing import Optional, List
 from fastapi import APIRouter, Depends, HTTPException, status
 from sqlalchemy.ext.asyncio import AsyncSession
-from sqlalchemy import select, desc
+from sqlalchemy import select, desc, text
 from pydantic import BaseModel
 
 from app.core.database import get_db
@@ -70,17 +70,12 @@ async def natural_language_query(
     error = None
 
     try:
-        db_path = "./datavista.db"
-        conn = sqlite3.connect(db_path)
-        conn.row_factory = sqlite3.Row
-        cursor = conn.cursor()
-        cursor.execute(sql)
-        rows = cursor.fetchmany(1000)  # limit to 1000 rows
-        if rows:
-            columns = list(rows[0].keys())
-            data_rows = [dict(row) for row in rows]
-        conn.close()
-    except sqlite3.OperationalError as e:
+        query_res = await db.execute(text(sql))
+        if query_res.returns_rows:
+            columns = list(query_res.keys())
+            raw_rows = query_res.fetchmany(1000)
+            data_rows = [dict(zip(columns, row)) for row in raw_rows]
+    except Exception as e:
         error = str(e)
         # Return mock data if table doesn't exist
         data_rows = _get_mock_data(result["intent"])
@@ -140,15 +135,11 @@ async def execute_sql(
     columns = []
 
     try:
-        conn = sqlite3.connect("./datavista.db")
-        conn.row_factory = sqlite3.Row
-        cursor = conn.cursor()
-        cursor.execute(sql)
-        rows = cursor.fetchmany(500)
-        if rows:
-            columns = list(rows[0].keys())
-            data_rows = [dict(row) for row in rows]
-        conn.close()
+        query_res = await db.execute(text(sql))
+        if query_res.returns_rows:
+            columns = list(query_res.keys())
+            raw_rows = query_res.fetchmany(500)
+            data_rows = [dict(zip(columns, row)) for row in raw_rows]
     except Exception as e:
         raise HTTPException(status_code=400, detail=f"SQL Error: {str(e)}")
 

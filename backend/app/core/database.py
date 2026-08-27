@@ -10,17 +10,38 @@ import logging
 
 logger = logging.getLogger(__name__)
 
+def _normalize_async_url(url: str) -> str:
+    if url.startswith("postgres://"):
+        return url.replace("postgres://", "postgresql+asyncpg://", 1)
+    if url.startswith("postgresql://") and not url.startswith("postgresql+asyncpg://"):
+        return url.replace("postgresql://", "postgresql+asyncpg://", 1)
+    return url
+
+
+def _normalize_sync_url(url: str) -> str:
+    if url.startswith("sqlite+aiosqlite://"):
+        return url.replace("sqlite+aiosqlite://", "sqlite://", 1)
+    if url.startswith("postgres://"):
+        return url.replace("postgres://", "postgresql://", 1)
+    if url.startswith("postgresql+asyncpg://"):
+        return url.replace("postgresql+asyncpg://", "postgresql://", 1)
+    return url
+
+
+async_db_url = _normalize_async_url(settings.DATABASE_URL)
+sync_db_url = _normalize_sync_url(settings.SYNC_DATABASE_URL or settings.DATABASE_URL)
+
 # Async engine for API requests
 engine = create_async_engine(
-    settings.DATABASE_URL,
+    async_db_url,
     echo=settings.DEBUG,
-    connect_args={"check_same_thread": False} if "sqlite" in settings.DATABASE_URL else {},
+    connect_args={"check_same_thread": False} if "sqlite" in async_db_url else {},
 )
 
 # Sync engine for ML operations and report generation
 sync_engine = create_engine(
-    settings.SYNC_DATABASE_URL,
-    connect_args={"check_same_thread": False} if "sqlite" in settings.SYNC_DATABASE_URL else {},
+    sync_db_url,
+    connect_args={"check_same_thread": False} if "sqlite" in sync_db_url else {},
 )
 
 # Session factories

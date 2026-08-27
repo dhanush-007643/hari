@@ -48,12 +48,12 @@ async def get_system_stats(
     db: AsyncSession = Depends(get_db),
 ):
     """Get platform-wide statistics for admin dashboard."""
-    user_count = (await db.execute(func.count(User.id).select())).scalar() or 0
-    query_count = (await db.execute(func.count(Query.id).select())).scalar() or 0
-    dataset_count = (await db.execute(func.count(Dataset.id).select())).scalar() or 0
-    model_count = (await db.execute(func.count(MLModel.id).select())).scalar() or 0
-    report_count = (await db.execute(func.count(Report.id).select())).scalar() or 0
-    insight_count = (await db.execute(func.count(Insight.id).select())).scalar() or 0
+    user_count = (await db.execute(select(func.count(User.id)))).scalar() or 0
+    query_count = (await db.execute(select(func.count(Query.id)))).scalar() or 0
+    dataset_count = (await db.execute(select(func.count(Dataset.id)))).scalar() or 0
+    model_count = (await db.execute(select(func.count(MLModel.id)))).scalar() or 0
+    report_count = (await db.execute(select(func.count(Report.id)))).scalar() or 0
+    insight_count = (await db.execute(select(func.count(Insight.id)))).scalar() or 0
 
     return {
         "total_users": user_count or 5,

@@ -61,6 +61,27 @@ const ReportsPage = () => {
     }
   };
 
+  const handleDownload = async (report) => {
+    try {
+      toast.loading('Downloading report...', { id: 'report-dl' });
+      const res = await api.get(`/reports/${report.id}/download`, { responseType: 'blob' });
+      const extension = report.format === 'excel' ? 'xlsx' : report.format;
+      const filename = `${report.name.replace(/[^a-zA-Z0-9_-]/g, '_')}_${report.id}.${extension}`;
+      
+      const url = window.URL.createObjectURL(new Blob([res.data]));
+      const link = document.createElement('a');
+      link.href = url;
+      link.setAttribute('download', filename);
+      document.body.appendChild(link);
+      link.click();
+      link.remove();
+      window.URL.revokeObjectURL(url);
+      toast.success('Report downloaded!', { id: 'report-dl' });
+    } catch (e) {
+      toast.error('Failed to download report', { id: 'report-dl' });
+    }
+  };
+
   const getFormatIcon = (format) => {
     if (format === 'excel' || format === 'csv') return <FileSpreadsheet size={20} color="var(--success)" />;
     return <FileText size={20} color="var(--danger)" />;
@@ -104,14 +125,13 @@ const ReportsPage = () => {
                   <td style={{ padding: '16px', textAlign: 'right' }}>
                     <div style={{ display: 'flex', justifyContent: 'flex-end', gap: '8px' }}>
                       {r.has_file && (
-                        <a 
-                          href={`/api/v1/reports/${r.id}/download`} 
-                          download
+                        <button 
+                          onClick={() => handleDownload(r)}
                           className="btn btn-outline" 
-                          style={{ padding: '6px 12px', fontSize: '0.85rem' }}
+                          style={{ padding: '6px 12px', fontSize: '0.85rem', display: 'inline-flex', alignItems: 'center', gap: '6px', cursor: 'pointer' }}
                         >
                           <Download size={14} /> Download
-                        </a>
+                        </button>
                       )}
                       <button 
                         onClick={() => handleDelete(r.id)}

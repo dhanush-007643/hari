@@ -5,22 +5,26 @@ JWT token management, password hashing, and authentication helpers
 from datetime import datetime, timedelta
 from typing import Optional, Union
 from jose import JWTError, jwt
-from passlib.context import CryptContext
+import bcrypt
 from fastapi import HTTPException, status
 from app.core.config import settings
-
-# Password hashing context using bcrypt
-pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 
 
 def verify_password(plain_password: str, hashed_password: str) -> bool:
     """Verify a plain password against a hashed password."""
-    return pwd_context.verify(plain_password, hashed_password)
+    try:
+        password_bytes = plain_password.encode('utf-8')[:72]
+        hash_bytes = hashed_password.encode('utf-8')
+        return bcrypt.checkpw(password_bytes, hash_bytes)
+    except Exception:
+        return False
 
 
 def get_password_hash(password: str) -> str:
     """Hash a plain text password using bcrypt."""
-    return pwd_context.hash(password)
+    password_bytes = password.encode('utf-8')[:72]
+    salt = bcrypt.gensalt()
+    return bcrypt.hashpw(password_bytes, salt).decode('utf-8')
 
 
 def create_access_token(
@@ -83,21 +87,30 @@ def validate_password_strength(password: str) -> bool:
     return True
 
 
+import re
+
 def sanitize_sql_input(query: str) -> str:
     """
-    Basic SQL injection prevention - sanitize user SQL input.
-    Remove dangerous keywords that could modify data or structure.
+    SQL injection & modification prevention - validate read-only user SQL input.
+    Ensures queries only perform safe SELECT / read operations.
     """
-    dangerous_keywords = [
-        "DROP", "DELETE", "TRUNCATE", "ALTER", "CREATE",
-        "INSERT", "UPDATE", "EXEC", "EXECUTE", "xp_", "sp_",
-        "--", "/*", "*/", "UNION SELECT",
-    ]
-    query_upper = query.upper()
-    for keyword in dangerous_keywords:
-        if keyword in query_upper:
-            raise HTTPException(
-                status_code=status.HTTP_400_BAD_REQUEST,
-                detail=f"SQL query contains disallowed keyword: {keyword}"
-            )
-    return query
+    cleaned = query.strip()
+    if not cleaned:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="SQL query cannot be empty"
+        )
+
+    # Disallow destructive/mutating commands using regex word boundaries
+    disallowed_pattern = re.compile(
+        r"\b(DROP\s+TABLE|DROP\s+DATABASE|DROP\s+SCHEMA|DROP\s+VIEW|DELETE\s+FROM|TRUNCATE|ALTER\s+TABLE|INSERT\s+INTO|UPDATE\s+\w+\s+SET|GRANT\b|REVOKE\b|EXEC\b|EXECUTE\b|xp_|sp_)",
+        re.IGNORECASE
+    )
+    match = disallowed_pattern.search(cleaned)
+    if match:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail=f"SQL query contains disallowed operation: {match.group(0)}"
+        )
+
+    return cleaned

@@ -1,0 +1,1001 @@
+order_id,order_date,customer_id,customer_segment,region,country,product_category,product_name,payment_method,quantity,unit_price,discount_percent,shipping_cost,revenue,profit
+ORD-10759,2023-01-01,CUST-268,Corporate,Europe,France,Electronics,Noise-Canceling Earbuds,Apple Pay,8,123.14,15,20.68,837.35,307.87
+ORD-10983,2023-01-01,CUST-323,Small Business,Asia Pacific,Japan,Electronics,Smartwatch Pro,Bank Transfer,7,322.64,10,27.8,2032.63,531.92
+ORD-10012,2023-01-01,CUST-235,Consumer,Middle East,Saudi Arabia,Sports & Fitness,Yoga Mat Premium,Debit Card,5,62.12,5,33.41,295.07,123.06
+ORD-10502,2023-01-01,CUST-263,Small Business,North America,Canada,Home & Living,Aroma Diffuser,Debit Card,7,189.41,20,28.13,1060.7,393.58
+ORD-10275,2023-01-02,CUST-284,Consumer,North America,Canada,Sports & Fitness,Cycling Helmet,Bank Transfer,8,161.67,10,8.04,1164.02,381.13
+ORD-10130,2023-01-02,CUST-209,Corporate,Middle East,Saudi Arabia,Fashion,Wool Overcoat,PayPal,2,88.05,10,20.78,158.49,31.42
+ORD-10249,2023-01-03,CUST-230,Corporate,North America,USA,Fashion,Classic Denim Jacket,Debit Card,7,139.63,5,30.72,928.54,400.58
+ORD-10993,2023-01-04,CUST-262,Corporate,Asia Pacific,Singapore,Home & Living,Ergonomic Desk Chair,Bank Transfer,2,187.21,15,32.54,318.26,64.86
+ORD-10011,2023-01-04,CUST-216,Corporate,Asia Pacific,Australia,Electronics,USB-C Docking Station,Apple Pay,4,128.08,5,28.36,486.7,158.49
+ORD-10467,2023-01-05,CUST-129,Corporate,Asia Pacific,Japan,Electronics,4K Ultra Monitor,Credit Card,2,267.82,25,5.67,401.73,153.18
+ORD-10973,2023-01-06,CUST-204,Corporate,Asia Pacific,Australia,Sports & Fitness,Hydration Flask,Debit Card,4,74.88,25,21.64,224.64,69.73
+ORD-10398,2023-01-08,CUST-303,Small Business,Middle East,Saudi Arabia,Fashion,Cotton Crewneck Tee,Bank Transfer,7,52.49,25,16.69,275.57,104.45
+ORD-10701,2023-01-08,CUST-151,Small Business,Europe,Netherlands,Electronics,Mechanical Keyboard,PayPal,6,415.91,15,22.28,2121.14,645.37
+ORD-10621,2023-01-09,CUST-185,Small Business,North America,Canada,Sports & Fitness,Cycling Helmet,Apple Pay,5,30.74,15,22.73,130.64,40.66
+ORD-10771,2023-01-11,CUST-323,Small Business,Latin America,Brazil,Sports & Fitness,Cycling Helmet,Apple Pay,2,87.85,20,29.94,140.56,32.52
+ORD-10765,2023-01-11,CUST-170,Consumer,North America,Canada,Fashion,Cotton Crewneck Tee,Credit Card,3,88.44,10,29.2,238.79,80.95
+ORD-10598,2023-01-11,CUST-121,Small Business,Latin America,Brazil,Home & Living,LED Desk Lamp,PayPal,7,224.2,25,7.19,1177.05,401.66
+ORD-10060,2023-01-13,CUST-126,Corporate,Middle East,Saudi Arabia,Sports & Fitness,Cycling Helmet,Debit Card,3,174.65,10,19.33,471.56,204.7
+ORD-10716,2023-01-14,CUST-280,Consumer,Europe,Germany,Electronics,4K Ultra Monitor,Bank Transfer,4,305.51,0,19.96,1222.04,265.35
+ORD-10816,2023-01-14,CUST-277,Small Business,Asia Pacific,Japan,Fashion,Classic Denim Jacket,Credit Card,3,85.43,0,17.71,256.29,73.56
+ORD-10331,2023-01-14,CUST-306,Consumer,Middle East,UAE,Electronics,Mechanical Keyboard,Credit Card,1,145.96,5,25.5,138.66,61.78
+ORD-10059,2023-01-15,CUST-177,Consumer,Middle East,UAE,Home & Living,Ergonomic Desk Chair,Apple Pay,5,221.33,5,27.58,1051.32,370.3
+ORD-10826,2023-01-16,CUST-306,Consumer,Europe,France,Electronics,Mechanical Keyboard,Bank Transfer,6,134.49,10,13.4,726.25,162.39
+ORD-10195,2023-01-18,CUST-173,Consumer,Middle East,Saudi Arabia,Fashion,Classic Denim Jacket,Apple Pay,3,51.33,20,29.46,123.19,39.68
+ORD-10567,2023-01-19,CUST-239,Corporate,North America,Canada,Electronics,Mechanical Keyboard,Debit Card,7,238.17,0,21.7,1667.19,314.89
+ORD-10128,2023-01-20,CUST-120,Small Business,Asia Pacific,Australia,Fashion,Wool Overcoat,Apple Pay,7,34.45,10,8.66,217.03,52.99
+ORD-10578,2023-01-20,CUST-325,Small Business,Middle East,UAE,Sports & Fitness,Adjustable Dumbbells,Bank Transfer,5,170.26,20,30.58,681.04,271.33
+ORD-10412,2023-01-20,CUST-326,Small Business,Middle East,Saudi Arabia,Fashion,Leather Messenger Bag,Credit Card,7,44.68,25,21.54,234.57,73.73
+ORD-10650,2023-01-20,CUST-329,Consumer,North America,USA,Electronics,4K Ultra Monitor,PayPal,8,102.17,20,17.05,653.89,224.84
+ORD-10269,2023-01-21,CUST-156,Small Business,Middle East,Saudi Arabia,Electronics,4K Ultra Monitor,PayPal,3,199.49,5,30.33,568.55,243.38
+ORD-10541,2023-01-24,CUST-150,Corporate,North America,Canada,Electronics,Noise-Canceling Earbuds,PayPal,8,190.75,20,6.68,1220.8,388.36
+ORD-10986,2023-01-26,CUST-145,Consumer,Asia Pacific,India,Home & Living,LED Desk Lamp,Apple Pay,4,139.44,5,34.86,529.87,228.88
+ORD-10266,2023-01-27,CUST-146,Consumer,Asia Pacific,Australia,Electronics,4K Ultra Monitor,Bank Transfer,6,361.4,5,8.0,2059.98,912.52
+ORD-10298,2023-01-27,CUST-135,Corporate,Latin America,Mexico,Home & Living,LED Desk Lamp,Bank Transfer,1,191.59,20,15.3,153.27,61.36
+ORD-10280,2023-01-27,CUST-124,Corporate,Europe,UK,Home & Living,Ergonomic Desk Chair,Credit Card,5,244.07,15,24.83,1037.3,323.7
+ORD-10126,2023-01-28,CUST-338,Corporate,Latin America,Brazil,Sports & Fitness,Hydration Flask,PayPal,7,179.15,10,14.56,1128.64,271.58
+ORD-10705,2023-01-28,CUST-218,Small Business,North America,Canada,Sports & Fitness,Resistance Bands Set,Bank Transfer,4,86.48,0,26.27,345.92,85.67
+ORD-10619,2023-01-28,CUST-148,Corporate,Europe,Netherlands,Fashion,Running Sneakers,Apple Pay,4,31.19,15,17.66,106.05,23.33
+ORD-10951,2023-01-29,CUST-143,Corporate,Middle East,UAE,Fashion,Classic Denim Jacket,Credit Card,6,46.41,20,18.34,222.77,65.75
+ORD-10581,2023-01-29,CUST-149,Small Business,Europe,France,Sports & Fitness,Cycling Helmet,Bank Transfer,7,125.27,0,13.18,876.89,205.66
+ORD-10860,2023-01-31,CUST-201,Consumer,North America,USA,Home & Living,LED Desk Lamp,Debit Card,4,58.89,25,9.35,176.67,49.53
+ORD-10260,2023-02-01,CUST-144,Corporate,Latin America,Mexico,Fashion,Classic Denim Jacket,Credit Card,3,35.79,0,34.48,107.37,43.4
+ORD-10197,2023-02-02,CUST-294,Small Business,North America,Canada,Sports & Fitness,Cycling Helmet,Bank Transfer,1,123.7,25,20.0,92.78,20.99
+ORD-10821,2023-02-03,CUST-337,Small Business,Europe,France,Electronics,Noise-Canceling Earbuds,Credit Card,8,87.36,10,14.26,628.99,129.05
+ORD-10373,2023-02-04,CUST-149,Corporate,Middle East,UAE,Fashion,Classic Denim Jacket,PayPal,1,146.83,0,28.39,146.83,65.95
+ORD-10988,2023-02-04,CUST-169,Small Business,Asia Pacific,India,Sports & Fitness,Yoga Mat Premium,Debit Card,5,121.92,20,30.9,487.68,196.19
+ORD-10193,2023-02-04,CUST-234,Consumer,North America,USA,Electronics,Mechanical Keyboard,PayPal,2,338.72,0,18.68,677.44,161.94
+ORD-10932,2023-02-07,CUST-219,Consumer,Asia Pacific,India,Fashion,Cotton Crewneck Tee,Apple Pay,2,55.94,20,33.6,89.5,29.44
+ORD-10168,2023-02-08,CUST-339,Corporate,Europe,Netherlands,Fashion,Classic Denim Jacket,Bank Transfer,3,141.76,10,5.28,382.75,159.5
+ORD-10445,2023-02-09,CUST-264,Consumer,Middle East,UAE,Sports & Fitness,Cycling Helmet,PayPal,7,177.49,0,20.48,1242.43,410.72
+ORD-10726,2023-02-09,CUST-326,Corporate,North America,Canada,Fashion,Running Sneakers,Debit Card,6,86.25,15,16.05,439.88,154.59
+ORD-10934,2023-02-09,CUST-267,Small Business,Europe,Netherlands,Home & Living,Ergonomic Desk Chair,PayPal,1,287.44,10,5.48,258.7,114.69
+ORD-10957,2023-02-09,CUST-145,Consumer,Latin America,Mexico,Sports & Fitness,Hydration Flask,Debit Card,8,107.22,5,30.22,814.87,339.83
+ORD-10067,2023-02-10,CUST-253,Consumer,Latin America,Mexico,Home & Living,Ergonomic Desk Chair,PayPal,1,299.89,25,22.29,224.92,90.37
+ORD-10718,2023-02-10,CUST-301,Consumer,Middle East,Saudi Arabia,Home & Living,Ergonomic Desk Chair,Debit Card,6,102.98,20,32.53,494.3,96.19
+ORD-10789,2023-02-12,CUST-130,Consumer,Middle East,UAE,Fashion,Cotton Crewneck Tee,Credit Card,6,59.19,15,11.06,301.87,135.0
+ORD-10226,2023-02-12,CUST-310,Small Business,Latin America,Brazil,Sports & Fitness,Yoga Mat Premium,PayPal,5,160.6,0,15.46,803.0,242.05
+ORD-10887,2023-02-12,CUST-148,Corporate,Middle East,Saudi Arabia,Electronics,Mechanical Keyboard,Apple Pay,6,179.6,0,25.57,1077.6,339.13
+ORD-10949,2023-02-12,CUST-136,Small Business,Europe,Netherlands,Home & Living,Espresso Machine,Debit Card,2,130.31,5,13.22,247.59,52.49
+ORD-10678,2023-02-13,CUST-324,Consumer,Latin America,Brazil,Electronics,USB-C Docking Station,PayPal,8,307.09,5,28.05,2333.88,723.04
+ORD-10646,2023-02-15,CUST-117,Corporate,Latin America,Mexico,Home & Living,Espresso Machine,Debit Card,7,163.56,25,8.98,858.69,347.85
+ORD-10962,2023-02-16,CUST-262,Small Business,Asia Pacific,India,Sports & Fitness,Adjustable Dumbbells,PayPal,4,145.83,0,23.4,583.32,254.28
+ORD-10614,2023-02-16,CUST-334,Consumer,Middle East,UAE,Sports & Fitness,Cycling Helmet,Bank Transfer,5,80.1,20,20.1,320.4,64.75
+ORD-10658,2023-02-16,CUST-172,Corporate,Europe,Germany,Home & Living,Ergonomic Desk Chair,Credit Card,3,228.52,10,11.33,617.0,257.37
+ORD-10786,2023-02-18,CUST-329,Small Business,Europe,Germany,Electronics,Wireless Headphones,Debit Card,4,178.42,10,8.02,642.31,273.17
+ORD-10667,2023-02-18,CUST-157,Consumer,Asia Pacific,India,Sports & Fitness,Resistance Bands Set,Bank Transfer,4,76.88,20,34.71,246.02,97.93
+ORD-10309,2023-02-19,CUST-252,Consumer,North America,USA,Electronics,USB-C Docking Station,Bank Transfer,8,214.5,20,26.06,1372.8,340.78
+ORD-10182,2023-02-19,CUST-280,Consumer,Europe,Germany,Sports & Fitness,Cycling Helmet,Apple Pay,4,141.93,0,34.8,567.72,123.67
+ORD-10401,2023-02-20,CUST-138,Corporate,Middle East,UAE,Fashion,Classic Denim Jacket,Debit Card,3,112.98,25,7.71,254.2,46.32
+ORD-10446,2023-02-20,CUST-261,Corporate,Europe,France,Sports & Fitness,Cycling Helmet,Debit Card,8,50.81,10,6.64,365.83,126.41
+ORD-10314,2023-02-21,CUST-218,Corporate,North America,USA,Electronics,4K Ultra Monitor,Debit Card,7,350.65,0,31.71,2454.55,1005.96
+ORD-10166,2023-02-23,CUST-159,Consumer,North America,Canada,Home & Living,LED Desk Lamp,PayPal,1,290.77,5,33.05,276.23,80.07
+ORD-10251,2023-02-23,CUST-330,Consumer,Europe,UK,Electronics,Mechanical Keyboard,Bank Transfer,5,363.94,10,21.59,1637.73,439.52
+ORD-10549,2023-02-24,CUST-141,Consumer,Asia Pacific,Singapore,Sports & Fitness,Resistance Bands Set,Debit Card,5,107.09,0,27.99,535.45,170.67
+ORD-10278,2023-02-24,CUST-140,Corporate,North America,Canada,Fashion,Running Sneakers,Apple Pay,5,105.88,10,6.49,476.46,116.32
+ORD-10876,2023-02-24,CUST-185,Consumer,Latin America,Mexico,Home & Living,Ergonomic Desk Chair,Bank Transfer,7,90.42,5,22.82,601.29,173.61
+ORD-10750,2023-02-25,CUST-306,Consumer,Asia Pacific,India,Fashion,Wool Overcoat,Bank Transfer,8,57.84,5,29.13,439.58,104.02
+ORD-10835,2023-02-25,CUST-147,Consumer,North America,Canada,Home & Living,Standing Desk Converter,PayPal,6,284.9,15,25.66,1452.99,448.08
+ORD-10924,2023-02-25,CUST-126,Consumer,Asia Pacific,India,Sports & Fitness,Resistance Bands Set,PayPal,3,155.42,20,27.26,373.01,90.36
+ORD-10007,2023-02-27,CUST-183,Corporate,Europe,Germany,Home & Living,LED Desk Lamp,Credit Card,4,277.42,20,14.44,887.74,369.85
+ORD-10138,2023-02-28,CUST-342,Small Business,North America,Canada,Home & Living,Espresso Machine,PayPal,1,77.12,20,18.15,61.7,22.4
+ORD-10653,2023-03-01,CUST-106,Consumer,Asia Pacific,India,Electronics,4K Ultra Monitor,Bank Transfer,6,168.02,0,12.19,1008.12,195.58
+ORD-10416,2023-03-01,CUST-194,Consumer,Middle East,Saudi Arabia,Electronics,USB-C Docking Station,Debit Card,2,428.95,20,26.76,686.32,141.53
+ORD-10270,2023-03-02,CUST-182,Small Business,North America,USA,Fashion,Classic Denim Jacket,Debit Card,2,68.57,25,8.03,102.85,29.5
+ORD-10599,2023-03-02,CUST-242,Corporate,North America,Canada,Fashion,Cotton Crewneck Tee,Apple Pay,1,20.7,20,14.08,16.56,5.75
+ORD-10638,2023-03-03,CUST-128,Consumer,Asia Pacific,Singapore,Home & Living,Ergonomic Desk Chair,Credit Card,8,117.47,25,15.17,704.82,127.86
+ORD-10063,2023-03-03,CUST-258,Corporate,Middle East,UAE,Fashion,Running Sneakers,Credit Card,3,51.18,20,5.08,122.83,24.6
+ORD-10897,2023-03-04,CUST-321,Consumer,North America,USA,Fashion,Wool Overcoat,Apple Pay,8,37.73,25,9.64,226.38,79.85
+ORD-10480,2023-03-05,CUST-175,Small Business,Asia Pacific,Japan,Electronics,USB-C Docking Station,Debit Card,2,397.27,0,26.07,794.54,193.48
+ORD-10332,2023-03-05,CUST-137,Corporate,Asia Pacific,Australia,Electronics,4K Ultra Monitor,Credit Card,4,352.12,20,20.33,1126.78,321.13
+ORD-10256,2023-03-05,CUST-245,Corporate,Latin America,Brazil,Fashion,Leather Messenger Bag,Debit Card,7,111.09,25,18.58,583.22,156.35
+ORD-10219,2023-03-06,CUST-307,Corporate,Middle East,UAE,Fashion,Leather Messenger Bag,PayPal,8,34.81,25,20.83,208.86,86.24
+ORD-10511,2023-03-06,CUST-185,Consumer,North America,Canada,Fashion,Cotton Crewneck Tee,Debit Card,3,77.03,20,8.0,184.87,35.31
+ORD-10859,2023-03-07,CUST-309,Corporate,Latin America,Brazil,Electronics,Noise-Canceling Earbuds,Apple Pay,7,181.52,25,20.91,952.98,416.07
+ORD-10509,2023-03-07,CUST-251,Small Business,North America,USA,Sports & Fitness,Hydration Flask,PayPal,2,149.69,15,30.08,254.47,68.98
+ORD-10992,2023-03-08,CUST-115,Consumer,Europe,UK,Home & Living,Ergonomic Desk Chair,Bank Transfer,1,111.64,5,17.28,106.06,38.81
+ORD-10671,2023-03-08,CUST-327,Corporate,Europe,Germany,Sports & Fitness,Yoga Mat Premium,Apple Pay,7,35.2,25,6.57,184.8,36.05
+ORD-10061,2023-03-08,CUST-310,Small Business,Latin America,Mexico,Electronics,Noise-Canceling Earbuds,Credit Card,3,126.7,20,7.56,304.08,132.66
+ORD-10878,2023-03-09,CUST-161,Small Business,Middle East,UAE,Home & Living,Aroma Diffuser,Bank Transfer,7,142.15,5,31.39,945.3,357.47
+ORD-10139,2023-03-10,CUST-132,Small Business,Europe,France,Home & Living,LED Desk Lamp,Credit Card,3,216.56,10,27.89,584.71,163.98
+ORD-10022,2023-03-11,CUST-252,Consumer,Europe,Netherlands,Electronics,Noise-Canceling Earbuds,Apple Pay,1,305.36,15,21.96,259.56,92.79
+ORD-10791,2023-03-11,CUST-211,Small Business,Latin America,Mexico,Electronics,Smartwatch Pro,Debit Card,3,180.07,20,34.17,432.17,84.88
+ORD-10677,2023-03-12,CUST-151,Small Business,Asia Pacific,Australia,Sports & Fitness,Cycling Helmet,Debit Card,6,120.5,15,8.15,614.55,165.15
+ORD-10400,2023-03-12,CUST-148,Small Business,Europe,UK,Home & Living,Ergonomic Desk Chair,Bank Transfer,8,110.75,20,14.62,708.8,221.74
+ORD-10470,2023-03-14,CUST-143,Consumer,Asia Pacific,Singapore,Sports & Fitness,Yoga Mat Premium,Credit Card,8,165.01,0,6.61,1320.08,275.37
+ORD-10800,2023-03-15,CUST-136,Consumer,Latin America,Brazil,Sports & Fitness,Cycling Helmet,Apple Pay,3,137.65,0,16.34,412.95,141.6
+ORD-10242,2023-03-16,CUST-297,Consumer,North America,USA,Electronics,4K Ultra Monitor,Credit Card,1,430.5,15,23.86,365.93,115.92
+ORD-10917,2023-03-16,CUST-226,Corporate,Middle East,UAE,Home & Living,Ergonomic Desk Chair,Apple Pay,2,270.75,15,13.12,460.27,200.49
+ORD-10145,2023-03-17,CUST-264,Small Business,Latin America,Mexico,Home & Living,Aroma Diffuser,Apple Pay,3,239.62,5,32.32,682.92,202.7
+ORD-10257,2023-03-18,CUST-159,Consumer,Europe,UK,Electronics,Smartwatch Pro,PayPal,8,247.1,15,15.75,1680.28,357.23
+ORD-10078,2023-03-18,CUST-139,Small Business,Latin America,Mexico,Home & Living,Espresso Machine,Bank Transfer,2,261.46,25,16.4,392.19,161.59
+ORD-10113,2023-03-19,CUST-267,Small Business,Europe,Netherlands,Sports & Fitness,Hydration Flask,Bank Transfer,6,158.96,25,18.19,715.32,189.82
+ORD-10575,2023-03-19,CUST-262,Consumer,Middle East,UAE,Home & Living,Standing Desk Converter,Debit Card,7,249.2,20,7.76,1395.52,531.11
+ORD-10606,2023-03-20,CUST-206,Consumer,Europe,Netherlands,Electronics,4K Ultra Monitor,Debit Card,2,219.78,20,8.18,351.65,151.52
+ORD-10722,2023-03-23,CUST-223,Corporate,Asia Pacific,India,Sports & Fitness,Adjustable Dumbbells,Bank Transfer,7,103.32,25,9.68,542.43,161.12
+ORD-10613,2023-03-23,CUST-211,Small Business,Latin America,Mexico,Fashion,Running Sneakers,Debit Card,4,88.0,10,21.53,316.8,105.65
+ORD-10098,2023-03-24,CUST-118,Corporate,Asia Pacific,Australia,Electronics,Smartwatch Pro,Apple Pay,6,214.74,20,18.61,1030.75,333.19
+ORD-10661,2023-03-25,CUST-237,Corporate,North America,USA,Sports & Fitness,Yoga Mat Premium,Bank Transfer,6,84.95,25,8.74,382.27,170.35
+ORD-10974,2023-03-25,CUST-289,Consumer,North America,Canada,Electronics,Mechanical Keyboard,Credit Card,3,267.58,0,18.13,802.74,180.51
+ORD-10136,2023-03-26,CUST-305,Consumer,Latin America,Brazil,Sports & Fitness,Hydration Flask,Apple Pay,5,74.79,0,13.87,373.95,100.42
+ORD-10560,2023-03-26,CUST-110,Corporate,Asia Pacific,India,Electronics,Mechanical Keyboard,Bank Transfer,5,331.08,15,17.22,1407.09,339.09
+ORD-10203,2023-03-26,CUST-118,Small Business,Asia Pacific,Australia,Sports & Fitness,Adjustable Dumbbells,Bank Transfer,6,80.91,0,14.25,485.46,88.06
+ORD-10829,2023-03-27,CUST-195,Small Business,Latin America,Mexico,Home & Living,Ergonomic Desk Chair,Credit Card,4,221.93,20,30.59,710.18,129.36
+ORD-10834,2023-03-27,CUST-145,Consumer,Europe,Germany,Home & Living,LED Desk Lamp,Debit Card,8,266.54,20,31.79,1705.86,405.67
+ORD-10806,2023-03-28,CUST-335,Small Business,North America,USA,Fashion,Cotton Crewneck Tee,Debit Card,3,108.33,5,25.61,308.74,130.02
+ORD-10593,2023-03-28,CUST-150,Corporate,Latin America,Mexico,Fashion,Cotton Crewneck Tee,Apple Pay,4,22.7,0,24.41,90.8,38.98
+ORD-10636,2023-03-28,CUST-177,Small Business,North America,Canada,Sports & Fitness,Adjustable Dumbbells,Apple Pay,5,58.13,20,20.64,232.52,76.49
+ORD-10347,2023-03-29,CUST-240,Corporate,Asia Pacific,Australia,Home & Living,Aroma Diffuser,Apple Pay,3,81.85,5,12.58,233.27,80.84
+ORD-10215,2023-03-29,CUST-335,Corporate,North America,USA,Home & Living,Standing Desk Converter,Bank Transfer,4,175.49,10,18.14,631.76,194.94
+ORD-10994,2023-03-30,CUST-146,Consumer,Europe,France,Electronics,Smartwatch Pro,PayPal,6,244.93,25,14.23,1102.18,479.09
+ORD-10245,2023-03-30,CUST-162,Small Business,Latin America,Brazil,Sports & Fitness,Hydration Flask,Credit Card,5,128.24,25,8.58,480.9,182.73
+ORD-10227,2023-03-31,CUST-309,Small Business,Latin America,Brazil,Fashion,Running Sneakers,Apple Pay,6,131.94,20,9.98,633.31,222.2
+ORD-10543,2023-03-31,CUST-243,Corporate,Europe,Netherlands,Sports & Fitness,Cycling Helmet,PayPal,7,137.93,15,22.62,820.68,178.65
+ORD-10304,2023-04-01,CUST-301,Corporate,Europe,Netherlands,Sports & Fitness,Cycling Helmet,Bank Transfer,7,25.72,20,16.19,144.03,33.68
+ORD-10322,2023-04-01,CUST-214,Corporate,Latin America,Mexico,Home & Living,Ergonomic Desk Chair,Credit Card,2,144.89,0,5.01,289.78,95.75
+ORD-10842,2023-04-02,CUST-126,Small Business,North America,Canada,Electronics,Mechanical Keyboard,Apple Pay,2,310.74,20,5.98,497.18,167.52
+ORD-10770,2023-04-03,CUST-180,Consumer,North America,USA,Fashion,Classic Denim Jacket,Apple Pay,1,31.0,10,19.79,27.9,9.2
+ORD-10086,2023-04-03,CUST-133,Consumer,Asia Pacific,Singapore,Sports & Fitness,Adjustable Dumbbells,PayPal,6,107.28,10,12.71,579.31,234.17
+ORD-10702,2023-04-04,CUST-288,Corporate,Asia Pacific,India,Home & Living,Standing Desk Converter,Apple Pay,3,147.91,5,27.0,421.54,178.31
+ORD-10612,2023-04-06,CUST-209,Small Business,North America,Canada,Sports & Fitness,Adjustable Dumbbells,PayPal,8,106.73,25,13.72,640.38,205.99
+ORD-10255,2023-04-06,CUST-171,Corporate,North America,USA,Sports & Fitness,Resistance Bands Set,Credit Card,2,103.34,25,7.24,155.01,62.22
+ORD-10824,2023-04-06,CUST-260,Small Business,Europe,UK,Fashion,Running Sneakers,Apple Pay,6,78.17,5,15.81,445.57,120.99
+ORD-10755,2023-04-07,CUST-277,Small Business,Middle East,UAE,Sports & Fitness,Cycling Helmet,Bank Transfer,5,113.57,0,26.41,567.85,152.08
+ORD-10550,2023-04-07,CUST-146,Small Business,Middle East,UAE,Home & Living,Standing Desk Converter,Debit Card,5,218.22,25,21.03,818.32,227.4
+ORD-10711,2023-04-09,CUST-325,Small Business,Europe,UK,Electronics,Mechanical Keyboard,Credit Card,6,192.62,25,11.21,866.79,200.38
+ORD-10731,2023-04-10,CUST-100,Small Business,North America,Canada,Sports & Fitness,Resistance Bands Set,Bank Transfer,3,52.34,5,10.94,149.17,55.21
+ORD-10156,2023-04-10,CUST-349,Corporate,Latin America,Mexico,Home & Living,Espresso Machine,PayPal,4,196.64,15,6.36,668.58,210.62
+ORD-10019,2023-04-11,CUST-240,Consumer,North America,USA,Electronics,Smartwatch Pro,Bank Transfer,8,252.92,15,9.94,1719.86,728.64
+ORD-10565,2023-04-12,CUST-107,Consumer,North America,USA,Sports & Fitness,Yoga Mat Premium,Bank Transfer,6,48.67,20,27.81,233.62,81.36
+ORD-10558,2023-04-12,CUST-101,Consumer,Europe,Netherlands,Home & Living,Espresso Machine,Bank Transfer,2,87.02,10,17.72,156.64,69.7
+ORD-10024,2023-04-13,CUST-244,Corporate,North America,USA,Home & Living,Aroma Diffuser,Credit Card,4,136.08,5,21.3,517.1,154.26
+ORD-10590,2023-04-13,CUST-309,Corporate,Europe,France,Electronics,4K Ultra Monitor,Apple Pay,6,242.24,0,24.24,1453.44,560.64
+ORD-10080,2023-04-13,CUST-280,Consumer,Latin America,Brazil,Home & Living,Ergonomic Desk Chair,Debit Card,1,116.28,10,12.33,104.65,31.01
+ORD-10823,2023-04-14,CUST-228,Corporate,Middle East,UAE,Electronics,Noise-Canceling Earbuds,Bank Transfer,1,180.25,5,7.36,171.24,62.37
+ORD-10944,2023-04-14,CUST-220,Small Business,Europe,Germany,Sports & Fitness,Yoga Mat Premium,PayPal,2,45.52,20,32.13,72.83,31.17
+ORD-10673,2023-04-14,CUST-258,Corporate,Asia Pacific,Japan,Sports & Fitness,Hydration Flask,Apple Pay,4,41.74,0,7.03,166.96,56.88
+ORD-10851,2023-04-16,CUST-248,Consumer,North America,Canada,Electronics,Wireless Headphones,Debit Card,5,409.95,0,30.34,2049.75,411.78
+ORD-10783,2023-04-16,CUST-221,Small Business,Middle East,UAE,Fashion,Wool Overcoat,PayPal,4,35.66,15,34.71,121.24,23.08
+ORD-10317,2023-04-17,CUST-140,Small Business,Latin America,Mexico,Sports & Fitness,Adjustable Dumbbells,Bank Transfer,6,119.76,25,26.82,538.92,225.05
+ORD-10918,2023-04-17,CUST-110,Corporate,North America,Canada,Fashion,Leather Messenger Bag,Bank Transfer,5,121.6,5,6.66,577.6,107.31
+ORD-10069,2023-04-18,CUST-271,Corporate,Europe,France,Sports & Fitness,Cycling Helmet,Bank Transfer,1,95.5,10,8.48,85.95,21.33
+ORD-11000,2023-04-18,CUST-279,Corporate,Asia Pacific,Japan,Fashion,Cotton Crewneck Tee,Debit Card,6,104.22,0,15.74,625.32,144.15
+ORD-10501,2023-04-19,CUST-264,Consumer,Latin America,Mexico,Electronics,Wireless Headphones,Credit Card,5,365.35,0,9.47,1826.75,771.0
+ORD-10814,2023-04-19,CUST-279,Consumer,Middle East,UAE,Sports & Fitness,Hydration Flask,Credit Card,3,81.61,0,5.37,244.83,60.27
+ORD-10802,2023-04-19,CUST-345,Consumer,Middle East,Saudi Arabia,Electronics,Smartwatch Pro,Bank Transfer,8,379.88,10,9.64,2735.14,737.32
+ORD-10368,2023-04-20,CUST-192,Small Business,Europe,Netherlands,Home & Living,Standing Desk Converter,Bank Transfer,6,199.09,25,11.11,895.9,257.4
+ORD-10585,2023-04-20,CUST-136,Corporate,Europe,UK,Home & Living,LED Desk Lamp,Debit Card,1,167.49,10,8.39,150.74,55.61
+ORD-10886,2023-04-21,CUST-263,Small Business,Asia Pacific,India,Fashion,Leather Messenger Bag,Debit Card,6,70.83,15,13.29,361.23,157.22
+ORD-10434,2023-04-21,CUST-192,Corporate,North America,Canada,Sports & Fitness,Adjustable Dumbbells,Apple Pay,2,165.1,15,20.95,280.67,116.21
+ORD-10831,2023-04-22,CUST-219,Corporate,North America,USA,Electronics,Mechanical Keyboard,PayPal,7,194.91,10,23.13,1227.93,334.55
+ORD-10778,2023-04-22,CUST-168,Corporate,Latin America,Mexico,Fashion,Running Sneakers,Bank Transfer,1,66.7,25,10.69,50.03,11.69
+ORD-10929,2023-04-22,CUST-306,Corporate,Middle East,Saudi Arabia,Home & Living,Espresso Machine,Bank Transfer,5,82.26,15,34.78,349.61,107.04
+ORD-10812,2023-04-23,CUST-134,Corporate,North America,Canada,Home & Living,Aroma Diffuser,Bank Transfer,3,257.17,20,32.39,617.21,273.05
+ORD-10801,2023-04-23,CUST-105,Consumer,North America,USA,Fashion,Running Sneakers,Debit Card,3,142.02,20,33.99,340.85,62.6
+ORD-10764,2023-04-23,CUST-236,Small Business,Middle East,Saudi Arabia,Electronics,4K Ultra Monitor,Credit Card,6,415.51,10,28.94,2243.75,492.52
+ORD-10498,2023-04-24,CUST-329,Small Business,Europe,France,Home & Living,LED Desk Lamp,Credit Card,8,279.9,10,25.77,2015.28,781.38
+ORD-10629,2023-04-24,CUST-293,Consumer,North America,USA,Electronics,Noise-Canceling Earbuds,PayPal,2,400.93,10,13.76,721.67,160.5
+ORD-10001,2023-04-25,CUST-263,Consumer,North America,Canada,Fashion,Running Sneakers,Credit Card,2,96.76,0,11.56,193.52,36.39
+ORD-10805,2023-04-26,CUST-310,Consumer,Latin America,Brazil,Electronics,Smartwatch Pro,Debit Card,6,98.99,10,32.7,534.55,113.3
+ORD-10170,2023-04-26,CUST-149,Small Business,Asia Pacific,Australia,Sports & Fitness,Resistance Bands Set,PayPal,1,139.18,10,27.72,125.26,41.75
+ORD-10975,2023-04-27,CUST-348,Small Business,North America,Canada,Sports & Fitness,Adjustable Dumbbells,Apple Pay,8,46.68,20,5.28,298.75,87.5
+ORD-10096,2023-04-27,CUST-234,Small Business,North America,Canada,Sports & Fitness,Resistance Bands Set,Apple Pay,2,95.06,5,6.3,180.61,78.61
+ORD-10469,2023-04-28,CUST-170,Corporate,North America,USA,Fashion,Wool Overcoat,Apple Pay,6,55.24,25,22.22,248.58,98.71
+ORD-10744,2023-04-29,CUST-148,Corporate,Middle East,Saudi Arabia,Fashion,Leather Messenger Bag,Apple Pay,1,60.4,20,30.41,48.32,15.69
+ORD-10623,2023-04-30,CUST-221,Consumer,Latin America,Mexico,Sports & Fitness,Cycling Helmet,PayPal,5,137.56,15,11.96,584.63,159.51
+ORD-10459,2023-05-01,CUST-260,Corporate,Europe,Netherlands,Sports & Fitness,Yoga Mat Premium,Debit Card,4,26.75,5,12.63,101.65,37.23
+ORD-10301,2023-05-01,CUST-218,Consumer,Latin America,Brazil,Electronics,Mechanical Keyboard,Apple Pay,2,399.65,15,17.39,679.4,219.48
+ORD-10247,2023-05-01,CUST-287,Small Business,North America,Canada,Sports & Fitness,Resistance Bands Set,Credit Card,5,135.41,20,19.88,541.64,189.27
+ORD-10062,2023-05-02,CUST-163,Corporate,Middle East,Saudi Arabia,Fashion,Wool Overcoat,Bank Transfer,8,58.66,20,14.16,375.42,167.93
+ORD-10507,2023-05-02,CUST-203,Consumer,Europe,Netherlands,Fashion,Wool Overcoat,Credit Card,1,115.61,15,19.14,98.27,35.04
+ORD-10683,2023-05-02,CUST-116,Small Business,Europe,UK,Fashion,Running Sneakers,Bank Transfer,6,61.33,15,12.34,312.78,138.81
+ORD-10562,2023-05-03,CUST-121,Consumer,Europe,Netherlands,Sports & Fitness,Hydration Flask,PayPal,2,81.38,5,22.85,154.62,41.97
+ORD-10335,2023-05-03,CUST-231,Small Business,Latin America,Brazil,Sports & Fitness,Resistance Bands Set,Debit Card,3,49.94,10,18.99,134.84,24.48
+ORD-10040,2023-05-05,CUST-163,Small Business,Latin America,Brazil,Sports & Fitness,Hydration Flask,Apple Pay,6,172.26,15,26.58,878.53,303.46
+ORD-10867,2023-05-05,CUST-333,Consumer,Asia Pacific,Japan,Electronics,Smartwatch Pro,Credit Card,3,109.95,10,26.73,296.87,122.48
+ORD-10861,2023-05-06,CUST-180,Corporate,North America,Canada,Electronics,USB-C Docking Station,PayPal,8,285.64,10,21.85,2056.61,869.25
+ORD-10925,2023-05-06,CUST-153,Small Business,Asia Pacific,Australia,Electronics,Smartwatch Pro,Bank Transfer,8,432.16,0,6.01,3457.28,1088.02
+ORD-10563,2023-05-06,CUST-203,Small Business,Europe,Netherlands,Sports & Fitness,Resistance Bands Set,Apple Pay,5,142.23,25,15.68,533.36,231.84
+ORD-10531,2023-05-06,CUST-234,Corporate,Latin America,Mexico,Sports & Fitness,Hydration Flask,Credit Card,4,163.24,15,16.72,555.02,112.99
+ORD-10747,2023-05-07,CUST-228,Corporate,Asia Pacific,India,Fashion,Cotton Crewneck Tee,Bank Transfer,1,147.55,10,26.5,132.8,29.38
+ORD-10146,2023-05-08,CUST-114,Consumer,Middle East,UAE,Home & Living,Aroma Diffuser,Debit Card,4,129.97,20,30.38,415.9,175.36
+ORD-10757,2023-05-08,CUST-266,Small Business,Europe,Germany,Fashion,Wool Overcoat,PayPal,1,92.11,10,8.86,82.9,17.68
+ORD-10049,2023-05-10,CUST-161,Small Business,Latin America,Brazil,Fashion,Cotton Crewneck Tee,Debit Card,6,41.81,20,26.55,200.69,88.35
+ORD-10740,2023-05-11,CUST-108,Corporate,Latin America,Brazil,Home & Living,Espresso Machine,PayPal,8,288.31,15,12.23,1960.51,703.65
+ORD-10945,2023-05-11,CUST-190,Corporate,Latin America,Brazil,Home & Living,Ergonomic Desk Chair,Debit Card,2,298.47,0,32.62,596.94,119.34
+ORD-10960,2023-05-12,CUST-201,Consumer,Latin America,Mexico,Sports & Fitness,Adjustable Dumbbells,Debit Card,5,103.66,15,28.15,440.55,86.53
+ORD-10262,2023-05-12,CUST-307,Corporate,North America,Canada,Electronics,Wireless Headphones,Credit Card,3,421.17,15,16.85,1073.98,431.58
+ORD-10382,2023-05-12,CUST-247,Consumer,North America,Canada,Sports & Fitness,Hydration Flask,Apple Pay,6,86.03,25,18.72,387.13,150.78
+ORD-10328,2023-05-12,CUST-308,Corporate,North America,Canada,Home & Living,Espresso Machine,Bank Transfer,4,111.13,10,18.59,400.07,176.84
+ORD-10963,2023-05-13,CUST-184,Consumer,Middle East,UAE,Electronics,Mechanical Keyboard,Debit Card,6,361.4,20,6.48,1734.72,341.97
+ORD-10027,2023-05-14,CUST-185,Small Business,Asia Pacific,Australia,Sports & Fitness,Hydration Flask,Bank Transfer,1,42.34,25,21.37,31.76,13.47
+ORD-10318,2023-05-14,CUST-328,Corporate,Latin America,Mexico,Electronics,Mechanical Keyboard,Credit Card,2,169.41,10,31.05,304.94,55.91
+ORD-10394,2023-05-15,CUST-132,Small Business,Middle East,UAE,Electronics,Wireless Headphones,Debit Card,6,398.41,15,21.22,2031.89,900.63
+ORD-10330,2023-05-16,CUST-272,Small Business,Europe,France,Electronics,4K Ultra Monitor,Bank Transfer,7,326.21,20,30.42,1826.78,469.85
+ORD-10930,2023-05-16,CUST-160,Consumer,North America,Canada,Home & Living,Ergonomic Desk Chair,Apple Pay,5,127.76,15,13.23,542.98,103.4
+ORD-10174,2023-05-17,CUST-345,Corporate,Latin America,Brazil,Sports & Fitness,Hydration Flask,Bank Transfer,8,142.39,25,27.86,854.34,344.22
+ORD-10779,2023-05-17,CUST-110,Consumer,Latin America,Mexico,Home & Living,Ergonomic Desk Chair,PayPal,8,289.52,10,19.67,2084.54,442.08
+ORD-10186,2023-05-18,CUST-235,Corporate,Latin America,Brazil,Home & Living,Aroma Diffuser,Credit Card,8,260.25,0,29.88,2082.0,675.86
+ORD-10327,2023-05-18,CUST-229,Corporate,Latin America,Brazil,Electronics,Noise-Canceling Earbuds,Apple Pay,8,421.26,5,10.21,3201.58,1174.31
+ORD-10307,2023-05-18,CUST-275,Consumer,Asia Pacific,India,Home & Living,Aroma Diffuser,Bank Transfer,1,99.39,25,11.34,74.54,33.24
+ORD-10439,2023-05-19,CUST-332,Consumer,Latin America,Brazil,Fashion,Leather Messenger Bag,Apple Pay,2,43.94,5,27.96,83.49,31.42
+ORD-10521,2023-05-20,CUST-171,Consumer,North America,Canada,Sports & Fitness,Cycling Helmet,Debit Card,4,162.39,20,28.84,519.65,115.54
+ORD-10074,2023-05-20,CUST-291,Small Business,North America,Canada,Sports & Fitness,Resistance Bands Set,Debit Card,1,68.84,10,22.4,61.96,25.16
+ORD-10483,2023-05-20,CUST-211,Small Business,North America,USA,Sports & Fitness,Cycling Helmet,Apple Pay,7,121.6,15,21.56,723.52,229.75
+ORD-10397,2023-05-20,CUST-317,Consumer,Asia Pacific,Singapore,Sports & Fitness,Hydration Flask,Bank Transfer,8,71.44,15,22.91,485.79,192.11
+ORD-10121,2023-05-21,CUST-157,Small Business,Europe,Germany,Home & Living,Ergonomic Desk Chair,Apple Pay,1,212.1,20,16.3,169.68,36.55
+ORD-10246,2023-05-21,CUST-281,Small Business,North America,USA,Sports & Fitness,Resistance Bands Set,Apple Pay,5,50.88,5,31.2,241.68,92.43
+ORD-10140,2023-05-21,CUST-246,Small Business,Middle East,Saudi Arabia,Sports & Fitness,Resistance Bands Set,Debit Card,4,173.88,0,19.97,695.52,263.35
+ORD-10329,2023-05-22,CUST-134,Small Business,Latin America,Mexico,Home & Living,Espresso Machine,PayPal,4,94.53,25,15.36,283.59,73.3
+ORD-10370,2023-05-22,CUST-288,Consumer,North America,USA,Sports & Fitness,Adjustable Dumbbells,PayPal,7,146.84,20,25.54,822.3,284.34
+ORD-10315,2023-05-22,CUST-102,Small Business,Europe,France,Home & Living,LED Desk Lamp,Debit Card,2,136.88,10,17.02,246.38,56.51
+ORD-10920,2023-05-22,CUST-240,Corporate,North America,Canada,Electronics,Noise-Canceling Earbuds,Debit Card,4,200.39,0,7.76,801.56,195.83
+ORD-10009,2023-05-22,CUST-156,Consumer,Middle East,Saudi Arabia,Electronics,Wireless Headphones,PayPal,3,370.99,15,16.54,946.02,322.62
+ORD-10478,2023-05-23,CUST-309,Corporate,Middle East,UAE,Fashion,Running Sneakers,Apple Pay,5,70.7,20,11.17,282.8,85.05
+ORD-10737,2023-05-23,CUST-336,Corporate,North America,USA,Home & Living,Aroma Diffuser,Bank Transfer,8,173.88,25,34.59,1043.28,240.73
+ORD-10905,2023-05-24,CUST-301,Small Business,Asia Pacific,Singapore,Sports & Fitness,Yoga Mat Premium,Bank Transfer,7,174.2,20,22.28,975.52,349.16
+ORD-10656,2023-05-26,CUST-152,Corporate,Asia Pacific,Australia,Fashion,Wool Overcoat,Apple Pay,8,25.43,15,23.62,172.92,76.0
+ORD-10447,2023-05-26,CUST-232,Small Business,Latin America,Mexico,Electronics,USB-C Docking Station,Credit Card,3,365.92,25,16.79,823.32,269.66
+ORD-10645,2023-05-27,CUST-302,Corporate,Europe,Netherlands,Electronics,4K Ultra Monitor,PayPal,3,381.27,15,21.43,972.24,175.55
+ORD-10971,2023-05-28,CUST-185,Corporate,North America,USA,Fashion,Running Sneakers,Apple Pay,4,30.91,15,19.21,105.09,36.41
+ORD-10544,2023-05-28,CUST-122,Corporate,Europe,France,Sports & Fitness,Hydration Flask,Credit Card,7,38.71,15,13.2,230.32,81.18
+ORD-10551,2023-05-28,CUST-190,Corporate,North America,USA,Home & Living,Standing Desk Converter,Bank Transfer,6,279.44,5,9.64,1592.81,330.75
+ORD-10784,2023-05-30,CUST-337,Consumer,Latin America,Brazil,Fashion,Classic Denim Jacket,Bank Transfer,7,88.25,25,11.94,463.31,162.62
+ORD-10403,2023-05-30,CUST-343,Small Business,North America,Canada,Sports & Fitness,Yoga Mat Premium,Bank Transfer,3,54.79,10,29.85,147.93,59.27
+ORD-10038,2023-05-31,CUST-150,Small Business,North America,USA,Fashion,Cotton Crewneck Tee,Credit Card,8,73.88,25,26.55,443.28,148.69
+ORD-10808,2023-06-02,CUST-320,Corporate,Europe,France,Fashion,Cotton Crewneck Tee,Bank Transfer,2,34.71,15,13.35,59.01,25.91
+ORD-10359,2023-06-03,CUST-154,Small Business,Europe,UK,Home & Living,Espresso Machine,Credit Card,4,147.8,10,19.45,532.08,199.25
+ORD-10302,2023-06-04,CUST-322,Small Business,Europe,UK,Home & Living,LED Desk Lamp,Bank Transfer,3,122.26,25,7.42,275.08,62.91
+ORD-10947,2023-06-05,CUST-121,Corporate,North America,Canada,Sports & Fitness,Cycling Helmet,Bank Transfer,3,103.84,20,28.19,249.22,63.65
+ORD-10437,2023-06-05,CUST-157,Small Business,Asia Pacific,India,Fashion,Classic Denim Jacket,Bank Transfer,4,74.25,20,34.12,237.6,52.57
+ORD-10717,2023-06-05,CUST-151,Small Business,Latin America,Brazil,Electronics,Smartwatch Pro,Apple Pay,8,350.92,10,14.53,2526.62,546.39
+ORD-10043,2023-06-06,CUST-198,Corporate,Europe,Germany,Sports & Fitness,Cycling Helmet,Apple Pay,8,89.45,5,16.68,679.82,275.25
+ORD-10855,2023-06-06,CUST-294,Consumer,Europe,France,Electronics,Smartwatch Pro,Debit Card,3,153.51,25,8.8,345.4,126.67
+ORD-10696,2023-06-07,CUST-135,Corporate,Asia Pacific,India,Sports & Fitness,Adjustable Dumbbells,Credit Card,7,54.19,0,33.86,379.33,101.96
+ORD-10607,2023-06-07,CUST-182,Corporate,North America,USA,Sports & Fitness,Cycling Helmet,Debit Card,1,76.06,0,33.53,76.06,27.17
+ORD-10790,2023-06-07,CUST-284,Small Business,North America,USA,Fashion,Cotton Crewneck Tee,Debit Card,6,136.34,15,8.52,695.33,243.41
+ORD-10610,2023-06-07,CUST-267,Small Business,North America,Canada,Sports & Fitness,Cycling Helmet,Debit Card,3,80.65,0,20.38,241.95,97.91
+ORD-10336,2023-06-08,CUST-339,Consumer,North America,USA,Home & Living,Espresso Machine,Apple Pay,5,167.54,20,7.19,670.16,220.18
+ORD-10244,2023-06-09,CUST-349,Small Business,Middle East,Saudi Arabia,Sports & Fitness,Hydration Flask,Credit Card,5,133.29,25,12.16,499.84,218.64
+ORD-10907,2023-06-12,CUST-287,Small Business,Europe,Germany,Electronics,Mechanical Keyboard,Bank Transfer,6,358.77,25,8.16,1614.46,637.41
+ORD-10450,2023-06-13,CUST-256,Corporate,Latin America,Mexico,Electronics,Smartwatch Pro,Apple Pay,3,131.61,5,26.36,375.09,85.63
+ORD-10371,2023-06-14,CUST-113,Corporate,Latin America,Brazil,Electronics,Smartwatch Pro,Apple Pay,7,103.49,10,7.4,651.99,156.4
+ORD-10277,2023-06-14,CUST-196,Small Business,North America,USA,Home & Living,Espresso Machine,Bank Transfer,1,152.14,25,31.69,114.1,25.62
+ORD-10625,2023-06-15,CUST-220,Small Business,Middle East,UAE,Home & Living,Ergonomic Desk Chair,Bank Transfer,3,85.06,5,8.03,242.42,83.28
+ORD-10707,2023-06-15,CUST-315,Corporate,Europe,Germany,Electronics,Smartwatch Pro,Credit Card,7,134.01,25,25.32,703.55,271.69
+ORD-10124,2023-06-15,CUST-207,Small Business,Europe,UK,Home & Living,Ergonomic Desk Chair,Bank Transfer,6,184.18,0,20.48,1105.08,411.18
+ORD-10200,2023-06-16,CUST-176,Corporate,Middle East,UAE,Sports & Fitness,Hydration Flask,Bank Transfer,3,147.53,25,20.02,331.94,124.65
+ORD-10050,2023-06-17,CUST-299,Small Business,Asia Pacific,Japan,Electronics,4K Ultra Monitor,Bank Transfer,7,427.76,5,25.72,2844.6,570.4
+ORD-10449,2023-06-17,CUST-303,Corporate,North America,USA,Electronics,USB-C Docking Station,Debit Card,2,269.05,15,34.26,457.38,172.09
+ORD-10620,2023-06-20,CUST-129,Consumer,Europe,Netherlands,Sports & Fitness,Cycling Helmet,Bank Transfer,4,56.21,20,16.75,179.87,72.66
+ORD-10657,2023-06-21,CUST-267,Small Business,North America,USA,Sports & Fitness,Resistance Bands Set,Debit Card,7,179.88,25,30.22,944.37,224.23
+ORD-10868,2023-06-24,CUST-157,Consumer,North America,USA,Home & Living,Espresso Machine,Credit Card,5,269.66,0,33.41,1348.3,283.03
+ORD-10846,2023-06-24,CUST-185,Corporate,Middle East,Saudi Arabia,Fashion,Wool Overcoat,PayPal,7,127.71,20,33.18,715.18,211.59
+ORD-10741,2023-06-24,CUST-154,Consumer,North America,USA,Sports & Fitness,Yoga Mat Premium,Debit Card,7,143.78,5,24.98,956.14,357.77
+ORD-10794,2023-06-25,CUST-130,Consumer,Europe,Germany,Fashion,Leather Messenger Bag,PayPal,5,140.54,10,6.55,632.43,262.97
+ORD-10847,2023-06-27,CUST-199,Consumer,Latin America,Mexico,Fashion,Cotton Crewneck Tee,Credit Card,3,85.55,25,16.76,192.49,64.63
+ORD-10162,2023-06-27,CUST-344,Small Business,Latin America,Mexico,Home & Living,Standing Desk Converter,Bank Transfer,4,288.91,10,11.75,1040.08,343.94
+ORD-10295,2023-06-27,CUST-265,Small Business,Middle East,UAE,Fashion,Leather Messenger Bag,Debit Card,5,75.09,15,18.77,319.13,130.82
+ORD-10908,2023-06-28,CUST-325,Small Business,Latin America,Mexico,Electronics,Wireless Headphones,Debit Card,2,84.22,25,27.9,126.33,25.23
+ORD-10095,2023-06-28,CUST-304,Corporate,North America,USA,Fashion,Classic Denim Jacket,PayPal,6,22.05,10,27.25,119.07,23.12
+ORD-10068,2023-06-29,CUST-295,Small Business,Latin America,Mexico,Home & Living,Aroma Diffuser,Bank Transfer,8,291.95,15,15.0,1985.26,543.86
+ORD-10184,2023-06-29,CUST-325,Small Business,Latin America,Mexico,Electronics,4K Ultra Monitor,Bank Transfer,6,334.6,15,16.29,1706.46,375.91
+ORD-10529,2023-06-29,CUST-193,Corporate,Middle East,UAE,Fashion,Running Sneakers,PayPal,2,104.37,25,22.4,156.56,67.88
+ORD-10990,2023-07-01,CUST-280,Consumer,Europe,Germany,Sports & Fitness,Yoga Mat Premium,Bank Transfer,1,73.71,20,30.58,58.97,15.03
+ORD-10455,2023-07-01,CUST-243,Corporate,Latin America,Mexico,Electronics,Wireless Headphones,Debit Card,6,411.06,0,30.3,2466.36,949.0
+ORD-10978,2023-07-03,CUST-206,Corporate,Europe,Netherlands,Electronics,Wireless Headphones,PayPal,4,333.74,20,7.84,1067.97,324.47
+ORD-10933,2023-07-04,CUST-212,Consumer,Asia Pacific,Singapore,Home & Living,LED Desk Lamp,PayPal,3,78.19,20,11.98,187.66,67.02
+ORD-10348,2023-07-05,CUST-129,Consumer,Middle East,UAE,Sports & Fitness,Hydration Flask,Debit Card,2,63.86,5,19.62,121.33,45.61
+ORD-10122,2023-07-05,CUST-141,Corporate,Middle East,UAE,Sports & Fitness,Yoga Mat Premium,Debit Card,4,175.29,20,27.46,560.93,144.12
+ORD-10491,2023-07-05,CUST-224,Consumer,Middle East,UAE,Home & Living,Ergonomic Desk Chair,Apple Pay,3,257.78,15,12.14,657.34,255.05
+ORD-10363,2023-07-06,CUST-310,Corporate,Middle East,Saudi Arabia,Fashion,Leather Messenger Bag,Apple Pay,2,49.88,15,5.5,84.8,18.29
+ORD-10058,2023-07-09,CUST-343,Small Business,Europe,UK,Sports & Fitness,Resistance Bands Set,Apple Pay,5,176.98,5,15.83,840.65,218.56
+ORD-10552,2023-07-12,CUST-156,Consumer,Middle East,UAE,Sports & Fitness,Cycling Helmet,Credit Card,3,168.13,15,25.73,428.73,117.48
+ORD-10181,2023-07-13,CUST-170,Consumer,North America,USA,Sports & Fitness,Hydration Flask,PayPal,4,35.43,20,22.93,113.38,21.44
+ORD-10799,2023-07-13,CUST-145,Consumer,Middle East,Saudi Arabia,Fashion,Leather Messenger Bag,Debit Card,3,135.08,15,10.64,344.45,125.93
+ORD-10018,2023-07-14,CUST-149,Consumer,Middle East,Saudi Arabia,Fashion,Cotton Crewneck Tee,Debit Card,8,52.47,0,30.84,419.76,125.78
+ORD-10188,2023-07-14,CUST-154,Small Business,North America,Canada,Fashion,Wool Overcoat,PayPal,7,138.97,20,13.49,778.23,207.66
+ORD-10839,2023-07-15,CUST-153,Consumer,Middle East,UAE,Home & Living,Standing Desk Converter,Debit Card,5,170.54,0,24.47,852.7,314.49
+ORD-10857,2023-07-17,CUST-336,Corporate,Asia Pacific,Australia,Fashion,Leather Messenger Bag,Credit Card,5,41.53,5,19.63,197.27,86.31
+ORD-10763,2023-07-17,CUST-265,Corporate,Asia Pacific,Australia,Sports & Fitness,Adjustable Dumbbells,Bank Transfer,7,29.02,20,13.1,162.51,40.11
+ORD-10662,2023-07-17,CUST-194,Corporate,Latin America,Brazil,Fashion,Classic Denim Jacket,Debit Card,4,31.7,20,29.25,101.44,35.38
+ORD-10461,2023-07-18,CUST-144,Consumer,Asia Pacific,Singapore,Sports & Fitness,Cycling Helmet,PayPal,8,49.08,15,21.11,333.74,140.46
+ORD-10674,2023-07-18,CUST-302,Corporate,Middle East,UAE,Home & Living,Standing Desk Converter,Bank Transfer,8,88.34,5,6.81,671.38,265.33
+ORD-10155,2023-07-19,CUST-243,Small Business,Asia Pacific,Singapore,Electronics,Mechanical Keyboard,Bank Transfer,5,383.62,20,8.56,1534.48,558.1
+ORD-10680,2023-07-19,CUST-212,Consumer,Middle East,Saudi Arabia,Electronics,Wireless Headphones,PayPal,5,136.18,10,15.19,612.81,229.24
+ORD-10919,2023-07-20,CUST-298,Corporate,Middle East,Saudi Arabia,Electronics,Noise-Canceling Earbuds,Credit Card,7,360.96,25,26.04,1895.04,405.19
+ORD-10147,2023-07-21,CUST-164,Small Business,Middle East,Saudi Arabia,Fashion,Leather Messenger Bag,Apple Pay,2,85.33,5,22.42,162.13,55.09
+ORD-10721,2023-07-22,CUST-284,Consumer,Europe,Netherlands,Fashion,Wool Overcoat,Debit Card,5,94.93,25,30.87,355.99,83.44
+ORD-10261,2023-07-22,CUST-133,Small Business,Latin America,Mexico,Electronics,Noise-Canceling Earbuds,Debit Card,2,78.28,0,24.38,156.56,36.54
+ORD-10389,2023-07-23,CUST-255,Corporate,Middle East,UAE,Home & Living,Standing Desk Converter,Apple Pay,8,241.43,15,16.43,1641.72,689.85
+ORD-10435,2023-07-23,CUST-147,Consumer,Middle East,Saudi Arabia,Electronics,Wireless Headphones,Apple Pay,5,196.76,15,5.55,836.23,318.59
+ORD-10519,2023-07-24,CUST-205,Small Business,Latin America,Brazil,Electronics,Mechanical Keyboard,Bank Transfer,1,408.39,5,23.28,387.97,92.48
+ORD-10014,2023-07-25,CUST-238,Small Business,Asia Pacific,India,Home & Living,LED Desk Lamp,Bank Transfer,2,104.46,0,22.65,208.92,56.68
+ORD-10605,2023-07-28,CUST-123,Corporate,Asia Pacific,Australia,Fashion,Wool Overcoat,Apple Pay,4,95.86,0,22.12,383.44,123.48
+ORD-10432,2023-07-28,CUST-154,Small Business,Middle East,Saudi Arabia,Sports & Fitness,Hydration Flask,PayPal,1,83.37,25,12.66,62.53,20.15
+ORD-10190,2023-07-28,CUST-334,Small Business,Asia Pacific,Singapore,Sports & Fitness,Yoga Mat Premium,PayPal,3,27.51,20,22.37,66.02,28.55
+ORD-10720,2023-07-29,CUST-136,Small Business,Europe,Germany,Fashion,Wool Overcoat,PayPal,4,85.97,15,14.34,292.3,109.83
+ORD-10537,2023-07-30,CUST-147,Consumer,Middle East,UAE,Home & Living,Standing Desk Converter,Debit Card,8,180.37,5,8.64,1370.81,444.26
+ORD-10700,2023-07-30,CUST-133,Small Business,Asia Pacific,India,Sports & Fitness,Adjustable Dumbbells,Apple Pay,5,116.06,20,18.77,464.24,173.41
+ORD-10228,2023-07-31,CUST-135,Corporate,Europe,Germany,Home & Living,Espresso Machine,Apple Pay,3,124.15,25,22.18,279.34,72.35
+ORD-10852,2023-08-01,CUST-333,Corporate,Latin America,Brazil,Sports & Fitness,Yoga Mat Premium,Credit Card,8,173.68,0,17.6,1389.44,328.99
+ORD-10528,2023-08-01,CUST-303,Small Business,North America,Canada,Electronics,Noise-Canceling Earbuds,Debit Card,1,112.17,10,6.23,100.95,30.85
+ORD-10258,2023-08-01,CUST-297,Consumer,Latin America,Mexico,Sports & Fitness,Resistance Bands Set,Credit Card,3,150.18,10,25.91,405.49,163.46
+ORD-10530,2023-08-03,CUST-345,Small Business,Europe,France,Home & Living,Standing Desk Converter,Bank Transfer,5,54.16,10,19.59,243.72,66.59
+ORD-10554,2023-08-03,CUST-132,Consumer,Europe,Germany,Sports & Fitness,Yoga Mat Premium,Credit Card,8,142.39,0,5.98,1139.12,265.43
+ORD-10693,2023-08-03,CUST-285,Corporate,Latin America,Brazil,Sports & Fitness,Cycling Helmet,Credit Card,6,156.1,15,25.94,796.11,308.84
+ORD-10813,2023-08-04,CUST-162,Small Business,Europe,Germany,Fashion,Classic Denim Jacket,PayPal,7,115.3,25,16.15,605.33,266.66
+ORD-10904,2023-08-04,CUST-228,Small Business,Asia Pacific,India,Electronics,Smartwatch Pro,PayPal,6,319.25,20,26.46,1532.4,416.21
+ORD-10026,2023-08-04,CUST-254,Corporate,Asia Pacific,Australia,Home & Living,Espresso Machine,Debit Card,1,64.0,15,6.32,54.4,21.97
+ORD-10290,2023-08-05,CUST-213,Small Business,Latin America,Mexico,Home & Living,Ergonomic Desk Chair,PayPal,2,120.89,20,28.42,193.42,55.88
+ORD-10818,2023-08-05,CUST-290,Consumer,Latin America,Brazil,Fashion,Cotton Crewneck Tee,Apple Pay,2,126.15,15,24.58,214.46,66.25
+ORD-10643,2023-08-06,CUST-277,Consumer,Latin America,Mexico,Electronics,USB-C Docking Station,Apple Pay,6,420.24,0,17.26,2521.44,863.42
+ORD-10238,2023-08-07,CUST-189,Consumer,Europe,Netherlands,Sports & Fitness,Adjustable Dumbbells,Credit Card,3,141.63,20,15.55,339.91,128.18
+ORD-10338,2023-08-07,CUST-326,Consumer,Asia Pacific,Singapore,Home & Living,Standing Desk Converter,Apple Pay,8,299.12,25,25.07,1794.72,327.32
+ORD-10294,2023-08-08,CUST-347,Small Business,Europe,UK,Fashion,Leather Messenger Bag,Bank Transfer,1,132.4,25,32.35,99.3,18.11
+ORD-10259,2023-08-09,CUST-110,Consumer,Asia Pacific,Australia,Electronics,USB-C Docking Station,Debit Card,7,265.11,25,29.6,1391.83,362.83
+ORD-10326,2023-08-09,CUST-200,Corporate,Latin America,Brazil,Home & Living,Ergonomic Desk Chair,Credit Card,2,240.76,15,22.68,409.29,124.22
+ORD-10497,2023-08-11,CUST-313,Small Business,Middle East,UAE,Electronics,Wireless Headphones,PayPal,7,319.43,25,34.01,1677.01,558.17
+ORD-10704,2023-08-11,CUST-278,Consumer,Latin America,Mexico,Electronics,4K Ultra Monitor,Credit Card,6,225.84,5,20.18,1287.29,319.57
+ORD-10793,2023-08-12,CUST-246,Small Business,Middle East,UAE,Sports & Fitness,Hydration Flask,Apple Pay,5,72.03,5,13.06,342.14,88.96
+ORD-10399,2023-08-14,CUST-196,Small Business,Asia Pacific,Japan,Sports & Fitness,Adjustable Dumbbells,Apple Pay,5,69.12,25,13.06,259.2,83.88
+ORD-10540,2023-08-14,CUST-258,Consumer,Latin America,Mexico,Electronics,4K Ultra Monitor,Apple Pay,4,291.7,5,28.01,1108.46,433.35
+ORD-10299,2023-08-16,CUST-282,Corporate,Middle East,Saudi Arabia,Home & Living,Espresso Machine,PayPal,3,116.38,15,12.76,296.77,63.67
+ORD-10719,2023-08-16,CUST-163,Corporate,Middle East,Saudi Arabia,Home & Living,Aroma Diffuser,Credit Card,2,266.17,0,6.56,532.34,232.89
+ORD-10969,2023-08-16,CUST-123,Small Business,Latin America,Mexico,Sports & Fitness,Resistance Bands Set,Apple Pay,4,84.27,15,33.54,286.52,107.86
+ORD-10939,2023-08-18,CUST-339,Consumer,Middle East,Saudi Arabia,Electronics,Noise-Canceling Earbuds,Apple Pay,8,320.5,20,13.08,2051.2,613.46
+ORD-10950,2023-08-18,CUST-212,Consumer,Europe,France,Home & Living,Espresso Machine,PayPal,5,76.66,5,20.26,364.13,119.83
+ORD-10914,2023-08-18,CUST-105,Consumer,Asia Pacific,Singapore,Sports & Fitness,Resistance Bands Set,PayPal,5,36.59,20,20.53,146.36,35.88
+ORD-10773,2023-08-19,CUST-234,Small Business,Europe,Germany,Home & Living,Aroma Diffuser,Debit Card,1,149.91,15,34.09,127.42,28.8
+ORD-10748,2023-08-19,CUST-317,Corporate,North America,USA,Sports & Fitness,Cycling Helmet,PayPal,1,109.93,10,19.2,98.94,29.09
+ORD-10804,2023-08-21,CUST-106,Small Business,Latin America,Mexico,Fashion,Leather Messenger Bag,Debit Card,4,139.82,25,31.53,419.46,119.08
+ORD-10921,2023-08-21,CUST-102,Consumer,Latin America,Brazil,Electronics,USB-C Docking Station,Credit Card,2,91.53,15,6.31,155.6,35.6
+ORD-10559,2023-08-22,CUST-231,Corporate,Latin America,Brazil,Home & Living,Ergonomic Desk Chair,Credit Card,3,168.91,10,21.71,456.06,168.87
+ORD-10380,2023-08-23,CUST-152,Consumer,Europe,UK,Home & Living,Aroma Diffuser,Credit Card,2,215.71,25,5.2,323.56,101.28
+ORD-10594,2023-08-23,CUST-260,Small Business,North America,Canada,Fashion,Leather Messenger Bag,PayPal,1,72.13,15,9.48,61.31,20.97
+ORD-10655,2023-08-28,CUST-262,Small Business,North America,Canada,Electronics,Smartwatch Pro,PayPal,5,285.93,15,24.07,1215.2,246.27
+ORD-10663,2023-08-28,CUST-156,Corporate,Latin America,Mexico,Electronics,4K Ultra Monitor,Apple Pay,4,72.71,25,31.1,218.13,62.59
+ORD-10123,2023-08-28,CUST-214,Consumer,Middle East,UAE,Home & Living,LED Desk Lamp,Debit Card,8,160.04,10,20.09,1152.29,449.5
+ORD-10406,2023-08-30,CUST-128,Corporate,Latin America,Mexico,Electronics,Smartwatch Pro,Apple Pay,2,220.41,5,6.26,418.78,76.39
+ORD-10710,2023-09-02,CUST-195,Consumer,Europe,Germany,Electronics,Mechanical Keyboard,Credit Card,6,381.8,25,11.62,1718.1,619.57
+ORD-10042,2023-09-02,CUST-260,Corporate,Asia Pacific,India,Electronics,USB-C Docking Station,PayPal,5,197.62,20,9.52,790.48,159.48
+ORD-10820,2023-09-03,CUST-107,Consumer,Asia Pacific,Australia,Electronics,Wireless Headphones,Apple Pay,1,357.48,10,11.05,321.73,74.22
+ORD-10339,2023-09-04,CUST-214,Corporate,Middle East,UAE,Electronics,USB-C Docking Station,Bank Transfer,2,216.63,20,5.74,346.61,130.14
+ORD-10753,2023-09-04,CUST-130,Consumer,Latin America,Mexico,Home & Living,Espresso Machine,Bank Transfer,2,242.21,25,23.97,363.31,102.88
+ORD-10267,2023-09-04,CUST-268,Corporate,Asia Pacific,Japan,Fashion,Wool Overcoat,Debit Card,3,42.89,20,27.14,102.94,27.37
+ORD-10051,2023-09-06,CUST-260,Consumer,North America,Canada,Electronics,Noise-Canceling Earbuds,Debit Card,7,321.38,0,15.24,2249.66,712.26
+ORD-10217,2023-09-07,CUST-338,Small Business,Middle East,UAE,Fashion,Leather Messenger Bag,Bank Transfer,8,50.14,15,10.59,340.95,119.34
+ORD-10681,2023-09-09,CUST-241,Corporate,Europe,UK,Electronics,Smartwatch Pro,Credit Card,1,385.95,5,28.62,366.65,103.51
+ORD-10631,2023-09-09,CUST-101,Consumer,Latin America,Mexico,Home & Living,Espresso Machine,Credit Card,5,136.83,15,24.95,581.53,161.3
+ORD-10207,2023-09-10,CUST-341,Consumer,Latin America,Brazil,Sports & Fitness,Yoga Mat Premium,Debit Card,1,172.07,10,16.4,154.86,63.06
+ORD-10444,2023-09-10,CUST-327,Small Business,Latin America,Mexico,Electronics,Noise-Canceling Earbuds,Bank Transfer,6,219.78,25,21.08,989.01,330.75
+ORD-10523,2023-09-10,CUST-288,Consumer,Europe,France,Sports & Fitness,Hydration Flask,Apple Pay,3,166.63,0,6.33,499.89,146.37
+ORD-10782,2023-09-11,CUST-209,Corporate,Middle East,UAE,Fashion,Running Sneakers,Credit Card,5,149.25,5,17.87,708.94,255.15
+ORD-10404,2023-09-12,CUST-131,Consumer,Latin America,Mexico,Fashion,Classic Denim Jacket,Bank Transfer,2,87.75,5,25.44,166.72,51.29
+ORD-10152,2023-09-12,CUST-207,Consumer,Europe,France,Home & Living,Aroma Diffuser,Bank Transfer,8,169.68,10,7.7,1221.7,383.97
+ORD-10795,2023-09-12,CUST-350,Corporate,Europe,Germany,Electronics,USB-C Docking Station,Apple Pay,6,193.33,25,12.92,869.99,364.24
+ORD-10965,2023-09-12,CUST-287,Consumer,North America,USA,Electronics,Noise-Canceling Earbuds,Apple Pay,7,370.71,0,14.04,2594.97,577.06
+ORD-10787,2023-09-16,CUST-147,Consumer,Latin America,Mexico,Home & Living,Standing Desk Converter,Credit Card,1,217.57,5,27.24,206.69,55.69
+ORD-10420,2023-09-18,CUST-240,Consumer,Asia Pacific,India,Sports & Fitness,Cycling Helmet,Credit Card,5,117.34,20,31.71,469.36,101.6
+ORD-10609,2023-09-19,CUST-202,Consumer,Europe,UK,Sports & Fitness,Yoga Mat Premium,PayPal,3,85.22,15,27.58,217.31,55.83
+ORD-10367,2023-09-21,CUST-204,Small Business,Europe,Germany,Electronics,Noise-Canceling Earbuds,Credit Card,1,212.51,5,14.48,201.88,73.83
+ORD-10490,2023-09-21,CUST-170,Small Business,North America,USA,Fashion,Wool Overcoat,PayPal,8,68.07,5,26.02,517.33,129.61
+ORD-10582,2023-09-22,CUST-107,Corporate,Asia Pacific,Australia,Electronics,USB-C Docking Station,Credit Card,1,396.64,0,13.94,396.64,105.01
+ORD-10535,2023-09-24,CUST-143,Consumer,Europe,Netherlands,Home & Living,Standing Desk Converter,PayPal,6,113.94,5,9.82,649.46,225.38
+ORD-10900,2023-09-24,CUST-239,Consumer,Middle East,Saudi Arabia,Electronics,Mechanical Keyboard,Credit Card,3,123.84,25,10.12,278.64,99.62
+ORD-10916,2023-09-25,CUST-207,Consumer,Europe,France,Electronics,Smartwatch Pro,Apple Pay,6,421.19,25,6.87,1895.36,808.04
+ORD-10728,2023-09-25,CUST-137,Consumer,Middle East,Saudi Arabia,Fashion,Leather Messenger Bag,Apple Pay,3,21.6,0,32.51,64.8,22.94
+ORD-10023,2023-09-25,CUST-180,Corporate,Europe,France,Fashion,Leather Messenger Bag,PayPal,5,79.44,0,23.63,397.2,72.5
+ORD-10928,2023-09-26,CUST-312,Small Business,Middle East,UAE,Electronics,4K Ultra Monitor,Apple Pay,7,398.98,25,27.57,2094.64,902.19
+ORD-10602,2023-09-27,CUST-172,Consumer,Middle East,Saudi Arabia,Home & Living,LED Desk Lamp,Debit Card,8,238.56,5,32.69,1813.06,598.37
+ORD-10981,2023-09-27,CUST-145,Small Business,Middle East,UAE,Fashion,Wool Overcoat,Bank Transfer,6,94.84,20,34.0,455.23,156.28
+ORD-10869,2023-09-28,CUST-119,Consumer,Asia Pacific,India,Home & Living,Aroma Diffuser,Apple Pay,8,71.17,10,27.59,512.42,211.48
+ORD-10596,2023-09-30,CUST-148,Corporate,Asia Pacific,India,Sports & Fitness,Adjustable Dumbbells,PayPal,4,179.26,10,10.68,645.34,242.78
+ORD-10735,2023-09-30,CUST-233,Corporate,Latin America,Mexico,Home & Living,Espresso Machine,Debit Card,6,217.28,10,29.51,1173.31,527.81
+ORD-10071,2023-10-01,CUST-152,Small Business,Middle East,UAE,Home & Living,LED Desk Lamp,Bank Transfer,2,47.51,25,12.18,71.27,24.55
+ORD-10187,2023-10-02,CUST-113,Small Business,Latin America,Brazil,Electronics,Smartwatch Pro,Apple Pay,4,252.17,10,32.27,907.81,237.72
+ORD-10282,2023-10-03,CUST-314,Consumer,Middle East,UAE,Fashion,Classic Denim Jacket,Debit Card,7,146.19,20,6.83,818.66,197.65
+ORD-10204,2023-10-04,CUST-192,Corporate,North America,USA,Electronics,Smartwatch Pro,Bank Transfer,7,109.25,0,7.79,764.75,210.73
+ORD-10443,2023-10-04,CUST-336,Consumer,Latin America,Brazil,Fashion,Running Sneakers,PayPal,8,132.73,15,31.0,902.56,330.09
+ORD-10996,2023-10-07,CUST-148,Small Business,Europe,UK,Home & Living,Standing Desk Converter,Bank Transfer,5,64.03,10,15.47,288.13,96.88
+ORD-10357,2023-10-08,CUST-262,Corporate,Asia Pacific,Australia,Sports & Fitness,Cycling Helmet,Apple Pay,2,105.08,15,11.69,178.64,79.07
+ORD-10016,2023-10-13,CUST-160,Small Business,Latin America,Brazil,Fashion,Wool Overcoat,Bank Transfer,4,122.0,15,7.91,414.8,95.99
+ORD-10289,2023-10-15,CUST-179,Corporate,Latin America,Brazil,Fashion,Running Sneakers,Bank Transfer,6,55.02,15,7.68,280.6,96.34
+ORD-10352,2023-10-15,CUST-315,Small Business,Europe,UK,Home & Living,Ergonomic Desk Chair,Credit Card,1,260.89,25,22.46,195.67,36.87
+ORD-10822,2023-10-17,CUST-191,Small Business,Latin America,Brazil,Home & Living,LED Desk Lamp,Debit Card,3,222.69,0,31.9,668.07,180.02
+ORD-10413,2023-10-17,CUST-256,Consumer,Asia Pacific,India,Home & Living,Ergonomic Desk Chair,Apple Pay,2,51.38,5,5.94,97.62,22.28
+ORD-10956,2023-10-17,CUST-227,Small Business,Europe,UK,Electronics,Noise-Canceling Earbuds,PayPal,1,235.04,15,11.26,199.78,66.05
+ORD-10890,2023-10-18,CUST-324,Corporate,Middle East,UAE,Electronics,USB-C Docking Station,PayPal,4,234.18,0,5.96,936.72,242.16
+ORD-10862,2023-10-18,CUST-198,Small Business,Middle East,UAE,Fashion,Classic Denim Jacket,Debit Card,2,94.61,25,27.69,141.91,41.7
+ORD-10433,2023-10-18,CUST-115,Small Business,Europe,France,Electronics,Mechanical Keyboard,Credit Card,2,217.69,10,32.39,391.84,140.67
+ORD-10724,2023-10-18,CUST-216,Consumer,Latin America,Mexico,Electronics,4K Ultra Monitor,Bank Transfer,4,128.8,5,30.85,489.44,88.65
+ORD-10125,2023-10-19,CUST-131,Small Business,North America,USA,Home & Living,LED Desk Lamp,PayPal,7,63.85,5,31.54,424.6,170.06
+ORD-10536,2023-10-20,CUST-237,Consumer,Europe,UK,Fashion,Running Sneakers,Credit Card,1,149.19,20,12.81,119.35,25.56
+ORD-10154,2023-10-20,CUST-220,Consumer,Middle East,UAE,Electronics,Mechanical Keyboard,Debit Card,6,360.27,10,6.53,1945.46,373.95
+ORD-10652,2023-10-20,CUST-143,Consumer,Europe,UK,Home & Living,Ergonomic Desk Chair,Debit Card,7,216.44,0,14.76,1515.08,524.08
+ORD-10807,2023-10-21,CUST-259,Small Business,Asia Pacific,Japan,Home & Living,LED Desk Lamp,Debit Card,5,250.79,25,28.67,940.46,372.09
+ORD-10959,2023-10-22,CUST-293,Small Business,Latin America,Mexico,Home & Living,Aroma Diffuser,Bank Transfer,2,85.81,10,15.43,154.46,55.35
+ORD-10333,2023-10-22,CUST-303,Small Business,North America,Canada,Sports & Fitness,Cycling Helmet,Debit Card,1,27.01,10,31.07,24.31,5.71
+ORD-10998,2023-10-23,CUST-303,Small Business,Europe,France,Home & Living,Ergonomic Desk Chair,PayPal,5,96.75,10,8.46,435.38,82.07
+ORD-10225,2023-10-23,CUST-237,Small Business,Europe,Netherlands,Sports & Fitness,Hydration Flask,Credit Card,2,66.52,20,16.01,106.43,42.82
+ORD-10532,2023-10-23,CUST-145,Consumer,North America,USA,Fashion,Leather Messenger Bag,PayPal,8,39.56,5,23.82,300.66,96.39
+ORD-10005,2023-10-24,CUST-297,Corporate,North America,USA,Electronics,Mechanical Keyboard,Bank Transfer,6,131.81,10,13.01,711.77,168.38
+ORD-10354,2023-10-25,CUST-319,Corporate,Europe,Netherlands,Electronics,Mechanical Keyboard,Apple Pay,1,321.82,20,27.72,257.46,93.9
+ORD-10489,2023-10-26,CUST-268,Consumer,Middle East,UAE,Home & Living,LED Desk Lamp,PayPal,2,261.38,10,23.47,470.48,116.7
+ORD-10073,2023-10-26,CUST-283,Corporate,Middle East,Saudi Arabia,Sports & Fitness,Cycling Helmet,PayPal,8,110.45,15,22.98,751.06,173.84
+ORD-10958,2023-10-27,CUST-324,Corporate,Latin America,Mexico,Sports & Fitness,Hydration Flask,Apple Pay,8,70.79,5,31.43,538.0,113.16
+ORD-10456,2023-10-27,CUST-116,Corporate,Latin America,Brazil,Electronics,USB-C Docking Station,Debit Card,7,269.37,25,6.75,1414.19,334.38
+ORD-10488,2023-10-29,CUST-190,Small Business,Asia Pacific,Australia,Electronics,USB-C Docking Station,Debit Card,5,93.34,15,22.19,396.69,133.33
+ORD-10376,2023-10-29,CUST-228,Small Business,Asia Pacific,Japan,Home & Living,Espresso Machine,Debit Card,8,291.17,20,12.3,1863.49,578.76
+ORD-10084,2023-10-30,CUST-279,Small Business,North America,Canada,Home & Living,Ergonomic Desk Chair,Credit Card,8,256.54,10,11.9,1847.09,719.35
+ORD-10191,2023-10-30,CUST-206,Corporate,Europe,UK,Home & Living,Aroma Diffuser,Apple Pay,4,169.82,25,15.13,509.46,221.48
+ORD-10746,2023-10-31,CUST-137,Small Business,Europe,Netherlands,Sports & Fitness,Adjustable Dumbbells,Debit Card,3,140.79,25,14.6,316.78,59.96
+ORD-10871,2023-10-31,CUST-296,Small Business,North America,Canada,Fashion,Running Sneakers,Credit Card,2,146.33,0,25.11,292.66,69.47
+ORD-10850,2023-11-01,CUST-156,Small Business,Europe,UK,Sports & Fitness,Resistance Bands Set,Credit Card,5,37.86,5,24.15,179.84,62.84
+ORD-10163,2023-11-01,CUST-349,Corporate,Asia Pacific,Australia,Sports & Fitness,Resistance Bands Set,Debit Card,5,69.61,20,16.39,278.44,100.99
+ORD-10221,2023-11-01,CUST-304,Consumer,Middle East,UAE,Fashion,Leather Messenger Bag,PayPal,5,35.2,10,20.32,158.4,58.17
+ORD-10948,2023-11-01,CUST-159,Small Business,Latin America,Mexico,Electronics,Noise-Canceling Earbuds,Apple Pay,7,178.4,15,10.35,1061.48,282.37
+ORD-10692,2023-11-03,CUST-102,Small Business,Asia Pacific,Singapore,Sports & Fitness,Cycling Helmet,Credit Card,8,126.38,5,11.83,960.49,397.33
+ORD-10158,2023-11-03,CUST-289,Corporate,Middle East,Saudi Arabia,Sports & Fitness,Hydration Flask,Bank Transfer,1,82.1,25,17.5,61.57,12.9
+ORD-10421,2023-11-04,CUST-101,Small Business,Europe,UK,Home & Living,Ergonomic Desk Chair,Debit Card,3,64.51,15,9.15,164.5,45.41
+ORD-10240,2023-11-05,CUST-324,Small Business,Europe,UK,Sports & Fitness,Resistance Bands Set,Credit Card,4,101.71,0,24.14,406.84,99.71
+ORD-10206,2023-11-05,CUST-168,Consumer,Asia Pacific,India,Fashion,Classic Denim Jacket,Bank Transfer,5,74.74,15,15.83,317.64,124.3
+ORD-10090,2023-11-06,CUST-218,Consumer,Latin America,Brazil,Fashion,Classic Denim Jacket,Debit Card,8,35.1,5,9.07,266.76,111.92
+ORD-10895,2023-11-06,CUST-332,Small Business,Europe,France,Fashion,Wool Overcoat,Apple Pay,5,26.96,15,25.1,114.58,24.52
+ORD-10568,2023-11-07,CUST-320,Corporate,Europe,Netherlands,Sports & Fitness,Adjustable Dumbbells,Bank Transfer,8,143.42,20,24.8,917.89,332.51
+ORD-10697,2023-11-08,CUST-263,Small Business,North America,USA,Electronics,USB-C Docking Station,PayPal,1,384.06,20,10.6,307.25,95.84
+ORD-10883,2023-11-08,CUST-125,Small Business,Asia Pacific,India,Sports & Fitness,Resistance Bands Set,Debit Card,8,64.3,15,15.58,437.24,80.3
+ORD-10775,2023-11-09,CUST-336,Corporate,Middle East,UAE,Sports & Fitness,Hydration Flask,Credit Card,6,25.91,15,15.62,132.14,35.51
+ORD-10874,2023-11-11,CUST-275,Consumer,Middle East,UAE,Fashion,Cotton Crewneck Tee,Credit Card,4,22.16,15,5.86,75.34,17.37
+ORD-10107,2023-11-12,CUST-270,Consumer,North America,USA,Sports & Fitness,Hydration Flask,Credit Card,4,71.72,5,27.92,272.54,105.52
+ORD-10451,2023-11-12,CUST-207,Consumer,Asia Pacific,India,Home & Living,Aroma Diffuser,PayPal,4,40.92,10,19.93,147.31,27.0
+ORD-10460,2023-11-12,CUST-117,Small Business,Asia Pacific,Singapore,Electronics,Wireless Headphones,Debit Card,6,220.5,20,5.87,1058.4,366.54
+ORD-10464,2023-11-12,CUST-300,Consumer,Asia Pacific,Japan,Home & Living,LED Desk Lamp,Bank Transfer,4,136.61,10,14.07,491.8,117.22
+ORD-10898,2023-11-15,CUST-260,Consumer,North America,Canada,Fashion,Classic Denim Jacket,Credit Card,3,98.49,0,12.42,295.47,94.65
+ORD-10072,2023-11-15,CUST-140,Consumer,Middle East,UAE,Sports & Fitness,Yoga Mat Premium,Credit Card,8,171.79,25,19.95,1030.74,417.12
+ORD-10468,2023-11-16,CUST-294,Corporate,Europe,France,Fashion,Running Sneakers,Debit Card,6,120.46,25,9.48,542.07,114.79
+ORD-10220,2023-11-17,CUST-263,Consumer,Middle East,Saudi Arabia,Sports & Fitness,Hydration Flask,Debit Card,6,156.06,20,25.21,749.09,169.73
+ORD-10237,2023-11-17,CUST-126,Consumer,Asia Pacific,Singapore,Fashion,Cotton Crewneck Tee,PayPal,2,88.97,0,9.92,177.94,61.35
+ORD-10938,2023-11-17,CUST-306,Small Business,Middle East,Saudi Arabia,Fashion,Cotton Crewneck Tee,Credit Card,3,69.54,25,7.32,156.47,31.48
+ORD-10853,2023-11-18,CUST-327,Consumer,Latin America,Brazil,Fashion,Leather Messenger Bag,PayPal,1,35.24,10,19.52,31.72,14.22
+ORD-10379,2023-11-18,CUST-221,Small Business,Asia Pacific,Australia,Home & Living,Aroma Diffuser,PayPal,8,231.65,5,31.18,1760.54,666.48
+ORD-10954,2023-11-19,CUST-118,Small Business,North America,Canada,Electronics,USB-C Docking Station,Debit Card,4,389.74,25,23.78,1169.22,474.89
+ORD-10239,2023-11-19,CUST-209,Consumer,Europe,UK,Home & Living,Ergonomic Desk Chair,Apple Pay,5,242.53,25,30.41,909.49,170.3
+ORD-10419,2023-11-19,CUST-190,Small Business,Middle East,Saudi Arabia,Home & Living,LED Desk Lamp,Bank Transfer,6,198.19,20,16.25,951.31,311.38
+ORD-10479,2023-11-21,CUST-324,Consumer,Asia Pacific,Singapore,Sports & Fitness,Resistance Bands Set,Apple Pay,1,119.78,20,8.83,95.82,27.7
+ORD-10391,2023-11-21,CUST-180,Corporate,Asia Pacific,Singapore,Sports & Fitness,Resistance Bands Set,Debit Card,8,89.17,5,8.75,677.69,278.28
+ORD-10837,2023-11-21,CUST-310,Corporate,North America,USA,Sports & Fitness,Adjustable Dumbbells,Debit Card,2,147.76,25,20.62,221.64,64.21
+ORD-10659,2023-11-22,CUST-229,Consumer,Asia Pacific,Singapore,Sports & Fitness,Resistance Bands Set,Debit Card,6,57.65,20,32.42,276.72,74.35
+ORD-10337,2023-11-22,CUST-281,Consumer,Middle East,UAE,Fashion,Wool Overcoat,Apple Pay,3,74.07,20,15.48,177.77,51.36
+ORD-10715,2023-11-22,CUST-294,Small Business,Latin America,Brazil,Home & Living,Ergonomic Desk Chair,Apple Pay,8,139.42,25,20.1,836.52,318.12
+ORD-10151,2023-11-23,CUST-127,Corporate,Europe,Netherlands,Electronics,4K Ultra Monitor,PayPal,3,106.79,10,30.92,288.33,125.5
+ORD-10425,2023-11-23,CUST-110,Small Business,Middle East,UAE,Home & Living,Espresso Machine,PayPal,3,53.14,25,34.13,119.56,53.72
+ORD-10580,2023-11-23,CUST-205,Corporate,North America,USA,Sports & Fitness,Resistance Bands Set,PayPal,5,131.46,5,8.41,624.43,180.82
+ORD-10274,2023-11-24,CUST-188,Consumer,Europe,Germany,Home & Living,LED Desk Lamp,Debit Card,4,104.88,0,28.61,419.52,115.21
+ORD-10863,2023-11-24,CUST-181,Corporate,Europe,UK,Electronics,Mechanical Keyboard,Credit Card,5,230.07,0,23.04,1150.35,347.7
+ORD-10305,2023-11-26,CUST-103,Consumer,Middle East,UAE,Electronics,USB-C Docking Station,PayPal,4,333.54,10,8.08,1200.74,317.31
+ORD-10738,2023-11-26,CUST-345,Corporate,North America,Canada,Electronics,USB-C Docking Station,Bank Transfer,4,300.57,15,28.82,1021.94,387.91
+ORD-10271,2023-11-27,CUST-177,Small Business,Europe,UK,Sports & Fitness,Cycling Helmet,Debit Card,3,134.61,20,32.87,323.06,118.65
+ORD-10405,2023-11-27,CUST-179,Corporate,Europe,Germany,Electronics,4K Ultra Monitor,Debit Card,4,206.96,0,11.53,827.84,342.05
+ORD-10809,2023-11-27,CUST-123,Corporate,Europe,UK,Sports & Fitness,Resistance Bands Set,Bank Transfer,7,99.6,15,24.1,592.62,202.95
+ORD-10499,2023-11-28,CUST-270,Consumer,Asia Pacific,Australia,Electronics,4K Ultra Monitor,Bank Transfer,7,196.41,0,29.38,1374.87,343.34
+ORD-10105,2023-11-29,CUST-284,Consumer,Middle East,UAE,Electronics,Smartwatch Pro,Apple Pay,1,326.11,10,17.72,293.5,87.94
+ORD-10205,2023-11-29,CUST-253,Corporate,Latin America,Brazil,Home & Living,LED Desk Lamp,Credit Card,4,188.71,5,10.09,717.1,261.77
+ORD-10706,2023-12-01,CUST-134,Consumer,Latin America,Mexico,Sports & Fitness,Yoga Mat Premium,Apple Pay,4,135.61,15,29.61,461.07,100.45
+ORD-10176,2023-12-02,CUST-142,Consumer,Middle East,Saudi Arabia,Electronics,USB-C Docking Station,Apple Pay,8,104.56,20,6.67,669.18,200.94
+ORD-10108,2023-12-02,CUST-174,Consumer,North America,USA,Sports & Fitness,Cycling Helmet,PayPal,7,107.55,5,30.0,715.21,225.34
+ORD-10118,2023-12-04,CUST-116,Small Business,North America,Canada,Home & Living,Standing Desk Converter,Apple Pay,3,126.67,20,32.5,304.01,109.19
+ORD-10208,2023-12-04,CUST-320,Consumer,Latin America,Mexico,Sports & Fitness,Hydration Flask,Debit Card,6,118.5,25,14.43,533.25,124.9
+ORD-10691,2023-12-04,CUST-272,Small Business,Asia Pacific,Singapore,Home & Living,Aroma Diffuser,Apple Pay,3,299.59,25,32.37,674.08,255.98
+ORD-10321,2023-12-05,CUST-161,Small Business,Asia Pacific,Japan,Fashion,Wool Overcoat,Bank Transfer,7,126.22,0,29.04,883.54,268.56
+ORD-10679,2023-12-06,CUST-308,Consumer,Latin America,Brazil,Sports & Fitness,Adjustable Dumbbells,Debit Card,1,36.43,0,9.27,36.43,12.01
+ORD-10454,2023-12-06,CUST-176,Consumer,North America,USA,Electronics,Mechanical Keyboard,PayPal,5,302.21,25,22.17,1133.29,418.14
+ORD-10030,2023-12-07,CUST-288,Small Business,Latin America,Brazil,Home & Living,Aroma Diffuser,Credit Card,7,266.76,15,29.5,1587.22,381.02
+ORD-10884,2023-12-08,CUST-281,Small Business,Middle East,Saudi Arabia,Electronics,4K Ultra Monitor,Apple Pay,1,126.2,15,24.78,107.27,44.11
+ORD-10157,2023-12-08,CUST-135,Small Business,Latin America,Mexico,Fashion,Wool Overcoat,PayPal,6,141.08,10,34.72,761.83,170.56
+ORD-10424,2023-12-09,CUST-335,Consumer,Asia Pacific,India,Sports & Fitness,Yoga Mat Premium,Apple Pay,1,123.25,25,14.14,92.44,26.19
+ORD-10388,2023-12-09,CUST-215,Small Business,Asia Pacific,Singapore,Home & Living,Espresso Machine,Debit Card,6,45.16,0,25.39,270.96,74.46
+ORD-10682,2023-12-13,CUST-128,Corporate,Europe,France,Sports & Fitness,Adjustable Dumbbells,Debit Card,3,170.88,20,31.35,410.11,171.45
+ORD-10695,2023-12-14,CUST-190,Small Business,Europe,Netherlands,Sports & Fitness,Cycling Helmet,Apple Pay,5,75.54,0,5.97,377.7,125.87
+ORD-10003,2023-12-15,CUST-208,Consumer,Asia Pacific,Australia,Fashion,Leather Messenger Bag,Credit Card,7,32.57,10,29.21,205.19,70.38
+ORD-10866,2023-12-21,CUST-292,Small Business,Latin America,Brazil,Home & Living,LED Desk Lamp,Credit Card,7,117.6,15,24.23,699.72,219.15
+ORD-10201,2023-12-21,CUST-349,Consumer,North America,USA,Sports & Fitness,Adjustable Dumbbells,Debit Card,7,175.18,10,13.2,1103.63,207.48
+ORD-10409,2023-12-22,CUST-265,Corporate,Latin America,Brazil,Electronics,USB-C Docking Station,Debit Card,3,165.26,0,18.13,495.78,154.2
+ORD-10375,2023-12-22,CUST-189,Corporate,Asia Pacific,Australia,Fashion,Cotton Crewneck Tee,Apple Pay,1,53.94,15,21.76,45.85,14.52
+ORD-10474,2023-12-23,CUST-296,Small Business,Middle East,UAE,Electronics,Mechanical Keyboard,Credit Card,6,281.34,0,20.98,1688.04,665.01
+ORD-10776,2023-12-25,CUST-101,Consumer,Europe,Netherlands,Home & Living,Ergonomic Desk Chair,Bank Transfer,8,91.36,20,9.61,584.7,186.44
+ORD-10031,2023-12-25,CUST-217,Small Business,Asia Pacific,Australia,Fashion,Classic Denim Jacket,PayPal,7,62.67,0,13.37,438.69,193.49
+ORD-10436,2023-12-27,CUST-275,Corporate,Asia Pacific,Singapore,Fashion,Wool Overcoat,Credit Card,5,134.23,0,33.47,671.15,291.89
+ORD-10102,2023-12-27,CUST-179,Consumer,North America,USA,Fashion,Cotton Crewneck Tee,Credit Card,6,129.9,10,13.36,701.46,148.02
+ORD-10085,2023-12-27,CUST-305,Small Business,Europe,UK,Home & Living,Aroma Diffuser,Credit Card,1,120.32,15,15.95,102.27,19.33
+ORD-10358,2023-12-28,CUST-203,Consumer,Asia Pacific,India,Sports & Fitness,Hydration Flask,Apple Pay,3,93.18,5,24.3,265.56,53.33
+ORD-10935,2023-12-28,CUST-316,Consumer,Middle East,UAE,Fashion,Leather Messenger Bag,Credit Card,8,34.71,0,14.77,277.68,67.75
+ORD-10570,2023-12-28,CUST-273,Small Business,Asia Pacific,Singapore,Electronics,Wireless Headphones,Credit Card,3,388.03,10,22.52,1047.68,417.58
+ORD-10827,2023-12-28,CUST-193,Corporate,North America,USA,Fashion,Cotton Crewneck Tee,Bank Transfer,5,119.21,15,9.21,506.64,180.15
+ORD-10109,2023-12-29,CUST-306,Consumer,North America,Canada,Electronics,Mechanical Keyboard,Bank Transfer,2,397.6,20,17.13,636.16,188.24
+ORD-10017,2023-12-29,CUST-210,Small Business,Latin America,Mexico,Sports & Fitness,Yoga Mat Premium,Credit Card,1,87.41,10,8.28,78.67,31.17
+ORD-10463,2023-12-29,CUST-303,Corporate,North America,USA,Home & Living,Ergonomic Desk Chair,Bank Transfer,3,188.46,15,8.51,480.57,110.82
+ORD-10953,2023-12-29,CUST-129,Consumer,North America,USA,Electronics,4K Ultra Monitor,Apple Pay,6,174.92,25,25.16,787.14,298.0
+ORD-10894,2023-12-29,CUST-219,Corporate,Latin America,Mexico,Sports & Fitness,Cycling Helmet,Credit Card,1,173.41,15,9.22,147.4,30.05
+ORD-10458,2023-12-29,CUST-259,Consumer,Europe,Netherlands,Sports & Fitness,Cycling Helmet,Apple Pay,4,134.83,5,5.72,512.35,92.44
+ORD-10628,2023-12-30,CUST-300,Small Business,North America,Canada,Fashion,Wool Overcoat,Credit Card,1,140.46,15,33.88,119.39,47.25
+ORD-10891,2023-12-30,CUST-338,Consumer,Europe,Netherlands,Sports & Fitness,Cycling Helmet,Debit Card,5,117.54,5,25.37,558.32,185.5
+ORD-10272,2024-01-01,CUST-301,Small Business,Europe,UK,Sports & Fitness,Resistance Bands Set,Debit Card,3,52.54,0,33.46,157.62,68.75
+ORD-10885,2024-01-01,CUST-136,Small Business,Latin America,Brazil,Fashion,Wool Overcoat,Bank Transfer,6,46.82,0,33.64,280.92,65.27
+ORD-10923,2024-01-01,CUST-226,Small Business,Europe,Netherlands,Home & Living,Standing Desk Converter,Debit Card,4,176.98,10,21.24,637.13,169.54
+ORD-10349,2024-01-01,CUST-184,Small Business,Europe,UK,Electronics,4K Ultra Monitor,Credit Card,4,190.76,15,24.78,648.58,174.24
+ORD-10690,2024-01-03,CUST-119,Consumer,North America,Canada,Electronics,4K Ultra Monitor,Credit Card,2,97.11,0,15.01,194.22,63.59
+ORD-10351,2024-01-04,CUST-170,Corporate,Europe,France,Sports & Fitness,Cycling Helmet,Debit Card,5,100.48,0,23.2,502.4,114.27
+ORD-10482,2024-01-04,CUST-315,Consumer,Latin America,Brazil,Home & Living,Aroma Diffuser,Credit Card,2,208.58,5,19.6,396.3,148.52
+ORD-10248,2024-01-04,CUST-230,Consumer,North America,Canada,Fashion,Leather Messenger Bag,Debit Card,2,136.25,25,11.85,204.38,76.67
+ORD-10542,2024-01-05,CUST-270,Corporate,Latin America,Brazil,Sports & Fitness,Resistance Bands Set,Debit Card,1,69.12,10,18.37,62.21,16.37
+ORD-10736,2024-01-05,CUST-340,Corporate,Latin America,Mexico,Electronics,4K Ultra Monitor,Credit Card,1,243.63,25,30.06,182.72,52.71
+ORD-10964,2024-01-06,CUST-153,Corporate,Middle East,UAE,Fashion,Wool Overcoat,PayPal,5,124.17,10,11.47,558.76,150.59
+ORD-10385,2024-01-09,CUST-195,Small Business,Latin America,Mexico,Sports & Fitness,Adjustable Dumbbells,PayPal,4,151.2,25,12.07,453.6,114.71
+ORD-10429,2024-01-10,CUST-208,Small Business,Asia Pacific,Australia,Home & Living,Standing Desk Converter,Credit Card,5,84.01,10,34.7,378.05,130.95
+ORD-10135,2024-01-12,CUST-131,Corporate,Latin America,Mexico,Sports & Fitness,Cycling Helmet,PayPal,8,132.27,10,20.58,952.34,409.09
+ORD-10754,2024-01-12,CUST-213,Consumer,North America,USA,Electronics,Wireless Headphones,Bank Transfer,4,78.75,20,19.38,252.0,112.54
+ORD-10595,2024-01-12,CUST-345,Small Business,Europe,Germany,Electronics,USB-C Docking Station,Bank Transfer,8,384.36,15,26.41,2613.65,554.09
+ORD-10252,2024-01-13,CUST-102,Consumer,Europe,France,Home & Living,Espresso Machine,Bank Transfer,6,193.84,15,28.28,988.58,444.27
+ORD-10644,2024-01-14,CUST-130,Consumer,Middle East,Saudi Arabia,Electronics,Noise-Canceling Earbuds,Credit Card,6,185.87,10,19.58,1003.7,262.85
+ORD-10028,2024-01-14,CUST-313,Consumer,Middle East,UAE,Sports & Fitness,Adjustable Dumbbells,Debit Card,6,164.34,0,11.3,986.04,416.81
+ORD-10091,2024-01-15,CUST-216,Small Business,Middle East,Saudi Arabia,Fashion,Cotton Crewneck Tee,Credit Card,8,100.03,10,16.12,720.22,136.0
+ORD-10977,2024-01-16,CUST-343,Consumer,Middle East,Saudi Arabia,Sports & Fitness,Cycling Helmet,Debit Card,3,50.46,25,5.29,113.53,45.86
+ORD-10101,2024-01-17,CUST-289,Corporate,Europe,Germany,Home & Living,Ergonomic Desk Chair,Debit Card,7,265.7,25,13.63,1394.93,270.46
+ORD-10325,2024-01-18,CUST-233,Consumer,North America,USA,Fashion,Cotton Crewneck Tee,Bank Transfer,2,53.06,5,32.91,100.81,23.25
+ORD-10686,2024-01-19,CUST-230,Small Business,Latin America,Mexico,Fashion,Leather Messenger Bag,Debit Card,8,113.03,15,22.44,768.6,236.66
+ORD-10937,2024-01-19,CUST-266,Corporate,Latin America,Mexico,Electronics,Smartwatch Pro,Credit Card,5,423.52,20,23.27,1694.08,316.61
+ORD-10340,2024-01-19,CUST-232,Corporate,Middle East,Saudi Arabia,Sports & Fitness,Yoga Mat Premium,PayPal,6,104.65,0,33.69,627.9,141.4
+ORD-10465,2024-01-19,CUST-128,Small Business,North America,USA,Electronics,Mechanical Keyboard,Credit Card,8,413.88,5,32.71,3145.49,727.73
+ORD-10688,2024-01-19,CUST-339,Corporate,Asia Pacific,Japan,Fashion,Classic Denim Jacket,Bank Transfer,6,49.92,0,23.63,299.52,91.54
+ORD-10725,2024-01-19,CUST-286,Small Business,Latin America,Mexico,Sports & Fitness,Cycling Helmet,Debit Card,7,100.88,25,7.14,529.62,236.54
+ORD-10830,2024-01-20,CUST-174,Corporate,Europe,Netherlands,Electronics,Smartwatch Pro,Bank Transfer,2,202.6,15,32.0,344.42,121.74
+ORD-10927,2024-01-24,CUST-152,Corporate,Europe,Netherlands,Electronics,USB-C Docking Station,Credit Card,6,426.15,20,15.09,2045.52,784.88
+ORD-10047,2024-01-24,CUST-166,Corporate,Asia Pacific,Australia,Sports & Fitness,Resistance Bands Set,Bank Transfer,5,141.56,15,7.46,601.63,149.27
+ORD-10833,2024-01-25,CUST-253,Consumer,North America,Canada,Sports & Fitness,Cycling Helmet,Credit Card,4,159.54,25,12.56,478.62,140.8
+ORD-10160,2024-01-25,CUST-298,Small Business,Europe,UK,Electronics,Noise-Canceling Earbuds,Credit Card,4,77.2,10,17.39,277.92,81.45
+ORD-10819,2024-01-25,CUST-203,Consumer,Europe,Germany,Home & Living,LED Desk Lamp,Debit Card,2,67.14,10,30.4,120.85,41.43
+ORD-10672,2024-01-26,CUST-317,Small Business,Latin America,Brazil,Sports & Fitness,Adjustable Dumbbells,Apple Pay,1,95.28,15,31.4,80.99,31.97
+ORD-10366,2024-01-26,CUST-302,Corporate,Asia Pacific,Japan,Sports & Fitness,Adjustable Dumbbells,Bank Transfer,4,166.06,0,31.3,664.24,170.37
+ORD-10743,2024-01-26,CUST-333,Corporate,Middle East,Saudi Arabia,Fashion,Running Sneakers,Credit Card,5,31.4,0,22.77,157.0,42.68
+ORD-10386,2024-01-26,CUST-210,Consumer,Europe,UK,Fashion,Cotton Crewneck Tee,PayPal,7,84.95,25,26.62,445.99,142.53
+ORD-10263,2024-01-27,CUST-107,Consumer,Latin America,Brazil,Home & Living,Aroma Diffuser,Debit Card,5,155.96,5,23.58,740.81,140.28
+ORD-10172,2024-01-28,CUST-166,Corporate,Europe,Netherlands,Home & Living,Standing Desk Converter,Apple Pay,1,108.0,10,6.86,97.2,35.68
+ORD-10864,2024-01-28,CUST-251,Small Business,Europe,Germany,Home & Living,Ergonomic Desk Chair,Apple Pay,1,277.03,10,34.01,249.33,53.7
+ORD-10484,2024-01-29,CUST-215,Small Business,Asia Pacific,Australia,Fashion,Cotton Crewneck Tee,Credit Card,8,130.08,5,13.08,988.61,368.03
+ORD-10372,2024-01-29,CUST-109,Small Business,Latin America,Mexico,Electronics,Smartwatch Pro,Bank Transfer,8,74.07,25,20.54,444.42,191.68
+ORD-10703,2024-01-29,CUST-217,Consumer,Europe,Germany,Sports & Fitness,Yoga Mat Premium,PayPal,5,161.8,20,32.49,647.2,167.5
+ORD-10872,2024-01-30,CUST-219,Consumer,Europe,Netherlands,Electronics,4K Ultra Monitor,Apple Pay,6,358.99,10,24.66,1938.55,719.78
+ORD-10417,2024-01-30,CUST-236,Small Business,Europe,UK,Fashion,Wool Overcoat,PayPal,7,116.99,25,25.23,614.2,206.17
+ORD-10698,2024-01-31,CUST-117,Small Business,Asia Pacific,Australia,Fashion,Leather Messenger Bag,Apple Pay,2,79.11,10,10.15,142.4,45.57
+ORD-10520,2024-02-01,CUST-145,Small Business,Asia Pacific,Australia,Sports & Fitness,Adjustable Dumbbells,Debit Card,5,56.34,5,22.06,267.61,50.49
+ORD-10505,2024-02-04,CUST-176,Small Business,North America,Canada,Sports & Fitness,Yoga Mat Premium,Bank Transfer,4,46.69,5,34.89,177.42,33.15
+ORD-10020,2024-02-04,CUST-100,Small Business,Asia Pacific,India,Home & Living,LED Desk Lamp,Apple Pay,8,80.25,10,6.75,577.8,137.97
+ORD-10749,2024-02-05,CUST-189,Small Business,Latin America,Brazil,Home & Living,Standing Desk Converter,PayPal,7,65.3,10,22.41,411.39,157.61
+ORD-10471,2024-02-06,CUST-209,Corporate,Europe,Netherlands,Home & Living,Standing Desk Converter,PayPal,2,293.16,15,7.79,498.37,166.11
+ORD-10648,2024-02-09,CUST-330,Small Business,Asia Pacific,Japan,Sports & Fitness,Resistance Bands Set,Credit Card,3,134.62,20,28.15,323.09,113.12
+ORD-10712,2024-02-09,CUST-238,Consumer,Latin America,Brazil,Fashion,Running Sneakers,Debit Card,6,42.57,15,5.36,217.11,77.42
+ORD-10798,2024-02-09,CUST-261,Corporate,Europe,Netherlands,Fashion,Cotton Crewneck Tee,PayPal,8,32.18,5,29.47,244.57,74.36
+ORD-10164,2024-02-09,CUST-350,Corporate,Asia Pacific,Australia,Home & Living,Ergonomic Desk Chair,Credit Card,6,280.24,25,19.37,1261.08,314.31
+ORD-10235,2024-02-10,CUST-113,Small Business,Asia Pacific,Australia,Sports & Fitness,Yoga Mat Premium,Credit Card,1,58.08,0,11.79,58.08,12.54
+ORD-10196,2024-02-11,CUST-168,Small Business,North America,Canada,Sports & Fitness,Cycling Helmet,PayPal,4,71.5,0,30.75,286.0,101.96
+ORD-10209,2024-02-12,CUST-346,Consumer,Asia Pacific,Singapore,Sports & Fitness,Hydration Flask,Debit Card,7,68.45,15,32.96,407.28,113.45
+ORD-10792,2024-02-12,CUST-148,Small Business,Latin America,Brazil,Fashion,Cotton Crewneck Tee,Bank Transfer,7,72.11,10,5.11,454.29,107.15
+ORD-10427,2024-02-13,CUST-240,Corporate,Asia Pacific,Japan,Sports & Fitness,Hydration Flask,PayPal,3,99.54,5,24.57,283.69,88.43
+ORD-10762,2024-02-14,CUST-141,Small Business,Latin America,Brazil,Home & Living,LED Desk Lamp,PayPal,4,58.35,25,23.99,175.05,44.24
+ORD-10212,2024-02-15,CUST-249,Small Business,Middle East,Saudi Arabia,Electronics,4K Ultra Monitor,Apple Pay,2,111.56,5,15.65,211.96,75.79
+ORD-10288,2024-02-16,CUST-274,Consumer,North America,Canada,Home & Living,Aroma Diffuser,Bank Transfer,5,273.23,0,28.81,1366.15,370.53
+ORD-10231,2024-02-17,CUST-123,Corporate,Middle East,Saudi Arabia,Home & Living,LED Desk Lamp,Debit Card,1,265.92,25,34.16,199.44,40.91
+ORD-10070,2024-02-18,CUST-297,Consumer,Middle East,UAE,Sports & Fitness,Cycling Helmet,PayPal,6,121.51,15,27.8,619.7,216.19
+ORD-10538,2024-02-19,CUST-106,Consumer,Latin America,Brazil,Sports & Fitness,Resistance Bands Set,Credit Card,6,125.32,10,13.69,676.73,208.4
+ORD-10525,2024-02-21,CUST-287,Consumer,Europe,UK,Home & Living,Standing Desk Converter,Credit Card,1,164.74,10,18.78,148.27,33.17
+ORD-10583,2024-02-21,CUST-116,Consumer,Asia Pacific,Japan,Sports & Fitness,Adjustable Dumbbells,Credit Card,2,105.9,20,32.95,169.44,73.95
+ORD-10796,2024-02-23,CUST-134,Small Business,Middle East,Saudi Arabia,Home & Living,Ergonomic Desk Chair,Credit Card,6,97.01,10,34.15,523.85,119.29
+ORD-10597,2024-02-23,CUST-146,Consumer,Europe,Germany,Home & Living,Standing Desk Converter,Apple Pay,8,275.91,10,24.42,1986.55,670.23
+ORD-10211,2024-02-23,CUST-303,Corporate,Latin America,Brazil,Home & Living,Aroma Diffuser,PayPal,7,245.16,0,22.94,1716.12,516.98
+ORD-10312,2024-02-24,CUST-191,Corporate,Asia Pacific,Australia,Electronics,Noise-Canceling Earbuds,PayPal,8,195.63,0,7.67,1565.04,287.09
+ORD-10941,2024-02-24,CUST-345,Small Business,Asia Pacific,Japan,Home & Living,Espresso Machine,Credit Card,6,209.87,20,28.59,1007.38,243.98
+ORD-10699,2024-02-25,CUST-320,Small Business,Latin America,Brazil,Electronics,Smartwatch Pro,Bank Transfer,8,352.39,15,30.97,2396.25,1049.26
+ORD-10161,2024-02-25,CUST-152,Consumer,Middle East,Saudi Arabia,Electronics,USB-C Docking Station,Apple Pay,4,283.14,25,16.3,849.42,262.61
+ORD-10730,2024-02-26,CUST-178,Corporate,North America,USA,Home & Living,Aroma Diffuser,PayPal,7,221.74,0,29.49,1552.18,693.04
+ORD-10844,2024-02-27,CUST-218,Small Business,Latin America,Brazil,Home & Living,Aroma Diffuser,Debit Card,5,268.7,10,32.08,1209.15,318.0
+ORD-10378,2024-02-27,CUST-180,Corporate,Asia Pacific,Japan,Home & Living,Aroma Diffuser,Credit Card,7,215.16,10,32.94,1355.51,271.82
+ORD-10440,2024-02-28,CUST-325,Consumer,Latin America,Mexico,Sports & Fitness,Resistance Bands Set,PayPal,2,45.39,0,23.36,90.78,35.03
+ORD-10870,2024-02-28,CUST-327,Corporate,Latin America,Brazil,Fashion,Wool Overcoat,Bank Transfer,5,61.85,25,7.75,231.94,71.98
+ORD-10840,2024-02-28,CUST-216,Corporate,Latin America,Mexico,Home & Living,Espresso Machine,Apple Pay,6,69.48,5,16.19,396.04,120.35
+ORD-10845,2024-02-29,CUST-332,Consumer,Europe,Germany,Sports & Fitness,Yoga Mat Premium,Credit Card,3,147.53,20,23.0,354.07,142.13
+ORD-10243,2024-03-01,CUST-228,Small Business,Latin America,Mexico,Electronics,USB-C Docking Station,Apple Pay,3,175.44,10,32.63,473.69,95.37
+ORD-10967,2024-03-01,CUST-229,Small Business,North America,USA,Fashion,Classic Denim Jacket,Apple Pay,7,45.26,20,28.54,253.46,104.43
+ORD-10815,2024-03-02,CUST-312,Small Business,Europe,UK,Sports & Fitness,Adjustable Dumbbells,Apple Pay,5,97.88,25,28.44,367.05,99.5
+ORD-10533,2024-03-02,CUST-175,Corporate,Middle East,UAE,Sports & Fitness,Resistance Bands Set,Bank Transfer,1,70.19,0,29.06,70.19,13.05
+ORD-10513,2024-03-02,CUST-172,Small Business,Latin America,Brazil,Fashion,Running Sneakers,Debit Card,8,73.56,5,6.13,559.06,192.79
+ORD-10110,2024-03-03,CUST-263,Corporate,Asia Pacific,Japan,Sports & Fitness,Yoga Mat Premium,PayPal,8,153.96,10,30.33,1108.51,225.91
+ORD-10129,2024-03-05,CUST-161,Corporate,Middle East,Saudi Arabia,Electronics,Wireless Headphones,Apple Pay,1,310.14,20,9.31,248.11,60.87
+ORD-10843,2024-03-06,CUST-174,Corporate,Europe,UK,Sports & Fitness,Hydration Flask,Credit Card,4,157.73,0,28.81,630.92,173.29
+ORD-10179,2024-03-06,CUST-265,Corporate,Asia Pacific,India,Sports & Fitness,Cycling Helmet,Credit Card,3,126.3,10,34.79,341.01,72.3
+ORD-10052,2024-03-06,CUST-317,Small Business,Latin America,Brazil,Sports & Fitness,Resistance Bands Set,Bank Transfer,3,92.5,25,24.51,208.12,66.78
+ORD-10668,2024-03-09,CUST-157,Corporate,North America,USA,Fashion,Running Sneakers,Debit Card,2,101.38,0,17.96,202.76,38.02
+ORD-10745,2024-03-09,CUST-350,Small Business,Asia Pacific,Singapore,Fashion,Wool Overcoat,Apple Pay,4,33.86,0,18.82,135.44,44.06
+ORD-10586,2024-03-09,CUST-239,Corporate,Latin America,Brazil,Home & Living,Aroma Diffuser,Bank Transfer,6,253.55,0,32.16,1521.3,538.93
+ORD-10178,2024-03-09,CUST-111,Corporate,Asia Pacific,Japan,Electronics,Wireless Headphones,Credit Card,5,225.37,5,34.35,1070.51,414.04
+ORD-10083,2024-03-10,CUST-346,Corporate,Asia Pacific,India,Home & Living,Aroma Diffuser,Bank Transfer,2,101.67,20,13.88,162.67,45.05
+ORD-10772,2024-03-11,CUST-101,Small Business,Middle East,Saudi Arabia,Fashion,Wool Overcoat,Apple Pay,1,98.96,5,31.46,94.01,34.04
+ORD-10980,2024-03-12,CUST-310,Corporate,Middle East,Saudi Arabia,Home & Living,Espresso Machine,Debit Card,4,60.14,5,11.49,228.53,47.49
+ORD-10041,2024-03-12,CUST-229,Corporate,Middle East,Saudi Arabia,Fashion,Cotton Crewneck Tee,Debit Card,4,129.18,10,20.64,465.05,179.87
+ORD-10785,2024-03-12,CUST-186,Corporate,Latin America,Brazil,Sports & Fitness,Yoga Mat Premium,Credit Card,5,81.35,10,12.41,366.07,136.22
+ORD-10913,2024-03-13,CUST-212,Small Business,Latin America,Brazil,Electronics,Smartwatch Pro,Debit Card,2,114.81,5,21.22,218.14,42.3
+ORD-10100,2024-03-13,CUST-180,Small Business,Asia Pacific,Singapore,Home & Living,Aroma Diffuser,Bank Transfer,2,63.72,0,7.9,127.44,26.15
+ORD-10881,2024-03-14,CUST-221,Consumer,Asia Pacific,Japan,Fashion,Leather Messenger Bag,PayPal,1,97.22,15,19.65,82.64,27.89
+ORD-10561,2024-03-14,CUST-318,Consumer,Europe,Germany,Sports & Fitness,Resistance Bands Set,Credit Card,8,129.17,15,24.76,878.36,261.99
+ORD-10234,2024-03-14,CUST-345,Corporate,Europe,UK,Home & Living,Aroma Diffuser,Credit Card,6,105.1,10,24.47,567.54,203.98
+ORD-10739,2024-03-14,CUST-189,Small Business,Latin America,Brazil,Sports & Fitness,Resistance Bands Set,PayPal,3,159.83,20,26.5,383.59,150.33
+ORD-10103,2024-03-15,CUST-157,Consumer,Middle East,UAE,Home & Living,Ergonomic Desk Chair,Debit Card,5,279.6,10,31.1,1258.2,228.55
+ORD-10099,2024-03-16,CUST-254,Corporate,North America,USA,Fashion,Cotton Crewneck Tee,PayPal,7,64.06,15,26.89,381.16,109.64
+ORD-10825,2024-03-17,CUST-319,Small Business,North America,Canada,Fashion,Running Sneakers,Apple Pay,2,144.54,20,19.93,231.26,80.83
+ORD-10218,2024-03-18,CUST-268,Small Business,Latin America,Brazil,Fashion,Cotton Crewneck Tee,Bank Transfer,7,20.58,5,27.57,136.86,32.24
+ORD-10579,2024-03-20,CUST-332,Corporate,Middle East,UAE,Fashion,Leather Messenger Bag,PayPal,4,39.56,25,30.32,118.68,45.89
+ORD-10476,2024-03-21,CUST-300,Small Business,Middle East,Saudi Arabia,Fashion,Running Sneakers,Credit Card,8,34.86,20,21.65,223.1,68.04
+ORD-10976,2024-03-21,CUST-130,Corporate,Asia Pacific,Singapore,Home & Living,Espresso Machine,Apple Pay,3,76.79,20,29.08,184.3,67.26
+ORD-10285,2024-03-21,CUST-274,Small Business,Europe,UK,Home & Living,Standing Desk Converter,Credit Card,2,140.91,15,30.7,239.55,78.83
+ORD-10033,2024-03-22,CUST-180,Consumer,Middle East,UAE,Sports & Fitness,Hydration Flask,Debit Card,1,134.86,0,29.2,134.86,43.21
+ORD-10503,2024-03-22,CUST-222,Corporate,Latin America,Brazil,Fashion,Classic Denim Jacket,Bank Transfer,2,93.74,10,14.08,168.73,45.56
+ORD-10111,2024-03-22,CUST-162,Corporate,Middle East,Saudi Arabia,Electronics,Mechanical Keyboard,Debit Card,4,196.57,5,24.0,746.97,149.86
+ORD-10836,2024-03-23,CUST-141,Small Business,Asia Pacific,India,Electronics,Noise-Canceling Earbuds,PayPal,2,344.63,20,14.71,551.41,191.04
+ORD-10345,2024-03-24,CUST-337,Consumer,Latin America,Mexico,Electronics,Mechanical Keyboard,Apple Pay,4,121.82,15,30.48,414.19,163.66
+ORD-10694,2024-03-25,CUST-153,Small Business,Latin America,Brazil,Home & Living,Aroma Diffuser,PayPal,5,285.27,0,24.77,1426.35,449.22
+ORD-10603,2024-03-26,CUST-262,Consumer,North America,USA,Fashion,Classic Denim Jacket,PayPal,1,81.13,5,18.09,77.07,28.56
+ORD-10733,2024-03-27,CUST-204,Corporate,Middle East,UAE,Fashion,Classic Denim Jacket,Credit Card,7,36.21,0,22.57,253.47,69.04
+ORD-10708,2024-03-27,CUST-139,Small Business,Asia Pacific,Australia,Fashion,Classic Denim Jacket,Apple Pay,4,77.47,0,29.35,309.88,125.77
+ORD-10500,2024-03-27,CUST-145,Corporate,North America,Canada,Fashion,Wool Overcoat,PayPal,8,34.1,20,11.55,218.24,84.58
+ORD-10114,2024-03-28,CUST-220,Small Business,Asia Pacific,Singapore,Electronics,4K Ultra Monitor,Credit Card,5,245.46,0,29.95,1227.3,239.77
+ORD-10553,2024-03-28,CUST-135,Consumer,Middle East,Saudi Arabia,Fashion,Leather Messenger Bag,Credit Card,4,36.73,25,11.8,110.19,24.07
+ORD-10987,2024-03-28,CUST-150,Corporate,Asia Pacific,Australia,Electronics,Noise-Canceling Earbuds,Debit Card,2,416.2,10,5.39,749.16,236.55
+ORD-10106,2024-03-28,CUST-255,Consumer,Latin America,Mexico,Fashion,Wool Overcoat,Debit Card,7,34.42,25,19.6,180.7,65.63
+ORD-10633,2024-03-29,CUST-107,Corporate,Europe,Germany,Electronics,Wireless Headphones,Debit Card,7,443.14,5,16.8,2946.88,875.81
+ORD-10334,2024-03-29,CUST-320,Corporate,Europe,France,Fashion,Running Sneakers,Bank Transfer,3,147.85,0,10.21,443.55,102.23
+ORD-10588,2024-03-29,CUST-319,Corporate,Latin America,Brazil,Sports & Fitness,Resistance Bands Set,Credit Card,4,71.1,5,23.94,270.18,115.45
+ORD-10236,2024-03-31,CUST-274,Corporate,North America,USA,Home & Living,Ergonomic Desk Chair,PayPal,8,58.42,15,29.18,397.26,81.09
+ORD-10477,2024-03-31,CUST-310,Small Business,Europe,France,Sports & Fitness,Yoga Mat Premium,Credit Card,7,75.75,25,7.72,397.69,142.47
+ORD-10092,2024-03-31,CUST-213,Corporate,Europe,France,Electronics,USB-C Docking Station,Apple Pay,6,93.01,10,8.66,502.25,116.14
+ORD-10858,2024-04-01,CUST-326,Consumer,Latin America,Mexico,Home & Living,Espresso Machine,Apple Pay,7,151.62,20,31.94,849.07,233.74
+ORD-10496,2024-04-01,CUST-126,Consumer,Asia Pacific,Australia,Home & Living,Standing Desk Converter,Credit Card,1,201.04,0,24.7,201.04,87.13
+ORD-10611,2024-04-01,CUST-225,Small Business,Latin America,Mexico,Home & Living,Espresso Machine,Bank Transfer,2,236.69,10,18.02,426.04,147.3
+ORD-10641,2024-04-01,CUST-154,Small Business,North America,Canada,Sports & Fitness,Hydration Flask,Apple Pay,7,160.16,20,17.7,896.9,282.24
+ORD-10355,2024-04-01,CUST-135,Corporate,Europe,UK,Fashion,Cotton Crewneck Tee,Credit Card,4,118.99,5,16.08,452.16,89.06
+ORD-10056,2024-04-03,CUST-225,Corporate,North America,USA,Home & Living,Aroma Diffuser,PayPal,5,212.63,10,20.93,956.84,294.5
+ORD-10946,2024-04-04,CUST-343,Corporate,Latin America,Mexico,Sports & Fitness,Resistance Bands Set,PayPal,3,137.17,20,33.1,329.21,140.71
+ORD-10223,2024-04-06,CUST-315,Corporate,Middle East,UAE,Home & Living,Ergonomic Desk Chair,PayPal,4,251.96,20,19.85,806.27,255.16
+ORD-10689,2024-04-06,CUST-209,Corporate,Latin America,Mexico,Sports & Fitness,Resistance Bands Set,Debit Card,5,84.27,5,12.97,400.28,119.79
+ORD-10448,2024-04-06,CUST-182,Small Business,North America,USA,Sports & Fitness,Hydration Flask,PayPal,8,38.98,10,32.21,280.66,102.94
+ORD-10838,2024-04-06,CUST-100,Consumer,Europe,Netherlands,Electronics,Wireless Headphones,PayPal,7,334.65,5,11.48,2225.42,761.66
+ORD-10142,2024-04-07,CUST-118,Corporate,Europe,Netherlands,Electronics,USB-C Docking Station,Debit Card,2,279.0,10,30.54,502.2,211.26
+ORD-10216,2024-04-08,CUST-278,Small Business,Asia Pacific,Japan,Home & Living,Ergonomic Desk Chair,Credit Card,1,260.79,25,29.0,195.59,40.98
+ORD-10517,2024-04-09,CUST-294,Consumer,North America,USA,Electronics,Noise-Canceling Earbuds,PayPal,1,254.32,0,12.06,254.32,50.64
+ORD-10952,2024-04-09,CUST-132,Corporate,Asia Pacific,Japan,Electronics,Mechanical Keyboard,Bank Transfer,5,103.01,5,26.95,489.3,219.27
+ORD-10093,2024-04-10,CUST-317,Corporate,North America,USA,Electronics,Wireless Headphones,PayPal,3,369.05,5,27.95,1051.79,208.81
+ORD-10817,2024-04-10,CUST-342,Corporate,Middle East,Saudi Arabia,Home & Living,Aroma Diffuser,PayPal,5,293.01,20,33.53,1172.04,330.45
+ORD-10316,2024-04-12,CUST-346,Small Business,Asia Pacific,India,Sports & Fitness,Cycling Helmet,PayPal,2,45.54,25,33.27,68.31,13.38
+ORD-10377,2024-04-14,CUST-186,Corporate,Latin America,Brazil,Sports & Fitness,Yoga Mat Premium,Credit Card,7,123.22,5,11.9,819.41,297.25
+ORD-10286,2024-04-14,CUST-233,Consumer,North America,Canada,Electronics,Mechanical Keyboard,PayPal,2,421.47,20,28.57,674.35,263.32
+ORD-10713,2024-04-14,CUST-154,Corporate,Europe,Germany,Home & Living,Espresso Machine,Credit Card,2,270.22,15,22.97,459.37,120.09
+ORD-10004,2024-04-15,CUST-286,Small Business,Middle East,UAE,Sports & Fitness,Yoga Mat Premium,Debit Card,6,114.49,25,24.84,515.21,102.41
+ORD-10082,2024-04-15,CUST-165,Small Business,Asia Pacific,Japan,Sports & Fitness,Resistance Bands Set,Apple Pay,3,36.45,10,13.97,98.41,43.96
+ORD-10462,2024-04-18,CUST-185,Small Business,Latin America,Brazil,Home & Living,Espresso Machine,Debit Card,1,94.15,25,32.49,70.61,19.03
+ORD-10390,2024-04-19,CUST-173,Small Business,Europe,UK,Home & Living,LED Desk Lamp,Apple Pay,7,260.71,0,15.31,1824.97,367.48
+ORD-10546,2024-04-19,CUST-243,Corporate,Europe,Germany,Electronics,Smartwatch Pro,Debit Card,8,117.19,25,17.51,703.14,296.04
+ORD-10150,2024-04-20,CUST-223,Small Business,Europe,France,Fashion,Leather Messenger Bag,Debit Card,6,146.8,5,20.45,836.76,322.47
+ORD-10054,2024-04-20,CUST-292,Corporate,Middle East,Saudi Arabia,Home & Living,Ergonomic Desk Chair,Debit Card,3,166.76,10,15.21,450.25,178.04
+ORD-10902,2024-04-20,CUST-127,Corporate,Latin America,Mexico,Fashion,Classic Denim Jacket,Bank Transfer,2,93.35,0,6.02,186.7,62.87
+ORD-10292,2024-04-20,CUST-310,Consumer,Middle East,Saudi Arabia,Electronics,USB-C Docking Station,PayPal,6,255.74,15,31.11,1304.27,297.31
+ORD-10173,2024-04-21,CUST-130,Small Business,Asia Pacific,Australia,Sports & Fitness,Hydration Flask,Debit Card,2,124.0,10,11.63,223.2,62.33
+ORD-10296,2024-04-22,CUST-155,Small Business,Asia Pacific,India,Electronics,Wireless Headphones,Debit Card,5,183.42,0,15.09,917.1,284.36
+ORD-10046,2024-04-23,CUST-142,Small Business,Europe,Germany,Sports & Fitness,Hydration Flask,Credit Card,2,124.63,5,10.45,236.8,98.05
+ORD-10010,2024-04-24,CUST-252,Small Business,Middle East,Saudi Arabia,Electronics,USB-C Docking Station,Credit Card,5,362.07,10,18.04,1629.32,342.35
+ORD-10979,2024-04-24,CUST-259,Small Business,Middle East,UAE,Electronics,4K Ultra Monitor,Apple Pay,4,201.08,0,13.24,804.32,346.28
+ORD-10472,2024-04-24,CUST-305,Corporate,North America,Canada,Home & Living,LED Desk Lamp,PayPal,4,77.37,20,15.9,247.58,61.81
+ORD-10989,2024-04-27,CUST-337,Corporate,Middle East,Saudi Arabia,Sports & Fitness,Adjustable Dumbbells,Apple Pay,2,30.92,0,26.4,61.84,21.37
+ORD-10882,2024-04-28,CUST-163,Small Business,North America,USA,Electronics,Noise-Canceling Earbuds,Debit Card,4,269.6,5,28.26,1024.48,393.24
+ORD-10324,2024-04-29,CUST-253,Small Business,Asia Pacific,India,Electronics,Wireless Headphones,PayPal,1,199.72,25,13.76,149.79,65.97
+ORD-10899,2024-04-30,CUST-126,Consumer,North America,Canada,Sports & Fitness,Yoga Mat Premium,Debit Card,7,99.98,5,30.25,664.87,266.93
+ORD-10752,2024-04-30,CUST-349,Small Business,Europe,Germany,Electronics,Noise-Canceling Earbuds,Debit Card,7,438.5,25,12.35,2302.12,863.5
+ORD-10407,2024-05-01,CUST-300,Consumer,Middle East,UAE,Home & Living,Ergonomic Desk Chair,PayPal,8,63.76,20,34.09,408.06,110.74
+ORD-10167,2024-05-02,CUST-324,Corporate,Latin America,Brazil,Home & Living,Standing Desk Converter,Credit Card,2,209.6,5,26.69,398.24,129.23
+ORD-10548,2024-05-02,CUST-275,Consumer,North America,Canada,Electronics,4K Ultra Monitor,Apple Pay,1,125.53,15,9.06,106.7,44.51
+ORD-10832,2024-05-02,CUST-154,Small Business,North America,Canada,Sports & Fitness,Yoga Mat Premium,PayPal,8,47.55,5,5.94,361.38,96.29
+ORD-10880,2024-05-03,CUST-259,Small Business,Asia Pacific,Australia,Fashion,Leather Messenger Bag,Credit Card,3,44.35,15,5.38,113.09,24.69
+ORD-10133,2024-05-05,CUST-278,Corporate,Europe,UK,Electronics,USB-C Docking Station,Credit Card,5,146.6,5,14.47,696.35,291.88
+ORD-10360,2024-05-05,CUST-222,Consumer,Europe,UK,Sports & Fitness,Yoga Mat Premium,Credit Card,3,113.89,5,20.38,324.59,70.23
+ORD-10087,2024-05-08,CUST-311,Consumer,Asia Pacific,Singapore,Electronics,Mechanical Keyboard,PayPal,4,396.85,25,16.92,1190.55,431.09
+ORD-10723,2024-05-08,CUST-344,Corporate,North America,Canada,Sports & Fitness,Yoga Mat Premium,Apple Pay,3,110.69,5,18.91,315.47,78.7
+ORD-10856,2024-05-08,CUST-170,Small Business,Europe,Germany,Home & Living,Espresso Machine,Debit Card,8,233.75,15,33.39,1589.5,473.25
+ORD-10423,2024-05-09,CUST-302,Small Business,Europe,Netherlands,Electronics,Noise-Canceling Earbuds,Debit Card,1,347.7,20,28.4,278.16,78.72
+ORD-10233,2024-05-11,CUST-244,Small Business,Asia Pacific,Japan,Electronics,Wireless Headphones,Bank Transfer,1,117.21,5,5.02,111.35,33.31
+ORD-10734,2024-05-11,CUST-222,Consumer,North America,USA,Electronics,4K Ultra Monitor,Apple Pay,1,106.8,20,16.27,85.44,33.64
+ORD-10013,2024-05-12,CUST-121,Small Business,North America,USA,Fashion,Cotton Crewneck Tee,PayPal,5,88.6,20,11.35,354.4,104.28
+ORD-10414,2024-05-12,CUST-127,Small Business,Europe,Germany,Electronics,Noise-Canceling Earbuds,Bank Transfer,8,269.81,25,6.47,1618.86,549.41
+ORD-10618,2024-05-13,CUST-254,Consumer,Asia Pacific,Singapore,Sports & Fitness,Resistance Bands Set,PayPal,3,27.15,0,25.88,81.45,32.61
+ORD-10387,2024-05-13,CUST-301,Consumer,Asia Pacific,Singapore,Electronics,Mechanical Keyboard,PayPal,1,151.88,10,23.9,136.69,42.19
+ORD-10777,2024-05-14,CUST-131,Corporate,North America,USA,Home & Living,Aroma Diffuser,Bank Transfer,6,117.81,15,21.09,600.83,252.88
+ORD-10574,2024-05-15,CUST-125,Small Business,North America,USA,Home & Living,LED Desk Lamp,Debit Card,3,199.86,10,11.05,539.62,238.37
+ORD-10192,2024-05-15,CUST-295,Consumer,Latin America,Mexico,Fashion,Leather Messenger Bag,PayPal,8,43.93,20,33.72,281.15,125.78
+ORD-10506,2024-05-15,CUST-161,Small Business,Latin America,Brazil,Home & Living,LED Desk Lamp,Bank Transfer,1,49.63,0,26.63,49.63,13.46
+ORD-10075,2024-05-16,CUST-268,Corporate,Europe,Netherlands,Sports & Fitness,Resistance Bands Set,Apple Pay,7,95.58,10,34.42,602.15,249.77
+ORD-10642,2024-05-16,CUST-212,Consumer,Latin America,Brazil,Fashion,Wool Overcoat,Bank Transfer,8,36.82,25,20.87,220.92,70.38
+ORD-10202,2024-05-17,CUST-215,Consumer,Europe,France,Sports & Fitness,Cycling Helmet,Apple Pay,7,38.28,20,12.39,214.37,55.68
+ORD-10910,2024-05-17,CUST-164,Small Business,Latin America,Mexico,Fashion,Running Sneakers,PayPal,7,125.8,5,5.73,836.57,170.01
+ORD-10651,2024-05-18,CUST-111,Corporate,North America,Canada,Sports & Fitness,Adjustable Dumbbells,Credit Card,6,84.21,0,7.98,505.26,106.59
+ORD-10224,2024-05-18,CUST-275,Consumer,Latin America,Mexico,Sports & Fitness,Adjustable Dumbbells,Apple Pay,1,148.36,5,13.25,140.94,36.48
+ORD-10626,2024-05-20,CUST-206,Consumer,Asia Pacific,Australia,Fashion,Wool Overcoat,Credit Card,6,134.52,10,10.24,726.41,263.52
+ORD-10402,2024-05-20,CUST-103,Corporate,Europe,France,Sports & Fitness,Resistance Bands Set,Debit Card,8,133.02,0,30.31,1064.16,286.44
+ORD-10604,2024-05-21,CUST-329,Corporate,North America,Canada,Home & Living,Espresso Machine,Bank Transfer,8,69.25,25,8.71,415.5,172.04
+ORD-10039,2024-05-21,CUST-198,Consumer,Latin America,Brazil,Fashion,Classic Denim Jacket,Bank Transfer,4,42.87,25,6.51,128.61,41.14
+ORD-10077,2024-05-22,CUST-138,Corporate,North America,USA,Home & Living,Ergonomic Desk Chair,Credit Card,8,43.99,5,24.64,334.32,97.18
+ORD-10879,2024-05-22,CUST-168,Small Business,Europe,UK,Fashion,Leather Messenger Bag,Debit Card,5,115.4,0,32.23,577.0,132.69
+ORD-10584,2024-05-23,CUST-164,Corporate,North America,USA,Electronics,4K Ultra Monitor,Apple Pay,7,376.22,25,17.69,1975.15,481.35
+ORD-10516,2024-05-24,CUST-221,Small Business,Europe,UK,Electronics,Wireless Headphones,Debit Card,5,149.64,10,29.15,673.38,181.99
+ORD-10008,2024-05-26,CUST-267,Consumer,Latin America,Mexico,Fashion,Leather Messenger Bag,PayPal,5,117.11,15,16.98,497.72,210.24
+ORD-10514,2024-05-26,CUST-146,Corporate,Middle East,UAE,Home & Living,Standing Desk Converter,Credit Card,4,89.89,20,23.57,287.65,127.64
+ORD-10664,2024-05-27,CUST-245,Small Business,Latin America,Brazil,Fashion,Wool Overcoat,Apple Pay,3,28.5,5,8.82,81.22,30.98
+ORD-10781,2024-05-27,CUST-188,Corporate,North America,USA,Electronics,USB-C Docking Station,Bank Transfer,1,235.04,10,7.48,211.54,54.2
+ORD-10557,2024-05-27,CUST-141,Small Business,Middle East,UAE,Electronics,Wireless Headphones,Credit Card,4,342.01,10,27.62,1231.24,278.73
+ORD-10915,2024-05-27,CUST-256,Small Business,Asia Pacific,India,Electronics,Noise-Canceling Earbuds,Credit Card,8,426.03,10,5.97,3067.42,1093.14
+ORD-10116,2024-05-28,CUST-221,Corporate,Europe,Germany,Sports & Fitness,Yoga Mat Premium,Credit Card,3,31.07,25,18.18,69.91,20.85
+ORD-10769,2024-05-29,CUST-219,Small Business,Asia Pacific,Singapore,Sports & Fitness,Hydration Flask,PayPal,5,123.52,0,17.2,617.6,269.16
+ORD-10732,2024-05-29,CUST-146,Consumer,North America,Canada,Fashion,Running Sneakers,Credit Card,3,125.19,5,32.07,356.79,89.21
+ORD-10627,2024-05-30,CUST-320,Consumer,North America,USA,Home & Living,LED Desk Lamp,Apple Pay,4,71.38,5,34.81,271.24,84.44
+ORD-10873,2024-05-31,CUST-317,Corporate,North America,USA,Fashion,Leather Messenger Bag,Bank Transfer,4,121.4,5,17.69,461.32,91.59
+ORD-10647,2024-05-31,CUST-135,Small Business,Latin America,Mexico,Sports & Fitness,Adjustable Dumbbells,Debit Card,2,148.97,25,16.62,223.45,77.84
+ORD-10524,2024-05-31,CUST-220,Small Business,North America,Canada,Sports & Fitness,Cycling Helmet,Credit Card,8,101.77,0,5.37,814.16,269.32
+ORD-10364,2024-05-31,CUST-233,Corporate,Latin America,Brazil,Electronics,Smartwatch Pro,Apple Pay,1,403.55,20,8.53,322.84,101.98
+ORD-10577,2024-05-31,CUST-177,Corporate,Asia Pacific,India,Home & Living,Aroma Diffuser,Bank Transfer,5,202.49,15,21.43,860.58,310.95
+ORD-10153,2024-06-01,CUST-200,Corporate,Latin America,Brazil,Fashion,Wool Overcoat,Credit Card,1,56.58,20,24.63,45.26,18.93
+ORD-10943,2024-06-01,CUST-207,Corporate,Europe,Netherlands,Fashion,Running Sneakers,Credit Card,3,35.7,10,26.34,96.39,37.27
+ORD-10630,2024-06-02,CUST-213,Corporate,Latin America,Brazil,Fashion,Leather Messenger Bag,PayPal,2,130.32,15,28.08,221.54,97.88
+ORD-10906,2024-06-03,CUST-337,Small Business,Middle East,Saudi Arabia,Fashion,Leather Messenger Bag,Apple Pay,6,95.98,15,5.89,489.5,97.04
+ORD-10131,2024-06-03,CUST-229,Consumer,Middle East,UAE,Sports & Fitness,Cycling Helmet,Bank Transfer,6,64.32,0,7.03,385.92,106.67
+ORD-10032,2024-06-05,CUST-264,Corporate,Latin America,Mexico,Electronics,Wireless Headphones,PayPal,5,84.54,20,26.86,338.16,100.55
+ORD-10112,2024-06-06,CUST-235,Consumer,Europe,France,Home & Living,Aroma Diffuser,Credit Card,3,106.55,5,27.81,303.67,104.05
+ORD-10311,2024-06-07,CUST-126,Consumer,Middle East,UAE,Home & Living,Ergonomic Desk Chair,Bank Transfer,4,198.34,10,34.19,714.02,288.82
+ORD-10968,2024-06-08,CUST-208,Consumer,North America,Canada,Home & Living,LED Desk Lamp,Credit Card,5,292.01,20,13.74,1168.04,358.91
+ORD-10177,2024-06-09,CUST-133,Corporate,Latin America,Mexico,Electronics,Noise-Canceling Earbuds,Debit Card,1,220.46,0,22.35,220.46,84.08
+ORD-10555,2024-06-09,CUST-268,Corporate,Middle East,UAE,Sports & Fitness,Yoga Mat Premium,Credit Card,2,71.76,0,28.47,143.52,55.07
+ORD-10229,2024-06-10,CUST-343,Corporate,North America,USA,Sports & Fitness,Yoga Mat Premium,PayPal,3,63.7,25,12.43,143.32,38.26
+ORD-10134,2024-06-11,CUST-179,Small Business,Latin America,Mexico,Home & Living,Ergonomic Desk Chair,PayPal,5,132.81,0,14.96,664.05,274.76
+ORD-10573,2024-06-11,CUST-245,Corporate,Latin America,Mexico,Electronics,USB-C Docking Station,Apple Pay,1,444.59,15,14.67,377.9,126.22
+ORD-10676,2024-06-14,CUST-102,Small Business,Middle East,UAE,Electronics,Smartwatch Pro,Apple Pay,1,230.38,5,24.22,218.86,97.1
+ORD-10896,2024-06-14,CUST-218,Corporate,Latin America,Brazil,Electronics,Wireless Headphones,Credit Card,6,295.85,10,25.72,1597.59,531.47
+ORD-10383,2024-06-14,CUST-130,Small Business,Latin America,Mexico,Electronics,Wireless Headphones,PayPal,7,290.78,10,30.86,1831.91,508.6
+ORD-10534,2024-06-16,CUST-313,Corporate,Asia Pacific,India,Home & Living,Standing Desk Converter,Apple Pay,8,159.08,20,28.68,1018.11,219.53
+ORD-10566,2024-06-16,CUST-269,Small Business,Latin America,Mexico,Fashion,Leather Messenger Bag,Bank Transfer,8,85.62,20,30.79,547.97,149.47
+ORD-10283,2024-06-19,CUST-199,Corporate,Latin America,Mexico,Fashion,Cotton Crewneck Tee,Credit Card,7,137.36,25,22.14,721.14,136.57
+ORD-10997,2024-06-19,CUST-264,Corporate,Latin America,Brazil,Electronics,Noise-Canceling Earbuds,PayPal,4,447.63,15,29.33,1521.94,416.51
+ORD-10393,2024-06-20,CUST-201,Consumer,North America,USA,Home & Living,Espresso Machine,Credit Card,7,120.44,5,18.29,800.93,303.67
+ORD-10466,2024-06-20,CUST-287,Small Business,Asia Pacific,Singapore,Fashion,Classic Denim Jacket,PayPal,4,114.19,15,30.94,388.25,110.51
+ORD-10265,2024-06-22,CUST-304,Corporate,Europe,Germany,Sports & Fitness,Resistance Bands Set,Apple Pay,8,78.33,20,16.65,501.31,158.24
+ORD-10811,2024-06-23,CUST-207,Corporate,Middle East,UAE,Electronics,Smartwatch Pro,Credit Card,4,447.68,0,19.22,1790.72,497.55
+ORD-10120,2024-06-23,CUST-275,Corporate,North America,Canada,Home & Living,Ergonomic Desk Chair,Debit Card,3,287.3,10,19.59,775.71,338.11
+ORD-10486,2024-06-23,CUST-286,Small Business,Asia Pacific,India,Electronics,Noise-Canceling Earbuds,Credit Card,4,249.53,25,25.06,748.59,268.9
+ORD-10635,2024-06-24,CUST-171,Small Business,Middle East,UAE,Sports & Fitness,Cycling Helmet,PayPal,8,133.11,25,10.92,798.66,230.99
+ORD-10241,2024-06-24,CUST-118,Corporate,North America,Canada,Home & Living,Aroma Diffuser,Apple Pay,7,135.01,25,19.13,708.8,160.65
+ORD-10766,2024-06-25,CUST-124,Consumer,Asia Pacific,Singapore,Home & Living,Espresso Machine,Credit Card,3,122.68,15,29.18,312.83,71.57
+ORD-10180,2024-06-25,CUST-200,Corporate,Europe,UK,Electronics,Wireless Headphones,Bank Transfer,7,272.13,5,15.38,1809.66,446.68
+ORD-10632,2024-06-26,CUST-138,Corporate,Latin America,Brazil,Fashion,Cotton Crewneck Tee,Bank Transfer,8,143.74,20,15.85,919.94,362.96
+ORD-10411,2024-06-27,CUST-117,Small Business,Europe,Netherlands,Home & Living,Standing Desk Converter,Debit Card,8,40.19,25,27.01,241.14,76.35
+ORD-10875,2024-06-27,CUST-269,Small Business,Latin America,Mexico,Home & Living,Ergonomic Desk Chair,Credit Card,6,152.18,5,17.93,867.43,249.1
+ORD-10601,2024-06-27,CUST-181,Corporate,Latin America,Brazil,Home & Living,Ergonomic Desk Chair,Credit Card,3,169.79,10,32.79,458.43,175.08
+ORD-10767,2024-06-28,CUST-273,Consumer,Middle East,Saudi Arabia,Sports & Fitness,Hydration Flask,Debit Card,1,131.43,25,8.79,98.57,21.88
+ORD-10493,2024-06-29,CUST-291,Corporate,Europe,Netherlands,Sports & Fitness,Cycling Helmet,PayPal,7,26.84,15,14.47,159.7,45.22
+ORD-10865,2024-06-30,CUST-109,Consumer,Middle East,UAE,Home & Living,Ergonomic Desk Chair,Bank Transfer,2,255.76,15,13.24,434.79,163.17
+ORD-10189,2024-06-30,CUST-219,Small Business,Asia Pacific,Singapore,Home & Living,Standing Desk Converter,Bank Transfer,8,65.64,25,30.19,393.84,120.82
+ORD-10341,2024-06-30,CUST-237,Small Business,North America,USA,Fashion,Running Sneakers,Bank Transfer,2,46.73,25,27.24,70.09,29.24
+ORD-10617,2024-07-01,CUST-211,Consumer,North America,USA,Sports & Fitness,Yoga Mat Premium,PayPal,8,96.33,15,33.97,655.04,271.56
+ORD-10287,2024-07-02,CUST-322,Small Business,Asia Pacific,India,Home & Living,LED Desk Lamp,Bank Transfer,8,49.74,10,23.55,358.13,103.43
+ORD-10714,2024-07-03,CUST-126,Small Business,Middle East,UAE,Home & Living,Ergonomic Desk Chair,Debit Card,7,216.25,25,10.26,1135.31,245.1
+ORD-10756,2024-07-04,CUST-320,Small Business,Europe,Netherlands,Electronics,Mechanical Keyboard,Apple Pay,8,94.29,20,29.56,603.46,196.44
+ORD-10185,2024-07-04,CUST-293,Small Business,Latin America,Brazil,Fashion,Leather Messenger Bag,PayPal,8,138.92,20,17.5,889.09,259.1
+ORD-10053,2024-07-05,CUST-257,Corporate,Latin America,Mexico,Sports & Fitness,Hydration Flask,Debit Card,4,153.76,0,18.52,615.04,157.03
+ORD-10165,2024-07-05,CUST-151,Small Business,Asia Pacific,Singapore,Fashion,Classic Denim Jacket,Apple Pay,4,51.52,25,11.77,154.56,65.6
+ORD-10515,2024-07-06,CUST-320,Corporate,Middle East,UAE,Sports & Fitness,Adjustable Dumbbells,Credit Card,4,42.47,5,34.06,161.39,58.91
+ORD-10396,2024-07-06,CUST-223,Corporate,Europe,Germany,Sports & Fitness,Resistance Bands Set,Bank Transfer,5,49.14,0,29.46,245.7,44.23
+ORD-10569,2024-07-06,CUST-275,Consumer,Middle East,Saudi Arabia,Sports & Fitness,Hydration Flask,Apple Pay,1,85.66,15,16.33,72.81,24.72
+ORD-10048,2024-07-06,CUST-104,Small Business,North America,Canada,Fashion,Classic Denim Jacket,Credit Card,1,143.45,5,23.64,136.28,55.41
+ORD-10381,2024-07-08,CUST-319,Corporate,North America,Canada,Home & Living,Espresso Machine,Bank Transfer,5,167.61,20,11.66,670.44,171.41
+ORD-10410,2024-07-09,CUST-175,Corporate,Latin America,Brazil,Fashion,Wool Overcoat,Debit Card,8,55.79,20,21.64,357.06,152.43
+ORD-10021,2024-07-09,CUST-288,Small Business,North America,Canada,Electronics,Wireless Headphones,Bank Transfer,3,91.61,20,10.57,219.86,44.33
+ORD-10849,2024-07-10,CUST-258,Small Business,North America,Canada,Electronics,USB-C Docking Station,PayPal,8,311.1,10,24.58,2239.92,516.01
+ORD-10803,2024-07-10,CUST-114,Consumer,Asia Pacific,Japan,Electronics,Wireless Headphones,Apple Pay,5,108.98,15,32.37,463.16,101.11
+ORD-10452,2024-07-10,CUST-227,Small Business,North America,Canada,Fashion,Running Sneakers,Bank Transfer,8,73.32,0,5.2,586.56,200.8
+ORD-10893,2024-07-12,CUST-218,Consumer,Europe,Netherlands,Sports & Fitness,Yoga Mat Premium,Apple Pay,8,132.59,20,26.38,848.58,366.94
+ORD-10970,2024-07-13,CUST-295,Consumer,North America,Canada,Fashion,Wool Overcoat,Bank Transfer,4,78.12,15,24.28,265.61,88.2
+ORD-10485,2024-07-13,CUST-337,Small Business,Middle East,Saudi Arabia,Electronics,Wireless Headphones,Bank Transfer,6,113.0,15,7.4,576.3,253.38
+ORD-10253,2024-07-13,CUST-287,Consumer,Europe,UK,Electronics,Mechanical Keyboard,PayPal,6,311.66,25,33.53,1402.47,584.61
+ORD-10901,2024-07-13,CUST-289,Corporate,Europe,Netherlands,Sports & Fitness,Resistance Bands Set,Credit Card,8,81.94,10,25.93,589.97,168.51
+ORD-10453,2024-07-14,CUST-325,Consumer,Asia Pacific,Australia,Electronics,Smartwatch Pro,Credit Card,6,83.95,0,30.14,503.7,181.38
+ORD-10384,2024-07-15,CUST-147,Small Business,Asia Pacific,Australia,Home & Living,LED Desk Lamp,Debit Card,6,87.82,15,26.02,447.88,106.08
+ORD-10395,2024-07-15,CUST-169,Small Business,Latin America,Brazil,Fashion,Wool Overcoat,Bank Transfer,7,88.05,25,32.27,462.26,149.83
+ORD-10279,2024-07-16,CUST-246,Consumer,Latin America,Brazil,Electronics,4K Ultra Monitor,Bank Transfer,2,181.93,25,19.41,272.89,95.18
+ORD-10057,2024-07-17,CUST-208,Corporate,Asia Pacific,Singapore,Sports & Fitness,Resistance Bands Set,Debit Card,4,43.7,5,27.29,166.06,44.04
+ORD-10293,2024-07-18,CUST-250,Small Business,Asia Pacific,Singapore,Fashion,Leather Messenger Bag,Credit Card,5,23.57,0,22.17,117.85,26.4
+ORD-10144,2024-07-18,CUST-219,Corporate,Europe,Germany,Electronics,4K Ultra Monitor,Bank Transfer,7,362.28,20,34.17,2028.77,405.58
+ORD-10545,2024-07-23,CUST-144,Corporate,Latin America,Brazil,Fashion,Running Sneakers,Debit Card,8,25.49,10,14.12,183.53,74.39
+ORD-10369,2024-07-24,CUST-241,Small Business,Latin America,Brazil,Home & Living,Espresso Machine,Bank Transfer,5,297.01,20,26.16,1188.04,324.31
+ORD-10088,2024-07-24,CUST-316,Corporate,Asia Pacific,Japan,Sports & Fitness,Yoga Mat Premium,Apple Pay,2,95.49,25,12.86,143.23,54.75
+ORD-10300,2024-07-26,CUST-306,Corporate,Europe,France,Electronics,Smartwatch Pro,PayPal,5,229.78,10,22.57,1034.01,289.89
+ORD-10984,2024-07-27,CUST-161,Corporate,Latin America,Mexico,Sports & Fitness,Cycling Helmet,Debit Card,6,107.26,20,33.66,514.85,209.75
+ORD-10428,2024-07-28,CUST-150,Corporate,Middle East,UAE,Fashion,Classic Denim Jacket,Bank Transfer,6,109.02,20,25.15,523.3,106.85
+ORD-10649,2024-07-28,CUST-179,Small Business,North America,USA,Fashion,Wool Overcoat,Apple Pay,1,144.45,20,19.28,115.56,26.71
+ORD-10141,2024-07-29,CUST-199,Consumer,North America,Canada,Home & Living,LED Desk Lamp,Apple Pay,5,220.43,15,9.07,936.83,219.26
+ORD-10199,2024-07-31,CUST-239,Consumer,North America,USA,Home & Living,Ergonomic Desk Chair,Apple Pay,3,235.59,25,32.87,530.08,212.9
+ORD-10081,2024-08-02,CUST-205,Small Business,Europe,UK,Fashion,Classic Denim Jacket,Bank Transfer,4,84.7,20,18.83,271.04,59.26
+ORD-10972,2024-08-03,CUST-285,Corporate,Europe,Germany,Sports & Fitness,Resistance Bands Set,Debit Card,6,154.32,0,21.96,925.92,247.03
+ORD-10273,2024-08-04,CUST-200,Consumer,North America,USA,Home & Living,Espresso Machine,Apple Pay,2,283.54,5,7.33,538.73,145.14
+ORD-10768,2024-08-04,CUST-196,Small Business,Asia Pacific,Japan,Home & Living,Aroma Diffuser,Apple Pay,7,223.76,5,15.62,1488.0,444.2
+ORD-10066,2024-08-05,CUST-252,Small Business,Asia Pacific,India,Electronics,Mechanical Keyboard,Debit Card,7,428.22,20,18.13,2398.03,781.27
+ORD-10036,2024-08-05,CUST-257,Corporate,Asia Pacific,India,Electronics,4K Ultra Monitor,PayPal,7,368.59,20,18.95,2064.1,736.41
+ORD-10291,2024-08-05,CUST-234,Consumer,North America,USA,Fashion,Running Sneakers,PayPal,1,79.34,10,13.22,71.41,26.44
+ORD-10608,2024-08-05,CUST-183,Corporate,Europe,UK,Electronics,USB-C Docking Station,Debit Card,1,352.64,20,16.44,282.11,123.29
+ORD-10828,2024-08-05,CUST-131,Corporate,Latin America,Brazil,Home & Living,Standing Desk Converter,Bank Transfer,3,154.62,20,33.56,371.09,151.44
+ORD-10665,2024-08-06,CUST-338,Small Business,Europe,France,Fashion,Classic Denim Jacket,Apple Pay,5,108.49,15,17.81,461.08,83.24
+ORD-10942,2024-08-06,CUST-158,Small Business,Europe,UK,Sports & Fitness,Hydration Flask,PayPal,5,148.36,10,7.45,667.62,176.74
+ORD-10284,2024-08-08,CUST-232,Consumer,Middle East,UAE,Electronics,Mechanical Keyboard,PayPal,4,377.22,5,7.35,1433.44,274.54
+ORD-10076,2024-08-08,CUST-161,Corporate,Latin America,Brazil,Sports & Fitness,Yoga Mat Premium,Bank Transfer,7,84.84,25,24.56,445.41,175.47
+ORD-10361,2024-08-09,CUST-328,Consumer,Europe,Germany,Fashion,Leather Messenger Bag,Apple Pay,7,97.92,20,31.36,548.35,193.11
+ORD-10313,2024-08-10,CUST-128,Consumer,Latin America,Brazil,Electronics,Noise-Canceling Earbuds,Credit Card,5,314.85,15,13.88,1338.11,598.05
+ORD-10539,2024-08-10,CUST-341,Small Business,Europe,Netherlands,Home & Living,Ergonomic Desk Chair,Bank Transfer,1,76.25,20,5.74,61.0,12.9
+ORD-10343,2024-08-11,CUST-118,Corporate,Europe,France,Sports & Fitness,Cycling Helmet,Bank Transfer,7,74.04,15,21.05,440.54,159.38
+ORD-10214,2024-08-12,CUST-276,Corporate,Europe,Netherlands,Home & Living,LED Desk Lamp,Apple Pay,3,129.69,0,13.86,389.07,120.75
+ORD-10940,2024-08-12,CUST-314,Corporate,Asia Pacific,Australia,Home & Living,Aroma Diffuser,PayPal,8,121.85,0,18.35,974.8,357.88
+ORD-10183,2024-08-12,CUST-159,Consumer,Asia Pacific,Singapore,Fashion,Leather Messenger Bag,Apple Pay,4,73.76,10,33.46,265.54,52.17
+ORD-10319,2024-08-13,CUST-234,Small Business,Middle East,UAE,Home & Living,Espresso Machine,Apple Pay,2,152.54,25,15.37,228.81,56.54
+ORD-10276,2024-08-14,CUST-222,Consumer,Europe,UK,Sports & Fitness,Yoga Mat Premium,Debit Card,1,74.4,0,10.1,74.4,14.88
+ORD-10892,2024-08-15,CUST-182,Corporate,Europe,UK,Home & Living,Aroma Diffuser,Apple Pay,4,118.28,0,32.81,473.12,123.14
+ORD-10576,2024-08-15,CUST-316,Small Business,North America,Canada,Home & Living,Ergonomic Desk Chair,Apple Pay,8,151.05,10,24.55,1087.56,429.4
+ORD-10639,2024-08-18,CUST-160,Corporate,Middle East,UAE,Home & Living,Standing Desk Converter,Apple Pay,3,225.73,20,8.16,541.75,205.39
+ORD-10640,2024-08-19,CUST-232,Consumer,Europe,France,Sports & Fitness,Yoga Mat Premium,Bank Transfer,7,37.7,0,8.9,263.9,77.78
+ORD-10422,2024-08-19,CUST-193,Consumer,Europe,UK,Home & Living,Standing Desk Converter,Apple Pay,7,187.96,5,26.71,1249.93,472.79
+ORD-10526,2024-08-20,CUST-246,Small Business,North America,Canada,Sports & Fitness,Adjustable Dumbbells,Bank Transfer,3,147.43,10,26.12,398.06,139.02
+ORD-10687,2024-08-20,CUST-263,Corporate,North America,USA,Fashion,Running Sneakers,PayPal,7,48.42,15,22.14,288.1,120.99
+ORD-10685,2024-08-21,CUST-347,Small Business,Latin America,Brazil,Electronics,Mechanical Keyboard,Apple Pay,2,133.62,15,24.35,227.15,86.97
+ORD-10044,2024-08-21,CUST-297,Corporate,North America,Canada,Sports & Fitness,Yoga Mat Premium,Debit Card,7,157.28,15,27.04,935.82,304.44
+ORD-10350,2024-08-21,CUST-277,Consumer,Europe,France,Home & Living,LED Desk Lamp,Credit Card,6,104.01,5,24.23,592.86,220.72
+ORD-10675,2024-08-21,CUST-179,Small Business,Latin America,Mexico,Home & Living,Espresso Machine,PayPal,3,162.08,20,16.06,388.99,106.03
+ORD-10654,2024-08-23,CUST-252,Corporate,Europe,Netherlands,Sports & Fitness,Yoga Mat Premium,Credit Card,6,97.05,15,5.87,494.95,97.84
+ORD-10729,2024-08-23,CUST-201,Corporate,North America,USA,Sports & Fitness,Adjustable Dumbbells,Debit Card,5,102.6,20,16.48,410.4,146.84
+ORD-10094,2024-08-23,CUST-153,Small Business,Europe,UK,Home & Living,Aroma Diffuser,Credit Card,5,263.19,5,21.21,1250.15,558.36
+ORD-10624,2024-08-24,CUST-156,Small Business,Asia Pacific,India,Fashion,Leather Messenger Bag,Bank Transfer,7,128.3,25,15.81,673.58,239.91
+ORD-10015,2024-08-25,CUST-158,Small Business,Europe,Germany,Electronics,USB-C Docking Station,Credit Card,4,95.61,0,7.13,382.44,157.6
+ORD-10306,2024-08-25,CUST-228,Corporate,Asia Pacific,Australia,Electronics,Wireless Headphones,Debit Card,8,346.58,20,18.01,2218.11,713.15
+ORD-10926,2024-08-25,CUST-171,Corporate,Latin America,Mexico,Electronics,Wireless Headphones,Apple Pay,7,258.24,15,6.33,1536.53,436.16
+ORD-10308,2024-08-26,CUST-105,Small Business,Middle East,UAE,Electronics,4K Ultra Monitor,Credit Card,7,403.09,10,23.69,2539.47,985.92
+ORD-10788,2024-08-26,CUST-192,Consumer,Middle East,Saudi Arabia,Fashion,Leather Messenger Bag,Apple Pay,7,31.34,0,27.28,219.38,47.22
+ORD-10065,2024-08-26,CUST-260,Consumer,Europe,Netherlands,Electronics,Noise-Canceling Earbuds,PayPal,5,384.12,0,28.78,1920.6,376.63
+ORD-10475,2024-08-27,CUST-202,Consumer,Latin America,Brazil,Fashion,Wool Overcoat,Bank Transfer,7,28.59,5,22.73,190.12,76.0
+ORD-10353,2024-08-27,CUST-203,Small Business,Europe,Germany,Home & Living,Espresso Machine,Bank Transfer,3,135.11,5,22.69,385.06,161.99
+ORD-10268,2024-08-28,CUST-191,Consumer,North America,Canada,Fashion,Wool Overcoat,Bank Transfer,5,42.82,0,11.98,214.1,43.76
+ORD-10210,2024-08-29,CUST-151,Corporate,Middle East,UAE,Electronics,USB-C Docking Station,PayPal,8,373.12,25,30.43,2238.72,444.77
+ORD-10518,2024-08-29,CUST-213,Small Business,Middle East,Saudi Arabia,Sports & Fitness,Adjustable Dumbbells,Debit Card,4,145.74,10,12.11,524.66,126.71
+ORD-10572,2024-08-29,CUST-179,Corporate,North America,USA,Home & Living,Ergonomic Desk Chair,PayPal,1,179.99,0,30.9,179.99,54.8
+ORD-10669,2024-08-29,CUST-106,Corporate,Asia Pacific,Singapore,Fashion,Classic Denim Jacket,PayPal,6,128.23,10,12.1,692.44,221.8
+ORD-10889,2024-08-30,CUST-311,Consumer,North America,USA,Sports & Fitness,Resistance Bands Set,Bank Transfer,6,127.34,0,9.13,764.04,147.82
+ORD-10064,2024-08-31,CUST-215,Corporate,Latin America,Mexico,Electronics,Smartwatch Pro,Debit Card,8,97.05,5,28.63,737.58,316.76
+ORD-10426,2024-09-01,CUST-292,Corporate,Middle East,UAE,Fashion,Cotton Crewneck Tee,Bank Transfer,3,37.18,0,27.36,111.54,34.41
+ORD-10841,2024-09-01,CUST-241,Small Business,Europe,Netherlands,Sports & Fitness,Resistance Bands Set,Bank Transfer,5,133.82,0,29.18,669.1,300.26
+ORD-10055,2024-09-02,CUST-325,Consumer,Asia Pacific,Japan,Fashion,Classic Denim Jacket,Bank Transfer,8,92.17,5,24.38,700.49,256.7
+ORD-10222,2024-09-02,CUST-207,Corporate,Europe,Netherlands,Sports & Fitness,Adjustable Dumbbells,Apple Pay,3,111.01,15,10.61,283.08,73.03
+ORD-10175,2024-09-02,CUST-274,Small Business,North America,Canada,Home & Living,Ergonomic Desk Chair,Credit Card,1,255.48,20,21.1,204.38,47.94
+ORD-10854,2024-09-06,CUST-257,Small Business,Middle East,UAE,Fashion,Wool Overcoat,Debit Card,2,45.07,0,20.54,90.14,29.27
+ORD-10670,2024-09-06,CUST-118,Corporate,Middle East,Saudi Arabia,Electronics,USB-C Docking Station,Apple Pay,2,102.5,0,16.32,205.0,87.64
+ORD-10556,2024-09-08,CUST-335,Consumer,Europe,UK,Fashion,Leather Messenger Bag,Credit Card,3,129.96,10,15.44,350.89,153.05
+ORD-10002,2024-09-08,CUST-229,Corporate,North America,USA,Sports & Fitness,Adjustable Dumbbells,Apple Pay,5,150.46,0,9.79,752.3,289.54
+ORD-10761,2024-09-08,CUST-134,Consumer,Middle East,UAE,Home & Living,Standing Desk Converter,Apple Pay,7,59.33,10,24.49,373.78,93.59
+ORD-10922,2024-09-08,CUST-189,Corporate,Europe,France,Fashion,Wool Overcoat,Bank Transfer,2,105.36,0,21.31,210.72,52.16
+ORD-10045,2024-09-09,CUST-304,Corporate,Europe,Netherlands,Fashion,Leather Messenger Bag,Bank Transfer,1,70.55,25,17.13,52.91,19.23
+ORD-10564,2024-09-09,CUST-270,Corporate,Latin America,Mexico,Home & Living,Aroma Diffuser,Credit Card,2,105.18,15,33.27,178.81,43.33
+ORD-10137,2024-09-09,CUST-214,Corporate,Latin America,Brazil,Sports & Fitness,Resistance Bands Set,Credit Card,6,120.3,15,34.4,613.53,155.92
+ORD-10169,2024-09-09,CUST-245,Small Business,North America,Canada,Home & Living,LED Desk Lamp,Apple Pay,8,271.21,5,19.04,2061.2,844.65
+ORD-10323,2024-09-10,CUST-123,Corporate,Middle East,Saudi Arabia,Fashion,Cotton Crewneck Tee,Debit Card,1,126.16,15,28.02,107.24,28.92
+ORD-10438,2024-09-11,CUST-332,Small Business,Asia Pacific,India,Fashion,Running Sneakers,PayPal,4,132.14,10,31.96,475.7,174.06
+ORD-10760,2024-09-12,CUST-190,Consumer,Middle East,UAE,Electronics,USB-C Docking Station,PayPal,1,141.47,10,11.46,127.32,52.35
+ORD-10415,2024-09-12,CUST-156,Consumer,North America,USA,Fashion,Cotton Crewneck Tee,Bank Transfer,1,66.92,25,17.48,50.19,21.75
+ORD-10441,2024-09-12,CUST-168,Small Business,Middle East,UAE,Fashion,Running Sneakers,Credit Card,6,30.33,15,30.38,154.68,33.44
+ORD-10877,2024-09-14,CUST-235,Consumer,Latin America,Mexico,Electronics,USB-C Docking Station,PayPal,2,153.44,0,22.26,306.88,129.4
+ORD-10117,2024-09-16,CUST-233,Corporate,Europe,France,Home & Living,Standing Desk Converter,Bank Transfer,6,216.51,0,24.42,1299.06,510.65
+ORD-10171,2024-09-17,CUST-144,Corporate,Latin America,Mexico,Home & Living,Ergonomic Desk Chair,Credit Card,3,295.24,15,12.44,752.86,201.29
+ORD-10522,2024-09-18,CUST-343,Small Business,Europe,UK,Electronics,Mechanical Keyboard,Bank Transfer,4,294.8,15,26.9,1002.32,255.97
+ORD-10025,2024-09-18,CUST-177,Consumer,Middle East,UAE,Home & Living,Ergonomic Desk Chair,Debit Card,2,271.33,25,13.17,407.0,134.05
+ORD-10213,2024-09-19,CUST-265,Consumer,North America,Canada,Home & Living,LED Desk Lamp,Credit Card,2,107.27,20,21.74,171.63,65.5
+ORD-10991,2024-09-20,CUST-267,Small Business,North America,Canada,Home & Living,Aroma Diffuser,Debit Card,1,284.54,15,25.03,241.86,70.73
+ORD-10684,2024-09-22,CUST-111,Corporate,Middle East,UAE,Home & Living,Aroma Diffuser,PayPal,1,203.66,10,30.55,183.29,76.19
+ORD-10982,2024-09-22,CUST-288,Consumer,Latin America,Brazil,Fashion,Classic Denim Jacket,PayPal,2,140.84,20,9.94,225.34,49.47
+ORD-10194,2024-09-24,CUST-115,Consumer,Middle East,Saudi Arabia,Sports & Fitness,Yoga Mat Premium,Apple Pay,7,26.84,20,21.07,150.3,56.36
+ORD-10508,2024-09-25,CUST-335,Consumer,North America,USA,Fashion,Classic Denim Jacket,Credit Card,5,126.7,0,10.12,633.5,192.06
+ORD-10344,2024-09-25,CUST-264,Small Business,North America,USA,Electronics,4K Ultra Monitor,Credit Card,5,369.02,10,13.45,1660.59,570.87
+ORD-10431,2024-09-27,CUST-342,Small Business,Europe,France,Electronics,4K Ultra Monitor,Credit Card,5,241.02,0,27.2,1205.1,324.9
+ORD-10430,2024-09-30,CUST-213,Consumer,Europe,Netherlands,Electronics,Smartwatch Pro,Debit Card,3,357.94,0,6.64,1073.82,225.87
+ORD-10571,2024-10-02,CUST-295,Corporate,Asia Pacific,India,Electronics,Mechanical Keyboard,Debit Card,7,203.48,25,12.04,1068.27,262.73
+ORD-10408,2024-10-02,CUST-294,Small Business,North America,USA,Home & Living,Aroma Diffuser,Apple Pay,2,72.72,5,21.75,138.17,36.69
+ORD-10481,2024-10-02,CUST-200,Corporate,Asia Pacific,India,Sports & Fitness,Cycling Helmet,Apple Pay,4,127.69,15,21.66,434.15,94.45
+ORD-10079,2024-10-03,CUST-181,Small Business,Latin America,Brazil,Electronics,Smartwatch Pro,Debit Card,4,353.77,15,27.81,1202.82,534.23
+ORD-10149,2024-10-04,CUST-227,Consumer,Middle East,Saudi Arabia,Home & Living,LED Desk Lamp,Bank Transfer,5,157.92,25,18.19,592.2,116.18
+ORD-10527,2024-10-04,CUST-100,Consumer,North America,Canada,Home & Living,Espresso Machine,Debit Card,7,235.75,25,21.27,1237.69,538.95
+ORD-10848,2024-10-04,CUST-295,Consumer,Asia Pacific,Australia,Home & Living,Aroma Diffuser,Credit Card,1,153.73,25,9.59,115.3,44.73
+ORD-10457,2024-10-06,CUST-246,Small Business,Middle East,UAE,Sports & Fitness,Hydration Flask,Debit Card,7,119.37,10,22.25,752.03,188.09
+ORD-10159,2024-10-06,CUST-178,Small Business,North America,Canada,Home & Living,Espresso Machine,PayPal,1,191.72,5,26.64,182.13,58.56
+ORD-10310,2024-10-07,CUST-152,Small Business,North America,Canada,Sports & Fitness,Yoga Mat Premium,Apple Pay,5,121.53,25,29.92,455.74,98.91
+ORD-10591,2024-10-07,CUST-147,Consumer,Latin America,Brazil,Electronics,Mechanical Keyboard,Debit Card,6,288.81,0,20.49,1732.86,385.76
+ORD-10999,2024-10-08,CUST-268,Small Business,Europe,Netherlands,Fashion,Cotton Crewneck Tee,Debit Card,6,93.29,25,6.02,419.81,142.26
+ORD-10303,2024-10-08,CUST-185,Corporate,Europe,France,Electronics,Wireless Headphones,Debit Card,4,359.25,5,9.75,1365.15,458.14
+ORD-10909,2024-10-08,CUST-255,Small Business,North America,USA,Home & Living,Ergonomic Desk Chair,Bank Transfer,7,74.64,25,10.99,391.86,131.24
+ORD-10966,2024-10-08,CUST-158,Corporate,Europe,Germany,Home & Living,Ergonomic Desk Chair,Bank Transfer,3,252.76,10,7.3,682.45,281.67
+ORD-10504,2024-10-09,CUST-114,Corporate,North America,Canada,Home & Living,Ergonomic Desk Chair,Debit Card,4,85.92,0,24.82,343.68,151.64
+ORD-10512,2024-10-09,CUST-316,Corporate,Middle East,Saudi Arabia,Fashion,Classic Denim Jacket,Credit Card,1,20.94,0,22.81,20.94,7.76
+ORD-10487,2024-10-10,CUST-275,Small Business,Middle East,Saudi Arabia,Electronics,4K Ultra Monitor,Credit Card,8,242.53,15,14.95,1649.2,552.43
+ORD-10985,2024-10-10,CUST-342,Corporate,Asia Pacific,Australia,Sports & Fitness,Hydration Flask,Bank Transfer,5,131.23,20,24.56,524.92,222.01
+ORD-10955,2024-10-11,CUST-342,Corporate,North America,USA,Fashion,Wool Overcoat,PayPal,4,54.49,5,10.61,207.06,64.36
+ORD-10346,2024-10-11,CUST-175,Small Business,Europe,France,Home & Living,Ergonomic Desk Chair,Apple Pay,3,72.04,0,16.82,216.12,72.32
+ORD-10637,2024-10-12,CUST-293,Small Business,Europe,Germany,Electronics,Noise-Canceling Earbuds,Debit Card,4,386.25,10,34.61,1390.5,523.05
+ORD-10492,2024-10-14,CUST-212,Small Business,Europe,UK,Home & Living,Ergonomic Desk Chair,Debit Card,2,53.66,15,14.04,91.22,26.24
+ORD-10089,2024-10-15,CUST-197,Consumer,Asia Pacific,Japan,Fashion,Cotton Crewneck Tee,Apple Pay,6,138.98,5,24.06,792.19,281.12
+ORD-10143,2024-10-15,CUST-282,Consumer,Europe,France,Fashion,Classic Denim Jacket,PayPal,4,122.75,0,22.17,491.0,136.22
+ORD-10297,2024-10-17,CUST-170,Consumer,Asia Pacific,Singapore,Home & Living,Standing Desk Converter,PayPal,4,273.92,20,14.59,876.54,253.41
+ORD-10320,2024-10-18,CUST-273,Small Business,Latin America,Brazil,Electronics,Wireless Headphones,PayPal,8,393.71,5,19.75,2992.2,599.08
+ORD-10281,2024-10-19,CUST-123,Corporate,Middle East,Saudi Arabia,Fashion,Leather Messenger Bag,Debit Card,3,77.95,10,12.9,210.47,62.87
+ORD-10912,2024-10-19,CUST-345,Small Business,Middle East,Saudi Arabia,Fashion,Running Sneakers,Bank Transfer,6,66.34,20,29.05,318.43,130.69
+ORD-10995,2024-10-19,CUST-274,Corporate,Europe,UK,Home & Living,Ergonomic Desk Chair,Debit Card,3,112.53,20,11.78,270.07,71.62
+ORD-10589,2024-10-21,CUST-325,Corporate,Latin America,Brazil,Home & Living,Ergonomic Desk Chair,Bank Transfer,7,280.89,10,31.3,1769.61,661.29
+ORD-10115,2024-10-22,CUST-119,Small Business,North America,Canada,Sports & Fitness,Hydration Flask,Credit Card,8,165.9,20,14.65,1061.76,377.98
+ORD-10547,2024-10-22,CUST-225,Corporate,Europe,Germany,Electronics,4K Ultra Monitor,Credit Card,6,290.8,20,12.74,1395.84,415.6
+ORD-10198,2024-10-22,CUST-211,Consumer,Asia Pacific,Japan,Electronics,Smartwatch Pro,Apple Pay,8,173.02,0,13.41,1384.16,504.94
+ORD-10660,2024-10-23,CUST-134,Small Business,North America,Canada,Electronics,Wireless Headphones,PayPal,7,281.2,25,27.87,1476.3,546.07
+ORD-10264,2024-10-24,CUST-162,Corporate,Asia Pacific,India,Sports & Fitness,Hydration Flask,Credit Card,2,68.37,5,24.28,129.9,38.09
+ORD-10342,2024-10-24,CUST-211,Small Business,North America,USA,Electronics,Mechanical Keyboard,Debit Card,1,103.26,0,12.56,103.26,23.55
+ORD-10592,2024-10-26,CUST-348,Corporate,Europe,Netherlands,Home & Living,LED Desk Lamp,PayPal,5,85.1,20,28.99,340.4,137.26
+ORD-10666,2024-10-27,CUST-272,Corporate,North America,Canada,Sports & Fitness,Cycling Helmet,Credit Card,8,101.81,20,31.51,651.58,250.82
+ORD-10442,2024-10-27,CUST-220,Corporate,Asia Pacific,Australia,Sports & Fitness,Cycling Helmet,PayPal,3,54.96,0,34.06,164.88,47.87
+ORD-10127,2024-10-27,CUST-125,Corporate,Asia Pacific,Australia,Fashion,Classic Denim Jacket,Bank Transfer,3,118.65,15,5.16,302.56,91.11
+ORD-10727,2024-10-28,CUST-114,Corporate,Latin America,Mexico,Fashion,Running Sneakers,Credit Card,6,102.02,25,24.97,459.09,86.14
+ORD-10751,2024-10-28,CUST-150,Consumer,North America,Canada,Electronics,USB-C Docking Station,Bank Transfer,7,328.19,5,7.88,2182.46,938.49
+ORD-10758,2024-10-30,CUST-152,Consumer,Europe,Germany,Home & Living,Ergonomic Desk Chair,Credit Card,5,134.53,20,34.31,538.12,121.79
+ORD-10810,2024-10-31,CUST-135,Corporate,Europe,Netherlands,Sports & Fitness,Hydration Flask,Apple Pay,8,107.53,5,22.43,817.23,231.97
+ORD-10119,2024-11-02,CUST-179,Small Business,Latin America,Brazil,Electronics,4K Ultra Monitor,Bank Transfer,6,379.01,25,33.41,1705.55,630.65
+ORD-10250,2024-11-02,CUST-241,Corporate,Latin America,Brazil,Home & Living,Aroma Diffuser,Debit Card,5,254.76,20,20.06,1019.04,286.0
+ORD-10903,2024-11-03,CUST-266,Consumer,Middle East,Saudi Arabia,Electronics,4K Ultra Monitor,Bank Transfer,8,175.22,5,30.68,1331.67,368.33
+ORD-10132,2024-11-03,CUST-161,Corporate,North America,Canada,Fashion,Classic Denim Jacket,Apple Pay,6,125.76,5,25.54,716.83,289.75
+ORD-10104,2024-11-04,CUST-244,Consumer,Latin America,Brazil,Fashion,Classic Denim Jacket,Apple Pay,4,68.91,15,16.1,234.29,63.74
+ORD-10797,2024-11-04,CUST-237,Small Business,Middle East,UAE,Sports & Fitness,Resistance Bands Set,Apple Pay,4,151.61,5,11.12,576.12,154.14
+ORD-10254,2024-11-04,CUST-100,Small Business,Latin America,Mexico,Electronics,Smartwatch Pro,PayPal,7,256.97,0,9.27,1798.79,796.13
+ORD-10097,2024-11-05,CUST-300,Consumer,Middle East,Saudi Arabia,Sports & Fitness,Yoga Mat Premium,Bank Transfer,7,91.07,0,32.29,637.49,199.13
+ORD-10148,2024-11-05,CUST-143,Consumer,Middle East,Saudi Arabia,Electronics,Wireless Headphones,Credit Card,5,317.43,20,24.17,1269.72,371.37
+ORD-10931,2024-11-06,CUST-168,Small Business,Asia Pacific,Japan,Electronics,4K Ultra Monitor,Debit Card,5,392.09,15,18.2,1666.38,508.14
+ORD-10365,2024-11-06,CUST-223,Corporate,Europe,Germany,Sports & Fitness,Hydration Flask,Debit Card,1,133.13,15,29.07,113.16,27.38
+ORD-10634,2024-11-07,CUST-109,Corporate,Europe,Germany,Home & Living,LED Desk Lamp,Apple Pay,5,227.6,10,5.24,1024.2,435.79
+ORD-10362,2024-11-08,CUST-286,Small Business,Asia Pacific,Japan,Fashion,Cotton Crewneck Tee,Bank Transfer,8,42.17,15,28.84,286.76,98.14
+ORD-10392,2024-11-08,CUST-160,Corporate,Asia Pacific,Japan,Fashion,Running Sneakers,Credit Card,2,28.29,15,5.79,48.09,15.78
+ORD-10615,2024-11-08,CUST-129,Consumer,Latin America,Brazil,Fashion,Cotton Crewneck Tee,Credit Card,7,133.98,10,26.72,844.07,223.48
+ORD-10587,2024-11-09,CUST-108,Corporate,North America,USA,Home & Living,Espresso Machine,Debit Card,6,274.82,25,31.01,1236.69,263.36
+ORD-10709,2024-11-09,CUST-264,Consumer,North America,Canada,Home & Living,LED Desk Lamp,Apple Pay,1,52.65,15,32.86,44.75,17.32
+ORD-10232,2024-11-11,CUST-262,Corporate,Asia Pacific,Japan,Sports & Fitness,Adjustable Dumbbells,PayPal,8,66.62,10,22.34,479.66,130.08
+ORD-10473,2024-11-12,CUST-146,Consumer,Asia Pacific,Singapore,Sports & Fitness,Cycling Helmet,Credit Card,8,42.5,15,10.12,289.0,88.01
+ORD-10418,2024-11-12,CUST-279,Small Business,Latin America,Brazil,Fashion,Running Sneakers,Bank Transfer,6,105.48,20,18.29,506.3,227.62
+ORD-10029,2024-11-13,CUST-163,Small Business,North America,Canada,Sports & Fitness,Hydration Flask,PayPal,4,159.01,5,5.74,604.24,252.56
+ORD-10035,2024-11-13,CUST-179,Small Business,Latin America,Mexico,Sports & Fitness,Resistance Bands Set,PayPal,4,90.17,15,32.08,306.58,111.25
+ORD-10911,2024-11-15,CUST-345,Consumer,North America,USA,Electronics,Smartwatch Pro,Debit Card,7,285.95,0,25.47,2001.65,544.43
+ORD-10356,2024-11-15,CUST-110,Corporate,Europe,France,Sports & Fitness,Cycling Helmet,Credit Card,1,176.99,10,34.05,159.29,33.11
+ORD-10374,2024-11-16,CUST-190,Consumer,Latin America,Mexico,Fashion,Wool Overcoat,Credit Card,2,91.45,25,32.45,137.18,55.43
+ORD-10616,2024-11-17,CUST-293,Consumer,Latin America,Mexico,Home & Living,Aroma Diffuser,PayPal,2,234.23,20,25.2,374.77,93.7
+ORD-10034,2024-11-17,CUST-275,Small Business,Europe,France,Sports & Fitness,Yoga Mat Premium,Debit Card,6,127.83,0,14.01,766.98,287.11
+ORD-10742,2024-11-17,CUST-343,Small Business,North America,USA,Sports & Fitness,Yoga Mat Premium,Debit Card,4,169.43,20,15.3,542.18,107.06
+ORD-10600,2024-11-18,CUST-201,Consumer,Asia Pacific,Australia,Electronics,Noise-Canceling Earbuds,Debit Card,3,261.42,10,8.96,705.83,294.35
+ORD-10961,2024-11-22,CUST-166,Corporate,Asia Pacific,India,Sports & Fitness,Cycling Helmet,Bank Transfer,5,166.42,10,11.57,748.89,232.97
+ORD-10495,2024-11-22,CUST-218,Corporate,Europe,UK,Home & Living,Aroma Diffuser,Apple Pay,1,214.93,0,7.93,214.93,39.38
+ORD-10037,2024-11-22,CUST-213,Corporate,Europe,Netherlands,Fashion,Classic Denim Jacket,Apple Pay,6,32.14,5,11.74,183.2,66.26
+ORD-10230,2024-11-23,CUST-315,Small Business,Latin America,Mexico,Fashion,Wool Overcoat,Debit Card,7,68.77,0,31.4,481.39,169.01
+ORD-10510,2024-11-25,CUST-288,Small Business,Latin America,Mexico,Electronics,USB-C Docking Station,Apple Pay,3,192.2,5,22.79,547.77,211.63
+ORD-10622,2024-11-25,CUST-256,Consumer,Latin America,Brazil,Electronics,Noise-Canceling Earbuds,Bank Transfer,6,280.24,10,17.51,1513.3,637.22
+ORD-10774,2024-11-26,CUST-186,Corporate,Europe,Germany,Home & Living,Standing Desk Converter,Debit Card,5,95.4,25,16.81,357.75,125.36
+ORD-10888,2024-11-28,CUST-219,Corporate,Europe,France,Fashion,Leather Messenger Bag,Debit Card,2,123.97,0,11.52,247.94,75.01
+ORD-10936,2024-11-28,CUST-195,Consumer,Latin America,Brazil,Sports & Fitness,Resistance Bands Set,Credit Card,6,119.08,10,17.24,643.03,173.9
+ORD-10780,2024-11-29,CUST-226,Small Business,Europe,France,Sports & Fitness,Hydration Flask,Bank Transfer,3,42.01,0,8.78,126.03,49.66
+ORD-10494,2024-11-30,CUST-235,Small Business,North America,USA,Home & Living,LED Desk Lamp,Debit Card,6,110.28,0,22.53,661.68,164.72
+ORD-10006,2024-11-30,CUST-339,Corporate,North America,USA,Fashion,Running Sneakers,Bank Transfer,5,148.64,25,11.59,557.4,203.9

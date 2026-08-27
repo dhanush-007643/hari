@@ -86,6 +86,7 @@ class XAIEngine:
                 {
                     "feature": self.feature_names[i],
                     "value": round(float(instance_shap[i]), 4),
+                    "contribution": round(float(instance_shap[i]), 4),
                     "input_value": float(X_sample[0][i]) if i < X_sample.shape[1] else 0.0,
                 }
                 for i in range(n_features)
@@ -165,7 +166,7 @@ class XAIEngine:
                 imp = model.feature_importances_
                 n = min(len(imp), len(self.feature_names))
                 fi = sorted(
-                    [{"feature": self.feature_names[i], "shap_value": round(float(imp[i]), 4), "direction": "positive"} for i in range(n)],
+                    [{"feature": self.feature_names[i], "shap_value": round(float(imp[i]), 4), "value": round(float(imp[i]), 4), "contribution": round(float(imp[i]), 4), "direction": "positive"} for i in range(n)],
                     key=lambda x: x["shap_value"], reverse=True
                 )
                 return {"method": "Feature Importance", "feature_importance": fi[:15], "waterfall": fi[:10], "summary": self._shap_narrative(fi[:5])}
@@ -205,11 +206,29 @@ class XAIEngine:
         self._load_model()
         results = []
 
+        def _align_instance(inst: Dict[str, Any]) -> np.ndarray:
+            row = []
+            for f in self.feature_names:
+                val = inst.get(f, None)
+                if val is None or val == "" or (isinstance(val, float) and np.isnan(val)):
+                    val = np.nan
+                elif isinstance(val, str):
+                    val_str = val.strip()
+                    if val_str == "":
+                        val = np.nan
+                    else:
+                        try:
+                            val = float(val_str)
+                        except ValueError:
+                            val = val_str
+                row.append(val)
+            return np.array([row], dtype=object)
+
         # Base prediction
-        base_df = pd.DataFrame([base_instance])
+        X_base = _align_instance(base_instance)
         try:
-            base_pred = self.pipeline.predict(base_df)[0]
-            base_conf = float(max(self.pipeline.predict_proba(base_df)[0])) if hasattr(self.pipeline, "predict_proba") else 0.8
+            base_pred = self.pipeline.predict(X_base)[0]
+            base_conf = float(max(self.pipeline.predict_proba(X_base)[0])) if hasattr(self.pipeline, "predict_proba") else 0.85
         except Exception as e:
             logger.exception(f"Base prediction in what-if analysis failed: {e}")
             base_pred = 0
@@ -225,10 +244,10 @@ class XAIEngine:
         for mod in modifications:
             modified = base_instance.copy()
             modified[mod["feature"]] = mod["value"]
-            mod_df = pd.DataFrame([modified])
+            X_mod = _align_instance(modified)
             try:
-                pred = self.pipeline.predict(mod_df)[0]
-                conf = float(max(self.pipeline.predict_proba(mod_df)[0])) if hasattr(self.pipeline, "predict_proba") else 0.8
+                pred = self.pipeline.predict(X_mod)[0]
+                conf = float(max(self.pipeline.predict_proba(X_mod)[0])) if hasattr(self.pipeline, "predict_proba") else 0.85
             except Exception as e:
                 logger.exception(f"Prediction for what-if scenario {mod} failed: {e}")
                 pred = 0

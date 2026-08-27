@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
-import { Table as TableIcon, Clock, Save, Star, ChevronDown, CheckCircle2, AlertCircle } from 'lucide-react';
+import { Table as TableIcon, Clock, Save, Star, ChevronDown, CheckCircle2, AlertCircle, Database, Sparkles, Code } from 'lucide-react';
 import NLQInput from '../components/NLQInput';
 import SQLEditor from '../components/SQLEditor';
 import api from '../api/axios';
@@ -13,6 +13,13 @@ const SQLPlaygroundPage = () => {
   const [history, setHistory] = useState([]);
   const [showHistory, setShowHistory] = useState(false);
   const [activeTab, setActiveTab] = useState('results'); // results, explanation, nlp
+
+  const sampleQueries = [
+    { label: "Sales Orders", sql: "SELECT * FROM sales_orders LIMIT 10;" },
+    { label: "Products Catalog", sql: "SELECT * FROM products;" },
+    { label: "Revenue by Region", sql: "SELECT region, SUM(total_amount) AS total_revenue FROM sales_orders GROUP BY region;" },
+    { label: "Employees & Depts", sql: "SELECT e.first_name, e.last_name, d.department_name, e.salary FROM employees e JOIN departments d ON e.department_id = d.department_id;" }
+  ];
 
   // Check if passed a query from Navbar search
   useEffect(() => {
@@ -60,12 +67,14 @@ const SQLPlaygroundPage = () => {
       }));
       toast.success('Query executed');
     } catch (e) {
+      const errorMsg = e.response?.data?.detail || 'SQL Execution failed';
       setResult(prev => ({
         ...prev,
         generated_sql: sql,
-        error: e.response?.data?.detail || 'SQL Execution failed'
+        results: null,
+        error: errorMsg
       }));
-      toast.error('SQL Execution failed');
+      toast.error(errorMsg);
     } finally {
       setLoading(false);
     }
@@ -90,7 +99,7 @@ const SQLPlaygroundPage = () => {
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         <div>
           <h2>SQL Playground</h2>
-          <p style={{ color: 'var(--text-secondary)' }}>Convert natural language to SQL and explore your data</p>
+          <p style={{ color: 'var(--text-secondary)' }}>Convert natural language to SQL and explore your PostgreSQL database</p>
         </div>
         <button 
           className="btn btn-outline" 
@@ -98,6 +107,23 @@ const SQLPlaygroundPage = () => {
         >
           <Clock size={18} /> {showHistory ? 'Hide History' : 'Query History'}
         </button>
+      </div>
+
+      {/* Quick Starter Queries */}
+      <div style={{ display: 'flex', gap: '8px', alignItems: 'center', flexWrap: 'wrap' }}>
+        <span style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', display: 'flex', alignItems: 'center', gap: '4px' }}>
+          <Sparkles size={14} color="var(--primary)" /> Quick Queries:
+        </span>
+        {sampleQueries.map((item, idx) => (
+          <button
+            key={idx}
+            onClick={() => handleSQLExecute(item.sql)}
+            className="btn btn-outline"
+            style={{ padding: '4px 10px', fontSize: '0.8rem', borderRadius: '16px' }}
+          >
+            <Code size={12} style={{ marginRight: '4px' }} /> {item.label}
+          </button>
+        ))}
       </div>
 
       {showHistory && (
@@ -127,7 +153,7 @@ const SQLPlaygroundPage = () => {
       )}
 
       {/* Input Section */}
-      <div style={{ padding: '20px 0' }}>
+      <div style={{ padding: '10px 0' }}>
         <NLQInput 
           onQuerySubmit={handleNLQSubmit} 
           disabled={loading} 
@@ -172,10 +198,10 @@ const SQLPlaygroundPage = () => {
                       Intent: {result.intent}
                     </div>
                     <div style={{ background: result.confidence > 0.8 ? 'rgba(5, 205, 153, 0.1)' : 'rgba(255, 206, 32, 0.1)', color: result.confidence > 0.8 ? 'var(--success)' : 'var(--warning)', padding: '4px 12px', borderRadius: '12px', fontSize: '0.85rem', fontWeight: 600 }}>
-                      Confidence: {Math.round(result.confidence * 100)}%
+                      Confidence: {Math.round((result.confidence || 0.9) * 100)}%
                     </div>
                   </div>
-                  <p>{result.explanation}</p>
+                  <p>{result.explanation || "Query processed successfully."}</p>
                 </div>
               )}
 
@@ -196,7 +222,7 @@ const SQLPlaygroundPage = () => {
             <h3 style={{ fontSize: '1.1rem', margin: 0, display: 'flex', alignItems: 'center', gap: '8px' }}>
               <TableIcon size={20} color="var(--primary)" /> Query Results
             </h3>
-            {result && !result.error && (
+            {result && !result.error && result.results && (
               <div style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
                 <span style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>
                   {result.results?.row_count || 0} rows in {result.results?.execution_time_ms || 0}ms
@@ -215,8 +241,11 @@ const SQLPlaygroundPage = () => {
           ) : result?.error ? (
             <div style={{ flex: 1, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', color: 'var(--danger)', background: 'rgba(238, 93, 80, 0.05)', borderRadius: '12px', border: '1px solid rgba(238, 93, 80, 0.2)', padding: '24px', textAlign: 'center' }}>
               <AlertCircle size={48} style={{ marginBottom: '16px' }} />
-              <h4 style={{ margin: 0, marginBottom: '8px' }}>Execution Failed</h4>
-              <p style={{ fontSize: '0.9rem' }}>{result.error}</p>
+              <h4 style={{ margin: 0, marginBottom: '8px' }}>Query Error</h4>
+              <p style={{ fontSize: '0.9rem', maxWidth: '500px', marginBottom: '16px' }}>{result.error}</p>
+              <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>
+                Tip: You can edit your SQL query in the editor on the left and click <strong>Execute</strong>, or click one of the quick queries above.
+              </p>
             </div>
           ) : result?.results?.rows?.length > 0 ? (
             <div style={{ flex: 1, overflow: 'auto', borderRadius: '8px', border: '1px solid var(--border-glass)' }}>

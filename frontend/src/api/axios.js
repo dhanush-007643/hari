@@ -1,8 +1,20 @@
 import baseAxios from 'axios';
 import { toast } from 'react-hot-toast';
 
+const apiUrl = import.meta.env.VITE_API_URL;
+if (!apiUrl && import.meta.env.PROD) {
+  console.error("CRITICAL ERROR: VITE_API_URL is not set! Requests will go to Vercel and fail with 405 Method Not Allowed.");
+}
+let baseURL = '/api/v1';
+if (apiUrl) {
+  // Strip trailing slashes
+  const cleanUrl = apiUrl.replace(/\/+$/, '');
+  // Append /api/v1 only if they didn't already include it
+  baseURL = cleanUrl.endsWith('/api/v1') ? cleanUrl : `${cleanUrl}/api/v1`;
+}
+
 const api = baseAxios.create({
-  baseURL: import.meta.env.VITE_API_URL ? `${import.meta.env.VITE_API_URL}/api/v1` : '/api/v1',
+  baseURL,
   headers: {
     'Content-Type': 'application/json',
   },
@@ -37,7 +49,7 @@ api.interceptors.response.use(
         }
         
         // Try to refresh token
-        const res = await baseAxios.post('/api/v1/auth/refresh', null, {
+        const res = await baseAxios.post(`${baseURL}/auth/refresh`, null, {
           params: { token: refreshToken }
         });
         
@@ -57,7 +69,20 @@ api.interceptors.response.use(
       }
     }
     
-    const errorMsg = error.response?.data?.detail || error.message || "An unexpected error occurred";
+    let errorMsg = "An unexpected error occurred";
+    if (error.response?.data?.detail) {
+      const detail = error.response.data.detail;
+      if (Array.isArray(detail)) {
+        errorMsg = detail.map(d => (d.msg || (typeof d === 'string' ? d : JSON.stringify(d)))).join(', ');
+      } else if (typeof detail === 'string') {
+        errorMsg = detail;
+      } else {
+        errorMsg = JSON.stringify(detail);
+      }
+    } else if (error.message) {
+      errorMsg = error.message;
+    }
+
     if (error.response?.status !== 401) {
       toast.error(errorMsg);
     }

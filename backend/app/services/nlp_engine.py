@@ -344,12 +344,12 @@ class NLPEngine:
     def _extract_time_filter(self, query: str) -> Optional[str]:
         """Extract time period filter from the query."""
         for pattern, sql_expr in TIME_PATTERNS.items():
-            if isinstance(pattern, str) and pattern in query:
-                return sql_expr
-            elif hasattr(pattern, 'match'):
-                match = re.search(pattern, query)
+            if "(" in pattern:
+                match = re.search(pattern, query, re.IGNORECASE)
                 if match:
                     return sql_expr.format(*match.groups())
+            elif pattern in query:
+                return sql_expr
         return None
 
     def _detect_aggregation(self, query: str) -> Optional[str]:

@@ -28,9 +28,14 @@ const useAuthStore = create((set, get) => ({
       return { success: true };
     } catch (error) {
       console.error('Login error:', error);
+      let errorMsg = 'Invalid credentials';
+      if (error.response?.data?.detail) {
+        const detail = error.response.data.detail;
+        errorMsg = Array.isArray(detail) ? detail.map(d => d.msg || d).join(', ') : (typeof detail === 'string' ? detail : JSON.stringify(detail));
+      }
       return { 
         success: false, 
-        error: error.response?.data?.detail || 'Invalid credentials' 
+        error: errorMsg 
       };
     }
   },
@@ -41,9 +46,14 @@ const useAuthStore = create((set, get) => ({
       // Auto login after registration
       return await get().login(userData.email, userData.password);
     } catch (error) {
+      let errorMsg = 'Registration failed';
+      if (error.response?.data?.detail) {
+        const detail = error.response.data.detail;
+        errorMsg = Array.isArray(detail) ? detail.map(d => d.msg || d).join(', ') : (typeof detail === 'string' ? detail : JSON.stringify(detail));
+      }
       return { 
         success: false, 
-        error: error.response?.data?.detail || 'Registration failed' 
+        error: errorMsg 
       };
     }
   },

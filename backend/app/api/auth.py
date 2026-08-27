@@ -128,24 +128,48 @@ async def register(user_data: UserRegister, db: AsyncSession = Depends(get_db)):
 
 @router.post("/login", response_model=TokenResponse)
 async def login(
-    form_data: OAuth2PasswordRequestForm = Depends(),
+    request: Request,
     db: AsyncSession = Depends(get_db),
-    request: Request = None
 ):
-    """Authenticate user and return JWT tokens."""
+    """Authenticate user and return JWT tokens (supports both Form & JSON)."""
+    username_input = None
+    password_input = None
+
+    content_type = request.headers.get("content-type", "")
+    if "application/json" in content_type:
+        try:
+            body = await request.json()
+            username_input = body.get("username") or body.get("email")
+            password_input = body.get("password")
+        except Exception:
+            pass
+    else:
+        try:
+            form = await request.form()
+            username_input = form.get("username") or form.get("email")
+            password_input = form.get("password")
+        except Exception:
+            pass
+
+    if not username_input or not password_input:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="Username/Email and Password are required"
+        )
+
     # Support login by email OR username
     result = await db.execute(
         select(User).where(
-            (User.email == form_data.username) | (User.username == form_data.username)
+            (User.email == str(username_input).strip()) | (User.username == str(username_input).strip())
         )
     )
     user = result.scalar_one_or_none()
 
-    if not user or not verify_password(form_data.password, user.hashed_password):
-        raise HTTPException(status_code=401, detail="Invalid credentials")
+    if not user or not verify_password(str(password_input), user.hashed_password):
+        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid credentials")
 
     if not user.is_active:
-        raise HTTPException(status_code=403, detail="Account is disabled")
+        raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail="Account is disabled")
 
     # Update last login
     await db.execute(
@@ -158,13 +182,14 @@ async def login(
     refresh_token = create_refresh_token(token_data)
 
     # Log activity
+    client_ip = request.client.host if request and request.client else "unknown"
     db.add(ActivityLog(
         user_id=user.id, action_type="login",
-        description=f"User logged in from {request.client.host if request else 'unknown'}"
+        description=f"User logged in from {client_ip}"
     ))
     db.add(AuditLog(
         user_id=user.id, action="LOGIN",
-        ip_address=request.client.host if request else None
+        ip_address=client_ip
     ))
     await db.commit()
 

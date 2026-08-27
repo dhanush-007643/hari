@@ -277,10 +277,25 @@ class MLPipeline:
         if not self.pipeline:
             self.pipeline = joblib.load(self.model_path)
 
-        df_input = pd.DataFrame([input_data])
-        # Keep only known features
-        available_feats = [f for f in self.feature_names if f in df_input.columns]
-        X = df_input[available_feats].values
+        # Align inputs with expected feature_names in exact order and handle empty strings
+        input_dict = {}
+        for feat in self.feature_names:
+            val = input_data.get(feat, None)
+            if val is None or val == "" or (isinstance(val, float) and np.isnan(val)):
+                val = np.nan
+            elif isinstance(val, str):
+                val_str = val.strip()
+                if val_str == "":
+                    val = np.nan
+                else:
+                    try:
+                        val = float(val_str)
+                    except ValueError:
+                        val = val_str
+            input_dict[feat] = [val]
+
+        df_input = pd.DataFrame(input_dict)
+        X = df_input.values
 
         prediction = self.pipeline.predict(X)[0]
 
@@ -290,7 +305,7 @@ class MLPipeline:
         if hasattr(self.pipeline, "predict_proba"):
             try:
                 proba = self.pipeline.predict_proba(X)[0]
-                result["probabilities"] = proba.tolist()
+                result["probabilities"] = [float(p) for p in proba]
                 result["confidence"] = float(max(proba))
                 if self.label_encoder:
                     result["class_labels"] = self.label_encoder.classes_.tolist()

@@ -1,0 +1,801 @@
+employee_id,department,job_role,gender,age,years_at_company,monthly_salary,annual_salary,performance_rating,work_life_balance,overtime,training_hours,job_satisfaction,distance_from_home_km,attrition
+EMP-30001,Engineering,Software Engineer,Female,36,1,5823,69878,2,2,Yes,33,4,35,Yes
+EMP-30002,Product,Product Manager,Male,48,12,10455,125466,3,3,No,25,4,27,No
+EMP-30003,Product,UX Designer,Male,41,11,13431,161175,3,3,Yes,43,5,7,Yes
+EMP-30004,Finance,Controller,Female,43,5,4351,52218,3,3,Yes,6,4,7,No
+EMP-30005,Product,UX Designer,Non-Binary,46,23,10476,125721,2,1,Yes,15,3,9,No
+EMP-30006,Engineering,Engineering Lead,Non-Binary,31,7,12752,153033,3,1,Yes,45,4,23,No
+EMP-30007,Human Resources,HR Generalist,Non-Binary,46,20,9959,119511,4,4,Yes,38,2,41,Yes
+EMP-30008,Finance,Controller,Male,22,1,7521,90254,3,1,No,36,2,9,Yes
+EMP-30009,Human Resources,HR Generalist,Non-Binary,34,3,5342,64106,1,4,No,59,3,36,No
+EMP-30010,Human Resources,People Partner,Male,38,7,9828,117941,3,1,No,10,3,22,Yes
+EMP-30011,Product,Product Manager,Female,54,21,4001,48023,4,1,No,6,4,3,Yes
+EMP-30012,Engineering,DevOps Engineer,Male,38,1,8321,99854,4,3,No,21,4,26,No
+EMP-30013,Finance,Accountant,Male,59,1,6559,78708,4,3,No,32,4,45,No
+EMP-30014,Engineering,Software Engineer,Female,43,21,12935,155231,3,3,Yes,37,5,32,No
+EMP-30015,Finance,Accountant,Non-Binary,46,12,8398,100780,3,4,Yes,9,2,25,No
+EMP-30016,Engineering,Engineering Lead,Non-Binary,30,3,12961,155539,3,4,Yes,56,2,36,Yes
+EMP-30017,Marketing,Growth Marketer,Non-Binary,39,15,13608,163299,4,3,Yes,18,5,2,Yes
+EMP-30018,Engineering,QA Specialist,Non-Binary,59,25,7274,87290,4,3,No,24,1,38,No
+EMP-30019,Engineering,QA Specialist,Female,58,24,4271,51262,5,2,No,13,5,16,No
+EMP-30020,Engineering,Engineering Lead,Female,35,11,4364,52378,4,2,Yes,13,4,32,Yes
+EMP-30021,Finance,Accountant,Non-Binary,55,13,12648,151783,3,3,No,58,3,25,No
+EMP-30022,Sales,Sales Director,Male,45,22,10985,131825,3,2,Yes,38,2,35,No
+EMP-30023,Engineering,DevOps Engineer,Male,37,12,6040,72481,1,4,No,32,5,20,No
+EMP-30024,Human Resources,Recruiting Lead,Female,53,17,3951,47421,3,2,No,56,5,15,No
+EMP-30025,Marketing,SEO Specialist,Female,58,11,12826,153914,3,2,Yes,19,3,41,Yes
+EMP-30026,Human Resources,Recruiting Lead,Female,43,20,10614,127379,2,3,No,22,5,30,No
+EMP-30027,Engineering,Software Engineer,Non-Binary,40,17,7963,95563,3,4,Yes,32,4,21,No
+EMP-30028,Product,Data Analyst,Male,53,14,6559,78708,3,2,No,27,3,5,No
+EMP-30029,Product,UX Designer,Female,29,7,8562,102750,3,2,Yes,56,1,37,No
+EMP-30030,Marketing,SEO Specialist,Non-Binary,33,1,12871,154454,2,3,Yes,10,3,37,No
+EMP-30031,Product,Product Manager,Male,39,5,5129,61548,3,3,Yes,24,5,11,No
+EMP-30032,Human Resources,People Partner,Male,58,21,9428,113144,4,2,Yes,10,5,3,Yes
+EMP-30033,Sales,Sales Executive,Female,57,1,4536,54435,4,2,Yes,33,2,24,Yes
+EMP-30034,Finance,Accountant,Female,53,4,7528,90340,3,2,Yes,27,2,38,Yes
+EMP-30035,Human Resources,HR Generalist,Non-Binary,49,16,13097,157170,3,3,No,45,2,32,Yes
+EMP-30036,Product,UX Designer,Non-Binary,35,7,11360,136326,4,2,Yes,11,5,45,Yes
+EMP-30037,Finance,Accountant,Female,50,24,10593,127121,5,2,No,52,1,11,No
+EMP-30038,Marketing,Growth Marketer,Non-Binary,35,9,6435,77230,4,3,No,26,3,36,No
+EMP-30039,Sales,Account Manager,Male,48,9,6126,73513,5,2,No,46,5,18,No
+EMP-30040,Human Resources,HR Generalist,Female,57,20,12234,146811,4,3,No,10,5,45,No
+EMP-30041,Engineering,Software Engineer,Female,52,12,7794,93539,2,3,No,24,1,20,No
+EMP-30042,Sales,Account Manager,Male,28,4,6760,81122,3,2,Yes,38,3,43,No
+EMP-30043,Marketing,Growth Marketer,Female,49,12,7892,94707,4,3,Yes,35,1,24,Yes
+EMP-30044,Product,Data Analyst,Female,35,11,12874,154490,3,4,No,39,4,43,No
+EMP-30045,Marketing,Growth Marketer,Non-Binary,33,3,11679,140148,1,3,Yes,36,4,45,Yes
+EMP-30046,Engineering,QA Specialist,Male,45,19,8816,105792,3,4,Yes,12,1,22,No
+EMP-30047,Human Resources,Recruiting Lead,Male,40,9,6375,76508,3,3,No,49,5,31,No
+EMP-30048,Marketing,Growth Marketer,Female,54,11,8133,97597,3,2,No,46,4,20,Yes
+EMP-30049,Finance,Accountant,Non-Binary,45,15,6087,73048,3,2,Yes,60,2,35,Yes
+EMP-30050,Marketing,Growth Marketer,Non-Binary,23,2,9058,108698,4,2,No,28,5,7,No
+EMP-30051,Human Resources,HR Generalist,Male,55,25,13679,164155,3,3,Yes,31,2,16,Yes
+EMP-30052,Product,Data Analyst,Non-Binary,41,15,3770,45246,3,2,No,30,5,29,No
+EMP-30053,Engineering,QA Specialist,Non-Binary,53,22,10192,122315,3,3,Yes,23,1,36,Yes
+EMP-30054,Marketing,SEO Specialist,Female,24,3,11536,138437,3,4,No,50,4,3,No
+EMP-30055,Engineering,DevOps Engineer,Non-Binary,46,4,3960,47529,2,2,Yes,47,1,7,Yes
+EMP-30056,Engineering,Engineering Lead,Female,58,21,6695,80351,3,2,No,49,5,12,No
+EMP-30057,Marketing,Growth Marketer,Non-Binary,28,4,13622,163471,4,1,No,42,2,43,No
+EMP-30058,Finance,Accountant,Female,47,22,6480,77766,3,2,No,36,2,24,No
+EMP-30059,Marketing,SEO Specialist,Non-Binary,60,14,4246,50960,3,2,Yes,39,5,14,Yes
+EMP-30060,Engineering,DevOps Engineer,Male,44,4,11977,143734,2,1,No,17,1,39,No
+EMP-30061,Marketing,Content Strategist,Female,41,20,6226,74715,3,4,Yes,25,4,37,No
+EMP-30062,Engineering,QA Specialist,Non-Binary,23,1,11435,137221,4,4,Yes,47,1,30,No
+EMP-30063,Sales,Account Manager,Non-Binary,49,12,9874,118494,4,2,Yes,37,2,22,Yes
+EMP-30064,Product,UX Designer,Male,52,19,6638,79657,4,3,Yes,37,5,25,No
+EMP-30065,Finance,Financial Analyst,Male,30,3,5892,70706,4,2,No,45,2,21,No
+EMP-30066,Human Resources,HR Generalist,Male,59,16,12375,148509,3,3,Yes,58,3,40,No
+EMP-30067,Human Resources,Recruiting Lead,Female,38,9,7873,94485,5,3,Yes,28,3,18,No
+EMP-30068,Engineering,Software Engineer,Non-Binary,28,7,12187,146248,3,3,No,10,2,25,No
+EMP-30069,Sales,Sales Director,Male,43,5,4382,52594,3,3,Yes,49,5,14,No
+EMP-30070,Product,UX Designer,Non-Binary,41,4,9616,115393,4,2,No,10,3,25,No
+EMP-30071,Sales,Sales Executive,Male,38,17,6413,76959,2,2,Yes,11,1,12,Yes
+EMP-30072,Finance,Financial Analyst,Female,22,1,3767,45212,3,4,No,23,4,31,Yes
+EMP-30073,Finance,Financial Analyst,Female,52,14,4934,59209,5,2,No,29,2,39,Yes
+EMP-30074,Human Resources,Recruiting Lead,Non-Binary,52,23,12906,154882,2,2,Yes,36,2,3,Yes
+EMP-30075,Finance,Controller,Female,57,2,10923,131084,3,3,Yes,7,2,43,Yes
+EMP-30076,Marketing,SEO Specialist,Female,47,9,10464,125577,3,2,Yes,30,1,21,No
+EMP-30077,Product,Product Manager,Non-Binary,23,2,12320,147842,5,3,Yes,41,4,42,Yes
+EMP-30078,Marketing,Content Strategist,Female,29,8,11206,134479,2,3,No,40,5,7,No
+EMP-30079,Finance,Financial Analyst,Non-Binary,47,15,3867,46412,3,2,No,20,1,39,Yes
+EMP-30080,Human Resources,People Partner,Male,43,6,8135,97629,4,1,Yes,32,5,2,No
+EMP-30081,Finance,Accountant,Female,39,17,3864,46371,2,3,Yes,17,3,35,Yes
+EMP-30082,Finance,Accountant,Male,27,1,8209,98510,3,2,No,59,1,31,Yes
+EMP-30083,Marketing,Growth Marketer,Non-Binary,35,13,11289,135474,4,1,Yes,52,1,20,Yes
+EMP-30084,Engineering,DevOps Engineer,Non-Binary,37,7,4697,56374,3,2,No,41,5,1,No
+EMP-30085,Marketing,SEO Specialist,Female,28,4,9134,109611,2,2,Yes,17,1,23,Yes
+EMP-30086,Human Resources,HR Generalist,Non-Binary,41,3,5165,61982,3,4,No,5,3,6,No
+EMP-30087,Marketing,SEO Specialist,Male,57,19,7253,87042,3,2,No,12,5,30,No
+EMP-30088,Human Resources,Recruiting Lead,Female,49,2,3852,46230,3,2,No,46,5,30,No
+EMP-30089,Product,Product Manager,Male,52,25,6331,75976,1,2,No,42,4,29,No
+EMP-30090,Human Resources,Recruiting Lead,Female,29,1,7050,84609,3,4,Yes,42,3,45,No
+EMP-30091,Human Resources,People Partner,Male,29,2,7512,90146,3,4,No,15,4,4,No
+EMP-30092,Finance,Accountant,Non-Binary,41,16,8267,99205,4,1,Yes,35,5,31,Yes
+EMP-30093,Human Resources,Recruiting Lead,Female,44,14,7479,89750,3,3,No,14,2,25,No
+EMP-30094,Sales,Account Manager,Non-Binary,43,9,11180,134168,1,2,Yes,43,5,17,No
+EMP-30095,Human Resources,People Partner,Female,48,1,12956,155474,3,3,Yes,60,4,5,Yes
+EMP-30096,Sales,Account Manager,Non-Binary,52,2,10574,126893,4,2,No,34,4,39,No
+EMP-30097,Engineering,DevOps Engineer,Non-Binary,58,14,5326,63915,3,2,Yes,52,4,5,No
+EMP-30098,Engineering,Software Engineer,Female,37,12,5095,61148,2,3,Yes,16,1,27,No
+EMP-30099,Product,Product Manager,Female,34,3,6282,75386,2,4,Yes,8,2,14,No
+EMP-30100,Sales,Account Manager,Female,46,1,12351,148218,3,3,Yes,58,4,37,No
+EMP-30101,Marketing,SEO Specialist,Male,22,1,10434,125212,3,1,No,33,5,26,Yes
+EMP-30102,Sales,Sales Director,Female,27,2,9275,111302,3,2,Yes,7,4,17,Yes
+EMP-30103,Finance,Accountant,Female,56,16,12268,147219,5,2,Yes,42,5,1,Yes
+EMP-30104,Marketing,Growth Marketer,Female,31,9,12511,150140,1,2,No,31,3,9,No
+EMP-30105,Engineering,Engineering Lead,Non-Binary,49,18,9539,114472,3,2,No,6,2,3,Yes
+EMP-30106,Finance,Financial Analyst,Male,29,4,13446,161354,2,2,Yes,44,3,36,Yes
+EMP-30107,Human Resources,HR Generalist,Non-Binary,58,22,5188,62264,3,2,No,15,5,32,No
+EMP-30108,Product,Product Manager,Female,32,5,9947,119368,3,2,Yes,35,5,26,Yes
+EMP-30109,Engineering,Engineering Lead,Male,37,7,12053,144646,2,3,Yes,35,1,2,Yes
+EMP-30110,Product,Product Manager,Male,55,16,7160,85923,3,1,Yes,14,2,42,No
+EMP-30111,Engineering,Engineering Lead,Female,41,12,6716,80597,2,2,No,44,2,43,No
+EMP-30112,Engineering,Software Engineer,Female,47,14,5187,62250,4,2,Yes,54,1,23,Yes
+EMP-30113,Product,Data Analyst,Non-Binary,50,9,6762,81146,2,1,No,8,4,35,No
+EMP-30114,Marketing,Growth Marketer,Non-Binary,56,7,5952,71432,1,4,No,14,2,45,No
+EMP-30115,Human Resources,People Partner,Non-Binary,22,1,4284,51419,4,4,No,33,5,10,Yes
+EMP-30116,Human Resources,Recruiting Lead,Male,39,18,7488,89858,3,1,No,5,1,24,Yes
+EMP-30117,Engineering,Engineering Lead,Female,60,16,11060,132727,2,3,No,9,5,9,No
+EMP-30118,Finance,Financial Analyst,Non-Binary,44,5,6352,76231,3,1,No,58,1,18,No
+EMP-30119,Sales,Account Manager,Non-Binary,43,17,5514,66171,3,1,No,25,1,5,Yes
+EMP-30120,Sales,Sales Director,Non-Binary,50,3,6834,82017,3,4,No,26,4,20,No
+EMP-30121,Engineering,QA Specialist,Male,41,18,12605,151260,3,2,No,15,4,9,No
+EMP-30122,Engineering,DevOps Engineer,Non-Binary,26,2,7030,84371,3,4,No,51,4,16,No
+EMP-30123,Product,UX Designer,Non-Binary,51,16,5627,67524,4,2,Yes,45,3,13,No
+EMP-30124,Marketing,Growth Marketer,Non-Binary,51,17,9161,109934,2,4,No,28,4,8,No
+EMP-30125,Human Resources,People Partner,Female,36,15,9413,112964,4,3,Yes,44,5,4,No
+EMP-30126,Sales,Account Manager,Non-Binary,23,2,5119,61431,3,3,No,8,1,4,No
+EMP-30127,Engineering,Software Engineer,Female,44,16,6240,74891,3,1,Yes,30,4,45,No
+EMP-30128,Product,Product Manager,Male,45,9,10236,122843,2,1,No,55,5,15,Yes
+EMP-30129,Engineering,QA Specialist,Non-Binary,25,1,11163,133967,3,2,Yes,50,1,30,Yes
+EMP-30130,Sales,Account Manager,Female,26,3,9116,109401,5,2,Yes,5,1,34,Yes
+EMP-30131,Finance,Financial Analyst,Male,43,20,9511,114138,5,2,No,15,2,37,No
+EMP-30132,Sales,Sales Director,Female,48,22,8287,99452,5,2,No,56,1,23,Yes
+EMP-30133,Finance,Financial Analyst,Male,32,7,12151,145813,5,3,No,51,2,26,No
+EMP-30134,Engineering,DevOps Engineer,Male,60,19,3923,47083,3,3,Yes,32,3,30,No
+EMP-30135,Product,UX Designer,Female,31,8,9246,110960,3,3,No,25,3,43,No
+EMP-30136,Product,UX Designer,Male,37,4,8125,97501,3,3,Yes,52,4,29,No
+EMP-30137,Marketing,SEO Specialist,Male,34,5,6275,75303,3,2,Yes,22,3,14,No
+EMP-30138,Product,Data Analyst,Male,44,6,9357,112290,3,3,No,34,2,16,No
+EMP-30139,Finance,Financial Analyst,Male,37,1,9008,108098,3,2,Yes,8,2,15,Yes
+EMP-30140,Engineering,DevOps Engineer,Male,40,16,6518,78226,1,3,No,17,4,11,No
+EMP-30141,Sales,Account Manager,Male,42,3,8116,97397,1,2,Yes,25,1,2,Yes
+EMP-30142,Engineering,QA Specialist,Female,42,18,13134,157616,3,3,No,45,1,18,Yes
+EMP-30143,Product,Data Analyst,Non-Binary,41,11,8045,96546,3,1,Yes,28,3,6,Yes
+EMP-30144,Sales,Sales Director,Male,53,25,9395,112747,2,1,Yes,57,3,2,Yes
+EMP-30145,Product,Product Manager,Non-Binary,41,20,6523,78282,5,4,No,12,3,45,No
+EMP-30146,Marketing,Growth Marketer,Female,29,7,8471,101654,4,2,Yes,22,4,16,Yes
+EMP-30147,Human Resources,HR Generalist,Non-Binary,48,5,12983,155805,4,3,No,50,4,16,No
+EMP-30148,Engineering,Software Engineer,Female,49,3,7165,85981,1,2,No,43,5,43,No
+EMP-30149,Marketing,SEO Specialist,Non-Binary,48,20,8614,103378,3,1,Yes,48,2,45,No
+EMP-30150,Engineering,Software Engineer,Non-Binary,59,2,4943,59326,1,4,No,51,1,4,No
+EMP-30151,Finance,Financial Analyst,Female,54,17,9220,110645,3,3,Yes,7,3,26,No
+EMP-30152,Human Resources,HR Generalist,Non-Binary,55,4,8202,98429,5,2,No,10,5,44,No
+EMP-30153,Human Resources,People Partner,Male,44,21,4134,49611,3,2,No,53,5,35,No
+EMP-30154,Human Resources,Recruiting Lead,Male,55,2,3881,46576,3,2,No,15,1,41,No
+EMP-30155,Engineering,QA Specialist,Female,31,4,8753,105044,3,2,Yes,34,5,15,No
+EMP-30156,Product,Product Manager,Non-Binary,36,1,12145,145748,3,2,No,11,3,23,No
+EMP-30157,Finance,Controller,Male,48,15,13489,161876,2,2,No,41,1,28,Yes
+EMP-30158,Finance,Controller,Female,50,12,4496,53962,4,2,No,11,1,28,Yes
+EMP-30159,Human Resources,HR Generalist,Female,60,12,12717,152613,3,4,Yes,53,1,33,Yes
+EMP-30160,Product,Data Analyst,Female,35,10,5350,64208,1,1,No,38,3,28,No
+EMP-30161,Sales,Sales Executive,Female,52,16,12429,149150,3,3,Yes,29,4,45,No
+EMP-30162,Engineering,DevOps Engineer,Female,28,3,6842,82115,3,3,Yes,59,1,10,Yes
+EMP-30163,Engineering,DevOps Engineer,Female,40,11,7258,87106,1,1,No,23,5,3,No
+EMP-30164,Product,Data Analyst,Male,58,19,9763,117163,4,3,No,30,4,16,No
+EMP-30165,Human Resources,HR Generalist,Female,46,4,8028,96344,3,2,No,20,5,15,No
+EMP-30166,Engineering,Software Engineer,Male,59,3,6929,83148,3,2,No,44,2,2,No
+EMP-30167,Product,UX Designer,Male,50,19,9936,119238,5,2,No,31,4,10,No
+EMP-30168,Human Resources,People Partner,Male,44,4,9450,113402,3,2,Yes,26,2,29,No
+EMP-30169,Product,UX Designer,Male,22,1,5141,61697,3,1,No,7,3,25,No
+EMP-30170,Human Resources,HR Generalist,Male,45,3,10951,131415,3,3,Yes,57,3,7,No
+EMP-30171,Product,Product Manager,Non-Binary,22,1,4508,54102,3,2,Yes,59,2,14,Yes
+EMP-30172,Human Resources,People Partner,Non-Binary,40,9,9057,108689,3,1,No,56,2,27,Yes
+EMP-30173,Sales,Account Manager,Female,42,18,12600,151209,4,4,No,24,2,1,Yes
+EMP-30174,Marketing,SEO Specialist,Non-Binary,31,5,9612,115345,3,2,Yes,20,4,16,No
+EMP-30175,Marketing,Growth Marketer,Male,36,2,12898,154785,4,1,Yes,49,2,25,Yes
+EMP-30176,Product,Data Analyst,Male,38,4,10350,124204,4,3,No,5,4,6,Yes
+EMP-30177,Human Resources,HR Generalist,Non-Binary,58,24,5105,61271,4,3,Yes,51,3,25,No
+EMP-30178,Product,Data Analyst,Male,41,16,8219,98635,3,3,Yes,23,1,3,Yes
+EMP-30179,Engineering,QA Specialist,Male,34,13,4511,54143,3,1,Yes,24,1,22,No
+EMP-30180,Product,Data Analyst,Male,32,6,10698,128385,2,4,Yes,24,3,29,Yes
+EMP-30181,Marketing,Growth Marketer,Male,58,24,6752,81030,4,3,No,34,1,19,No
+EMP-30182,Finance,Accountant,Non-Binary,35,2,3987,47854,2,2,No,53,4,18,Yes
+EMP-30183,Sales,Sales Executive,Female,42,16,10299,123596,3,1,No,6,2,14,No
+EMP-30184,Human Resources,Recruiting Lead,Female,59,20,9487,113847,3,3,Yes,20,5,7,No
+EMP-30185,Human Resources,People Partner,Non-Binary,40,3,5779,69356,4,2,No,9,1,25,Yes
+EMP-30186,Sales,Account Manager,Female,44,8,4463,53567,4,3,No,36,4,16,Yes
+EMP-30187,Engineering,Software Engineer,Male,56,20,8185,98221,3,2,Yes,15,3,15,Yes
+EMP-30188,Human Resources,Recruiting Lead,Male,25,3,8564,102778,3,3,No,43,3,36,No
+EMP-30189,Product,Data Analyst,Non-Binary,55,19,6716,80602,3,3,No,5,2,26,No
+EMP-30190,Engineering,Software Engineer,Female,51,1,11980,143761,2,2,Yes,46,4,21,Yes
+EMP-30191,Marketing,SEO Specialist,Male,34,1,8601,103215,3,1,Yes,33,1,37,Yes
+EMP-30192,Human Resources,HR Generalist,Male,39,1,5609,67311,5,2,No,10,3,22,No
+EMP-30193,Human Resources,Recruiting Lead,Female,36,4,6298,75578,3,3,No,49,3,24,No
+EMP-30194,Sales,Sales Director,Male,52,25,11174,134090,1,2,Yes,28,2,1,No
+EMP-30195,Engineering,QA Specialist,Non-Binary,59,19,5717,68607,3,2,No,18,4,8,No
+EMP-30196,Finance,Accountant,Non-Binary,51,8,4883,58600,5,2,No,53,4,45,No
+EMP-30197,Marketing,SEO Specialist,Female,31,4,12409,148911,4,3,No,59,5,25,No
+EMP-30198,Product,Product Manager,Non-Binary,31,8,10946,131357,4,3,Yes,21,1,16,Yes
+EMP-30199,Sales,Sales Executive,Female,60,13,8559,102713,5,2,No,28,5,42,Yes
+EMP-30200,Sales,Account Manager,Female,60,5,5043,60524,4,1,Yes,26,1,26,Yes
+EMP-30201,Finance,Controller,Non-Binary,34,6,11943,143319,3,2,Yes,57,5,35,No
+EMP-30202,Human Resources,HR Generalist,Male,40,11,7688,92267,3,3,Yes,43,2,17,No
+EMP-30203,Human Resources,People Partner,Male,56,13,8092,97105,5,3,Yes,28,3,9,No
+EMP-30204,Product,Product Manager,Female,23,1,8003,96043,5,1,Yes,55,1,43,Yes
+EMP-30205,Engineering,Software Engineer,Female,49,3,8285,99431,2,3,Yes,40,3,17,No
+EMP-30206,Product,Data Analyst,Non-Binary,54,3,5271,63260,5,4,Yes,8,5,33,Yes
+EMP-30207,Sales,Sales Director,Female,46,19,10571,126853,2,3,No,35,2,13,No
+EMP-30208,Sales,Sales Executive,Male,38,9,9530,114366,2,3,No,45,2,41,No
+EMP-30209,Marketing,Growth Marketer,Non-Binary,48,3,10368,124417,2,4,Yes,13,1,27,Yes
+EMP-30210,Engineering,Engineering Lead,Female,29,8,7948,95384,2,3,Yes,58,1,10,Yes
+EMP-30211,Marketing,Content Strategist,Non-Binary,49,20,6357,76291,3,2,Yes,31,4,28,Yes
+EMP-30212,Sales,Sales Executive,Male,58,22,4489,53876,4,3,Yes,26,2,35,Yes
+EMP-30213,Product,UX Designer,Female,28,2,7906,94877,4,2,No,43,5,37,Yes
+EMP-30214,Sales,Sales Executive,Female,33,10,8277,99325,4,2,No,53,2,41,Yes
+EMP-30215,Product,Data Analyst,Non-Binary,49,17,4983,59806,4,4,Yes,24,2,15,Yes
+EMP-30216,Marketing,Content Strategist,Non-Binary,55,1,7250,87005,3,2,No,25,3,39,No
+EMP-30217,Product,Product Manager,Non-Binary,46,23,13457,161493,2,2,No,44,1,11,No
+EMP-30218,Finance,Financial Analyst,Non-Binary,31,1,11540,138485,4,4,Yes,34,2,8,Yes
+EMP-30219,Product,UX Designer,Female,23,1,5342,64104,2,3,Yes,39,1,12,Yes
+EMP-30220,Marketing,SEO Specialist,Non-Binary,59,19,9098,109186,3,2,No,55,5,13,No
+EMP-30221,Marketing,Growth Marketer,Non-Binary,42,12,4486,53840,3,3,Yes,21,4,18,No
+EMP-30222,Engineering,Software Engineer,Female,35,7,8731,104775,1,3,No,14,3,26,No
+EMP-30223,Human Resources,Recruiting Lead,Male,28,2,7734,92810,5,2,Yes,18,2,2,Yes
+EMP-30224,Finance,Financial Analyst,Female,47,8,4100,49203,4,3,Yes,41,2,41,Yes
+EMP-30225,Product,Data Analyst,Male,54,15,6187,74251,5,3,Yes,56,1,3,No
+EMP-30226,Product,Data Analyst,Non-Binary,55,7,4659,55908,2,2,No,27,3,35,Yes
+EMP-30227,Sales,Sales Executive,Female,30,1,4449,53395,3,3,No,13,5,31,Yes
+EMP-30228,Product,Product Manager,Female,32,8,10446,125356,3,3,Yes,45,4,21,Yes
+EMP-30229,Finance,Controller,Non-Binary,42,12,7376,88518,2,3,Yes,28,1,3,No
+EMP-30230,Finance,Accountant,Non-Binary,56,25,6545,78545,4,1,Yes,18,1,1,Yes
+EMP-30231,Engineering,Engineering Lead,Male,30,4,7269,87236,1,3,Yes,5,2,43,Yes
+EMP-30232,Sales,Sales Director,Female,34,8,7364,88370,4,3,No,54,5,10,No
+EMP-30233,Finance,Financial Analyst,Non-Binary,29,7,11499,137990,3,1,No,44,4,36,No
+EMP-30234,Product,UX Designer,Male,37,7,13123,157476,1,2,No,9,1,25,Yes
+EMP-30235,Human Resources,Recruiting Lead,Non-Binary,51,1,4084,49014,3,2,No,40,1,7,Yes
+EMP-30236,Product,Product Manager,Female,48,10,5308,63704,3,2,Yes,38,1,38,Yes
+EMP-30237,Engineering,Software Engineer,Female,22,1,12686,152232,1,3,No,44,5,27,Yes
+EMP-30238,Product,Product Manager,Male,43,6,11487,137844,3,2,Yes,49,2,9,Yes
+EMP-30239,Finance,Financial Analyst,Female,54,18,5859,70310,5,3,No,20,3,18,No
+EMP-30240,Product,Data Analyst,Female,53,13,5654,67853,5,3,Yes,43,3,3,No
+EMP-30241,Engineering,Software Engineer,Female,32,6,7238,86856,3,2,Yes,34,4,35,No
+EMP-30242,Sales,Account Manager,Male,36,2,8612,103345,3,3,Yes,6,3,23,No
+EMP-30243,Finance,Controller,Male,59,16,5035,60431,4,2,No,57,2,12,No
+EMP-30244,Sales,Account Manager,Non-Binary,43,10,10967,131605,4,3,Yes,7,3,23,No
+EMP-30245,Human Resources,Recruiting Lead,Female,53,20,10382,124595,5,1,Yes,55,4,38,No
+EMP-30246,Sales,Sales Executive,Non-Binary,41,11,8858,106307,3,1,No,25,1,6,No
+EMP-30247,Engineering,QA Specialist,Non-Binary,58,15,13706,164480,5,3,Yes,27,2,12,Yes
+EMP-30248,Sales,Sales Executive,Female,55,20,12235,146823,3,1,Yes,22,4,28,No
+EMP-30249,Engineering,DevOps Engineer,Non-Binary,54,21,10060,120729,4,3,Yes,5,4,18,No
+EMP-30250,Engineering,Software Engineer,Non-Binary,37,16,10055,120669,4,3,Yes,34,1,41,No
+EMP-30251,Marketing,SEO Specialist,Female,25,2,6057,72688,3,2,No,58,2,33,Yes
+EMP-30252,Product,Data Analyst,Non-Binary,54,13,9348,112178,3,3,No,54,2,37,No
+EMP-30253,Product,Product Manager,Male,58,1,10795,129547,1,2,No,44,5,40,No
+EMP-30254,Product,Data Analyst,Female,39,11,8802,105627,3,3,No,60,3,18,No
+EMP-30255,Engineering,Engineering Lead,Female,59,6,11874,142493,3,2,No,23,2,20,No
+EMP-30256,Marketing,SEO Specialist,Male,47,1,12491,149901,4,2,Yes,44,5,22,No
+EMP-30257,Product,Data Analyst,Non-Binary,25,4,12623,151479,3,3,No,28,5,21,No
+EMP-30258,Sales,Sales Director,Female,43,14,11024,132293,5,3,No,35,5,20,No
+EMP-30259,Sales,Account Manager,Non-Binary,24,2,12936,155232,5,2,No,46,1,44,No
+EMP-30260,Human Resources,Recruiting Lead,Male,34,6,10932,131191,1,3,No,37,5,14,No
+EMP-30261,Sales,Sales Executive,Male,34,12,11522,138270,3,2,Yes,17,4,38,No
+EMP-30262,Marketing,Content Strategist,Non-Binary,43,22,12114,145378,1,2,Yes,53,2,44,No
+EMP-30263,Marketing,Content Strategist,Male,51,8,7174,86099,3,3,Yes,23,5,29,Yes
+EMP-30264,Finance,Controller,Male,34,3,5147,61771,3,2,Yes,23,4,40,Yes
+EMP-30265,Engineering,DevOps Engineer,Non-Binary,44,11,7771,93253,3,2,Yes,14,1,3,Yes
+EMP-30266,Human Resources,Recruiting Lead,Male,34,7,7126,85523,3,4,No,41,3,31,No
+EMP-30267,Engineering,DevOps Engineer,Male,57,19,6472,77673,5,3,Yes,35,1,27,Yes
+EMP-30268,Human Resources,People Partner,Female,28,2,5594,67132,4,4,Yes,46,1,24,Yes
+EMP-30269,Marketing,Growth Marketer,Non-Binary,44,8,11081,132975,1,2,No,25,3,38,No
+EMP-30270,Sales,Account Manager,Male,43,14,3822,45867,3,2,No,55,2,15,No
+EMP-30271,Human Resources,Recruiting Lead,Male,58,24,10310,123722,2,3,No,7,1,34,Yes
+EMP-30272,Product,Product Manager,Female,58,13,11623,139486,3,3,Yes,32,5,2,Yes
+EMP-30273,Product,Product Manager,Male,25,4,7840,94089,5,3,No,11,4,39,Yes
+EMP-30274,Product,UX Designer,Male,26,3,11157,133895,2,1,Yes,42,2,17,Yes
+EMP-30275,Engineering,Engineering Lead,Female,60,16,13515,162184,2,1,Yes,51,1,36,Yes
+EMP-30276,Product,Product Manager,Non-Binary,36,10,11774,141297,3,3,Yes,41,4,42,No
+EMP-30277,Engineering,Software Engineer,Female,36,1,8997,107964,2,2,No,7,1,36,Yes
+EMP-30278,Sales,Sales Director,Male,51,15,11926,143120,3,2,Yes,25,3,40,No
+EMP-30279,Human Resources,People Partner,Non-Binary,56,15,12371,148453,2,3,Yes,8,4,13,Yes
+EMP-30280,Product,Data Analyst,Non-Binary,23,1,5578,66942,3,3,Yes,23,3,27,No
+EMP-30281,Marketing,SEO Specialist,Non-Binary,42,5,11839,142078,4,2,Yes,59,5,27,No
+EMP-30282,Engineering,Engineering Lead,Female,50,5,11338,136065,3,4,No,16,3,30,No
+EMP-30283,Finance,Accountant,Non-Binary,38,16,9154,109856,3,3,Yes,33,1,45,No
+EMP-30284,Marketing,Growth Marketer,Female,52,15,8754,105050,4,1,No,10,2,40,No
+EMP-30285,Finance,Accountant,Male,56,10,5443,65324,3,1,Yes,37,2,26,Yes
+EMP-30286,Engineering,Engineering Lead,Female,29,8,4043,48518,1,2,No,9,5,28,Yes
+EMP-30287,Human Resources,People Partner,Non-Binary,47,18,9378,112542,1,2,No,29,3,31,No
+EMP-30288,Finance,Accountant,Non-Binary,26,2,8842,106107,3,2,Yes,16,3,9,Yes
+EMP-30289,Marketing,Content Strategist,Female,39,3,12908,154897,3,1,Yes,44,5,44,Yes
+EMP-30290,Engineering,Engineering Lead,Male,29,8,3762,45153,3,3,No,36,1,24,Yes
+EMP-30291,Human Resources,Recruiting Lead,Non-Binary,28,6,4348,52184,3,2,No,19,2,28,No
+EMP-30292,Finance,Accountant,Non-Binary,50,20,7893,94716,3,2,No,31,1,43,Yes
+EMP-30293,Engineering,Software Engineer,Male,58,1,4309,51716,3,1,Yes,36,5,24,Yes
+EMP-30294,Sales,Sales Executive,Female,25,2,7551,90615,3,3,Yes,48,2,44,Yes
+EMP-30295,Engineering,Software Engineer,Male,33,10,13593,163124,4,2,No,22,4,44,No
+EMP-30296,Product,UX Designer,Non-Binary,36,14,10294,123531,3,3,No,52,3,17,No
+EMP-30297,Sales,Account Manager,Male,46,22,11157,133893,3,3,No,47,2,4,No
+EMP-30298,Human Resources,Recruiting Lead,Male,44,7,8564,102777,3,4,No,10,2,16,No
+EMP-30299,Finance,Financial Analyst,Female,49,25,8069,96835,4,3,No,29,5,8,No
+EMP-30300,Human Resources,HR Generalist,Non-Binary,42,11,9172,110064,4,3,No,24,5,43,No
+EMP-30301,Marketing,SEO Specialist,Female,47,17,9311,111733,2,2,Yes,37,1,14,No
+EMP-30302,Marketing,SEO Specialist,Female,32,5,11772,141268,1,2,No,21,3,2,No
+EMP-30303,Finance,Controller,Female,35,3,6572,78873,3,2,Yes,33,5,7,Yes
+EMP-30304,Engineering,Software Engineer,Non-Binary,25,3,12495,149946,3,1,No,31,4,33,No
+EMP-30305,Product,Data Analyst,Female,60,8,12690,152283,2,2,No,12,5,43,No
+EMP-30306,Product,UX Designer,Non-Binary,34,11,6753,81044,3,4,Yes,53,1,10,Yes
+EMP-30307,Human Resources,Recruiting Lead,Male,44,20,9160,109925,3,1,No,59,3,19,No
+EMP-30308,Sales,Sales Director,Non-Binary,52,18,13192,158306,2,3,Yes,59,3,31,No
+EMP-30309,Marketing,SEO Specialist,Non-Binary,56,9,8630,103570,3,1,Yes,42,2,30,No
+EMP-30310,Human Resources,People Partner,Non-Binary,38,16,12426,149123,4,1,No,10,4,12,No
+EMP-30311,Finance,Financial Analyst,Female,44,5,10538,126460,4,2,No,60,4,40,No
+EMP-30312,Finance,Controller,Non-Binary,51,19,9667,116009,3,4,No,23,3,22,No
+EMP-30313,Human Resources,Recruiting Lead,Male,37,9,3796,45559,2,3,Yes,51,5,45,No
+EMP-30314,Human Resources,HR Generalist,Non-Binary,43,20,8500,102011,2,2,Yes,49,5,14,Yes
+EMP-30315,Sales,Sales Director,Non-Binary,23,1,5423,65079,4,3,No,55,3,31,No
+EMP-30316,Human Resources,People Partner,Non-Binary,44,14,5047,60575,5,1,No,31,5,26,Yes
+EMP-30317,Sales,Sales Director,Male,25,4,4058,48699,3,2,No,38,1,21,No
+EMP-30318,Engineering,Engineering Lead,Male,30,3,8659,103918,3,2,Yes,8,2,29,No
+EMP-30319,Sales,Sales Director,Non-Binary,53,3,9614,115371,3,3,No,24,4,23,No
+EMP-30320,Engineering,Software Engineer,Male,26,2,9687,116251,3,2,Yes,40,4,35,No
+EMP-30321,Engineering,Engineering Lead,Female,26,3,11362,136351,4,2,No,37,4,25,No
+EMP-30322,Human Resources,Recruiting Lead,Non-Binary,40,3,9461,113535,5,2,Yes,26,2,5,No
+EMP-30323,Product,Data Analyst,Non-Binary,56,13,8477,101726,3,4,No,58,5,18,No
+EMP-30324,Product,Data Analyst,Non-Binary,41,6,9613,115366,3,2,No,33,1,22,Yes
+EMP-30325,Sales,Sales Executive,Non-Binary,36,14,11117,133409,2,3,No,10,2,14,No
+EMP-30326,Engineering,DevOps Engineer,Female,46,17,8517,102210,5,1,No,60,4,35,No
+EMP-30327,Human Resources,People Partner,Non-Binary,43,6,8896,106760,2,2,No,6,2,10,Yes
+EMP-30328,Human Resources,Recruiting Lead,Non-Binary,36,14,6684,80210,3,1,Yes,31,2,43,Yes
+EMP-30329,Sales,Account Manager,Non-Binary,44,21,11442,137305,3,2,No,16,2,42,Yes
+EMP-30330,Human Resources,Recruiting Lead,Non-Binary,24,1,6531,78382,3,2,No,50,5,31,Yes
+EMP-30331,Sales,Account Manager,Male,30,3,9765,117188,3,4,No,6,3,11,No
+EMP-30332,Engineering,DevOps Engineer,Female,43,11,6921,83057,5,3,Yes,42,4,30,No
+EMP-30333,Marketing,Content Strategist,Male,48,16,9843,118127,3,4,No,55,5,27,No
+EMP-30334,Marketing,Growth Marketer,Non-Binary,51,8,9513,114159,3,3,No,29,5,1,No
+EMP-30335,Marketing,SEO Specialist,Non-Binary,38,14,9205,110465,4,2,Yes,44,1,45,Yes
+EMP-30336,Finance,Controller,Female,44,18,8831,105980,5,2,Yes,47,4,11,Yes
+EMP-30337,Finance,Accountant,Female,59,19,11149,133799,4,4,No,22,1,32,No
+EMP-30338,Product,Data Analyst,Non-Binary,42,7,4396,52753,2,4,Yes,19,2,37,Yes
+EMP-30339,Product,Product Manager,Male,54,16,4745,56942,4,2,Yes,20,3,28,Yes
+EMP-30340,Engineering,QA Specialist,Non-Binary,26,1,9657,115888,3,4,No,57,2,14,No
+EMP-30341,Sales,Account Manager,Female,51,1,5162,61947,3,2,Yes,37,4,5,No
+EMP-30342,Human Resources,Recruiting Lead,Non-Binary,49,22,10532,126395,3,3,No,27,4,22,No
+EMP-30343,Finance,Controller,Female,45,1,13482,161789,3,4,Yes,49,4,9,No
+EMP-30344,Product,Product Manager,Female,29,5,9363,112363,3,4,No,9,5,15,No
+EMP-30345,Sales,Sales Director,Female,30,6,5316,63797,4,1,No,47,5,42,No
+EMP-30346,Sales,Sales Executive,Female,42,4,13292,159513,2,3,Yes,10,3,24,No
+EMP-30347,Product,UX Designer,Female,31,1,12529,150359,3,3,Yes,35,4,40,No
+EMP-30348,Human Resources,HR Generalist,Male,54,24,12210,146529,3,2,Yes,17,3,44,No
+EMP-30349,Sales,Sales Director,Male,32,5,13340,160088,5,1,Yes,42,2,28,Yes
+EMP-30350,Product,Product Manager,Non-Binary,38,3,5672,68072,4,1,Yes,28,2,23,Yes
+EMP-30351,Marketing,SEO Specialist,Non-Binary,25,1,6833,82003,5,2,No,10,2,42,Yes
+EMP-30352,Sales,Account Manager,Female,48,1,4693,56317,3,3,Yes,18,3,15,Yes
+EMP-30353,Finance,Controller,Female,52,3,5957,71493,3,3,No,49,2,30,No
+EMP-30354,Human Resources,HR Generalist,Male,53,8,6921,83057,4,1,Yes,14,1,11,Yes
+EMP-30355,Product,Data Analyst,Male,54,3,6194,74332,1,2,No,40,1,11,No
+EMP-30356,Finance,Financial Analyst,Non-Binary,56,21,9520,114244,4,3,No,24,3,11,No
+EMP-30357,Finance,Financial Analyst,Non-Binary,58,19,4144,49731,3,1,Yes,17,3,26,No
+EMP-30358,Product,Data Analyst,Male,28,4,5405,64871,3,2,No,36,1,20,No
+EMP-30359,Product,Data Analyst,Male,52,3,3873,46487,4,2,Yes,44,1,33,Yes
+EMP-30360,Human Resources,Recruiting Lead,Male,42,1,4973,59681,3,2,Yes,6,2,18,No
+EMP-30361,Marketing,SEO Specialist,Female,49,1,9135,109630,2,4,No,54,4,23,Yes
+EMP-30362,Product,UX Designer,Female,44,23,5426,65119,3,4,No,14,2,5,No
+EMP-30363,Product,Product Manager,Male,47,1,12873,154477,2,2,Yes,10,1,21,Yes
+EMP-30364,Product,UX Designer,Male,34,13,13109,157315,3,2,Yes,8,4,26,No
+EMP-30365,Engineering,Software Engineer,Female,60,20,6818,81822,3,3,No,30,5,16,No
+EMP-30366,Sales,Sales Executive,Male,51,2,4069,48837,3,3,No,38,1,2,No
+EMP-30367,Engineering,QA Specialist,Non-Binary,25,4,5911,70939,3,2,Yes,59,1,26,Yes
+EMP-30368,Finance,Accountant,Female,40,18,11324,135897,3,2,Yes,20,4,22,No
+EMP-30369,Engineering,Engineering Lead,Male,31,9,13044,156531,4,4,Yes,48,3,36,No
+EMP-30370,Product,UX Designer,Female,42,4,6060,72731,3,1,No,55,1,14,No
+EMP-30371,Finance,Financial Analyst,Male,49,16,9677,116127,3,2,No,17,4,37,No
+EMP-30372,Sales,Sales Executive,Male,56,1,4105,49265,3,2,No,33,3,34,Yes
+EMP-30373,Human Resources,Recruiting Lead,Non-Binary,49,24,8988,107863,5,2,No,19,4,6,Yes
+EMP-30374,Human Resources,HR Generalist,Male,51,11,7520,90246,4,3,No,30,1,8,No
+EMP-30375,Finance,Accountant,Male,54,4,4961,59536,4,2,Yes,28,4,12,Yes
+EMP-30376,Product,UX Designer,Non-Binary,35,12,7892,94708,4,1,No,12,1,20,Yes
+EMP-30377,Engineering,DevOps Engineer,Female,26,1,9390,112685,3,2,Yes,55,3,22,Yes
+EMP-30378,Product,UX Designer,Female,44,9,5666,67996,4,3,Yes,29,5,17,No
+EMP-30379,Sales,Account Manager,Female,27,3,12564,150769,1,2,No,45,3,18,No
+EMP-30380,Finance,Accountant,Non-Binary,48,14,4063,48756,1,4,Yes,10,5,27,No
+EMP-30381,Sales,Sales Executive,Female,31,4,9458,113506,3,3,No,48,2,45,Yes
+EMP-30382,Product,UX Designer,Non-Binary,35,7,12464,149574,3,3,Yes,42,3,44,No
+EMP-30383,Engineering,DevOps Engineer,Female,23,1,8188,98266,3,4,Yes,39,1,5,Yes
+EMP-30384,Product,UX Designer,Male,37,9,12665,151987,3,2,No,17,4,30,Yes
+EMP-30385,Product,UX Designer,Male,53,19,7362,88348,4,3,Yes,24,2,39,No
+EMP-30386,Marketing,Growth Marketer,Non-Binary,46,14,10042,120507,3,1,Yes,52,4,45,No
+EMP-30387,Marketing,Growth Marketer,Male,52,11,5591,67092,3,4,Yes,31,1,42,No
+EMP-30388,Sales,Account Manager,Female,51,19,10983,131804,4,3,No,42,2,15,No
+EMP-30389,Engineering,Engineering Lead,Non-Binary,35,9,6239,74878,4,2,No,50,1,44,No
+EMP-30390,Engineering,Software Engineer,Male,50,1,8830,105964,3,4,Yes,48,5,19,No
+EMP-30391,Marketing,Growth Marketer,Female,26,2,4197,50367,4,4,No,40,3,6,No
+EMP-30392,Marketing,Content Strategist,Non-Binary,37,11,11544,138537,3,1,Yes,45,2,31,Yes
+EMP-30393,Finance,Accountant,Non-Binary,44,13,10941,131302,3,4,Yes,47,2,4,No
+EMP-30394,Human Resources,Recruiting Lead,Female,39,15,11515,138188,3,3,No,38,5,9,No
+EMP-30395,Product,Product Manager,Non-Binary,51,2,11124,133491,4,3,No,9,1,32,No
+EMP-30396,Engineering,Software Engineer,Female,29,2,7034,84412,5,2,No,50,1,7,No
+EMP-30397,Finance,Financial Analyst,Male,58,15,7717,92610,4,2,No,60,4,14,No
+EMP-30398,Product,Data Analyst,Non-Binary,43,6,6384,76611,3,3,No,23,5,44,No
+EMP-30399,Product,UX Designer,Female,22,1,8870,106440,3,4,Yes,26,2,12,Yes
+EMP-30400,Engineering,DevOps Engineer,Male,57,1,9764,117168,5,3,No,35,5,38,Yes
+EMP-30401,Human Resources,People Partner,Female,48,24,3963,47559,2,2,Yes,40,2,37,Yes
+EMP-30402,Marketing,Growth Marketer,Male,48,10,8146,97757,4,3,Yes,11,1,1,Yes
+EMP-30403,Product,UX Designer,Male,59,1,8632,103591,1,2,Yes,38,5,27,No
+EMP-30404,Product,UX Designer,Non-Binary,36,3,4149,49795,3,3,Yes,41,5,16,Yes
+EMP-30405,Marketing,SEO Specialist,Male,49,16,11642,139704,3,2,No,48,2,40,Yes
+EMP-30406,Engineering,Engineering Lead,Female,39,11,8064,96769,3,1,No,30,3,44,No
+EMP-30407,Finance,Controller,Male,54,4,8629,103556,5,2,No,41,3,1,No
+EMP-30408,Engineering,DevOps Engineer,Female,43,5,11994,143932,2,2,Yes,30,5,15,Yes
+EMP-30409,Sales,Sales Director,Female,38,12,5626,67522,5,2,No,19,2,1,No
+EMP-30410,Product,Product Manager,Female,38,2,11750,141002,3,2,No,37,3,10,No
+EMP-30411,Marketing,Growth Marketer,Female,52,12,5084,61013,2,3,Yes,35,5,38,No
+EMP-30412,Engineering,QA Specialist,Male,47,24,12128,145541,3,4,Yes,13,4,28,Yes
+EMP-30413,Marketing,Content Strategist,Male,56,12,11364,136377,3,3,Yes,34,2,15,Yes
+EMP-30414,Sales,Sales Executive,Female,59,7,4864,58370,1,3,No,57,1,1,No
+EMP-30415,Finance,Accountant,Male,35,5,13537,162455,1,3,Yes,22,2,13,Yes
+EMP-30416,Sales,Sales Director,Male,56,17,6049,72596,3,2,Yes,13,3,42,No
+EMP-30417,Finance,Controller,Male,39,15,6143,73720,3,3,No,53,1,31,No
+EMP-30418,Finance,Controller,Female,56,1,13510,162131,5,3,No,28,3,20,No
+EMP-30419,Product,Product Manager,Male,45,16,11021,132253,3,3,No,44,2,28,No
+EMP-30420,Marketing,Content Strategist,Non-Binary,31,8,5915,70980,3,4,No,38,5,24,No
+EMP-30421,Marketing,SEO Specialist,Male,55,18,6080,72968,3,3,Yes,43,4,40,No
+EMP-30422,Human Resources,People Partner,Non-Binary,55,7,11152,133830,3,3,Yes,20,2,7,No
+EMP-30423,Marketing,SEO Specialist,Non-Binary,48,12,12464,149578,3,1,Yes,13,3,1,Yes
+EMP-30424,Human Resources,People Partner,Non-Binary,55,13,10717,128610,3,1,No,19,3,32,No
+EMP-30425,Engineering,QA Specialist,Non-Binary,58,22,9559,114716,3,1,No,51,5,6,No
+EMP-30426,Engineering,DevOps Engineer,Non-Binary,43,6,7140,85687,2,2,Yes,14,1,21,Yes
+EMP-30427,Human Resources,HR Generalist,Non-Binary,50,10,5998,71987,3,4,Yes,43,5,17,No
+EMP-30428,Finance,Accountant,Male,34,9,9898,118778,3,3,No,31,3,28,No
+EMP-30429,Product,UX Designer,Male,26,4,4385,52629,3,2,Yes,14,1,2,Yes
+EMP-30430,Product,UX Designer,Male,46,22,7857,94288,3,3,Yes,27,4,43,No
+EMP-30431,Sales,Sales Director,Non-Binary,33,3,11720,140645,3,4,No,22,5,14,No
+EMP-30432,Engineering,Engineering Lead,Non-Binary,47,1,12454,149457,2,1,Yes,24,5,34,Yes
+EMP-30433,Product,Data Analyst,Male,50,7,13131,157572,4,2,No,53,4,36,No
+EMP-30434,Product,Data Analyst,Male,52,17,7653,91845,3,3,No,10,4,28,No
+EMP-30435,Finance,Controller,Male,60,7,9163,109965,2,2,No,45,5,7,Yes
+EMP-30436,Marketing,Growth Marketer,Male,39,14,8504,102059,5,3,No,36,2,45,No
+EMP-30437,Sales,Sales Director,Female,57,2,11878,142543,4,4,No,13,5,37,Yes
+EMP-30438,Marketing,Growth Marketer,Female,44,3,9791,117499,2,3,No,52,4,29,No
+EMP-30439,Finance,Controller,Non-Binary,37,15,6736,80840,3,2,Yes,43,4,33,Yes
+EMP-30440,Sales,Sales Director,Male,47,6,11908,142898,3,1,Yes,37,5,42,No
+EMP-30441,Product,UX Designer,Female,47,20,10738,128857,2,4,No,54,2,23,No
+EMP-30442,Human Resources,People Partner,Female,33,2,5788,69466,4,3,No,7,2,33,No
+EMP-30443,Engineering,Software Engineer,Male,43,10,8333,99998,3,2,Yes,24,5,4,Yes
+EMP-30444,Human Resources,Recruiting Lead,Female,39,15,8450,101401,4,3,Yes,32,1,12,Yes
+EMP-30445,Marketing,Content Strategist,Male,58,22,8174,98092,3,4,No,50,5,45,No
+EMP-30446,Finance,Controller,Male,24,2,5089,61072,3,3,Yes,18,3,9,No
+EMP-30447,Human Resources,People Partner,Non-Binary,47,1,4846,58161,4,3,No,52,1,2,Yes
+EMP-30448,Marketing,Growth Marketer,Male,55,1,4907,58884,5,4,Yes,16,3,23,No
+EMP-30449,Engineering,Software Engineer,Female,57,2,7952,95432,4,3,Yes,43,3,39,No
+EMP-30450,Finance,Financial Analyst,Male,47,21,12317,147814,4,1,No,26,1,37,Yes
+EMP-30451,Product,Data Analyst,Male,58,14,9563,114763,3,3,No,9,4,1,No
+EMP-30452,Product,UX Designer,Non-Binary,31,10,13041,156501,3,2,No,6,4,45,Yes
+EMP-30453,Human Resources,HR Generalist,Male,59,8,6016,72202,4,1,Yes,22,5,23,Yes
+EMP-30454,Sales,Sales Executive,Non-Binary,38,2,11021,132257,2,4,Yes,35,1,31,Yes
+EMP-30455,Finance,Controller,Female,46,5,11574,138893,3,3,No,30,1,5,No
+EMP-30456,Sales,Account Manager,Non-Binary,30,1,10846,130153,3,1,No,42,3,5,No
+EMP-30457,Human Resources,People Partner,Male,32,2,5037,60450,3,1,Yes,39,1,8,Yes
+EMP-30458,Sales,Sales Director,Non-Binary,36,14,11172,134069,3,3,Yes,17,1,12,Yes
+EMP-30459,Finance,Controller,Non-Binary,53,19,11621,139456,5,1,Yes,19,1,19,No
+EMP-30460,Marketing,SEO Specialist,Female,57,22,11259,135115,3,3,Yes,59,1,38,No
+EMP-30461,Product,Product Manager,Non-Binary,47,18,4278,51344,5,2,No,15,1,5,Yes
+EMP-30462,Engineering,DevOps Engineer,Female,22,1,8173,98077,4,3,Yes,21,3,27,No
+EMP-30463,Finance,Controller,Male,53,4,6553,78640,1,3,Yes,22,4,37,No
+EMP-30464,Marketing,SEO Specialist,Female,23,2,3876,46514,3,3,No,58,5,3,No
+EMP-30465,Sales,Sales Director,Female,38,11,8101,97215,3,3,No,41,1,32,No
+EMP-30466,Finance,Accountant,Male,41,5,11015,132183,3,1,No,34,4,28,Yes
+EMP-30467,Sales,Sales Director,Non-Binary,56,10,8710,104524,3,2,Yes,43,3,13,Yes
+EMP-30468,Human Resources,Recruiting Lead,Female,30,9,10631,127577,3,2,No,48,4,34,No
+EMP-30469,Engineering,DevOps Engineer,Non-Binary,46,5,10399,124790,4,4,Yes,12,4,25,Yes
+EMP-30470,Product,Data Analyst,Female,49,1,12138,145662,2,3,Yes,22,4,36,No
+EMP-30471,Product,Data Analyst,Female,52,21,4252,51025,2,2,Yes,58,4,32,No
+EMP-30472,Marketing,Content Strategist,Male,26,3,12726,152722,5,4,Yes,10,2,21,Yes
+EMP-30473,Sales,Sales Executive,Female,31,6,12791,153501,4,3,Yes,38,3,34,No
+EMP-30474,Marketing,SEO Specialist,Female,26,4,5713,68560,2,4,Yes,26,2,1,No
+EMP-30475,Product,Product Manager,Female,34,13,4707,56489,2,1,No,28,4,2,Yes
+EMP-30476,Finance,Financial Analyst,Female,31,4,5382,64585,2,3,Yes,5,5,6,No
+EMP-30477,Finance,Accountant,Female,36,12,4940,59287,4,2,Yes,22,1,35,No
+EMP-30478,Human Resources,People Partner,Male,38,7,11187,134248,4,2,No,42,5,10,No
+EMP-30479,Marketing,Content Strategist,Male,28,1,8414,100978,5,1,Yes,18,4,40,No
+EMP-30480,Product,Data Analyst,Non-Binary,27,5,4941,59293,3,4,No,14,3,11,No
+EMP-30481,Marketing,Growth Marketer,Non-Binary,49,7,11169,134034,3,3,No,23,3,9,No
+EMP-30482,Product,UX Designer,Non-Binary,55,18,5319,63835,2,3,No,57,2,21,No
+EMP-30483,Product,Product Manager,Male,42,7,7321,87852,2,4,Yes,40,1,22,Yes
+EMP-30484,Sales,Account Manager,Female,45,8,9801,117616,4,2,No,15,1,17,Yes
+EMP-30485,Human Resources,Recruiting Lead,Female,46,23,4233,50801,3,3,No,24,3,45,No
+EMP-30486,Human Resources,HR Generalist,Non-Binary,30,1,10585,127020,3,2,Yes,50,4,36,Yes
+EMP-30487,Sales,Sales Executive,Female,30,7,5152,61828,2,3,No,58,3,6,No
+EMP-30488,Marketing,Content Strategist,Male,29,1,12545,150548,3,2,No,27,2,38,No
+EMP-30489,Finance,Accountant,Female,44,23,8789,105471,3,4,Yes,9,5,40,No
+EMP-30490,Engineering,Software Engineer,Non-Binary,45,8,6230,74764,4,4,No,15,5,28,No
+EMP-30491,Human Resources,HR Generalist,Male,23,1,11901,142820,3,3,Yes,23,3,39,No
+EMP-30492,Marketing,SEO Specialist,Non-Binary,56,23,7637,91654,4,3,Yes,51,5,34,No
+EMP-30493,Human Resources,People Partner,Female,25,2,5012,60152,3,3,No,43,3,14,No
+EMP-30494,Sales,Sales Director,Male,53,10,10121,121463,4,4,Yes,18,1,11,Yes
+EMP-30495,Sales,Sales Director,Female,38,2,13360,160321,3,2,Yes,48,1,20,Yes
+EMP-30496,Product,Data Analyst,Male,47,18,8810,105728,3,2,No,21,1,30,Yes
+EMP-30497,Human Resources,Recruiting Lead,Female,44,13,3886,46641,1,4,No,50,2,11,No
+EMP-30498,Finance,Financial Analyst,Male,33,11,10795,129543,3,1,Yes,59,5,27,No
+EMP-30499,Finance,Financial Analyst,Female,57,9,12079,144949,3,2,Yes,43,2,13,No
+EMP-30500,Marketing,SEO Specialist,Female,59,14,9975,119700,2,3,No,30,4,3,No
+EMP-30501,Finance,Accountant,Male,28,2,5960,71526,3,4,Yes,26,5,18,No
+EMP-30502,Finance,Financial Analyst,Male,55,22,7128,85538,5,3,No,11,2,17,Yes
+EMP-30503,Engineering,Engineering Lead,Non-Binary,37,15,9837,118050,3,2,Yes,24,5,15,No
+EMP-30504,Marketing,SEO Specialist,Non-Binary,28,1,11278,135347,3,2,No,28,5,41,No
+EMP-30505,Finance,Accountant,Male,26,5,6445,77341,3,3,Yes,18,4,13,No
+EMP-30506,Human Resources,Recruiting Lead,Non-Binary,53,6,9089,109076,3,2,No,35,4,24,No
+EMP-30507,Marketing,SEO Specialist,Female,26,2,12853,154241,4,1,No,43,1,38,Yes
+EMP-30508,Finance,Financial Analyst,Non-Binary,56,10,5706,68482,3,2,Yes,17,2,39,Yes
+EMP-30509,Product,UX Designer,Female,29,6,13207,158493,1,1,Yes,19,5,7,Yes
+EMP-30510,Finance,Financial Analyst,Female,40,6,11935,143223,2,4,No,44,2,5,No
+EMP-30511,Finance,Controller,Male,27,1,13187,158247,4,4,Yes,56,4,17,No
+EMP-30512,Product,Data Analyst,Male,41,20,9983,119801,5,2,No,19,5,43,No
+EMP-30513,Human Resources,Recruiting Lead,Non-Binary,58,13,8793,105527,3,2,Yes,7,5,44,Yes
+EMP-30514,Engineering,DevOps Engineer,Male,51,6,8472,101668,3,3,Yes,28,5,25,No
+EMP-30515,Human Resources,HR Generalist,Female,45,20,8872,106469,2,3,No,28,4,40,No
+EMP-30516,Human Resources,Recruiting Lead,Male,29,2,11191,134298,3,3,Yes,58,4,44,No
+EMP-30517,Product,Product Manager,Non-Binary,48,1,12675,152106,5,2,No,31,5,36,No
+EMP-30518,Product,Data Analyst,Non-Binary,48,25,4436,53236,1,3,No,48,5,31,No
+EMP-30519,Marketing,SEO Specialist,Female,52,19,6954,83449,4,4,Yes,59,4,18,No
+EMP-30520,Human Resources,HR Generalist,Male,46,7,5392,64710,3,3,No,56,3,39,No
+EMP-30521,Marketing,SEO Specialist,Female,55,15,10913,130959,4,2,No,57,5,41,No
+EMP-30522,Human Resources,People Partner,Male,44,12,12946,155357,3,3,No,59,4,17,No
+EMP-30523,Product,Product Manager,Non-Binary,30,5,4006,48082,4,2,No,15,5,42,Yes
+EMP-30524,Product,UX Designer,Non-Binary,55,20,8101,97214,3,2,No,26,1,16,Yes
+EMP-30525,Marketing,Growth Marketer,Non-Binary,24,2,9484,113809,1,2,Yes,17,5,24,No
+EMP-30526,Finance,Financial Analyst,Male,60,4,6455,77463,3,2,Yes,49,3,2,No
+EMP-30527,Human Resources,HR Generalist,Male,39,3,7592,91104,1,4,Yes,16,3,2,No
+EMP-30528,Engineering,DevOps Engineer,Female,45,17,6267,75206,4,2,No,18,2,19,No
+EMP-30529,Human Resources,Recruiting Lead,Non-Binary,49,9,11304,135656,5,3,No,60,4,3,No
+EMP-30530,Sales,Account Manager,Male,58,20,8933,107198,3,2,Yes,55,1,37,Yes
+EMP-30531,Engineering,Software Engineer,Male,23,1,10612,127350,3,1,Yes,48,5,21,Yes
+EMP-30532,Marketing,SEO Specialist,Female,59,15,8946,107360,3,2,Yes,20,1,28,Yes
+EMP-30533,Marketing,Content Strategist,Female,50,21,7804,93654,3,4,Yes,59,3,2,No
+EMP-30534,Marketing,SEO Specialist,Non-Binary,33,7,4096,49155,2,2,No,60,5,31,Yes
+EMP-30535,Human Resources,HR Generalist,Female,27,6,12992,155905,5,3,Yes,15,5,12,Yes
+EMP-30536,Product,UX Designer,Male,35,10,4949,59390,2,2,No,28,5,42,No
+EMP-30537,Marketing,SEO Specialist,Male,35,4,9191,110303,3,3,Yes,26,5,1,No
+EMP-30538,Engineering,Software Engineer,Non-Binary,47,21,7718,92627,2,1,No,22,1,32,Yes
+EMP-30539,Human Resources,People Partner,Male,56,22,10800,129605,3,3,No,37,2,1,Yes
+EMP-30540,Finance,Accountant,Female,35,7,13209,158517,3,2,Yes,60,3,17,No
+EMP-30541,Human Resources,HR Generalist,Non-Binary,25,1,5815,69791,2,2,Yes,55,4,17,Yes
+EMP-30542,Engineering,Engineering Lead,Female,55,11,11899,142794,3,3,No,22,1,36,No
+EMP-30543,Finance,Accountant,Non-Binary,59,7,4011,48139,2,2,Yes,34,3,28,Yes
+EMP-30544,Product,UX Designer,Male,49,20,10576,126919,4,1,No,15,2,42,Yes
+EMP-30545,Sales,Sales Director,Non-Binary,47,13,5889,70668,3,4,Yes,20,3,26,No
+EMP-30546,Engineering,DevOps Engineer,Male,50,20,10769,129235,3,3,No,56,1,12,No
+EMP-30547,Sales,Sales Executive,Male,29,3,13213,158558,5,3,Yes,10,5,21,Yes
+EMP-30548,Marketing,Content Strategist,Male,27,6,9557,114690,2,1,No,38,2,4,Yes
+EMP-30549,Engineering,Software Engineer,Non-Binary,37,2,13684,164215,5,2,No,50,4,14,No
+EMP-30550,Marketing,Growth Marketer,Female,60,15,13416,160995,3,3,Yes,22,3,41,No
+EMP-30551,Sales,Sales Director,Male,45,3,9602,115226,2,1,Yes,53,5,9,Yes
+EMP-30552,Marketing,Content Strategist,Non-Binary,44,4,9259,111118,3,4,No,46,4,44,No
+EMP-30553,Finance,Controller,Non-Binary,27,3,13637,163654,3,1,Yes,37,1,37,Yes
+EMP-30554,Product,Data Analyst,Female,41,9,11851,142221,3,2,No,5,3,33,No
+EMP-30555,Finance,Controller,Male,42,1,9325,111901,3,3,No,31,3,3,No
+EMP-30556,Marketing,Content Strategist,Female,48,20,7694,92331,3,2,Yes,28,3,33,No
+EMP-30557,Engineering,DevOps Engineer,Non-Binary,31,8,8541,102493,4,2,No,45,4,32,No
+EMP-30558,Finance,Financial Analyst,Female,40,4,5128,61540,3,2,No,52,5,16,No
+EMP-30559,Human Resources,People Partner,Male,23,2,4428,53142,4,4,No,43,3,36,No
+EMP-30560,Finance,Controller,Non-Binary,48,15,13540,162491,3,3,Yes,32,4,9,Yes
+EMP-30561,Finance,Accountant,Female,53,4,5432,65190,3,3,No,6,2,29,No
+EMP-30562,Marketing,SEO Specialist,Non-Binary,23,2,7039,84469,2,2,Yes,36,2,44,Yes
+EMP-30563,Marketing,Content Strategist,Male,40,12,4986,59834,3,2,Yes,36,1,4,Yes
+EMP-30564,Marketing,Growth Marketer,Non-Binary,37,10,7607,91293,3,4,No,32,2,8,No
+EMP-30565,Finance,Controller,Male,35,6,12426,149114,5,3,No,31,5,4,No
+EMP-30566,Finance,Accountant,Male,41,19,4751,57013,1,2,Yes,23,2,6,Yes
+EMP-30567,Marketing,Growth Marketer,Non-Binary,52,18,7256,87081,4,1,No,42,2,15,Yes
+EMP-30568,Human Resources,HR Generalist,Non-Binary,37,3,11048,132586,3,1,No,46,1,6,Yes
+EMP-30569,Marketing,SEO Specialist,Male,60,3,4764,57168,2,3,Yes,7,2,26,Yes
+EMP-30570,Engineering,DevOps Engineer,Non-Binary,37,7,9983,119798,3,2,Yes,16,1,43,Yes
+EMP-30571,Sales,Sales Director,Non-Binary,50,17,5602,67224,5,4,Yes,40,5,40,Yes
+EMP-30572,Marketing,Growth Marketer,Female,55,4,11971,143656,4,3,No,30,2,18,No
+EMP-30573,Sales,Sales Director,Male,56,8,7015,84187,3,1,No,16,4,28,No
+EMP-30574,Marketing,Content Strategist,Non-Binary,48,10,6751,81020,4,2,Yes,54,2,32,Yes
+EMP-30575,Human Resources,Recruiting Lead,Male,50,20,12323,147877,3,3,No,33,3,18,No
+EMP-30576,Sales,Account Manager,Female,55,15,10999,131999,2,4,No,29,5,14,No
+EMP-30577,Finance,Controller,Non-Binary,43,8,4753,57039,4,2,No,30,3,42,Yes
+EMP-30578,Finance,Accountant,Male,31,7,12403,148840,4,3,No,22,5,25,No
+EMP-30579,Product,Data Analyst,Male,29,3,12922,155071,2,3,Yes,20,2,18,Yes
+EMP-30580,Human Resources,HR Generalist,Male,25,2,8858,106303,3,2,No,8,4,44,No
+EMP-30581,Sales,Sales Director,Female,53,10,11470,137647,4,3,No,36,5,16,No
+EMP-30582,Marketing,Growth Marketer,Female,59,13,11248,134979,4,4,No,47,4,42,No
+EMP-30583,Marketing,Growth Marketer,Non-Binary,46,18,11144,133735,1,4,No,9,2,26,No
+EMP-30584,Human Resources,People Partner,Female,38,9,10321,123860,3,4,Yes,15,4,3,No
+EMP-30585,Engineering,QA Specialist,Female,44,7,13392,160711,3,2,Yes,8,3,10,Yes
+EMP-30586,Product,Data Analyst,Female,50,9,8729,104757,4,4,Yes,8,2,21,Yes
+EMP-30587,Finance,Financial Analyst,Non-Binary,55,12,11075,132906,5,1,No,31,3,41,Yes
+EMP-30588,Sales,Account Manager,Non-Binary,42,2,9685,116227,2,2,Yes,16,2,37,Yes
+EMP-30589,Human Resources,Recruiting Lead,Female,35,3,13080,156962,3,3,Yes,54,3,9,Yes
+EMP-30590,Finance,Financial Analyst,Male,47,2,11876,142515,4,3,Yes,52,4,3,Yes
+EMP-30591,Sales,Sales Executive,Non-Binary,27,5,6669,80031,3,4,No,42,4,24,No
+EMP-30592,Engineering,QA Specialist,Male,52,1,11431,137181,2,3,No,11,1,19,Yes
+EMP-30593,Finance,Financial Analyst,Male,41,1,10604,127249,3,3,No,12,2,3,No
+EMP-30594,Engineering,DevOps Engineer,Male,28,4,9754,117058,3,2,Yes,57,4,8,Yes
+EMP-30595,Human Resources,HR Generalist,Male,24,2,6435,77221,2,1,No,20,1,12,Yes
+EMP-30596,Human Resources,Recruiting Lead,Female,24,1,6171,74053,3,1,No,27,3,33,Yes
+EMP-30597,Sales,Account Manager,Female,42,11,7445,89351,2,2,Yes,8,2,26,Yes
+EMP-30598,Human Resources,People Partner,Male,31,8,11658,139899,3,1,No,52,4,36,No
+EMP-30599,Human Resources,People Partner,Male,42,15,4580,54963,4,4,Yes,49,5,6,No
+EMP-30600,Human Resources,People Partner,Non-Binary,34,13,5718,68622,5,2,Yes,41,2,45,No
+EMP-30601,Engineering,QA Specialist,Female,55,10,11768,141216,3,2,Yes,60,4,22,No
+EMP-30602,Engineering,Engineering Lead,Non-Binary,40,7,5336,64042,4,3,Yes,7,2,18,Yes
+EMP-30603,Product,UX Designer,Female,55,11,10610,127323,5,2,Yes,41,1,10,No
+EMP-30604,Marketing,Content Strategist,Non-Binary,26,3,11506,138073,3,3,No,11,1,39,Yes
+EMP-30605,Marketing,Growth Marketer,Female,37,8,8300,99610,3,2,No,35,3,45,No
+EMP-30606,Human Resources,People Partner,Male,22,1,5055,60665,3,4,Yes,33,4,3,No
+EMP-30607,Sales,Sales Executive,Female,22,1,8565,102781,2,3,No,50,5,11,No
+EMP-30608,Product,Product Manager,Male,58,24,8891,106695,2,3,No,29,5,7,No
+EMP-30609,Finance,Accountant,Female,24,2,10350,124207,2,4,Yes,49,5,16,Yes
+EMP-30610,Product,Product Manager,Male,44,12,13498,161979,4,1,No,43,5,13,No
+EMP-30611,Product,Product Manager,Female,59,7,13464,161570,3,3,Yes,38,5,17,No
+EMP-30612,Engineering,Engineering Lead,Female,40,12,12794,153532,2,3,Yes,58,3,30,Yes
+EMP-30613,Human Resources,Recruiting Lead,Female,22,1,8031,96374,2,1,No,32,2,42,No
+EMP-30614,Sales,Account Manager,Male,59,22,12693,152318,2,1,Yes,58,4,5,Yes
+EMP-30615,Human Resources,People Partner,Male,29,1,10373,124477,4,3,No,58,1,38,No
+EMP-30616,Finance,Accountant,Non-Binary,22,1,10889,130679,3,1,Yes,13,4,45,Yes
+EMP-30617,Sales,Sales Director,Male,44,22,11035,132422,3,2,No,59,4,4,Yes
+EMP-30618,Product,Data Analyst,Female,30,7,9282,111390,2,4,Yes,41,3,28,No
+EMP-30619,Product,Data Analyst,Female,41,14,4057,48692,5,2,No,43,3,25,No
+EMP-30620,Finance,Controller,Male,59,6,5380,64568,1,4,Yes,18,3,26,Yes
+EMP-30621,Product,Data Analyst,Non-Binary,51,10,11730,140762,3,3,Yes,27,1,4,Yes
+EMP-30622,Engineering,Engineering Lead,Female,39,17,8294,99534,3,2,Yes,40,2,8,Yes
+EMP-30623,Human Resources,Recruiting Lead,Non-Binary,50,10,9201,110421,3,2,No,46,5,20,No
+EMP-30624,Sales,Account Manager,Female,60,19,10197,122365,3,1,No,14,1,6,No
+EMP-30625,Engineering,Engineering Lead,Female,49,21,10062,120750,2,2,No,12,5,6,No
+EMP-30626,Finance,Controller,Male,35,6,6360,76322,3,2,Yes,20,5,31,No
+EMP-30627,Engineering,QA Specialist,Non-Binary,47,17,5198,62380,3,3,No,28,2,16,No
+EMP-30628,Marketing,Content Strategist,Female,32,1,5232,62793,3,2,No,21,4,33,Yes
+EMP-30629,Sales,Sales Director,Male,47,19,13083,157000,3,2,No,12,4,15,No
+EMP-30630,Sales,Sales Executive,Male,59,8,4653,55840,3,2,No,26,1,16,Yes
+EMP-30631,Marketing,SEO Specialist,Non-Binary,50,12,12886,154641,4,3,No,25,4,45,No
+EMP-30632,Product,UX Designer,Non-Binary,27,4,7033,84407,3,4,No,18,3,42,No
+EMP-30633,Marketing,Content Strategist,Non-Binary,26,1,11285,135431,3,2,Yes,34,2,4,Yes
+EMP-30634,Finance,Financial Analyst,Non-Binary,34,7,10211,122532,4,2,No,31,2,40,Yes
+EMP-30635,Sales,Sales Director,Male,48,18,7874,94488,4,3,Yes,56,5,35,No
+EMP-30636,Engineering,Engineering Lead,Non-Binary,39,8,12204,146451,5,3,No,22,1,4,No
+EMP-30637,Engineering,Software Engineer,Female,31,8,12264,147173,4,2,Yes,27,3,38,Yes
+EMP-30638,Engineering,Software Engineer,Non-Binary,26,5,9710,116525,4,3,Yes,18,2,41,No
+EMP-30639,Marketing,Growth Marketer,Female,35,9,7099,85197,4,4,Yes,11,1,21,No
+EMP-30640,Engineering,DevOps Engineer,Female,51,12,8071,96854,2,1,No,23,2,25,Yes
+EMP-30641,Marketing,Growth Marketer,Female,48,6,3785,45425,5,4,Yes,26,3,25,No
+EMP-30642,Product,Product Manager,Male,37,10,3793,45519,3,4,No,20,3,15,No
+EMP-30643,Human Resources,HR Generalist,Non-Binary,43,9,8908,106903,3,3,Yes,31,1,16,No
+EMP-30644,Finance,Financial Analyst,Male,50,19,12201,146422,3,2,No,13,1,17,No
+EMP-30645,Product,Product Manager,Non-Binary,33,1,13718,164620,2,2,Yes,36,3,26,Yes
+EMP-30646,Finance,Financial Analyst,Non-Binary,43,14,6514,78173,3,1,No,22,1,13,Yes
+EMP-30647,Sales,Account Manager,Female,45,24,12527,150331,1,3,Yes,26,4,45,No
+EMP-30648,Marketing,SEO Specialist,Male,50,21,10441,125297,2,2,No,40,2,37,Yes
+EMP-30649,Marketing,Content Strategist,Non-Binary,41,19,5697,68367,2,3,Yes,46,1,42,Yes
+EMP-30650,Finance,Controller,Non-Binary,39,17,4983,59798,3,2,Yes,18,5,24,No
+EMP-30651,Human Resources,People Partner,Non-Binary,34,10,5071,60859,3,2,No,14,1,8,No
+EMP-30652,Product,Product Manager,Male,50,10,13471,161657,1,1,No,49,3,28,No
+EMP-30653,Finance,Controller,Non-Binary,47,13,7725,92708,3,3,Yes,34,2,39,Yes
+EMP-30654,Product,UX Designer,Female,42,20,4861,58340,5,2,No,49,5,8,No
+EMP-30655,Marketing,Content Strategist,Male,29,1,13497,161972,2,2,No,13,2,7,Yes
+EMP-30656,Finance,Financial Analyst,Male,40,6,9682,116191,3,3,Yes,51,2,10,No
+EMP-30657,Product,UX Designer,Female,33,7,8955,107470,4,3,Yes,5,2,21,Yes
+EMP-30658,Marketing,Content Strategist,Male,56,14,8567,102804,4,3,No,29,1,20,No
+EMP-30659,Finance,Controller,Male,59,25,9596,115157,3,3,No,50,4,31,No
+EMP-30660,Finance,Controller,Female,53,5,4569,54835,1,3,Yes,55,3,45,Yes
+EMP-30661,Sales,Sales Executive,Non-Binary,24,2,13083,156997,2,3,No,14,3,30,No
+EMP-30662,Sales,Account Manager,Female,33,7,7533,90397,3,1,Yes,42,2,32,No
+EMP-30663,Human Resources,People Partner,Non-Binary,36,10,9767,117208,3,2,Yes,56,5,11,No
+EMP-30664,Finance,Controller,Male,46,21,5843,70127,5,3,No,40,4,34,Yes
+EMP-30665,Product,Product Manager,Female,33,11,13322,159871,3,4,No,54,2,6,No
+EMP-30666,Finance,Accountant,Non-Binary,37,3,12713,152560,2,2,Yes,48,1,42,Yes
+EMP-30667,Sales,Account Manager,Non-Binary,51,24,4372,52474,3,3,Yes,36,4,24,Yes
+EMP-30668,Finance,Controller,Female,58,10,10943,131326,3,3,No,17,3,30,No
+EMP-30669,Human Resources,People Partner,Female,30,2,6346,76153,3,1,No,42,3,5,No
+EMP-30670,Marketing,SEO Specialist,Female,44,9,11922,143074,2,4,No,26,1,13,No
+EMP-30671,Sales,Sales Director,Male,42,20,4485,53823,3,1,No,18,3,8,No
+EMP-30672,Product,Product Manager,Male,60,14,9188,110258,3,1,Yes,60,4,15,Yes
+EMP-30673,Marketing,SEO Specialist,Non-Binary,22,1,11766,141203,1,1,Yes,36,2,10,Yes
+EMP-30674,Sales,Account Manager,Non-Binary,53,17,12344,148133,4,4,Yes,50,2,44,Yes
+EMP-30675,Product,Data Analyst,Male,30,9,4625,55509,3,4,Yes,27,3,44,No
+EMP-30676,Product,Data Analyst,Female,30,2,4521,54254,5,2,No,42,4,16,No
+EMP-30677,Human Resources,HR Generalist,Male,27,3,10372,124472,4,2,Yes,6,5,33,Yes
+EMP-30678,Sales,Sales Executive,Female,43,19,13456,161473,3,3,Yes,20,5,7,No
+EMP-30679,Engineering,DevOps Engineer,Non-Binary,48,10,9726,116714,5,3,Yes,7,2,5,No
+EMP-30680,Marketing,Content Strategist,Non-Binary,38,1,9691,116299,2,1,No,32,1,28,No
+EMP-30681,Human Resources,People Partner,Female,34,3,12045,144547,2,3,No,60,1,14,No
+EMP-30682,Engineering,QA Specialist,Male,41,16,6544,78529,3,2,No,13,1,3,Yes
+EMP-30683,Engineering,Software Engineer,Male,40,13,3771,45254,2,3,Yes,17,1,16,Yes
+EMP-30684,Marketing,SEO Specialist,Female,58,10,5204,62453,1,2,Yes,48,2,44,Yes
+EMP-30685,Marketing,Growth Marketer,Non-Binary,51,5,10925,131105,2,2,Yes,50,5,39,No
+EMP-30686,Finance,Controller,Non-Binary,53,23,9798,117577,5,3,No,32,4,29,No
+EMP-30687,Engineering,DevOps Engineer,Non-Binary,52,15,10918,131020,2,3,Yes,39,5,15,No
+EMP-30688,Product,Data Analyst,Male,24,2,9284,111411,3,1,No,12,5,17,Yes
+EMP-30689,Product,Data Analyst,Female,54,3,10797,129567,4,2,Yes,22,1,35,Yes
+EMP-30690,Product,Product Manager,Female,59,22,8148,97787,4,3,Yes,20,1,23,No
+EMP-30691,Marketing,SEO Specialist,Female,34,10,4908,58899,4,3,No,20,4,9,Yes
+EMP-30692,Marketing,Growth Marketer,Non-Binary,34,13,6322,75872,3,2,No,21,1,27,Yes
+EMP-30693,Marketing,Growth Marketer,Female,22,1,4345,52149,4,4,Yes,54,3,13,Yes
+EMP-30694,Product,UX Designer,Male,25,3,7671,92060,3,2,No,53,2,44,Yes
+EMP-30695,Marketing,Content Strategist,Female,55,23,10232,122788,3,2,Yes,46,2,7,No
+EMP-30696,Engineering,Software Engineer,Female,30,1,6778,81337,1,3,No,36,1,8,No
+EMP-30697,Marketing,Growth Marketer,Male,50,12,11053,132643,3,3,No,11,1,45,No
+EMP-30698,Finance,Accountant,Female,52,3,9449,113395,3,4,Yes,32,2,19,Yes
+EMP-30699,Human Resources,HR Generalist,Non-Binary,38,14,8883,106606,2,3,Yes,37,4,30,No
+EMP-30700,Sales,Sales Executive,Male,42,15,12232,146785,1,2,No,19,1,30,Yes
+EMP-30701,Marketing,Growth Marketer,Non-Binary,49,25,9540,114482,3,3,No,47,3,39,No
+EMP-30702,Product,Product Manager,Male,25,3,12467,149607,5,3,Yes,56,4,29,No
+EMP-30703,Product,Data Analyst,Non-Binary,58,5,6602,79225,3,3,No,34,1,19,No
+EMP-30704,Engineering,Software Engineer,Non-Binary,34,1,4768,57221,3,3,No,20,2,16,Yes
+EMP-30705,Marketing,Growth Marketer,Non-Binary,46,12,4808,57700,3,1,No,28,5,6,No
+EMP-30706,Human Resources,HR Generalist,Male,37,9,6393,76723,5,2,Yes,51,2,23,No
+EMP-30707,Product,UX Designer,Female,23,2,6043,72523,3,2,Yes,18,1,5,Yes
+EMP-30708,Marketing,Content Strategist,Non-Binary,26,1,10214,122577,4,4,Yes,6,4,1,No
+EMP-30709,Sales,Sales Director,Female,59,7,4326,51915,4,2,Yes,16,1,44,Yes
+EMP-30710,Sales,Sales Director,Female,50,21,6418,77026,4,2,Yes,40,3,43,Yes
+EMP-30711,Human Resources,HR Generalist,Male,48,4,11236,134839,3,3,No,22,2,27,No
+EMP-30712,Engineering,QA Specialist,Female,42,7,8540,102486,4,4,No,39,2,26,No
+EMP-30713,Product,Data Analyst,Non-Binary,45,2,9581,114973,2,4,No,7,2,13,Yes
+EMP-30714,Marketing,SEO Specialist,Female,59,8,12766,153196,3,1,Yes,47,3,42,Yes
+EMP-30715,Finance,Financial Analyst,Female,23,2,7203,86438,1,2,Yes,42,4,14,Yes
+EMP-30716,Marketing,Content Strategist,Female,33,5,11436,137241,4,2,No,21,3,18,No
+EMP-30717,Marketing,SEO Specialist,Male,24,2,8415,100985,3,1,No,5,4,37,No
+EMP-30718,Finance,Financial Analyst,Female,41,18,8494,101936,2,3,No,28,3,14,No
+EMP-30719,Finance,Financial Analyst,Non-Binary,44,21,13201,158422,3,3,Yes,42,1,9,Yes
+EMP-30720,Marketing,Content Strategist,Female,32,6,6516,78198,4,2,Yes,43,4,3,Yes
+EMP-30721,Human Resources,HR Generalist,Non-Binary,36,3,12951,155416,3,2,Yes,33,5,10,Yes
+EMP-30722,Sales,Account Manager,Non-Binary,28,6,8959,107511,3,1,No,54,1,14,Yes
+EMP-30723,Engineering,DevOps Engineer,Non-Binary,59,10,6442,77312,3,3,No,22,2,30,No
+EMP-30724,Marketing,Content Strategist,Non-Binary,37,14,4741,56902,4,2,No,41,4,17,Yes
+EMP-30725,Marketing,SEO Specialist,Non-Binary,44,23,10556,126681,3,2,Yes,16,4,13,No
+EMP-30726,Human Resources,People Partner,Female,31,8,11716,140597,2,2,Yes,48,3,2,Yes
+EMP-30727,Finance,Financial Analyst,Female,30,8,7982,95785,2,2,No,50,1,43,Yes
+EMP-30728,Engineering,QA Specialist,Non-Binary,46,11,11000,132002,3,1,No,19,5,6,No
+EMP-30729,Engineering,QA Specialist,Male,30,3,9559,114716,4,2,No,54,3,44,No
+EMP-30730,Finance,Accountant,Male,55,23,5222,62672,3,4,No,36,4,18,No
+EMP-30731,Finance,Financial Analyst,Female,38,7,13696,164361,4,3,No,17,2,29,No
+EMP-30732,Sales,Sales Director,Female,59,6,4621,55461,4,2,Yes,5,2,25,Yes
+EMP-30733,Human Resources,HR Generalist,Male,38,7,13515,162182,3,2,No,41,4,22,No
+EMP-30734,Human Resources,HR Generalist,Female,44,16,6465,77587,2,1,Yes,5,5,37,No
+EMP-30735,Engineering,Engineering Lead,Male,23,2,4315,51781,3,2,Yes,34,4,15,Yes
+EMP-30736,Sales,Sales Director,Female,34,5,4685,56224,4,3,Yes,54,2,44,No
+EMP-30737,Product,UX Designer,Non-Binary,23,1,8249,98998,3,1,Yes,35,2,12,Yes
+EMP-30738,Product,Data Analyst,Female,27,2,11976,143720,2,3,No,27,2,16,No
+EMP-30739,Product,Data Analyst,Female,58,14,12186,146243,1,2,Yes,57,3,40,No
+EMP-30740,Finance,Controller,Non-Binary,51,12,5005,60071,3,2,Yes,17,2,13,Yes
+EMP-30741,Finance,Controller,Non-Binary,25,4,13184,158210,1,3,Yes,34,3,1,Yes
+EMP-30742,Product,UX Designer,Male,36,15,4012,48148,1,3,No,36,3,34,No
+EMP-30743,Human Resources,Recruiting Lead,Female,56,11,3803,45640,3,3,Yes,24,3,3,Yes
+EMP-30744,Human Resources,HR Generalist,Male,47,14,10544,126530,3,2,No,16,5,28,No
+EMP-30745,Engineering,Software Engineer,Female,30,1,7119,85431,4,4,No,53,3,3,No
+EMP-30746,Product,UX Designer,Female,31,2,9069,108831,4,2,Yes,23,5,13,No
+EMP-30747,Marketing,Content Strategist,Female,46,15,6550,78608,5,2,No,41,5,45,No
+EMP-30748,Marketing,SEO Specialist,Female,50,9,10528,126342,2,3,Yes,30,4,30,No
+EMP-30749,Human Resources,Recruiting Lead,Male,54,15,10574,126895,3,3,No,18,4,31,No
+EMP-30750,Sales,Account Manager,Non-Binary,35,14,4946,59354,3,2,Yes,21,2,29,Yes
+EMP-30751,Marketing,Growth Marketer,Male,40,2,9019,108238,3,2,No,9,5,29,No
+EMP-30752,Finance,Financial Analyst,Female,59,5,12016,144202,2,4,Yes,47,2,31,No
+EMP-30753,Marketing,Growth Marketer,Male,31,6,8003,96038,4,4,Yes,14,2,1,Yes
+EMP-30754,Marketing,Growth Marketer,Non-Binary,54,19,7561,90734,4,1,Yes,14,3,12,Yes
+EMP-30755,Human Resources,Recruiting Lead,Male,22,1,13312,159748,4,4,Yes,31,5,3,No
+EMP-30756,Sales,Sales Executive,Male,39,3,12719,152630,5,2,No,26,2,9,No
+EMP-30757,Marketing,Growth Marketer,Non-Binary,56,9,10484,125810,4,3,No,60,4,2,No
+EMP-30758,Engineering,Engineering Lead,Male,23,2,6724,80698,5,1,No,55,2,16,No
+EMP-30759,Engineering,Software Engineer,Female,59,3,11718,140626,4,2,No,23,2,25,No
+EMP-30760,Engineering,Engineering Lead,Male,54,23,8757,105087,3,4,No,35,4,20,No
+EMP-30761,Product,UX Designer,Female,45,17,8524,102295,3,3,No,53,5,32,No
+EMP-30762,Marketing,Content Strategist,Female,54,12,13387,160655,3,1,Yes,51,5,33,No
+EMP-30763,Sales,Account Manager,Male,38,6,4647,55768,3,1,Yes,41,5,34,No
+EMP-30764,Sales,Sales Executive,Female,58,1,3906,46874,3,3,Yes,60,2,43,Yes
+EMP-30765,Marketing,SEO Specialist,Female,54,9,12275,147310,3,2,No,9,3,43,No
+EMP-30766,Product,UX Designer,Non-Binary,46,13,3827,45926,3,2,Yes,41,1,7,Yes
+EMP-30767,Product,UX Designer,Female,50,21,8126,97516,3,3,No,53,4,24,No
+EMP-30768,Product,UX Designer,Female,47,9,9000,108000,5,1,No,13,1,33,No
+EMP-30769,Marketing,SEO Specialist,Male,59,14,7145,85743,3,2,Yes,9,4,24,Yes
+EMP-30770,Finance,Controller,Non-Binary,55,16,9530,114365,2,3,No,14,4,24,No
+EMP-30771,Marketing,Content Strategist,Male,22,1,4591,55093,3,3,Yes,31,5,11,No
+EMP-30772,Finance,Accountant,Non-Binary,36,11,9497,113968,3,3,Yes,8,4,31,Yes
+EMP-30773,Human Resources,Recruiting Lead,Male,59,2,6434,77211,2,4,No,20,1,13,Yes
+EMP-30774,Product,Product Manager,Non-Binary,37,8,12715,152583,1,1,Yes,56,5,17,No
+EMP-30775,Human Resources,Recruiting Lead,Female,54,18,7282,87386,3,2,No,13,3,23,Yes
+EMP-30776,Human Resources,HR Generalist,Female,26,3,5856,70278,3,2,No,27,4,34,No
+EMP-30777,Engineering,Engineering Lead,Non-Binary,56,7,10851,130218,3,3,Yes,47,2,22,Yes
+EMP-30778,Human Resources,Recruiting Lead,Non-Binary,49,8,10926,131120,5,3,No,50,5,28,No
+EMP-30779,Engineering,Engineering Lead,Non-Binary,56,5,7321,87863,5,2,Yes,49,1,39,Yes
+EMP-30780,Finance,Financial Analyst,Non-Binary,49,5,6630,79568,4,4,No,45,4,27,No
+EMP-30781,Sales,Sales Director,Male,47,22,9611,115343,3,2,No,58,1,32,No
+EMP-30782,Human Resources,HR Generalist,Female,52,19,11689,140274,4,4,Yes,10,1,9,No
+EMP-30783,Human Resources,HR Generalist,Non-Binary,25,3,13100,157205,4,3,Yes,58,1,13,No
+EMP-30784,Product,UX Designer,Male,28,2,5106,61279,4,3,Yes,41,1,41,Yes
+EMP-30785,Marketing,SEO Specialist,Female,32,5,12657,151890,5,2,Yes,14,1,7,Yes
+EMP-30786,Human Resources,Recruiting Lead,Male,37,7,11156,133881,3,3,No,17,2,25,Yes
+EMP-30787,Sales,Sales Director,Non-Binary,27,3,3908,46899,3,3,No,25,5,34,No
+EMP-30788,Engineering,QA Specialist,Male,25,2,13407,160886,3,2,No,8,4,18,No
+EMP-30789,Product,Data Analyst,Male,37,6,9380,112566,2,3,No,6,2,17,No
+EMP-30790,Marketing,Content Strategist,Male,23,1,8862,106349,3,3,Yes,20,3,45,No
+EMP-30791,Sales,Account Manager,Female,36,8,8514,102169,3,2,No,9,4,9,No
+EMP-30792,Human Resources,HR Generalist,Female,42,10,9838,118061,5,2,Yes,16,4,27,Yes
+EMP-30793,Marketing,SEO Specialist,Male,59,7,12473,149678,4,3,Yes,43,3,12,No
+EMP-30794,Engineering,DevOps Engineer,Male,44,2,10758,129104,2,4,Yes,45,2,37,Yes
+EMP-30795,Sales,Account Manager,Non-Binary,56,20,10784,129414,4,3,No,56,4,31,No
+EMP-30796,Product,Data Analyst,Male,30,1,6164,73973,3,1,Yes,14,4,23,Yes
+EMP-30797,Finance,Controller,Female,42,15,11045,132550,5,4,Yes,10,1,27,No
+EMP-30798,Sales,Sales Executive,Male,47,21,11632,139587,3,3,Yes,5,3,17,Yes
+EMP-30799,Marketing,Content Strategist,Female,39,10,6491,77896,3,2,No,42,1,17,Yes
+EMP-30800,Product,Data Analyst,Male,25,4,10623,127477,2,4,No,30,5,16,No

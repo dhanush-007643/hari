@@ -56,7 +56,7 @@ def create_app() -> FastAPI:
     app.add_middleware(
         CORSMiddleware,
         allow_origins=settings.ALLOWED_ORIGINS,
-        allow_credentials=True,
+        allow_credentials=False,
         allow_methods=["*"],
         allow_headers=["*"],
         expose_headers=["Content-Disposition"],
@@ -125,10 +125,12 @@ app = create_app()
 
 if __name__ == "__main__":
     import uvicorn
+    import os
+    port = int(os.getenv("PORT", 8092))
     uvicorn.run(
         "app.main:app",
         host="0.0.0.0",
-        port=8092,
+        port=port,
         reload=settings.DEBUG,
         log_level="info",
     )

@@ -13,6 +13,7 @@ class Settings(BaseSettings):
     APP_VERSION: str = "1.0.0"
     DEBUG: bool = True
     API_PREFIX: str = "/api/v1"
+    PORT: int = 8092
 
     # Security
     SECRET_KEY: str = "datavista-super-secret-key-change-in-production-2024"
@@ -22,7 +23,7 @@ class Settings(BaseSettings):
 
     # Database
     DATABASE_URL: str = "sqlite+aiosqlite:///./datavista.db"
-    SYNC_DATABASE_URL: str = "sqlite:///./datavista.db"
+    SYNC_DATABASE_URL: Optional[str] = None
 
     # CORS
     ALLOWED_ORIGINS: List[str] = [
@@ -62,6 +63,7 @@ class Settings(BaseSettings):
     class Config:
         env_file = ".env"
         case_sensitive = True
+        extra = "ignore"
 
 
 settings = Settings()
