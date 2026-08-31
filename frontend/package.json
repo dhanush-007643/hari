@@ -29,5 +29,15 @@
   "devDependencies": {
     "@vitejs/plugin-react": "^4.2.1",
     "vite": "^5.0.8"
+  },
+  "allowScripts": {
+    "esbuild": true,
+    "es5-ext": true
+  },
+  "lavamoat": {
+    "allowScripts": {
+      "esbuild": true,
+      "es5-ext": true
+    }
   }
 }
