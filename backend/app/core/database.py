@@ -1,16 +1,19 @@
 """
 DataVista+ Database Configuration
-SQLAlchemy async engine, session management, and base model
+SQLAlchemy async engine, session management, and base model with robust fallback
 """
+import os
+import logging
 from sqlalchemy.ext.asyncio import AsyncSession, create_async_engine, async_sessionmaker
 from sqlalchemy.orm import DeclarativeBase
 from sqlalchemy import create_engine
 from app.core.config import settings
-import logging
 
 logger = logging.getLogger(__name__)
 
 def _normalize_async_url(url: str) -> str:
+    if not url:
+        return "sqlite+aiosqlite:///./datavista.db"
     if url.startswith("postgres://"):
         return url.replace("postgres://", "postgresql+asyncpg://", 1)
     if url.startswith("postgresql://") and not url.startswith("postgresql+asyncpg://"):
@@ -19,6 +22,8 @@ def _normalize_async_url(url: str) -> str:
 
 
 def _normalize_sync_url(url: str) -> str:
+    if not url:
+        return "sqlite:///./datavista.db"
     if url.startswith("sqlite+aiosqlite://"):
         return url.replace("sqlite+aiosqlite://", "sqlite://", 1)
     if url.startswith("postgres://"):
@@ -28,13 +33,22 @@ def _normalize_sync_url(url: str) -> str:
     return url
 
 
-async_db_url = _normalize_async_url(settings.DATABASE_URL)
-sync_db_url = _normalize_sync_url(settings.SYNC_DATABASE_URL or settings.DATABASE_URL)
+# Determine database URL
+raw_db_url = settings.DATABASE_URL or "sqlite+aiosqlite:///./datavista.db"
+
+# If in production/Render and DATABASE_URL points to localhost (which won't exist in Render container), fallback to SQLite
+is_cloud_env = bool(os.getenv("RENDER") or os.getenv("PORT") or not settings.DEBUG)
+if is_cloud_env and ("localhost" in raw_db_url or "127.0.0.1" in raw_db_url):
+    logger.warning("Detected localhost DB URL in cloud environment. Falling back to SQLite database.")
+    raw_db_url = "sqlite+aiosqlite:///./datavista.db"
+
+async_db_url = _normalize_async_url(raw_db_url)
+sync_db_url = _normalize_sync_url(settings.SYNC_DATABASE_URL or raw_db_url)
 
 # Async engine for API requests
 engine = create_async_engine(
     async_db_url,
-    echo=settings.DEBUG,
+    echo=False,
     connect_args={"check_same_thread": False} if "sqlite" in async_db_url else {},
 )
 
@@ -74,14 +88,44 @@ async def get_db() -> AsyncSession:
 
 
 async def init_db():
-    """Initialize the database — create all tables and run seed data."""
+    """Initialize the database — create all tables and run seed data with resilient error handling."""
+    global engine, sync_engine, AsyncSessionLocal
     from app.models import user_model, dataset_model, query_model, ml_model  # noqa
     from app.models import insight_model, report_model  # noqa
 
-    async with engine.begin() as conn:
-        await conn.run_sync(Base.metadata.create_all)
-    logger.info("Database initialized successfully.")
-    await _seed_initial_data()
+    try:
+        async with engine.begin() as conn:
+            await conn.run_sync(Base.metadata.create_all)
+        logger.info("Database initialized successfully.")
+        await _seed_initial_data()
+    except Exception as e:
+        logger.error(f"Failed to connect to primary database ({async_db_url}): {e}")
+        # If remote/local postgres fails, gracefully fallback to SQLite so the app never crashes
+        if "sqlite" not in async_db_url:
+            logger.warning("Falling back to embedded SQLite database (datavista.db)...")
+            fallback_async = "sqlite+aiosqlite:///./datavista.db"
+            fallback_sync = "sqlite:///./datavista.db"
+            
+            engine = create_async_engine(
+                fallback_async,
+                echo=False,
+                connect_args={"check_same_thread": False},
+            )
+            sync_engine = create_engine(
+                fallback_sync,
+                connect_args={"check_same_thread": False},
+            )
+            AsyncSessionLocal = async_sessionmaker(
+                engine,
+                class_=AsyncSession,
+                expire_on_commit=False,
+            )
+            async with engine.begin() as conn:
+                await conn.run_sync(Base.metadata.create_all)
+            logger.info("Fallback SQLite database initialized successfully.")
+            await _seed_initial_data()
+        else:
+            raise e
 
 
 async def _seed_initial_data():
