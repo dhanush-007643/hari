@@ -6,32 +6,27 @@ const useAuthStore = create((set, get) => ({
   isAuthenticated: false,
   isChecking: true,
   
-  login: async (email, password) => {
+  login: async (emailOrUsername, password) => {
     try {
-      // For OAuth2PasswordRequestForm we need to send form data
-      const formData = new URLSearchParams();
-      formData.append('username', email);
-      formData.append('password', password);
+      const payload = {
+        username: emailOrUsername.trim(),
+        password: password
+      };
       
-      const res = await api.post('/auth/login', formData, {
-        headers: {
-          'Content-Type': 'application/x-www-form-urlencoded'
-        }
-      });
-      
+      const res = await api.post('/auth/login', payload);
       const { access_token, refresh_token, user } = res.data;
       
       localStorage.setItem('access_token', access_token);
       localStorage.setItem('refresh_token', refresh_token);
       
-      set({ user, isAuthenticated: true });
-      return { success: true };
+      set({ user, isAuthenticated: true, isChecking: false });
+      return { success: true, user };
     } catch (error) {
       console.error('Login error:', error);
       let errorMsg = 'Invalid credentials';
       if (error.response?.data?.detail) {
         const detail = error.response.data.detail;
-        errorMsg = Array.isArray(detail) ? detail.map(d => d.msg || d).join(', ') : (typeof detail === 'string' ? detail : JSON.stringify(detail));
+        errorMsg = Array.isArray(detail) ? detail.map(d => d.msg || (typeof d === 'string' ? d : JSON.stringify(d))).join(', ') : (typeof detail === 'string' ? detail : JSON.stringify(detail));
       }
       return { 
         success: false, 
@@ -42,14 +37,20 @@ const useAuthStore = create((set, get) => ({
   
   register: async (userData) => {
     try {
-      await api.post('/auth/register', userData);
+      const cleanData = {
+        username: userData.username.trim(),
+        email: userData.email.trim(),
+        full_name: userData.full_name?.trim() || null,
+        password: userData.password
+      };
+      await api.post('/auth/register', cleanData);
       // Auto login after registration
-      return await get().login(userData.email, userData.password);
+      return await get().login(cleanData.email, cleanData.password);
     } catch (error) {
       let errorMsg = 'Registration failed';
       if (error.response?.data?.detail) {
         const detail = error.response.data.detail;
-        errorMsg = Array.isArray(detail) ? detail.map(d => d.msg || d).join(', ') : (typeof detail === 'string' ? detail : JSON.stringify(detail));
+        errorMsg = Array.isArray(detail) ? detail.map(d => d.msg || (typeof d === 'string' ? d : JSON.stringify(d))).join(', ') : (typeof detail === 'string' ? detail : JSON.stringify(detail));
       }
       return { 
         success: false, 
