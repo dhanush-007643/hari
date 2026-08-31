@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { UserPlus, Eye, EyeOff, Sparkles, CheckCircle2, XCircle, User, Mail, Lock, UserCheck } from 'lucide-react';
+import { UserPlus, Eye, EyeOff, Sparkles, CheckCircle2, User, Mail, Lock, UserCheck } from 'lucide-react';
 import useAuthStore from '../store/authStore';
 import toast from 'react-hot-toast';
 
@@ -29,28 +29,23 @@ const RegisterPage = () => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  // Password rules validation
-  const hasMinLength = formData.password.length >= 8;
-  const hasUpper = /[A-Z]/.test(formData.password);
-  const hasLower = /[a-z]/.test(formData.password);
-  const hasDigit = /[0-9]/.test(formData.password);
-  const isPasswordValid = hasMinLength && hasUpper && hasLower && hasDigit;
+  const isPasswordValid = formData.password.length >= 6;
   const passwordsMatch = formData.password.length > 0 && formData.password === formData.confirm_password;
 
   const handleSubmit = async (e) => {
     e.preventDefault();
 
     if (!formData.username.trim() || !formData.email.trim() || !formData.password) {
-      toast.error('Please fill in all required fields');
+      toast.error('Please fill in username, email, and password');
       return;
     }
 
-    if (!isPasswordValid) {
-      toast.error('Password does not meet the security requirements (8+ chars, uppercase, lowercase, number)');
+    if (formData.password.length < 6) {
+      toast.error('Password must be at least 6 characters');
       return;
     }
 
-    if (!passwordsMatch) {
+    if (formData.password !== formData.confirm_password) {
       toast.error('Passwords do not match');
       return;
     }
@@ -68,7 +63,7 @@ const RegisterPage = () => {
       toast.success('Account created successfully! Welcome to DataVista+');
       navigate('/dashboard');
     } else {
-      toast.error(error || 'Registration failed');
+      toast.error(error || 'Registration failed. Please try again.');
     }
   };
 
@@ -193,7 +188,7 @@ const RegisterPage = () => {
 
           <div>
             <label style={{ display: 'flex', alignItems: 'center', gap: '4px', marginBottom: '6px', fontSize: '0.85rem', fontWeight: 600 }}>
-              <Lock size={14} color="var(--primary)" /> Password *
+              <Lock size={14} color="var(--primary)" /> Password * (min. 6 characters)
             </label>
             <div style={{ position: 'relative' }}>
               <input
@@ -231,37 +226,11 @@ const RegisterPage = () => {
                   display: 'flex'
                 }}
                 tabIndex={-1}
+                aria-label={showPassword ? "Hide password" : "Show password"}
               >
                 {showPassword ? <EyeOff size={16} /> : <Eye size={16} />}
               </button>
             </div>
-
-            {/* Real-time Password Strength Check */}
-            {formData.password && (
-              <div style={{
-                marginTop: '8px',
-                padding: '8px 12px',
-                background: 'rgba(0, 0, 0, 0.03)',
-                borderRadius: '8px',
-                fontSize: '0.78rem',
-                display: 'grid',
-                gridTemplateColumns: '1fr 1fr',
-                gap: '6px'
-              }}>
-                <div style={{ display: 'flex', alignItems: 'center', gap: '5px', color: hasMinLength ? 'var(--success)' : 'var(--text-secondary)' }}>
-                  {hasMinLength ? <CheckCircle2 size={13} /> : <XCircle size={13} />} 8+ characters
-                </div>
-                <div style={{ display: 'flex', alignItems: 'center', gap: '5px', color: hasUpper ? 'var(--success)' : 'var(--text-secondary)' }}>
-                  {hasUpper ? <CheckCircle2 size={13} /> : <XCircle size={13} />} 1 Uppercase (A-Z)
-                </div>
-                <div style={{ display: 'flex', alignItems: 'center', gap: '5px', color: hasLower ? 'var(--success)' : 'var(--text-secondary)' }}>
-                  {hasLower ? <CheckCircle2 size={13} /> : <XCircle size={13} />} 1 Lowercase (a-z)
-                </div>
-                <div style={{ display: 'flex', alignItems: 'center', gap: '5px', color: hasDigit ? 'var(--success)' : 'var(--text-secondary)' }}>
-                  {hasDigit ? <CheckCircle2 size={13} /> : <XCircle size={13} />} 1 Number (0-9)
-                </div>
-              </div>
-            )}
           </div>
 
           <div>
@@ -304,6 +273,7 @@ const RegisterPage = () => {
                   display: 'flex'
                 }}
                 tabIndex={-1}
+                aria-label={showConfirmPassword ? "Hide password" : "Show password"}
               >
                 {showConfirmPassword ? <EyeOff size={16} /> : <Eye size={16} />}
               </button>
@@ -318,7 +288,7 @@ const RegisterPage = () => {
           <button
             type="submit"
             className="btn btn-primary"
-            disabled={loading || (formData.password && !isPasswordValid)}
+            disabled={loading}
             style={{
               marginTop: '10px',
               padding: '13px',

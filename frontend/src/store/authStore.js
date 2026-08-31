@@ -51,8 +51,20 @@ const useAuthStore = create((set, get) => ({
         full_name: (userData.full_name || '').trim() || null,
         password: userData.password
       };
-      await api.post('/auth/register', cleanData);
-      // Auto login after registration
+      
+      const res = await api.post('/auth/register', cleanData);
+      
+      if (res.data?.access_token) {
+        const { access_token, refresh_token, user } = res.data;
+        localStorage.setItem('access_token', access_token);
+        if (refresh_token) {
+          localStorage.setItem('refresh_token', refresh_token);
+        }
+        set({ user, isAuthenticated: true, isChecking: false });
+        return { success: true, user };
+      }
+      
+      // Fallback auto login
       return await get().login(cleanData.username, cleanData.password);
     } catch (error) {
       console.error('Registration error:', error);

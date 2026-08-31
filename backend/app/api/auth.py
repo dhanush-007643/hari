@@ -154,7 +154,7 @@ async def register(
         full_name=full_name,
         is_active=True,
         is_superuser=False,
-        role_id=role.id if role else None,
+        role_id=role.id if role else 2,
     )
     db.add(new_user)
     await db.flush()
@@ -162,8 +162,29 @@ async def register(
     # Log activity
     db.add(ActivityLog(user_id=new_user.id, action_type="register", description="New user registered"))
     await db.commit()
+    await db.refresh(new_user)
 
-    return {"message": "User registered successfully", "user_id": new_user.id}
+    # Generate JWT tokens for instant auto-login
+    token_data = {"sub": str(new_user.id), "email": new_user.email, "role": new_user.role_id}
+    access_token = create_access_token(token_data)
+    refresh_token = create_refresh_token(token_data)
+
+    return {
+        "message": "User registered successfully",
+        "access_token": access_token,
+        "refresh_token": refresh_token,
+        "token_type": "bearer",
+        "user": {
+            "id": new_user.id,
+            "username": new_user.username,
+            "email": new_user.email,
+            "full_name": new_user.full_name,
+            "is_superuser": new_user.is_superuser,
+            "role": role.name if role else "analyst",
+            "avatar_url": new_user.avatar_url,
+            "preferences": new_user.preferences or {},
+        }
+    }
 
 
 @router.post("/login", response_model=TokenResponse)
