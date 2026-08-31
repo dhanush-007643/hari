@@ -8,8 +8,10 @@ const useAuthStore = create((set, get) => ({
   
   login: async (emailOrUsername, password) => {
     try {
+      const identifier = (emailOrUsername || '').trim();
       const payload = {
-        username: emailOrUsername.trim(),
+        username: identifier,
+        email: identifier,
         password: password
       };
       
@@ -38,14 +40,14 @@ const useAuthStore = create((set, get) => ({
   register: async (userData) => {
     try {
       const cleanData = {
-        username: userData.username.trim(),
-        email: userData.email.trim(),
-        full_name: userData.full_name?.trim() || null,
+        username: (userData.username || '').trim(),
+        email: (userData.email || '').trim(),
+        full_name: (userData.full_name || '').trim() || null,
         password: userData.password
       };
       await api.post('/auth/register', cleanData);
       // Auto login after registration
-      return await get().login(cleanData.email, cleanData.password);
+      return await get().login(cleanData.username, cleanData.password);
     } catch (error) {
       let errorMsg = 'Registration failed';
       if (error.response?.data?.detail) {

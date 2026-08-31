@@ -26,15 +26,16 @@ oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/api/v1/auth/login")
 # --- Pydantic Schemas ---
 
 class UserRegister(BaseModel):
-    username: str = Field(..., min_length=3, max_length=50)
-    email: EmailStr
-    password: str = Field(..., min_length=8)
+    username: str
+    email: str
+    password: str
     full_name: Optional[str] = None
 
 
-class UserLogin(BaseModel):
-    email: str
-    password: str
+class LoginRequest(BaseModel):
+    username: Optional[str] = None
+    email: Optional[str] = None
+    password: Optional[str] = None
 
 
 class TokenResponse(BaseModel):
@@ -85,19 +86,58 @@ async def get_admin_user(current_user: User = Depends(get_current_user)) -> User
 # --- Routes ---
 
 @router.post("/register", status_code=status.HTTP_201_CREATED)
-async def register(user_data: UserRegister, db: AsyncSession = Depends(get_db)):
-    """Register a new user account."""
-    # Validate password strength
-    if not validate_password_strength(user_data.password):
+async def register(
+    request: Request,
+    db: AsyncSession = Depends(get_db)
+):
+    """Register a new user account (supports both JSON & Form Data)."""
+    username = None
+    email = None
+    password = None
+    full_name = None
+
+    try:
+        body = await request.json()
+        if isinstance(body, dict):
+            username = body.get("username")
+            email = body.get("email")
+            password = body.get("password")
+            full_name = body.get("full_name")
+    except Exception:
+        pass
+
+    if not username or not email or not password:
+        try:
+            form = await request.form()
+            username = form.get("username")
+            email = form.get("email")
+            password = form.get("password")
+            full_name = form.get("full_name")
+        except Exception:
+            pass
+
+    if not username or not email or not password:
         raise HTTPException(
             status_code=400,
-            detail="Password must be at least 8 chars with uppercase, lowercase, and digit"
+            detail="Username, Email, and Password are required"
         )
+
+    username = str(username).strip()
+    email = str(email).strip().lower()
+    password = str(password)
+    full_name = str(full_name).strip() if full_name else None
+
+    if len(username) < 2:
+        raise HTTPException(status_code=400, detail="Username must be at least 2 characters")
+    if "@" not in email:
+        raise HTTPException(status_code=400, detail="Please enter a valid email address")
+    if not validate_password_strength(password):
+        raise HTTPException(status_code=400, detail="Password must be at least 6 characters")
 
     # Check duplicates
     result = await db.execute(
         select(User).where(
-            (User.email == user_data.email) | (User.username == user_data.username)
+            (User.email == email) | (User.username == username)
         )
     )
     if result.scalar_one_or_none():
@@ -108,10 +148,10 @@ async def register(user_data: UserRegister, db: AsyncSession = Depends(get_db)):
     role = role_result.scalar_one_or_none()
 
     new_user = User(
-        username=user_data.username,
-        email=user_data.email,
-        hashed_password=get_password_hash(user_data.password),
-        full_name=user_data.full_name,
+        username=username,
+        email=email,
+        hashed_password=get_password_hash(password),
+        full_name=full_name,
         is_active=True,
         is_superuser=False,
         role_id=role.id if role else None,
@@ -135,21 +175,25 @@ async def login(
     username_input = None
     password_input = None
 
-    content_type = request.headers.get("content-type", "")
-    if "application/json" in content_type:
-        try:
-            body = await request.json()
+    try:
+        body = await request.json()
+        if isinstance(body, dict):
             username_input = body.get("username") or body.get("email")
             password_input = body.get("password")
-        except Exception:
-            pass
-    else:
+    except Exception:
+        pass
+
+    if not username_input or not password_input:
         try:
             form = await request.form()
             username_input = form.get("username") or form.get("email")
             password_input = form.get("password")
         except Exception:
             pass
+
+    if not username_input or not password_input:
+        username_input = request.query_params.get("username") or request.query_params.get("email")
+        password_input = request.query_params.get("password")
 
     if not username_input or not password_input:
         raise HTTPException(

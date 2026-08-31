@@ -69,22 +69,13 @@ def decode_token(token: str) -> dict:
 
 def validate_password_strength(password: str) -> bool:
     """
-    Validate password meets security requirements:
-    - Minimum 8 characters
-    - At least one uppercase letter
-    - At least one lowercase letter
-    - At least one digit
-    - At least one special character
+    Validate password meets minimum security requirements:
+    - Minimum 6 characters
     """
-    if len(password) < 8:
-        return False
-    if not any(c.isupper() for c in password):
-        return False
-    if not any(c.islower() for c in password):
-        return False
-    if not any(c.isdigit() for c in password):
+    if not password or len(str(password).strip()) < 6:
         return False
     return True
+
 
 
 import re
