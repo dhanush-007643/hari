@@ -29,6 +29,12 @@ const useAuthStore = create((set, get) => ({
       if (error.response?.data?.detail) {
         const detail = error.response.data.detail;
         errorMsg = Array.isArray(detail) ? detail.map(d => d.msg || (typeof d === 'string' ? d : JSON.stringify(d))).join(', ') : (typeof detail === 'string' ? detail : JSON.stringify(detail));
+      } else if (error.code === 'ECONNABORTED' || error.message?.includes('timeout')) {
+        errorMsg = 'Server took too long to respond. If running on Render free tier, please wait ~30s for the server to wake up and try again.';
+      } else if (error.message === 'Network Error' || !error.response) {
+        errorMsg = 'Cannot connect to backend server. If using Render free tier, the instance might be waking up (please retry in 30s) or check your VITE_API_URL.';
+      } else if (error.message) {
+        errorMsg = error.message;
       }
       return { 
         success: false, 
@@ -49,10 +55,17 @@ const useAuthStore = create((set, get) => ({
       // Auto login after registration
       return await get().login(cleanData.username, cleanData.password);
     } catch (error) {
+      console.error('Registration error:', error);
       let errorMsg = 'Registration failed';
       if (error.response?.data?.detail) {
         const detail = error.response.data.detail;
         errorMsg = Array.isArray(detail) ? detail.map(d => d.msg || (typeof d === 'string' ? d : JSON.stringify(d))).join(', ') : (typeof detail === 'string' ? detail : JSON.stringify(detail));
+      } else if (error.code === 'ECONNABORTED' || error.message?.includes('timeout')) {
+        errorMsg = 'Server took too long to respond. Please wait ~30s and try again.';
+      } else if (error.message === 'Network Error' || !error.response) {
+        errorMsg = 'Cannot connect to backend server. Please verify your connection or backend URL.';
+      } else if (error.message) {
+        errorMsg = error.message;
       }
       return { 
         success: false, 
