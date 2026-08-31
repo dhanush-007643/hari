@@ -1,0 +1,1201 @@
+customer_id,gender,age,tenure_months,contract_type,subscription_tier,monthly_charges,total_charges,tech_support,online_backup,paperless_billing,support_tickets,satisfaction_score,churn
+CUST-20001,Male,47,70,Month-to-month,Basic,69.5,4895.83,No,No,No,3,3,1
+CUST-20002,Female,48,52,Month-to-month,Basic,98.68,5176.4,Yes,No,No,2,5,1
+CUST-20003,Male,28,66,Month-to-month,Standard,109.78,7293.74,Yes,Yes,Yes,2,1,0
+CUST-20004,Female,68,19,Two year,Standard,65.63,1270.0,Yes,Yes,Yes,0,1,1
+CUST-20005,Male,45,12,One year,Basic,91.61,1141.6,No,Yes,No,0,1,1
+CUST-20006,Female,62,28,Two year,Premium,63.86,1811.25,Yes,Yes,No,0,2,0
+CUST-20007,Female,75,37,Two year,Premium,108.53,4045.46,Yes,No,No,2,5,1
+CUST-20008,Male,67,31,Month-to-month,Standard,75.12,2328.8,No,Yes,Yes,0,2,1
+CUST-20009,Female,45,12,Month-to-month,Premium,46.18,561.7,No,No,No,0,4,1
+CUST-20010,Female,61,67,Two year,Standard,102.55,6888.16,Yes,No,Yes,0,2,0
+CUST-20011,Female,61,59,Month-to-month,Premium,116.38,6886.51,Yes,No,No,0,1,1
+CUST-20012,Female,50,48,One year,Premium,60.15,2913.95,No,Yes,Yes,6,5,0
+CUST-20013,Male,27,1,Month-to-month,Premium,83.1,92.98,No,No,Yes,1,1,1
+CUST-20014,Female,47,47,Month-to-month,Premium,91.76,4325.34,No,No,Yes,1,2,1
+CUST-20015,Female,19,58,Month-to-month,Premium,33.2,1931.18,Yes,No,Yes,0,5,1
+CUST-20016,Male,58,64,Month-to-month,Standard,61.07,3931.38,Yes,No,Yes,0,3,1
+CUST-20017,Male,42,66,Two year,Basic,60.39,4017.58,No,No,No,0,3,0
+CUST-20018,Male,71,56,Two year,Basic,81.37,4606.47,Yes,Yes,No,1,2,0
+CUST-20019,Female,35,24,Month-to-month,Premium,34.11,838.57,Yes,No,No,0,2,1
+CUST-20020,Female,60,17,Month-to-month,Standard,83.91,1475.26,No,Yes,Yes,0,3,1
+CUST-20021,Female,64,59,One year,Premium,83.56,4957.11,No,Yes,No,0,3,0
+CUST-20022,Male,47,64,Month-to-month,Premium,45.29,2918.06,No,Yes,Yes,1,5,0
+CUST-20023,Male,31,68,Month-to-month,Standard,97.57,6657.33,No,Yes,Yes,1,2,1
+CUST-20024,Female,44,3,One year,Standard,80.07,264.75,Yes,No,Yes,0,1,1
+CUST-20025,Male,31,15,One year,Basic,107.83,1655.79,No,No,No,2,4,0
+CUST-20026,Female,38,47,One year,Premium,109.62,5200.15,No,No,Yes,3,4,0
+CUST-20027,Female,70,58,Month-to-month,Basic,65.99,3827.59,No,No,Yes,2,1,1
+CUST-20028,Female,44,53,Month-to-month,Basic,85.69,4548.5,Yes,No,Yes,0,2,1
+CUST-20029,Female,61,12,Two year,Basic,96.86,1206.5,No,Yes,Yes,1,2,1
+CUST-20030,Male,38,17,Month-to-month,Basic,48.62,849.6,Yes,No,Yes,2,4,0
+CUST-20031,Male,69,43,Two year,Basic,52.03,2273.39,Yes,Yes,Yes,2,4,0
+CUST-20032,Female,73,50,Month-to-month,Standard,116.17,5852.67,Yes,Yes,No,1,1,1
+CUST-20033,Female,71,6,Month-to-month,Premium,113.46,712.22,No,No,Yes,0,3,1
+CUST-20034,Male,64,22,Month-to-month,Premium,60.58,1378.41,No,Yes,No,0,1,1
+CUST-20035,Female,66,32,One year,Standard,56.57,1832.47,No,No,No,1,2,1
+CUST-20036,Female,19,29,Two year,Premium,62.64,1831.12,Yes,No,No,2,3,0
+CUST-20037,Male,27,38,Two year,Standard,87.3,3318.8,Yes,No,Yes,1,3,0
+CUST-20038,Female,48,22,Two year,Premium,44.02,1011.07,No,No,No,3,4,0
+CUST-20039,Female,29,62,Two year,Basic,90.18,5594.4,Yes,No,Yes,0,3,0
+CUST-20040,Male,59,26,Month-to-month,Standard,81.24,2144.17,Yes,Yes,Yes,0,1,1
+CUST-20041,Male,39,65,Month-to-month,Premium,116.54,7617.43,Yes,Yes,No,1,2,1
+CUST-20042,Male,62,32,Month-to-month,Premium,71.04,2275.29,No,No,Yes,2,1,0
+CUST-20043,Male,51,39,Month-to-month,Basic,51.94,2063.74,No,No,Yes,1,1,1
+CUST-20044,Male,30,62,Month-to-month,Basic,72.83,4520.45,Yes,No,No,1,5,0
+CUST-20045,Male,64,57,One year,Basic,82.99,4762.18,No,Yes,No,2,5,0
+CUST-20046,Male,39,65,Month-to-month,Standard,115.62,7530.28,Yes,No,No,2,5,1
+CUST-20047,Female,25,24,Month-to-month,Standard,110.39,2674.84,No,Yes,Yes,0,4,0
+CUST-20048,Male,73,57,Month-to-month,Premium,78.46,4481.35,Yes,Yes,Yes,0,3,1
+CUST-20049,Female,24,39,Two year,Basic,81.38,3181.55,Yes,Yes,No,2,2,0
+CUST-20050,Male,38,67,Two year,Premium,83.56,5619.37,No,Yes,No,1,3,0
+CUST-20051,Female,39,46,Two year,Standard,70.46,3262.42,No,No,Yes,2,4,1
+CUST-20052,Female,40,18,Two year,Standard,31.74,606.54,Yes,No,No,3,1,1
+CUST-20053,Female,38,72,One year,Basic,101.76,7357.6,No,No,Yes,0,2,1
+CUST-20054,Female,64,61,Two year,Basic,100.3,6137.8,No,Yes,No,6,5,1
+CUST-20055,Male,21,44,Month-to-month,Standard,69.42,3068.69,No,Yes,Yes,0,4,0
+CUST-20056,Male,55,39,One year,Premium,37.91,1490.75,No,No,Yes,0,1,0
+CUST-20057,Female,72,47,Two year,Standard,97.24,4581.02,No,No,Yes,1,3,1
+CUST-20058,Female,34,3,Month-to-month,Premium,66.96,220.7,No,Yes,Yes,4,5,1
+CUST-20059,Female,20,65,Two year,Standard,101.1,6596.1,No,Yes,Yes,1,5,0
+CUST-20060,Male,69,66,Two year,Basic,81.64,5411.66,Yes,Yes,No,3,4,0
+CUST-20061,Male,59,43,Month-to-month,Premium,81.76,3538.38,No,Yes,No,1,1,1
+CUST-20062,Female,19,2,Month-to-month,Standard,43.53,129.84,No,No,Yes,2,5,0
+CUST-20063,Male,30,19,Month-to-month,Basic,39.07,769.0,Yes,Yes,No,5,3,0
+CUST-20064,Male,60,27,Month-to-month,Basic,68.18,1854.41,Yes,No,Yes,0,4,1
+CUST-20065,Female,19,57,Two year,Premium,48.76,2781.78,No,No,Yes,0,4,0
+CUST-20066,Male,23,23,Month-to-month,Premium,95.2,2195.69,Yes,Yes,No,2,3,0
+CUST-20067,Female,44,25,Month-to-month,Basic,101.97,2567.24,No,Yes,No,0,4,0
+CUST-20068,Female,72,13,Month-to-month,Standard,105.28,1390.35,No,Yes,Yes,2,4,0
+CUST-20069,Male,35,42,Month-to-month,Basic,45.95,1930.36,Yes,Yes,No,2,1,1
+CUST-20070,Male,73,38,Month-to-month,Standard,104.08,3976.0,Yes,Yes,Yes,0,1,1
+CUST-20071,Male,49,27,Month-to-month,Premium,63.58,1758.73,No,Yes,Yes,0,4,1
+CUST-20072,Male,44,6,Month-to-month,Premium,95.02,578.61,Yes,Yes,No,3,1,1
+CUST-20073,Male,25,61,Month-to-month,Standard,107.04,6556.28,Yes,Yes,No,1,3,1
+CUST-20074,Female,57,13,Month-to-month,Premium,104.79,1390.83,Yes,Yes,Yes,3,2,1
+CUST-20075,Male,65,13,One year,Standard,109.81,1432.79,Yes,No,Yes,2,3,0
+CUST-20076,Female,60,67,Month-to-month,Standard,98.38,6598.05,No,No,Yes,1,1,1
+CUST-20077,Female,58,7,One year,Basic,31.28,250.69,Yes,Yes,No,0,5,0
+CUST-20078,Female,30,52,Month-to-month,Basic,70.78,3693.7,No,Yes,No,2,5,0
+CUST-20079,Female,75,24,Month-to-month,Standard,99.47,2410.1,Yes,No,No,0,3,1
+CUST-20080,Male,52,17,Month-to-month,Standard,104.7,1785.91,No,Yes,No,0,4,1
+CUST-20081,Male,73,65,Month-to-month,Premium,47.53,3131.45,Yes,Yes,Yes,2,3,0
+CUST-20082,Male,54,68,Month-to-month,Premium,62.63,4270.36,Yes,No,Yes,0,2,1
+CUST-20083,Male,71,20,Month-to-month,Premium,68.15,1373.11,Yes,No,No,0,5,0
+CUST-20084,Female,47,42,Month-to-month,Standard,30.02,1273.41,No,Yes,Yes,0,4,1
+CUST-20085,Female,70,21,One year,Basic,65.2,1377.17,No,No,Yes,0,3,1
+CUST-20086,Female,26,52,Month-to-month,Premium,82.72,4335.06,Yes,No,Yes,2,3,1
+CUST-20087,Male,51,40,Month-to-month,Premium,83.85,3365.61,No,No,Yes,1,5,0
+CUST-20088,Male,74,44,Two year,Basic,64.33,2875.08,Yes,No,No,1,4,0
+CUST-20089,Male,51,14,Month-to-month,Premium,84.29,1210.01,No,Yes,No,3,4,1
+CUST-20090,Male,73,36,Two year,Premium,54.82,1986.1,No,No,No,6,1,1
+CUST-20091,Female,33,64,Month-to-month,Standard,89.9,5758.8,No,No,No,0,1,1
+CUST-20092,Male,54,13,Month-to-month,Basic,62.45,845.48,No,No,Yes,0,4,0
+CUST-20093,Male,43,56,One year,Basic,49.43,2777.12,No,Yes,No,4,1,1
+CUST-20094,Female,40,45,Month-to-month,Basic,54.89,2509.24,No,No,No,2,2,1
+CUST-20095,Female,65,52,One year,Basic,106.01,5555.35,No,No,Yes,0,3,1
+CUST-20096,Male,58,52,Month-to-month,Standard,87.54,4589.91,Yes,No,No,0,4,0
+CUST-20097,Male,28,42,Month-to-month,Basic,82.36,3504.56,No,Yes,No,1,1,1
+CUST-20098,Male,63,52,Two year,Basic,94.42,4936.48,No,Yes,No,0,3,0
+CUST-20099,Male,38,29,Month-to-month,Basic,52.12,1519.23,No,Yes,No,0,2,1
+CUST-20100,Male,46,28,Month-to-month,Standard,51.92,1454.8,No,No,No,1,5,1
+CUST-20101,Male,72,67,One year,Premium,81.78,5524.38,No,No,No,3,3,0
+CUST-20102,Female,75,31,Month-to-month,Standard,36.92,1179.18,No,Yes,Yes,0,5,0
+CUST-20103,Female,24,30,One year,Premium,93.18,2844.22,Yes,No,No,1,1,1
+CUST-20104,Female,49,56,Month-to-month,Basic,31.98,1813.3,Yes,No,No,3,2,1
+CUST-20105,Female,22,36,One year,Premium,32.47,1198.81,No,Yes,No,0,4,0
+CUST-20106,Female,39,30,One year,Premium,115.15,3461.71,No,Yes,Yes,2,3,0
+CUST-20107,Male,57,9,Month-to-month,Premium,44.5,410.23,Yes,Yes,Yes,1,4,0
+CUST-20108,Female,23,13,Two year,Premium,93.07,1244.18,No,No,No,0,3,1
+CUST-20109,Female,40,23,One year,Standard,74.96,1733.31,No,Yes,Yes,0,1,1
+CUST-20110,Male,51,33,Month-to-month,Premium,35.47,1198.37,No,Yes,Yes,0,5,1
+CUST-20111,Female,42,40,Month-to-month,Premium,80.69,3270.57,Yes,Yes,No,0,2,0
+CUST-20112,Male,73,20,One year,Premium,45.91,940.23,Yes,Yes,No,0,1,0
+CUST-20113,Male,69,40,Two year,Basic,61.4,2465.02,Yes,Yes,No,0,2,0
+CUST-20114,Female,47,71,Two year,Standard,114.95,8194.89,Yes,No,Yes,0,2,0
+CUST-20115,Female,30,52,Month-to-month,Basic,112.48,5895.02,Yes,Yes,No,4,5,1
+CUST-20116,Female,66,70,One year,Standard,58.82,4139.8,Yes,No,No,1,4,0
+CUST-20117,Male,49,14,Month-to-month,Standard,84.86,1203.33,No,Yes,Yes,0,1,1
+CUST-20118,Male,59,41,One year,Premium,32.51,1381.25,No,Yes,No,5,1,0
+CUST-20119,Female,65,66,Month-to-month,Basic,75.78,5035.54,Yes,Yes,Yes,1,2,0
+CUST-20120,Female,22,27,Month-to-month,Premium,87.63,2366.79,No,Yes,Yes,4,1,0
+CUST-20121,Female,29,50,Two year,Standard,112.57,5648.6,Yes,Yes,Yes,1,3,0
+CUST-20122,Female,61,40,Month-to-month,Premium,96.29,3865.23,Yes,No,No,0,2,1
+CUST-20123,Female,34,2,One year,Standard,33.75,105.86,Yes,Yes,Yes,1,1,1
+CUST-20124,Female,22,24,Month-to-month,Basic,114.91,2770.66,No,No,No,0,5,1
+CUST-20125,Male,43,26,Two year,Premium,106.17,2770.46,Yes,No,No,0,2,1
+CUST-20126,Female,29,11,One year,Basic,51.75,600.02,No,Yes,No,1,1,1
+CUST-20127,Male,67,27,One year,Basic,81.18,2239.29,No,No,Yes,0,2,0
+CUST-20128,Male,43,49,Month-to-month,Standard,75.49,3710.27,Yes,No,No,0,4,1
+CUST-20129,Male,56,68,Month-to-month,Basic,42.89,2964.73,Yes,Yes,Yes,1,5,1
+CUST-20130,Male,64,42,Month-to-month,Basic,111.13,4701.68,Yes,No,Yes,1,4,0
+CUST-20131,Male,72,29,One year,Basic,80.72,2344.58,No,No,No,2,4,0
+CUST-20132,Male,61,63,One year,Standard,118.2,7478.43,No,Yes,No,1,3,1
+CUST-20133,Female,58,23,Two year,Standard,119.91,2802.03,No,Yes,No,3,2,1
+CUST-20134,Female,63,70,Two year,Standard,41.24,2918.12,Yes,No,No,3,4,0
+CUST-20135,Female,42,60,Month-to-month,Standard,89.87,5398.86,Yes,Yes,Yes,2,5,1
+CUST-20136,Female,75,60,Month-to-month,Standard,63.72,3838.54,No,Yes,No,0,4,1
+CUST-20137,Female,21,26,Month-to-month,Premium,110.08,2895.06,No,Yes,No,0,2,1
+CUST-20138,Male,35,20,One year,Premium,100.36,2017.09,No,No,No,0,2,0
+CUST-20139,Female,38,68,One year,Basic,90.85,6217.15,Yes,Yes,Yes,4,1,1
+CUST-20140,Male,38,46,Month-to-month,Basic,116.21,5361.04,Yes,No,No,1,4,1
+CUST-20141,Male,36,39,Month-to-month,Premium,44.37,1774.46,Yes,No,Yes,1,5,0
+CUST-20142,Female,62,36,One year,Basic,117.84,4275.43,Yes,No,Yes,2,2,0
+CUST-20143,Female,42,62,Month-to-month,Basic,82.75,5179.89,No,No,Yes,1,1,0
+CUST-20144,Female,74,44,Two year,Standard,36.19,1599.11,No,No,Yes,0,2,0
+CUST-20145,Female,36,11,Month-to-month,Standard,31.43,390.28,No,Yes,No,3,2,1
+CUST-20146,Male,49,41,Two year,Basic,88.44,3661.07,No,No,No,0,3,0
+CUST-20147,Female,60,11,Month-to-month,Basic,41.75,508.16,Yes,Yes,No,0,4,1
+CUST-20148,Male,62,35,One year,Standard,63.0,2230.63,No,No,No,0,3,0
+CUST-20149,Male,49,37,Month-to-month,Standard,112.68,4173.4,No,Yes,Yes,3,1,1
+CUST-20150,Male,41,9,Month-to-month,Basic,100.09,943.99,Yes,Yes,No,3,5,1
+CUST-20151,Female,58,43,One year,Basic,85.12,3662.97,Yes,Yes,Yes,0,1,1
+CUST-20152,Male,31,7,One year,Standard,58.83,438.28,No,Yes,No,1,2,1
+CUST-20153,Male,46,24,Month-to-month,Basic,45.82,1109.57,Yes,Yes,Yes,2,1,1
+CUST-20154,Female,66,30,Month-to-month,Premium,105.23,3171.74,No,No,Yes,1,3,0
+CUST-20155,Male,59,33,Month-to-month,Basic,35.81,1184.87,No,Yes,No,0,4,1
+CUST-20156,Male,38,47,One year,Premium,91.03,4281.7,No,No,No,0,4,0
+CUST-20157,Female,66,63,Month-to-month,Premium,47.12,2997.92,Yes,No,No,1,4,1
+CUST-20158,Female,47,60,Month-to-month,Basic,96.4,5803.28,Yes,Yes,No,0,2,1
+CUST-20159,Male,45,23,Month-to-month,Basic,49.52,1139.78,No,Yes,No,0,1,1
+CUST-20160,Male,37,71,Month-to-month,Basic,73.78,5274.57,No,No,Yes,1,1,1
+CUST-20161,Male,22,42,One year,Premium,56.03,2365.02,No,Yes,No,1,3,0
+CUST-20162,Female,58,40,One year,Standard,85.04,3431.56,No,No,No,3,2,1
+CUST-20163,Female,22,3,Month-to-month,Standard,52.14,203.65,Yes,No,No,2,5,1
+CUST-20164,Female,62,25,Two year,Standard,100.33,2536.86,Yes,Yes,Yes,1,4,0
+CUST-20165,Female,50,13,Month-to-month,Basic,86.11,1123.5,No,No,No,0,4,0
+CUST-20166,Female,63,19,Month-to-month,Basic,72.63,1391.14,Yes,No,No,3,4,1
+CUST-20167,Female,38,63,Two year,Premium,109.48,6907.24,Yes,Yes,No,2,2,0
+CUST-20168,Female,33,49,Month-to-month,Basic,56.83,2794.88,No,Yes,Yes,2,4,1
+CUST-20169,Female,67,19,Month-to-month,Standard,79.96,1548.93,No,Yes,No,1,2,1
+CUST-20170,Female,36,21,One year,Standard,116.04,2443.04,No,No,No,0,4,0
+CUST-20171,Female,59,42,Month-to-month,Standard,85.17,3615.17,No,No,Yes,3,1,1
+CUST-20172,Male,49,9,Two year,Basic,43.63,418.81,Yes,Yes,No,5,3,1
+CUST-20173,Female,66,9,Month-to-month,Premium,35.58,341.04,No,Yes,Yes,3,4,1
+CUST-20174,Female,32,31,Month-to-month,Premium,80.18,2488.2,Yes,No,Yes,0,2,0
+CUST-20175,Male,50,41,Month-to-month,Premium,90.31,3703.67,No,No,Yes,2,4,1
+CUST-20176,Male,30,5,Month-to-month,Premium,74.22,388.57,Yes,No,Yes,0,2,1
+CUST-20177,Female,35,72,Month-to-month,Standard,44.38,3205.44,No,No,Yes,0,3,1
+CUST-20178,Female,46,4,Month-to-month,Premium,90.46,400.34,Yes,Yes,Yes,0,1,1
+CUST-20179,Male,30,39,Two year,Premium,49.28,1951.58,No,No,No,0,2,0
+CUST-20180,Female,31,66,Month-to-month,Basic,49.47,3274.07,No,Yes,No,4,4,1
+CUST-20181,Female,43,22,Two year,Standard,80.46,1784.39,Yes,Yes,Yes,3,1,1
+CUST-20182,Male,35,1,Month-to-month,Standard,95.58,143.64,Yes,Yes,No,0,2,0
+CUST-20183,Female,22,36,Month-to-month,Basic,56.76,2045.11,Yes,No,Yes,0,2,1
+CUST-20184,Male,74,61,Month-to-month,Basic,37.74,2313.88,No,No,Yes,2,4,1
+CUST-20185,Male,31,9,Month-to-month,Standard,32.68,318.99,No,No,Yes,5,5,1
+CUST-20186,Male,67,36,One year,Premium,73.12,2672.42,Yes,No,Yes,0,4,0
+CUST-20187,Male,73,56,One year,Premium,73.96,4153.34,Yes,No,No,0,3,0
+CUST-20188,Female,52,21,Month-to-month,Standard,95.35,2029.39,No,No,No,0,4,1
+CUST-20189,Female,67,38,Month-to-month,Premium,97.64,3735.05,No,No,No,0,3,0
+CUST-20190,Female,40,60,Month-to-month,Premium,107.55,6461.21,Yes,No,Yes,1,5,0
+CUST-20191,Male,72,18,Two year,Basic,104.21,1895.6,No,Yes,Yes,1,5,1
+CUST-20192,Male,65,30,One year,Standard,74.02,2236.87,No,No,No,0,3,0
+CUST-20193,Male,32,59,Month-to-month,Premium,110.56,6532.46,Yes,Yes,No,0,1,1
+CUST-20194,Female,33,52,Month-to-month,Basic,78.77,4100.87,Yes,Yes,Yes,0,1,1
+CUST-20195,Male,22,33,Month-to-month,Basic,67.96,2260.56,No,Yes,No,0,3,1
+CUST-20196,Female,57,62,One year,Premium,33.76,2117.69,Yes,No,No,0,3,0
+CUST-20197,Female,66,69,One year,Standard,91.96,6376.25,No,No,Yes,0,4,0
+CUST-20198,Male,48,33,Month-to-month,Basic,52.08,1760.17,Yes,No,No,2,2,1
+CUST-20199,Female,20,42,Month-to-month,Premium,106.91,4501.05,No,Yes,Yes,2,5,0
+CUST-20200,Male,50,57,Month-to-month,Basic,71.68,4120.62,No,Yes,No,1,5,0
+CUST-20201,Female,36,21,Month-to-month,Premium,59.82,1261.7,Yes,Yes,Yes,1,2,1
+CUST-20202,Male,67,49,Month-to-month,Basic,50.1,2498.18,No,Yes,No,3,1,1
+CUST-20203,Male,26,4,Month-to-month,Standard,101.48,427.42,No,Yes,No,1,3,1
+CUST-20204,Female,22,9,Month-to-month,Premium,62.18,579.69,Yes,Yes,Yes,0,1,1
+CUST-20205,Male,46,70,Month-to-month,Standard,73.0,5158.54,Yes,No,Yes,1,2,1
+CUST-20206,Female,26,51,Month-to-month,Basic,75.91,3872.02,No,Yes,No,3,2,1
+CUST-20207,Male,73,62,Two year,Basic,89.75,5588.41,Yes,Yes,Yes,0,5,0
+CUST-20208,Male,27,17,Two year,Basic,107.5,1830.9,Yes,Yes,Yes,1,4,0
+CUST-20209,Female,32,34,Month-to-month,Standard,33.85,1166.92,No,Yes,Yes,2,3,1
+CUST-20210,Male,65,17,Month-to-month,Premium,109.98,1901.96,Yes,Yes,No,1,1,1
+CUST-20211,Male,44,9,One year,Premium,110.24,999.44,Yes,No,No,0,4,0
+CUST-20212,Female,37,69,One year,Standard,106.97,7404.43,No,No,Yes,1,1,0
+CUST-20213,Female,52,67,One year,Basic,52.63,3539.62,No,No,Yes,0,3,0
+CUST-20214,Male,40,40,Month-to-month,Standard,76.58,3083.78,No,No,Yes,2,2,0
+CUST-20215,Female,30,47,One year,Premium,58.89,2807.73,Yes,Yes,No,1,2,0
+CUST-20216,Female,29,64,Month-to-month,Standard,73.58,4722.66,No,No,Yes,0,1,1
+CUST-20217,Female,70,71,Two year,Basic,35.98,2595.18,No,No,No,4,5,0
+CUST-20218,Female,50,54,Month-to-month,Basic,118.33,6421.23,No,Yes,No,1,3,1
+CUST-20219,Male,25,47,One year,Basic,33.68,1586.47,Yes,No,Yes,2,4,0
+CUST-20220,Male,18,15,Month-to-month,Premium,94.75,1435.46,Yes,Yes,Yes,1,5,0
+CUST-20221,Female,71,31,Month-to-month,Premium,82.56,2597.48,Yes,No,Yes,1,1,0
+CUST-20222,Male,54,35,Two year,Basic,38.6,1393.27,Yes,Yes,No,1,2,0
+CUST-20223,Female,24,1,Month-to-month,Standard,69.16,112.2,No,No,Yes,0,1,1
+CUST-20224,Female,46,20,One year,Standard,106.54,2168.33,Yes,No,Yes,3,4,1
+CUST-20225,Female,38,3,Month-to-month,Premium,64.9,216.81,Yes,No,Yes,2,5,0
+CUST-20226,Female,28,52,Month-to-month,Standard,61.78,3226.27,No,Yes,No,1,4,0
+CUST-20227,Male,59,9,Month-to-month,Basic,64.99,602.17,No,Yes,No,1,4,0
+CUST-20228,Male,45,33,Month-to-month,Standard,62.98,2128.19,No,Yes,Yes,0,5,0
+CUST-20229,Male,72,5,Two year,Standard,34.31,182.98,Yes,Yes,Yes,0,5,0
+CUST-20230,Female,27,38,Month-to-month,Standard,55.06,2138.08,Yes,No,No,0,1,1
+CUST-20231,Male,57,7,One year,Premium,45.82,348.14,No,Yes,Yes,0,2,1
+CUST-20232,Male,22,13,Month-to-month,Basic,78.05,1053.6,No,Yes,Yes,1,2,1
+CUST-20233,Male,38,22,One year,Premium,103.19,2295.23,Yes,No,Yes,0,4,0
+CUST-20234,Male,33,48,One year,Standard,71.61,3460.03,Yes,Yes,Yes,1,1,1
+CUST-20235,Female,26,1,Month-to-month,Premium,101.89,135.77,No,No,No,5,5,1
+CUST-20236,Female,66,33,Month-to-month,Standard,45.01,1528.23,Yes,Yes,Yes,0,3,0
+CUST-20237,Male,56,53,Month-to-month,Standard,63.62,3387.59,Yes,Yes,Yes,1,2,1
+CUST-20238,Male,59,39,Month-to-month,Basic,31.46,1238.29,No,No,No,0,4,1
+CUST-20239,Male,47,17,Month-to-month,Basic,52.07,892.47,Yes,No,No,0,4,0
+CUST-20240,Female,22,38,Month-to-month,Premium,79.63,3027.97,No,Yes,No,0,3,0
+CUST-20241,Male,18,13,Month-to-month,Premium,80.53,1049.88,Yes,No,Yes,1,3,0
+CUST-20242,Female,40,42,Month-to-month,Basic,102.1,4317.48,No,No,No,2,1,1
+CUST-20243,Male,27,49,Month-to-month,Premium,69.58,3445.55,No,Yes,Yes,2,2,1
+CUST-20244,Female,35,51,Month-to-month,Basic,57.25,2967.43,Yes,No,Yes,1,2,1
+CUST-20245,Female,31,1,Two year,Basic,107.29,120.57,No,Yes,Yes,1,2,0
+CUST-20246,Female,25,11,One year,Standard,85.5,989.47,No,No,No,1,3,0
+CUST-20247,Female,69,32,Month-to-month,Basic,69.04,2222.89,No,No,No,0,5,1
+CUST-20248,Female,24,19,One year,Basic,109.26,2088.38,Yes,Yes,No,1,4,0
+CUST-20249,Female,37,11,Month-to-month,Premium,73.3,852.72,Yes,No,Yes,1,4,1
+CUST-20250,Female,19,43,Two year,Basic,57.71,2505.86,No,No,Yes,1,2,1
+CUST-20251,Male,39,21,One year,Premium,63.91,1346.25,Yes,Yes,Yes,0,4,0
+CUST-20252,Male,68,20,Two year,Basic,72.4,1449.63,No,No,No,2,1,1
+CUST-20253,Female,39,13,Month-to-month,Premium,37.4,488.18,Yes,Yes,Yes,3,4,1
+CUST-20254,Female,57,68,Month-to-month,Premium,55.59,3783.37,No,Yes,Yes,1,2,1
+CUST-20255,Male,43,44,One year,Premium,72.53,3213.95,No,No,No,1,2,0
+CUST-20256,Female,60,42,Month-to-month,Standard,43.37,1829.3,Yes,Yes,Yes,0,4,1
+CUST-20257,Male,36,43,One year,Premium,51.52,2239.44,No,Yes,No,4,2,0
+CUST-20258,Male,41,21,Month-to-month,Standard,35.93,756.1,No,No,Yes,3,4,1
+CUST-20259,Female,68,42,Month-to-month,Standard,97.07,4112.31,No,Yes,Yes,3,2,0
+CUST-20260,Female,23,63,Two year,Standard,43.33,2774.0,Yes,No,No,4,2,1
+CUST-20261,Male,58,47,One year,Premium,63.56,2987.46,No,Yes,Yes,0,5,0
+CUST-20262,Female,74,68,Two year,Premium,113.38,7719.67,Yes,No,No,1,4,1
+CUST-20263,Female,19,53,One year,Basic,72.7,3897.01,No,Yes,No,3,2,1
+CUST-20264,Female,75,5,Two year,Premium,111.38,569.61,No,Yes,Yes,0,4,1
+CUST-20265,Male,45,7,Two year,Standard,78.16,592.09,No,Yes,No,2,1,1
+CUST-20266,Male,52,71,Month-to-month,Basic,106.96,7640.44,No,No,Yes,1,2,1
+CUST-20267,Female,23,43,One year,Standard,31.85,1376.04,No,Yes,No,2,4,0
+CUST-20268,Female,31,21,Month-to-month,Standard,57.84,1241.76,Yes,Yes,Yes,3,1,0
+CUST-20269,Male,67,35,Two year,Basic,98.83,3475.93,No,Yes,No,2,3,0
+CUST-20270,Female,68,12,Month-to-month,Standard,102.58,1258.23,No,Yes,Yes,7,2,1
+CUST-20271,Male,51,69,Month-to-month,Premium,61.61,4268.1,No,No,Yes,3,4,1
+CUST-20272,Male,57,62,One year,Premium,92.75,5799.31,Yes,No,No,0,3,0
+CUST-20273,Male,20,58,Month-to-month,Premium,61.98,3644.22,No,No,No,2,1,0
+CUST-20274,Female,23,18,Two year,Premium,76.84,1421.43,Yes,No,No,1,5,0
+CUST-20275,Female,25,5,One year,Premium,58.53,308.25,No,No,Yes,3,1,0
+CUST-20276,Male,62,34,Two year,Basic,55.25,1920.99,Yes,No,Yes,1,3,0
+CUST-20277,Male,36,42,Month-to-month,Basic,108.25,4593.07,Yes,No,Yes,0,3,0
+CUST-20278,Female,74,16,Month-to-month,Basic,82.39,1322.18,Yes,No,No,3,5,0
+CUST-20279,Male,69,71,Two year,Premium,79.14,5664.26,No,Yes,No,2,1,1
+CUST-20280,Female,23,43,Month-to-month,Basic,42.31,1824.05,Yes,Yes,No,0,3,0
+CUST-20281,Male,34,21,One year,Premium,110.54,2333.72,No,Yes,Yes,1,5,0
+CUST-20282,Male,58,3,Month-to-month,Premium,93.72,289.63,Yes,No,Yes,2,3,1
+CUST-20283,Male,49,71,Month-to-month,Standard,48.98,3510.92,Yes,No,No,0,5,0
+CUST-20284,Female,35,32,One year,Basic,93.61,3008.27,No,Yes,Yes,1,2,0
+CUST-20285,Male,54,24,Two year,Premium,40.79,1012.51,Yes,Yes,Yes,7,1,0
+CUST-20286,Female,26,28,Month-to-month,Basic,81.7,2320.19,Yes,Yes,No,0,2,1
+CUST-20287,Male,64,16,Two year,Standard,117.94,1905.98,No,No,Yes,3,2,1
+CUST-20288,Female,30,32,Month-to-month,Standard,69.36,2232.13,No,No,Yes,0,1,1
+CUST-20289,Female,31,53,Month-to-month,Standard,42.65,2274.42,No,Yes,No,2,5,1
+CUST-20290,Female,40,39,One year,Standard,48.07,1917.92,No,No,No,0,2,1
+CUST-20291,Male,19,31,One year,Standard,49.69,1587.82,Yes,Yes,No,2,5,0
+CUST-20292,Male,35,67,One year,Premium,66.32,4446.59,Yes,Yes,No,0,2,0
+CUST-20293,Male,58,64,Two year,Basic,43.41,2779.22,No,No,Yes,1,2,1
+CUST-20294,Female,64,55,Month-to-month,Standard,82.75,4582.69,No,Yes,No,1,2,0
+CUST-20295,Female,20,44,Month-to-month,Basic,77.91,3452.7,No,Yes,Yes,0,2,1
+CUST-20296,Male,31,60,Month-to-month,Premium,36.52,2225.25,No,Yes,Yes,2,2,1
+CUST-20297,Male,34,2,Two year,Standard,40.81,95.64,No,Yes,Yes,0,2,1
+CUST-20298,Male,69,33,One year,Premium,97.17,3253.52,Yes,Yes,No,2,5,0
+CUST-20299,Male,71,63,Two year,Basic,101.61,6445.8,Yes,Yes,Yes,4,3,1
+CUST-20300,Female,40,58,One year,Basic,32.41,1884.66,Yes,No,Yes,0,2,1
+CUST-20301,Male,64,23,Month-to-month,Basic,47.78,1113.69,Yes,No,Yes,1,1,1
+CUST-20302,Male,41,39,Two year,Standard,43.84,1712.92,Yes,No,No,0,3,1
+CUST-20303,Male,61,54,Month-to-month,Basic,49.05,2656.39,Yes,No,Yes,2,2,1
+CUST-20304,Female,74,58,Month-to-month,Premium,77.95,4549.46,No,No,Yes,1,4,1
+CUST-20305,Female,56,28,Two year,Basic,47.65,1348.98,No,Yes,Yes,2,2,0
+CUST-20306,Male,65,69,Two year,Basic,80.4,5567.33,Yes,Yes,Yes,1,2,0
+CUST-20307,Male,21,66,Two year,Premium,109.59,7245.01,Yes,No,Yes,0,3,0
+CUST-20308,Male,20,55,Month-to-month,Basic,42.56,2380.3,Yes,Yes,No,0,5,1
+CUST-20309,Female,47,22,One year,Standard,32.69,757.45,Yes,Yes,Yes,0,2,0
+CUST-20310,Male,23,25,Month-to-month,Basic,69.5,1782.21,No,Yes,Yes,2,3,1
+CUST-20311,Male,68,65,One year,Standard,53.46,3479.15,Yes,No,No,1,1,1
+CUST-20312,Female,50,6,Month-to-month,Standard,33.62,223.45,Yes,Yes,Yes,0,3,0
+CUST-20313,Female,40,44,Month-to-month,Premium,76.42,3388.98,No,No,Yes,0,2,1
+CUST-20314,Male,38,48,One year,Standard,57.9,2787.71,No,Yes,Yes,1,1,1
+CUST-20315,Male,44,72,Month-to-month,Standard,100.78,7257.01,Yes,Yes,Yes,0,1,0
+CUST-20316,Female,34,68,Month-to-month,Premium,112.36,7677.41,No,No,Yes,1,4,1
+CUST-20317,Male,51,25,Month-to-month,Basic,77.54,1941.71,No,Yes,Yes,2,2,1
+CUST-20318,Female,64,22,Month-to-month,Premium,90.24,2021.81,No,No,Yes,0,4,0
+CUST-20319,Male,41,68,Month-to-month,Basic,57.85,3972.71,Yes,No,Yes,3,3,0
+CUST-20320,Female,28,46,Two year,Standard,98.18,4559.59,Yes,Yes,No,2,3,0
+CUST-20321,Male,36,25,Two year,Premium,32.08,806.23,No,No,No,2,3,0
+CUST-20322,Male,67,29,One year,Standard,51.72,1534.75,Yes,No,No,2,2,0
+CUST-20323,Male,61,44,Month-to-month,Premium,87.51,3900.1,No,Yes,Yes,4,2,0
+CUST-20324,Female,30,68,Month-to-month,Standard,109.5,7452.11,Yes,Yes,Yes,0,5,1
+CUST-20325,Female,64,16,Month-to-month,Premium,117.79,1896.69,Yes,Yes,No,0,4,0
+CUST-20326,Male,20,53,Two year,Premium,36.91,1960.42,No,No,No,0,5,0
+CUST-20327,Male,18,24,Month-to-month,Basic,119.74,2875.23,Yes,No,No,0,2,1
+CUST-20328,Male,33,49,Month-to-month,Premium,93.25,4582.44,No,Yes,No,4,5,1
+CUST-20329,Female,41,45,Month-to-month,Basic,36.85,1688.43,Yes,No,Yes,1,2,1
+CUST-20330,Female,39,4,One year,Standard,47.51,230.79,Yes,Yes,Yes,0,4,0
+CUST-20331,Female,44,10,Month-to-month,Basic,92.58,968.66,No,Yes,No,4,1,1
+CUST-20332,Male,67,44,Month-to-month,Standard,68.57,3065.39,Yes,Yes,Yes,2,4,0
+CUST-20333,Male,20,25,Two year,Basic,76.81,1930.41,No,No,Yes,3,1,1
+CUST-20334,Female,22,42,Two year,Basic,38.99,1646.36,Yes,No,No,0,4,0
+CUST-20335,Male,45,14,Month-to-month,Standard,68.19,982.73,Yes,Yes,No,0,1,1
+CUST-20336,Female,75,71,Month-to-month,Premium,118.65,8463.16,No,No,Yes,1,5,0
+CUST-20337,Male,44,6,Month-to-month,Premium,63.68,418.27,Yes,Yes,No,1,1,1
+CUST-20338,Male,50,48,Two year,Premium,93.67,4536.32,No,Yes,Yes,2,4,0
+CUST-20339,Male,43,54,One year,Premium,102.72,5590.36,No,No,Yes,3,3,1
+CUST-20340,Female,55,50,One year,Premium,52.33,2633.02,Yes,No,Yes,2,3,0
+CUST-20341,Male,29,25,Month-to-month,Basic,56.49,1419.31,No,No,Yes,1,1,0
+CUST-20342,Female,27,51,One year,Standard,98.73,5083.85,Yes,No,Yes,2,3,0
+CUST-20343,Male,51,29,Month-to-month,Premium,84.21,2460.18,Yes,Yes,Yes,3,3,0
+CUST-20344,Female,44,16,Two year,Premium,80.95,1316.91,Yes,Yes,No,1,3,0
+CUST-20345,Male,45,35,Month-to-month,Premium,64.41,2273.26,No,Yes,Yes,0,4,0
+CUST-20346,Male,61,19,One year,Premium,58.22,1123.02,Yes,No,Yes,2,4,0
+CUST-20347,Male,55,40,Two year,Standard,86.33,3455.23,Yes,Yes,No,2,1,1
+CUST-20348,Female,56,51,Two year,Standard,35.62,1819.38,No,Yes,Yes,0,2,0
+CUST-20349,Female,70,4,Month-to-month,Basic,63.76,257.84,No,Yes,No,1,1,1
+CUST-20350,Female,21,59,Month-to-month,Basic,107.65,6377.44,No,No,Yes,0,3,1
+CUST-20351,Female,35,3,Two year,Standard,69.83,223.57,Yes,Yes,No,3,4,0
+CUST-20352,Female,60,17,One year,Standard,31.74,579.51,No,No,No,4,2,1
+CUST-20353,Male,67,34,Month-to-month,Premium,90.71,3097.28,Yes,Yes,Yes,1,1,0
+CUST-20354,Female,40,22,Month-to-month,Standard,39.77,902.17,Yes,No,Yes,0,2,1
+CUST-20355,Male,56,21,Month-to-month,Basic,49.69,1064.58,No,Yes,No,1,5,0
+CUST-20356,Female,25,25,Month-to-month,Basic,110.22,2782.76,No,No,Yes,2,2,1
+CUST-20357,Female,21,19,Two year,Standard,75.91,1490.94,Yes,No,No,0,1,1
+CUST-20358,Male,61,33,Two year,Standard,72.33,2392.3,Yes,No,No,2,2,0
+CUST-20359,Male,18,21,One year,Standard,110.47,2349.32,Yes,Yes,Yes,0,4,0
+CUST-20360,Female,65,63,One year,Premium,84.57,5339.6,No,Yes,Yes,3,5,1
+CUST-20361,Female,44,4,Month-to-month,Premium,97.51,438.03,Yes,No,No,1,1,1
+CUST-20362,Male,43,64,Month-to-month,Standard,76.63,4944.7,Yes,No,Yes,0,2,1
+CUST-20363,Male,29,29,One year,Standard,90.64,2632.87,No,No,Yes,2,5,0
+CUST-20364,Male,61,34,Month-to-month,Basic,95.91,3287.08,Yes,Yes,Yes,0,4,0
+CUST-20365,Male,53,69,One year,Standard,51.16,3561.21,No,Yes,Yes,0,1,0
+CUST-20366,Male,56,30,One year,Premium,68.97,2105.06,No,No,Yes,0,5,0
+CUST-20367,Male,59,11,Month-to-month,Standard,86.34,975.12,Yes,No,Yes,0,2,1
+CUST-20368,Female,46,50,Month-to-month,Premium,99.21,4993.34,Yes,No,No,0,1,0
+CUST-20369,Male,64,60,Month-to-month,Premium,74.31,4485.7,No,No,Yes,3,2,1
+CUST-20370,Male,49,5,One year,Premium,58.63,319.37,No,Yes,Yes,0,3,0
+CUST-20371,Female,66,50,Month-to-month,Premium,59.86,3015.83,Yes,Yes,Yes,0,5,1
+CUST-20372,Female,72,48,Month-to-month,Basic,114.07,5495.02,No,Yes,Yes,0,5,1
+CUST-20373,Male,58,18,One year,Premium,81.83,1486.4,No,Yes,Yes,1,5,0
+CUST-20374,Female,43,22,Month-to-month,Premium,91.24,2023.67,No,No,Yes,4,3,1
+CUST-20375,Male,43,29,Two year,Basic,60.89,1796.21,No,Yes,Yes,3,5,1
+CUST-20376,Female,41,47,Month-to-month,Premium,74.06,3493.96,No,No,Yes,1,4,0
+CUST-20377,Female,70,34,Month-to-month,Basic,57.59,1989.22,Yes,Yes,No,1,2,1
+CUST-20378,Female,55,31,Month-to-month,Basic,37.73,1187.84,No,No,Yes,0,4,1
+CUST-20379,Female,30,14,Month-to-month,Basic,62.94,925.46,No,No,Yes,0,4,1
+CUST-20380,Female,20,3,Two year,Standard,115.74,354.7,Yes,No,Yes,0,3,1
+CUST-20381,Female,57,68,Two year,Basic,92.64,6325.71,Yes,Yes,No,0,3,1
+CUST-20382,Female,43,21,Two year,Standard,80.16,1729.0,No,No,Yes,5,5,0
+CUST-20383,Female,52,57,Month-to-month,Basic,42.43,2453.82,No,No,No,2,4,0
+CUST-20384,Female,68,37,Month-to-month,Basic,57.4,2154.52,Yes,Yes,No,6,1,1
+CUST-20385,Male,74,6,Month-to-month,Standard,63.52,392.6,Yes,Yes,Yes,0,1,1
+CUST-20386,Female,22,27,Month-to-month,Standard,73.24,2003.57,No,Yes,Yes,0,3,0
+CUST-20387,Female,42,63,Month-to-month,Premium,119.13,7516.29,No,No,No,1,2,1
+CUST-20388,Male,41,66,Two year,Premium,45.08,2993.72,Yes,Yes,Yes,3,2,0
+CUST-20389,Male,65,18,Month-to-month,Basic,41.36,774.81,Yes,No,Yes,0,1,0
+CUST-20390,Male,44,34,Month-to-month,Basic,94.57,3238.54,Yes,Yes,No,1,1,1
+CUST-20391,Male,68,24,Two year,Standard,71.77,1735.5,No,No,No,0,2,0
+CUST-20392,Male,38,19,One year,Premium,103.49,2009.05,No,No,Yes,2,4,1
+CUST-20393,Male,63,57,Two year,Premium,72.18,4117.43,Yes,Yes,No,2,2,0
+CUST-20394,Male,71,4,Month-to-month,Basic,43.96,223.6,Yes,No,Yes,5,4,1
+CUST-20395,Male,58,39,Month-to-month,Premium,42.94,1719.5,No,No,Yes,2,5,1
+CUST-20396,Female,35,54,Month-to-month,Premium,88.0,4788.86,No,Yes,Yes,3,3,1
+CUST-20397,Male,54,43,Month-to-month,Standard,81.97,3572.36,No,Yes,Yes,3,5,0
+CUST-20398,Female,18,24,One year,Standard,36.28,873.49,Yes,No,No,2,2,0
+CUST-20399,Female,26,72,Two year,Premium,51.86,3741.38,Yes,Yes,No,0,1,0
+CUST-20400,Male,20,6,Month-to-month,Premium,74.0,484.54,No,No,No,2,3,1
+CUST-20401,Female,29,31,One year,Standard,113.18,3548.51,Yes,Yes,Yes,0,3,0
+CUST-20402,Female,59,11,Two year,Premium,58.86,670.47,No,Yes,Yes,3,5,0
+CUST-20403,Male,19,20,One year,Basic,100.12,2038.89,No,Yes,Yes,0,4,0
+CUST-20404,Male,21,26,Two year,Premium,67.39,1775.64,Yes,No,Yes,1,1,1
+CUST-20405,Male,58,20,One year,Basic,48.64,978.7,No,No,No,2,2,1
+CUST-20406,Male,25,15,Month-to-month,Basic,41.65,633.79,Yes,Yes,No,0,3,0
+CUST-20407,Female,33,26,Two year,Premium,95.66,2489.01,Yes,No,No,0,5,1
+CUST-20408,Male,47,39,One year,Basic,43.46,1734.19,Yes,Yes,Yes,0,5,0
+CUST-20409,Male,39,2,One year,Standard,118.37,244.25,No,No,Yes,0,5,1
+CUST-20410,Female,40,49,Two year,Basic,102.93,5080.37,Yes,Yes,No,0,5,0
+CUST-20411,Male,67,13,Month-to-month,Standard,40.67,542.48,No,No,No,1,4,1
+CUST-20412,Male,31,4,Month-to-month,Basic,109.92,478.61,Yes,Yes,No,4,4,1
+CUST-20413,Male,48,30,One year,Standard,35.42,1092.55,Yes,No,Yes,1,5,1
+CUST-20414,Male,26,17,Two year,Premium,88.5,1549.56,No,No,No,5,2,1
+CUST-20415,Male,32,37,Month-to-month,Basic,41.21,1555.58,No,No,No,0,3,0
+CUST-20416,Female,46,45,Month-to-month,Standard,105.91,4813.24,No,No,Yes,0,3,1
+CUST-20417,Male,25,6,One year,Basic,101.74,636.15,Yes,Yes,Yes,3,4,1
+CUST-20418,Male,46,52,Month-to-month,Basic,74.0,3869.19,Yes,Yes,Yes,3,3,1
+CUST-20419,Male,55,4,Two year,Basic,117.67,505.9,No,Yes,Yes,1,4,1
+CUST-20420,Male,21,60,One year,Standard,37.16,2231.99,No,No,No,1,2,0
+CUST-20421,Male,25,26,Month-to-month,Premium,69.15,1815.35,No,No,No,2,5,1
+CUST-20422,Male,31,16,One year,Standard,47.9,799.95,Yes,No,Yes,3,4,0
+CUST-20423,Female,74,51,Month-to-month,Basic,37.09,1920.85,Yes,Yes,No,0,1,0
+CUST-20424,Female,44,55,Month-to-month,Standard,86.41,4753.8,Yes,Yes,Yes,1,4,0
+CUST-20425,Male,34,5,Month-to-month,Premium,53.63,279.95,Yes,No,Yes,0,1,1
+CUST-20426,Male,20,33,One year,Premium,33.4,1131.68,No,No,No,1,1,1
+CUST-20427,Female,61,16,Two year,Standard,84.26,1385.66,Yes,No,No,5,2,1
+CUST-20428,Female,21,63,Month-to-month,Standard,52.33,3338.34,No,No,Yes,0,5,0
+CUST-20429,Female,55,15,Two year,Standard,102.62,1542.65,No,Yes,No,3,2,1
+CUST-20430,Female,21,66,Month-to-month,Premium,105.97,6999.3,No,Yes,Yes,2,1,1
+CUST-20431,Female,24,70,Two year,Basic,51.16,3615.42,No,Yes,Yes,0,4,0
+CUST-20432,Female,60,66,Month-to-month,Basic,117.34,7790.84,No,No,Yes,0,1,1
+CUST-20433,Female,51,66,One year,Basic,81.39,5393.76,No,No,Yes,1,1,0
+CUST-20434,Female,52,6,Month-to-month,Standard,72.58,440.16,Yes,Yes,No,1,3,1
+CUST-20435,Male,66,11,Two year,Premium,110.18,1245.7,No,Yes,No,1,5,1
+CUST-20436,Female,55,62,One year,Basic,54.03,3379.3,Yes,Yes,No,4,1,0
+CUST-20437,Female,25,46,Month-to-month,Standard,110.95,5135.82,Yes,No,No,2,5,0
+CUST-20438,Female,64,49,Month-to-month,Standard,82.28,4074.67,No,Yes,No,1,5,0
+CUST-20439,Female,71,49,Month-to-month,Basic,94.82,4692.96,No,Yes,No,1,3,1
+CUST-20440,Female,18,20,One year,Basic,64.72,1302.39,No,Yes,No,0,5,0
+CUST-20441,Male,35,69,Month-to-month,Premium,75.15,5216.05,No,Yes,No,0,2,0
+CUST-20442,Female,56,9,Month-to-month,Premium,104.96,949.1,Yes,Yes,Yes,1,2,1
+CUST-20443,Male,70,27,One year,Basic,50.93,1398.87,No,Yes,No,0,2,1
+CUST-20444,Female,38,72,Month-to-month,Standard,59.91,4355.02,Yes,Yes,No,4,3,0
+CUST-20445,Female,27,34,Month-to-month,Basic,68.59,2364.57,Yes,No,No,0,5,0
+CUST-20446,Male,48,62,Two year,Premium,35.87,2249.73,No,Yes,Yes,3,4,0
+CUST-20447,Male,24,35,Month-to-month,Standard,67.22,2395.09,Yes,Yes,No,1,4,0
+CUST-20448,Female,52,55,One year,Premium,85.56,4751.56,No,No,No,4,4,0
+CUST-20449,Male,38,44,One year,Standard,102.31,4504.11,Yes,Yes,Yes,0,4,0
+CUST-20450,Male,62,49,Two year,Basic,61.6,3021.92,Yes,No,Yes,0,5,0
+CUST-20451,Female,31,54,Month-to-month,Standard,117.82,6394.66,Yes,No,No,0,1,1
+CUST-20452,Male,21,4,One year,Premium,81.51,366.39,No,No,Yes,0,4,0
+CUST-20453,Female,68,72,One year,Standard,74.77,5385.94,No,No,Yes,0,3,0
+CUST-20454,Female,49,57,Month-to-month,Basic,81.4,4678.93,No,No,Yes,0,5,0
+CUST-20455,Male,45,17,Month-to-month,Standard,53.22,924.96,No,Yes,Yes,2,3,0
+CUST-20456,Male,24,51,One year,Premium,84.73,4332.68,Yes,Yes,No,0,2,1
+CUST-20457,Male,36,24,Two year,Standard,68.53,1688.79,No,No,No,0,3,0
+CUST-20458,Female,19,14,Month-to-month,Standard,93.81,1318.34,No,No,No,7,1,1
+CUST-20459,Male,24,61,One year,Standard,73.3,4496.03,Yes,Yes,Yes,0,5,0
+CUST-20460,Female,46,2,Two year,Standard,70.14,189.99,No,No,Yes,1,4,1
+CUST-20461,Male,28,7,Month-to-month,Standard,50.58,392.05,No,No,Yes,1,5,0
+CUST-20462,Male,47,71,Month-to-month,Premium,45.18,3256.95,Yes,No,Yes,0,5,0
+CUST-20463,Male,50,42,Two year,Standard,101.71,4320.82,No,Yes,Yes,2,4,0
+CUST-20464,Female,36,60,Month-to-month,Basic,108.28,6539.08,Yes,Yes,Yes,4,2,0
+CUST-20465,Female,36,69,One year,Premium,95.78,6633.38,Yes,No,No,4,4,0
+CUST-20466,Male,60,38,One year,Premium,96.79,3702.48,Yes,Yes,No,2,1,0
+CUST-20467,Female,63,2,One year,Basic,102.1,207.56,No,Yes,Yes,0,2,1
+CUST-20468,Male,38,70,Month-to-month,Basic,54.0,3824.69,No,Yes,No,0,1,1
+CUST-20469,Female,46,61,Month-to-month,Premium,111.44,6839.97,No,Yes,No,0,3,1
+CUST-20470,Female,21,69,Month-to-month,Premium,109.1,7562.32,No,Yes,No,2,5,1
+CUST-20471,Female,33,16,Month-to-month,Standard,116.42,1888.34,No,No,No,6,5,1
+CUST-20472,Male,74,8,Month-to-month,Standard,73.3,621.55,No,Yes,No,3,2,1
+CUST-20473,Male,20,12,Two year,Premium,78.63,991.74,No,Yes,No,0,2,0
+CUST-20474,Male,55,58,Month-to-month,Basic,51.43,3022.56,Yes,Yes,No,0,2,0
+CUST-20475,Male,29,67,Two year,Basic,94.04,6328.53,Yes,Yes,Yes,0,1,1
+CUST-20476,Male,29,1,Month-to-month,Premium,76.97,100.04,No,Yes,Yes,4,5,1
+CUST-20477,Female,63,50,Month-to-month,Premium,37.52,1890.77,No,No,Yes,0,2,0
+CUST-20478,Female,38,32,One year,Basic,83.06,2695.68,No,No,No,2,5,0
+CUST-20479,Male,38,40,Month-to-month,Premium,58.47,2372.61,Yes,Yes,Yes,0,1,1
+CUST-20480,Female,29,1,Month-to-month,Standard,114.9,162.52,No,No,Yes,0,1,1
+CUST-20481,Female,45,35,Month-to-month,Basic,111.44,3920.05,No,No,Yes,2,2,0
+CUST-20482,Male,69,58,Month-to-month,Basic,65.88,3861.94,No,No,Yes,1,1,1
+CUST-20483,Male,45,54,Month-to-month,Standard,79.85,4330.8,No,Yes,No,1,1,1
+CUST-20484,Female,53,72,Month-to-month,Premium,80.91,5849.14,No,Yes,No,0,5,1
+CUST-20485,Female,47,10,One year,Standard,32.09,350.64,Yes,Yes,Yes,0,3,0
+CUST-20486,Male,42,2,Month-to-month,Basic,79.79,159.87,No,Yes,Yes,2,3,1
+CUST-20487,Female,25,59,Month-to-month,Standard,93.54,5552.41,Yes,No,No,0,2,1
+CUST-20488,Male,52,71,Month-to-month,Basic,84.76,6047.57,Yes,No,No,0,2,1
+CUST-20489,Female,39,66,One year,Standard,34.8,2332.16,No,No,No,4,1,0
+CUST-20490,Female,61,38,Month-to-month,Basic,58.7,2269.58,Yes,Yes,Yes,0,3,0
+CUST-20491,Male,63,3,Two year,Basic,35.69,127.03,No,No,No,5,4,1
+CUST-20492,Male,35,61,Two year,Premium,44.66,2752.26,No,No,Yes,0,4,0
+CUST-20493,Male,28,34,One year,Basic,38.1,1345.08,Yes,No,No,0,1,1
+CUST-20494,Female,53,8,Month-to-month,Premium,63.45,507.65,Yes,No,Yes,6,1,1
+CUST-20495,Female,23,6,One year,Basic,115.22,734.43,No,Yes,Yes,0,1,1
+CUST-20496,Female,55,41,One year,Basic,116.12,4773.74,Yes,No,No,2,2,0
+CUST-20497,Male,69,67,Month-to-month,Premium,79.97,5368.66,No,No,Yes,1,3,0
+CUST-20498,Male,44,12,Two year,Premium,76.31,922.78,No,Yes,No,3,1,1
+CUST-20499,Male,20,34,Month-to-month,Basic,61.65,2124.17,No,Yes,Yes,0,3,1
+CUST-20500,Female,46,33,Month-to-month,Basic,60.36,2037.8,No,Yes,No,3,5,1
+CUST-20501,Female,46,25,One year,Basic,119.07,3026.57,No,Yes,No,5,3,0
+CUST-20502,Female,69,39,Month-to-month,Basic,78.61,3082.33,Yes,No,No,4,1,1
+CUST-20503,Female,57,43,Month-to-month,Standard,116.47,5016.18,Yes,Yes,Yes,1,3,0
+CUST-20504,Female,24,6,Month-to-month,Premium,57.84,348.42,Yes,Yes,Yes,5,1,1
+CUST-20505,Female,24,3,Month-to-month,Standard,93.36,302.34,No,Yes,Yes,0,1,1
+CUST-20506,Female,32,41,Two year,Standard,92.87,3811.83,Yes,Yes,Yes,2,2,1
+CUST-20507,Female,68,46,Two year,Basic,30.94,1466.24,Yes,Yes,No,0,2,0
+CUST-20508,Male,74,45,Two year,Premium,91.76,4158.61,No,No,Yes,1,1,0
+CUST-20509,Female,24,57,One year,Basic,71.72,4115.58,No,No,Yes,4,1,1
+CUST-20510,Female,36,28,Two year,Premium,31.09,905.02,Yes,Yes,No,0,1,0
+CUST-20511,Female,20,65,One year,Standard,35.79,2353.49,Yes,Yes,No,3,5,0
+CUST-20512,Female,40,32,Two year,Premium,81.03,2600.29,No,No,Yes,0,4,0
+CUST-20513,Male,59,3,Month-to-month,Standard,114.85,389.99,Yes,Yes,No,2,4,1
+CUST-20514,Male,48,65,Month-to-month,Premium,41.27,2727.04,Yes,Yes,No,0,3,0
+CUST-20515,Male,18,51,Month-to-month,Standard,98.28,5054.61,No,No,Yes,0,3,0
+CUST-20516,Male,49,28,Two year,Standard,52.95,1527.54,Yes,No,Yes,1,3,0
+CUST-20517,Male,58,24,One year,Premium,93.21,2244.51,Yes,No,No,3,1,1
+CUST-20518,Male,54,6,One year,Standard,105.49,635.26,Yes,Yes,No,1,2,1
+CUST-20519,Male,23,50,Month-to-month,Basic,101.5,5105.81,Yes,No,No,5,4,1
+CUST-20520,Female,38,24,Month-to-month,Premium,96.32,2350.23,No,Yes,No,0,2,1
+CUST-20521,Male,69,2,Two year,Basic,71.17,160.03,Yes,Yes,No,1,4,0
+CUST-20522,Male,18,57,Month-to-month,Standard,105.76,6039.6,Yes,Yes,Yes,1,2,1
+CUST-20523,Male,22,46,Two year,Premium,100.7,4658.31,No,Yes,No,1,4,1
+CUST-20524,Male,50,56,Month-to-month,Standard,59.9,3381.93,No,No,No,0,1,1
+CUST-20525,Male,63,7,One year,Standard,112.54,811.72,Yes,Yes,No,1,2,1
+CUST-20526,Female,75,23,Two year,Standard,59.84,1420.42,Yes,Yes,Yes,0,4,0
+CUST-20527,Male,29,71,Month-to-month,Standard,78.29,5589.85,Yes,Yes,Yes,0,1,1
+CUST-20528,Female,35,28,One year,Premium,107.41,3044.87,Yes,No,No,1,2,0
+CUST-20529,Male,65,2,Month-to-month,Premium,48.7,99.94,Yes,Yes,Yes,0,4,1
+CUST-20530,Male,62,14,Month-to-month,Premium,47.45,709.23,Yes,Yes,No,0,1,1
+CUST-20531,Female,30,1,One year,Basic,60.99,100.64,Yes,No,No,1,4,0
+CUST-20532,Male,57,69,Month-to-month,Basic,91.53,6348.16,Yes,No,Yes,1,4,0
+CUST-20533,Male,73,21,One year,Premium,49.63,1089.44,Yes,No,Yes,3,5,0
+CUST-20534,Male,57,50,Month-to-month,Basic,81.06,4093.07,Yes,Yes,No,1,5,1
+CUST-20535,Female,53,48,Two year,Standard,105.72,5119.93,No,Yes,No,0,4,0
+CUST-20536,Male,54,66,Two year,Standard,62.54,4142.8,No,No,No,2,4,0
+CUST-20537,Female,30,40,One year,Basic,94.55,3810.38,No,Yes,No,1,4,1
+CUST-20538,Male,26,22,Month-to-month,Standard,109.38,2412.23,No,Yes,No,0,4,0
+CUST-20539,Female,59,72,One year,Standard,90.61,6528.99,Yes,No,Yes,2,4,1
+CUST-20540,Male,64,40,Two year,Premium,37.61,1534.44,No,No,Yes,0,3,0
+CUST-20541,Male,64,37,Two year,Basic,110.0,4103.34,No,Yes,Yes,0,2,0
+CUST-20542,Male,69,31,Month-to-month,Premium,105.09,3300.21,No,No,Yes,0,3,1
+CUST-20543,Female,67,50,Two year,Premium,90.75,4562.47,No,No,No,2,3,0
+CUST-20544,Female,33,56,Month-to-month,Standard,119.19,6688.18,No,No,Yes,1,3,1
+CUST-20545,Male,39,37,Month-to-month,Premium,92.79,3433.63,No,No,Yes,3,2,1
+CUST-20546,Male,38,48,One year,Standard,57.18,2766.97,Yes,Yes,Yes,1,3,0
+CUST-20547,Female,67,16,Month-to-month,Standard,41.02,697.0,Yes,No,Yes,0,2,0
+CUST-20548,Male,37,41,Two year,Basic,94.65,3883.44,No,Yes,No,0,1,1
+CUST-20549,Male,49,68,Two year,Basic,42.78,2915.05,No,No,Yes,4,5,1
+CUST-20550,Male,31,47,Two year,Premium,55.13,2635.92,No,No,No,0,4,1
+CUST-20551,Female,30,21,Two year,Premium,32.27,704.12,No,Yes,Yes,4,4,0
+CUST-20552,Female,43,42,Month-to-month,Basic,72.11,3034.19,Yes,Yes,No,3,4,0
+CUST-20553,Male,19,48,Month-to-month,Premium,89.24,4285.8,Yes,Yes,No,3,2,1
+CUST-20554,Male,37,24,Month-to-month,Premium,106.19,2558.3,No,Yes,No,0,5,0
+CUST-20555,Male,67,28,One year,Premium,102.54,2905.83,No,Yes,Yes,0,2,1
+CUST-20556,Female,40,20,Month-to-month,Standard,45.83,952.64,Yes,No,Yes,0,3,0
+CUST-20557,Female,70,28,Two year,Basic,45.2,1297.6,No,Yes,Yes,3,5,0
+CUST-20558,Male,36,47,Two year,Premium,92.4,4387.52,Yes,No,Yes,0,4,0
+CUST-20559,Female,20,61,Month-to-month,Basic,79.6,4878.56,Yes,No,No,2,1,0
+CUST-20560,Male,71,26,Month-to-month,Basic,31.26,818.99,No,Yes,No,1,5,1
+CUST-20561,Male,63,12,Two year,Standard,89.95,1121.49,No,No,No,2,4,1
+CUST-20562,Female,66,34,Month-to-month,Basic,118.16,4065.65,Yes,Yes,Yes,4,5,1
+CUST-20563,Male,66,38,Month-to-month,Basic,61.14,2372.84,Yes,Yes,Yes,2,3,0
+CUST-20564,Female,29,44,Month-to-month,Premium,34.43,1534.4,No,Yes,Yes,3,1,1
+CUST-20565,Female,43,63,Month-to-month,Basic,30.56,1958.73,Yes,No,Yes,2,3,1
+CUST-20566,Male,32,50,Month-to-month,Premium,35.15,1796.73,No,Yes,No,2,4,1
+CUST-20567,Female,68,61,Month-to-month,Standard,52.62,3213.46,Yes,Yes,No,0,3,1
+CUST-20568,Female,39,55,Month-to-month,Premium,113.99,6274.02,No,Yes,No,1,4,1
+CUST-20569,Male,21,62,Two year,Basic,31.62,1968.88,Yes,Yes,Yes,1,4,0
+CUST-20570,Male,27,40,Month-to-month,Basic,81.43,3294.79,No,No,No,1,4,1
+CUST-20571,Female,31,10,Month-to-month,Standard,110.38,1115.37,Yes,Yes,No,2,1,1
+CUST-20572,Female,62,68,Month-to-month,Standard,88.38,6030.86,Yes,Yes,No,0,5,1
+CUST-20573,Female,39,40,Month-to-month,Premium,90.48,3658.48,No,Yes,Yes,0,1,1
+CUST-20574,Male,40,4,One year,Standard,102.67,424.29,No,No,No,1,1,1
+CUST-20575,Female,53,60,Month-to-month,Standard,79.02,4779.33,No,No,No,1,5,0
+CUST-20576,Female,74,12,Month-to-month,Basic,64.7,793.78,Yes,No,No,0,4,1
+CUST-20577,Female,62,29,Month-to-month,Basic,82.99,2426.02,No,No,Yes,5,4,1
+CUST-20578,Female,26,49,Month-to-month,Basic,34.45,1706.6,No,Yes,Yes,0,1,1
+CUST-20579,Male,47,53,One year,Standard,56.96,3068.25,No,No,No,1,3,0
+CUST-20580,Female,60,56,Month-to-month,Standard,97.82,5521.65,No,Yes,No,2,1,1
+CUST-20581,Female,57,16,Month-to-month,Premium,83.01,1365.81,Yes,No,No,1,3,1
+CUST-20582,Female,74,53,Month-to-month,Premium,98.31,5252.27,Yes,Yes,Yes,0,3,0
+CUST-20583,Male,56,62,One year,Basic,118.94,7407.73,No,Yes,Yes,0,1,0
+CUST-20584,Female,26,8,One year,Basic,107.43,897.52,No,No,No,3,5,1
+CUST-20585,Female,58,53,Month-to-month,Standard,102.02,5413.66,Yes,Yes,Yes,0,3,1
+CUST-20586,Female,72,39,Month-to-month,Basic,43.34,1720.81,Yes,Yes,Yes,3,3,1
+CUST-20587,Male,31,60,Month-to-month,Standard,107.78,6493.24,No,Yes,No,1,4,0
+CUST-20588,Female,69,11,Two year,Premium,49.65,549.59,No,No,Yes,0,3,0
+CUST-20589,Male,23,10,Month-to-month,Premium,79.56,798.0,Yes,No,Yes,0,4,1
+CUST-20590,Male,20,32,Month-to-month,Standard,56.34,1816.14,Yes,Yes,Yes,0,4,0
+CUST-20591,Female,50,51,One year,Premium,104.8,5346.43,No,Yes,No,0,5,0
+CUST-20592,Male,74,12,One year,Standard,69.42,847.34,No,No,Yes,7,3,1
+CUST-20593,Female,21,20,Month-to-month,Standard,115.24,2312.97,No,No,No,0,4,0
+CUST-20594,Male,30,26,Month-to-month,Basic,86.11,2250.55,Yes,Yes,Yes,0,5,0
+CUST-20595,Male,31,2,Month-to-month,Basic,47.74,115.89,No,Yes,Yes,2,4,0
+CUST-20596,Female,70,2,Month-to-month,Standard,42.77,109.46,No,No,Yes,3,1,1
+CUST-20597,Female,31,8,Month-to-month,Basic,111.91,932.02,No,No,Yes,0,2,1
+CUST-20598,Male,20,17,Month-to-month,Standard,36.12,662.65,Yes,Yes,No,2,2,1
+CUST-20599,Male,36,7,Two year,Basic,69.53,530.64,No,No,No,2,1,0
+CUST-20600,Female,59,64,Month-to-month,Standard,67.24,4334.47,Yes,No,Yes,0,5,1
+CUST-20601,Female,27,61,One year,Standard,75.51,4652.67,Yes,Yes,No,1,5,0
+CUST-20602,Female,42,51,One year,Standard,94.13,4846.37,Yes,Yes,No,0,2,1
+CUST-20603,Male,68,24,Month-to-month,Basic,37.73,907.88,No,Yes,Yes,2,5,1
+CUST-20604,Male,60,10,Month-to-month,Basic,107.66,1100.84,Yes,Yes,Yes,0,5,0
+CUST-20605,Female,62,46,Month-to-month,Standard,96.16,4468.23,Yes,No,Yes,0,2,0
+CUST-20606,Female,65,33,Month-to-month,Premium,70.89,2347.55,No,No,Yes,0,4,1
+CUST-20607,Female,61,34,One year,Premium,64.42,2238.19,Yes,Yes,Yes,0,3,0
+CUST-20608,Female,74,3,Month-to-month,Premium,74.91,254.69,No,Yes,No,1,2,1
+CUST-20609,Female,57,49,One year,Premium,61.43,3040.67,No,Yes,No,1,5,0
+CUST-20610,Male,43,55,One year,Basic,44.39,2485.33,No,No,Yes,0,4,0
+CUST-20611,Female,38,22,Month-to-month,Standard,81.04,1783.76,Yes,No,No,1,2,0
+CUST-20612,Male,19,48,One year,Basic,43.57,2105.65,Yes,No,No,0,2,0
+CUST-20613,Female,66,52,Month-to-month,Basic,71.68,3763.37,Yes,No,Yes,3,3,0
+CUST-20614,Male,20,56,Month-to-month,Standard,89.68,5053.26,Yes,No,Yes,0,1,1
+CUST-20615,Male,20,35,One year,Basic,93.38,3276.15,Yes,Yes,Yes,0,2,0
+CUST-20616,Female,65,38,Month-to-month,Basic,94.0,3598.92,No,No,No,7,3,1
+CUST-20617,Male,66,15,Month-to-month,Standard,80.05,1203.67,No,No,Yes,3,1,1
+CUST-20618,Female,29,65,Two year,Standard,69.79,4562.57,Yes,No,No,2,4,0
+CUST-20619,Female,73,52,One year,Premium,40.68,2137.13,Yes,Yes,No,2,1,0
+CUST-20620,Female,69,19,Month-to-month,Basic,46.46,898.02,Yes,Yes,No,0,3,0
+CUST-20621,Male,36,63,Two year,Premium,99.51,6304.13,Yes,Yes,No,3,4,1
+CUST-20622,Female,55,36,One year,Premium,38.68,1400.52,Yes,Yes,Yes,0,4,0
+CUST-20623,Male,65,22,One year,Basic,30.47,717.15,Yes,No,Yes,1,2,0
+CUST-20624,Male,38,6,Month-to-month,Basic,54.3,370.11,Yes,Yes,No,1,2,0
+CUST-20625,Male,60,8,Month-to-month,Standard,78.05,646.01,No,No,Yes,3,2,1
+CUST-20626,Male,74,65,One year,Standard,90.58,5931.84,Yes,Yes,No,1,1,0
+CUST-20627,Male,74,70,Two year,Standard,45.92,3237.14,Yes,No,No,5,1,1
+CUST-20628,Male,30,20,One year,Basic,48.09,973.08,Yes,Yes,Yes,0,2,0
+CUST-20629,Male,51,62,Month-to-month,Premium,114.68,7111.15,No,No,No,0,1,1
+CUST-20630,Female,70,22,Month-to-month,Premium,77.03,1737.48,No,Yes,Yes,1,4,0
+CUST-20631,Female,25,59,Two year,Premium,39.95,2405.55,No,Yes,No,0,4,0
+CUST-20632,Male,63,20,One year,Standard,63.17,1311.07,No,No,Yes,1,3,0
+CUST-20633,Male,26,42,Month-to-month,Standard,85.5,3620.66,Yes,No,No,0,3,0
+CUST-20634,Male,66,57,One year,Basic,82.13,4711.8,No,No,No,0,5,0
+CUST-20635,Female,22,57,One year,Standard,73.59,4222.75,No,No,No,0,3,0
+CUST-20636,Female,43,36,Month-to-month,Premium,47.41,1737.17,No,Yes,No,1,3,0
+CUST-20637,Female,31,52,One year,Premium,102.75,5348.34,No,No,Yes,0,3,1
+CUST-20638,Male,60,66,Two year,Basic,59.39,3928.29,Yes,Yes,No,0,4,1
+CUST-20639,Female,36,71,One year,Basic,31.62,2272.24,No,No,No,1,2,1
+CUST-20640,Male,73,6,Month-to-month,Standard,90.0,567.04,Yes,No,No,3,1,1
+CUST-20641,Female,73,31,Month-to-month,Standard,100.94,3174.9,Yes,Yes,Yes,0,3,0
+CUST-20642,Female,24,46,One year,Basic,111.99,5199.06,No,No,Yes,1,5,1
+CUST-20643,Female,52,38,Month-to-month,Premium,34.65,1354.76,Yes,Yes,No,0,1,1
+CUST-20644,Male,45,48,Two year,Basic,34.27,1658.53,No,No,No,0,5,0
+CUST-20645,Female,48,36,One year,Standard,80.27,2936.18,No,Yes,No,4,4,1
+CUST-20646,Male,25,42,Two year,Premium,83.75,3561.11,Yes,No,No,2,2,0
+CUST-20647,Male,25,2,Month-to-month,Basic,113.86,260.1,No,No,Yes,0,3,1
+CUST-20648,Female,37,70,Month-to-month,Standard,63.5,4456.14,No,No,Yes,0,2,1
+CUST-20649,Female,18,63,Two year,Basic,55.86,3555.61,Yes,Yes,Yes,2,5,0
+CUST-20650,Male,43,17,One year,Basic,113.74,1936.98,No,Yes,Yes,1,4,0
+CUST-20651,Female,67,35,Month-to-month,Premium,95.83,3384.92,No,No,No,0,5,0
+CUST-20652,Male,61,45,Month-to-month,Standard,39.12,1766.18,No,No,No,1,4,1
+CUST-20653,Female,21,68,Two year,Basic,62.68,4292.2,No,No,No,0,4,0
+CUST-20654,Female,58,28,Month-to-month,Basic,56.77,1633.25,No,Yes,No,0,5,1
+CUST-20655,Female,30,34,Month-to-month,Premium,48.28,1658.19,No,Yes,Yes,0,5,1
+CUST-20656,Male,73,9,One year,Basic,104.28,964.58,Yes,No,Yes,1,5,0
+CUST-20657,Male,69,72,Month-to-month,Basic,73.18,5292.72,Yes,No,No,0,1,1
+CUST-20658,Male,46,40,Month-to-month,Premium,49.13,1981.57,Yes,No,Yes,0,5,0
+CUST-20659,Female,45,62,Month-to-month,Standard,108.23,6735.09,No,No,No,4,5,1
+CUST-20660,Male,37,29,Month-to-month,Standard,42.28,1256.35,No,No,No,0,3,1
+CUST-20661,Male,62,5,Month-to-month,Premium,83.59,434.96,Yes,Yes,Yes,3,3,1
+CUST-20662,Male,52,53,One year,Standard,111.4,5912.71,No,No,No,2,5,0
+CUST-20663,Female,57,59,One year,Standard,45.35,2721.19,No,No,No,1,5,0
+CUST-20664,Male,51,15,Two year,Basic,46.11,695.22,No,Yes,Yes,0,5,0
+CUST-20665,Female,75,11,Month-to-month,Standard,97.55,1099.51,No,No,Yes,2,2,1
+CUST-20666,Male,51,51,Two year,Basic,37.46,1946.77,Yes,Yes,No,2,5,0
+CUST-20667,Male,54,32,One year,Standard,105.08,3366.55,No,Yes,Yes,2,5,0
+CUST-20668,Male,71,14,Month-to-month,Premium,34.22,494.86,No,No,Yes,0,3,1
+CUST-20669,Female,65,65,Month-to-month,Basic,97.9,6386.73,Yes,No,Yes,0,4,1
+CUST-20670,Male,25,31,One year,Basic,30.93,1006.76,Yes,No,No,0,3,0
+CUST-20671,Male,64,55,Month-to-month,Basic,92.1,5081.9,Yes,Yes,Yes,0,1,0
+CUST-20672,Female,31,60,Month-to-month,Basic,111.51,6737.23,No,Yes,No,2,2,0
+CUST-20673,Male,31,45,Month-to-month,Premium,66.07,2985.42,No,Yes,Yes,2,3,0
+CUST-20674,Female,23,47,One year,Standard,70.52,3326.76,No,No,No,0,4,0
+CUST-20675,Female,40,15,Month-to-month,Standard,52.14,829.93,Yes,Yes,Yes,1,2,1
+CUST-20676,Male,52,54,Two year,Premium,64.03,3457.85,Yes,No,Yes,1,4,0
+CUST-20677,Female,22,53,Month-to-month,Basic,86.1,4598.13,No,Yes,No,1,3,1
+CUST-20678,Female,20,48,Two year,Basic,46.99,2283.53,Yes,Yes,No,6,1,1
+CUST-20679,Female,44,27,Month-to-month,Premium,108.5,2942.66,No,No,No,0,5,1
+CUST-20680,Female,68,28,Two year,Premium,67.05,1917.26,No,No,No,0,5,0
+CUST-20681,Male,54,23,Month-to-month,Premium,98.71,2284.24,No,No,No,2,3,1
+CUST-20682,Male,71,43,Month-to-month,Standard,42.21,1839.58,No,No,Yes,0,4,0
+CUST-20683,Male,68,14,One year,Standard,99.8,1435.48,Yes,Yes,No,4,5,0
+CUST-20684,Male,50,64,Month-to-month,Standard,69.88,4509.69,Yes,Yes,Yes,1,4,0
+CUST-20685,Female,24,30,One year,Premium,31.11,978.96,No,Yes,No,5,2,1
+CUST-20686,Female,26,45,Month-to-month,Basic,117.28,5323.79,Yes,Yes,Yes,3,5,1
+CUST-20687,Female,46,60,Month-to-month,Standard,98.21,5895.91,Yes,No,No,0,2,1
+CUST-20688,Female,67,31,Two year,Premium,36.77,1170.94,No,Yes,Yes,0,3,0
+CUST-20689,Female,19,72,Month-to-month,Premium,65.07,4697.83,No,Yes,Yes,0,1,0
+CUST-20690,Female,68,19,Month-to-month,Basic,53.84,1067.46,Yes,Yes,No,0,5,0
+CUST-20691,Male,20,25,Month-to-month,Premium,68.84,1755.38,Yes,Yes,No,0,5,0
+CUST-20692,Male,21,20,One year,Basic,83.5,1708.97,Yes,No,No,2,1,0
+CUST-20693,Male,44,70,One year,Basic,60.5,4258.79,No,Yes,Yes,0,2,1
+CUST-20694,Male,19,60,Month-to-month,Standard,38.04,2320.03,Yes,No,Yes,0,1,1
+CUST-20695,Female,54,6,One year,Standard,109.6,690.35,No,Yes,Yes,0,3,1
+CUST-20696,Female,65,53,One year,Standard,39.98,2127.3,Yes,No,Yes,1,3,0
+CUST-20697,Male,27,29,One year,Standard,107.1,3152.43,Yes,Yes,No,0,4,1
+CUST-20698,Female,29,28,Two year,Standard,97.97,2750.26,Yes,No,No,2,4,0
+CUST-20699,Female,74,24,Month-to-month,Basic,48.73,1178.65,No,No,Yes,0,2,1
+CUST-20700,Male,59,60,One year,Standard,94.81,5689.81,Yes,No,No,3,3,0
+CUST-20701,Female,25,49,Month-to-month,Basic,39.56,1971.81,No,Yes,Yes,3,5,0
+CUST-20702,Female,64,69,Two year,Standard,73.1,5065.3,No,Yes,Yes,1,1,0
+CUST-20703,Female,37,59,Month-to-month,Premium,97.42,5769.7,Yes,Yes,Yes,1,5,0
+CUST-20704,Male,23,56,Month-to-month,Basic,66.32,3750.77,Yes,No,Yes,3,3,0
+CUST-20705,Female,52,35,Month-to-month,Standard,70.4,2511.53,Yes,Yes,Yes,1,5,0
+CUST-20706,Female,45,24,Month-to-month,Basic,45.13,1133.01,Yes,No,Yes,3,3,0
+CUST-20707,Male,74,27,One year,Basic,35.48,958.87,No,Yes,No,2,4,0
+CUST-20708,Male,57,1,Month-to-month,Premium,81.45,120.36,Yes,Yes,No,0,1,1
+CUST-20709,Male,42,20,Two year,Basic,91.69,1843.88,No,No,Yes,0,5,0
+CUST-20710,Female,37,70,Two year,Basic,114.84,8082.13,No,No,No,0,1,1
+CUST-20711,Female,61,29,Month-to-month,Basic,110.12,3229.63,Yes,No,Yes,4,5,0
+CUST-20712,Female,23,72,One year,Premium,53.31,3863.38,No,Yes,Yes,0,3,0
+CUST-20713,Male,22,47,Month-to-month,Basic,54.99,2605.09,No,No,No,4,5,1
+CUST-20714,Female,55,35,Two year,Standard,69.74,2476.71,Yes,Yes,Yes,0,1,0
+CUST-20715,Male,62,65,Month-to-month,Basic,88.73,5793.12,No,Yes,Yes,5,4,1
+CUST-20716,Female,50,9,Month-to-month,Premium,59.22,539.78,Yes,No,Yes,1,2,0
+CUST-20717,Male,40,59,Month-to-month,Standard,37.84,2263.55,Yes,No,Yes,1,4,0
+CUST-20718,Male,68,42,Month-to-month,Basic,55.81,2387.33,No,Yes,Yes,0,5,1
+CUST-20719,Male,34,55,Month-to-month,Basic,37.66,2099.38,Yes,No,Yes,0,2,1
+CUST-20720,Male,54,55,Month-to-month,Basic,41.25,2301.49,No,No,Yes,1,4,1
+CUST-20721,Female,32,34,Month-to-month,Premium,34.13,1204.19,Yes,Yes,No,1,2,0
+CUST-20722,Female,42,4,Month-to-month,Basic,59.95,240.14,No,Yes,No,1,2,1
+CUST-20723,Female,53,54,Month-to-month,Standard,78.12,4226.64,No,Yes,Yes,3,2,1
+CUST-20724,Male,50,51,Two year,Premium,102.82,5290.57,No,Yes,Yes,0,1,0
+CUST-20725,Female,74,53,Two year,Standard,75.95,4067.57,No,No,No,3,2,1
+CUST-20726,Male,41,2,Month-to-month,Basic,102.55,220.27,No,No,Yes,0,3,0
+CUST-20727,Male,37,7,Month-to-month,Standard,109.07,801.19,Yes,Yes,Yes,0,4,0
+CUST-20728,Female,28,46,Month-to-month,Basic,31.54,1470.82,No,No,Yes,2,1,1
+CUST-20729,Female,67,26,Month-to-month,Basic,77.8,2045.98,Yes,No,Yes,0,3,0
+CUST-20730,Female,50,65,Two year,Premium,35.82,2354.14,No,Yes,No,1,1,1
+CUST-20731,Male,70,13,Two year,Basic,38.19,537.23,No,No,Yes,2,3,1
+CUST-20732,Male,33,4,Month-to-month,Standard,34.58,168.89,No,Yes,Yes,1,1,1
+CUST-20733,Female,21,8,Month-to-month,Basic,119.95,969.68,No,Yes,Yes,0,3,1
+CUST-20734,Male,31,39,Two year,Standard,103.19,4036.45,No,Yes,No,2,5,0
+CUST-20735,Male,74,50,Two year,Basic,98.44,4969.0,Yes,No,Yes,1,3,0
+CUST-20736,Female,70,68,Month-to-month,Standard,112.9,7708.63,Yes,Yes,No,0,3,0
+CUST-20737,Male,19,61,Two year,Premium,77.55,4773.91,No,Yes,No,0,4,0
+CUST-20738,Male,63,30,Month-to-month,Standard,39.51,1186.67,Yes,No,Yes,0,2,1
+CUST-20739,Female,34,62,Month-to-month,Basic,78.18,4871.42,Yes,Yes,No,3,5,0
+CUST-20740,Male,29,37,Month-to-month,Premium,95.04,3543.93,No,No,Yes,0,3,0
+CUST-20741,Female,30,18,Month-to-month,Standard,116.75,2109.61,Yes,No,Yes,2,4,0
+CUST-20742,Female,53,46,Two year,Standard,65.85,3052.71,No,No,No,0,5,0
+CUST-20743,Male,54,47,One year,Basic,38.04,1790.63,Yes,No,No,3,4,1
+CUST-20744,Female,18,28,Month-to-month,Basic,118.12,3355.11,No,Yes,No,3,1,1
+CUST-20745,Male,54,18,Month-to-month,Standard,75.3,1366.42,Yes,No,Yes,2,5,0
+CUST-20746,Male,70,2,Month-to-month,Basic,34.21,73.47,Yes,No,No,2,5,0
+CUST-20747,Female,43,32,Month-to-month,Premium,107.62,3455.47,Yes,Yes,Yes,0,1,0
+CUST-20748,Female,49,54,Month-to-month,Basic,74.14,4044.57,No,Yes,No,1,5,1
+CUST-20749,Male,26,70,One year,Standard,111.67,7833.38,Yes,Yes,Yes,1,5,0
+CUST-20750,Male,39,47,Month-to-month,Standard,106.86,5054.39,No,Yes,Yes,2,1,1
+CUST-20751,Female,45,48,One year,Standard,99.57,4802.79,Yes,No,Yes,1,1,1
+CUST-20752,Male,70,65,Month-to-month,Standard,64.57,4210.23,No,Yes,No,2,1,1
+CUST-20753,Female,38,40,Two year,Premium,31.43,1266.49,No,No,Yes,3,5,0
+CUST-20754,Female,60,24,Month-to-month,Basic,80.63,1951.74,No,No,Yes,3,2,1
+CUST-20755,Female,20,58,Month-to-month,Standard,42.24,2472.19,No,Yes,Yes,1,1,0
+CUST-20756,Male,39,27,One year,Standard,72.82,2000.72,No,Yes,Yes,3,4,0
+CUST-20757,Female,56,7,Month-to-month,Premium,92.46,687.09,No,Yes,Yes,0,3,1
+CUST-20758,Male,34,1,Month-to-month,Basic,91.85,139.03,Yes,No,Yes,1,1,0
+CUST-20759,Female,56,58,Month-to-month,Standard,99.88,5808.75,No,No,No,0,4,1
+CUST-20760,Female,49,44,Month-to-month,Basic,69.26,3051.29,Yes,Yes,No,0,2,1
+CUST-20761,Female,65,17,Month-to-month,Basic,46.21,820.88,Yes,Yes,No,0,1,0
+CUST-20762,Female,59,63,Month-to-month,Basic,117.17,7387.04,Yes,Yes,No,0,5,1
+CUST-20763,Female,35,71,Month-to-month,Premium,50.93,3634.77,Yes,No,Yes,0,2,1
+CUST-20764,Male,65,53,Two year,Premium,101.51,5380.73,No,Yes,No,0,1,1
+CUST-20765,Male,73,10,Month-to-month,Basic,112.93,1169.61,Yes,No,Yes,1,1,1
+CUST-20766,Male,20,38,One year,Basic,46.62,1813.32,Yes,No,No,0,2,0
+CUST-20767,Female,28,36,One year,Standard,118.09,4297.03,Yes,Yes,Yes,2,3,0
+CUST-20768,Male,74,45,One year,Premium,103.58,4688.6,Yes,Yes,Yes,0,2,0
+CUST-20769,Female,29,70,Two year,Basic,110.52,7742.29,No,Yes,No,2,3,0
+CUST-20770,Female,21,17,Two year,Premium,67.77,1171.85,No,Yes,No,3,5,0
+CUST-20771,Female,31,63,Month-to-month,Premium,86.38,5460.62,No,Yes,No,0,1,1
+CUST-20772,Female,41,53,Two year,Basic,45.26,2426.06,Yes,Yes,Yes,0,1,0
+CUST-20773,Female,74,31,One year,Standard,53.3,1680.92,Yes,Yes,Yes,3,3,0
+CUST-20774,Male,31,23,Month-to-month,Basic,52.01,1199.59,Yes,No,No,0,1,1
+CUST-20775,Male,39,37,Month-to-month,Premium,91.46,3385.69,No,No,Yes,1,2,1
+CUST-20776,Male,36,32,Month-to-month,Basic,83.28,2671.57,Yes,No,Yes,0,3,0
+CUST-20777,Male,28,8,Month-to-month,Standard,97.61,800.52,Yes,Yes,Yes,0,4,1
+CUST-20778,Male,48,59,Month-to-month,Standard,55.0,3248.28,Yes,No,Yes,1,3,0
+CUST-20779,Male,75,58,Month-to-month,Basic,82.73,4807.38,No,Yes,Yes,0,3,1
+CUST-20780,Female,26,55,Two year,Standard,72.6,4000.56,No,No,No,0,2,0
+CUST-20781,Female,25,58,Two year,Basic,32.37,1906.01,Yes,No,No,3,3,1
+CUST-20782,Male,63,14,Month-to-month,Premium,50.71,726.53,Yes,No,Yes,0,2,1
+CUST-20783,Male,37,31,One year,Basic,76.56,2395.44,No,Yes,No,1,2,1
+CUST-20784,Female,73,17,Month-to-month,Basic,75.14,1289.19,No,No,Yes,1,1,1
+CUST-20785,Female,49,6,Month-to-month,Premium,64.39,415.07,Yes,Yes,Yes,1,5,1
+CUST-20786,Male,40,8,Month-to-month,Standard,94.47,789.04,No,No,Yes,3,3,1
+CUST-20787,Female,65,68,Month-to-month,Premium,78.72,5401.59,No,No,No,0,2,1
+CUST-20788,Female,43,62,Month-to-month,Premium,100.09,6223.7,Yes,No,No,0,5,1
+CUST-20789,Male,29,24,Two year,Basic,97.94,2377.22,No,No,Yes,2,3,0
+CUST-20790,Female,30,33,Two year,Premium,31.13,1069.84,Yes,Yes,Yes,4,1,1
+CUST-20791,Male,56,2,One year,Premium,93.18,207.24,Yes,No,Yes,0,4,1
+CUST-20792,Female,70,7,Two year,Standard,68.72,490.3,No,No,Yes,0,2,1
+CUST-20793,Male,65,11,One year,Basic,63.36,707.0,Yes,Yes,Yes,0,4,1
+CUST-20794,Male,42,1,One year,Standard,116.85,163.44,Yes,No,No,2,3,1
+CUST-20795,Female,25,54,Two year,Basic,72.65,3944.9,Yes,No,No,0,5,0
+CUST-20796,Female,18,2,One year,Basic,71.66,153.31,No,Yes,No,3,2,1
+CUST-20797,Male,31,26,One year,Basic,31.11,855.7,No,No,Yes,5,3,1
+CUST-20798,Male,63,13,Month-to-month,Standard,110.98,1457.13,Yes,No,Yes,1,4,0
+CUST-20799,Female,44,5,Month-to-month,Premium,48.75,256.3,No,Yes,Yes,3,4,1
+CUST-20800,Female,38,44,Month-to-month,Premium,69.71,3117.14,No,Yes,Yes,0,2,1
+CUST-20801,Male,36,72,Month-to-month,Standard,53.98,3899.93,No,Yes,Yes,0,4,0
+CUST-20802,Male,50,50,One year,Standard,81.31,4115.37,Yes,No,No,2,3,0
+CUST-20803,Female,71,18,Month-to-month,Premium,33.72,641.37,Yes,Yes,No,2,3,1
+CUST-20804,Male,18,44,Month-to-month,Standard,86.31,3813.29,No,Yes,Yes,0,3,1
+CUST-20805,Male,71,5,One year,Basic,72.92,368.48,No,Yes,No,1,4,0
+CUST-20806,Female,32,59,Month-to-month,Premium,53.56,3170.65,Yes,No,No,0,4,0
+CUST-20807,Female,74,54,Month-to-month,Standard,106.41,5752.71,No,Yes,No,1,1,1
+CUST-20808,Female,74,12,Month-to-month,Premium,97.18,1194.72,Yes,Yes,No,1,2,1
+CUST-20809,Male,18,67,Month-to-month,Basic,92.77,6248.08,No,Yes,No,5,3,1
+CUST-20810,Female,20,44,Two year,Basic,93.52,4137.09,No,Yes,Yes,0,4,0
+CUST-20811,Male,19,52,Month-to-month,Basic,79.31,4130.9,Yes,No,No,3,4,0
+CUST-20812,Female,67,11,One year,Premium,70.68,809.83,No,No,Yes,1,3,0
+CUST-20813,Male,42,61,One year,Premium,67.31,4121.14,Yes,No,No,0,3,0
+CUST-20814,Female,72,3,Two year,Premium,57.23,178.59,Yes,No,Yes,0,5,0
+CUST-20815,Male,52,52,One year,Standard,32.67,1718.38,Yes,Yes,Yes,1,2,0
+CUST-20816,Male,48,25,Two year,Premium,82.31,2096.09,Yes,Yes,No,0,2,0
+CUST-20817,Female,74,27,One year,Basic,71.72,1959.32,Yes,No,No,1,2,0
+CUST-20818,Female,28,4,Month-to-month,Premium,83.21,367.19,Yes,Yes,Yes,5,3,1
+CUST-20819,Male,25,37,Month-to-month,Premium,84.93,3163.34,Yes,No,Yes,0,3,0
+CUST-20820,Female,30,1,Month-to-month,Premium,77.74,125.67,No,Yes,No,2,2,1
+CUST-20821,Male,68,10,Month-to-month,Premium,40.04,423.97,Yes,No,No,5,3,1
+CUST-20822,Male,39,68,One year,Basic,39.26,2702.2,No,Yes,Yes,0,2,0
+CUST-20823,Male,25,61,Month-to-month,Premium,117.95,7215.56,No,Yes,No,3,2,1
+CUST-20824,Male,51,9,Month-to-month,Standard,43.51,399.87,No,Yes,No,3,5,1
+CUST-20825,Male,60,3,Month-to-month,Premium,75.68,256.01,No,Yes,No,1,1,1
+CUST-20826,Male,45,15,One year,Standard,107.26,1617.47,No,No,No,0,5,1
+CUST-20827,Male,71,3,Month-to-month,Basic,71.06,244.96,Yes,No,Yes,2,3,1
+CUST-20828,Male,38,49,One year,Basic,87.76,4316.94,No,Yes,Yes,0,3,0
+CUST-20829,Male,37,21,One year,Standard,49.34,1065.97,Yes,Yes,Yes,1,2,1
+CUST-20830,Female,54,58,Month-to-month,Premium,35.28,2076.74,No,Yes,Yes,4,3,1
+CUST-20831,Female,26,40,Month-to-month,Standard,50.0,2038.2,No,Yes,No,2,3,0
+CUST-20832,Male,73,52,Two year,Standard,105.63,5537.7,Yes,Yes,No,3,5,0
+CUST-20833,Female,33,67,Month-to-month,Premium,66.0,4429.61,Yes,Yes,Yes,1,4,0
+CUST-20834,Female,56,68,Month-to-month,Premium,36.62,2508.8,No,No,Yes,0,1,0
+CUST-20835,Male,56,68,Month-to-month,Basic,116.5,7950.18,Yes,Yes,No,1,1,0
+CUST-20836,Female,29,25,Two year,Standard,84.91,2152.25,Yes,Yes,Yes,0,5,0
+CUST-20837,Female,53,66,Month-to-month,Standard,70.57,4666.98,No,Yes,No,0,3,0
+CUST-20838,Male,51,33,Two year,Basic,38.6,1283.81,Yes,Yes,Yes,7,4,1
+CUST-20839,Male,75,9,Month-to-month,Basic,88.7,831.21,No,No,Yes,3,1,0
+CUST-20840,Female,65,30,Two year,Standard,95.79,2901.9,Yes,No,Yes,0,5,0
+CUST-20841,Female,38,20,Two year,Premium,72.3,1447.66,No,No,No,0,2,1
+CUST-20842,Male,39,20,Month-to-month,Basic,51.01,1061.78,Yes,No,No,1,1,1
+CUST-20843,Female,53,52,Month-to-month,Premium,114.6,6000.56,Yes,No,No,1,1,1
+CUST-20844,Female,33,1,Month-to-month,Standard,66.8,113.62,No,No,No,0,3,0
+CUST-20845,Male,37,32,One year,Standard,74.16,2379.15,Yes,No,Yes,5,2,1
+CUST-20846,Female,72,52,Month-to-month,Basic,74.65,3906.59,Yes,Yes,No,7,3,1
+CUST-20847,Female,23,23,Two year,Basic,92.54,2170.09,Yes,Yes,No,0,4,1
+CUST-20848,Female,64,24,Two year,Standard,54.75,1336.43,Yes,No,No,1,4,0
+CUST-20849,Female,73,17,One year,Standard,118.77,2065.24,Yes,No,No,0,5,1
+CUST-20850,Female,58,5,Two year,Premium,80.15,439.81,No,Yes,No,2,2,0
+CUST-20851,Female,23,35,Month-to-month,Basic,117.43,4111.9,Yes,No,Yes,0,5,0
+CUST-20852,Male,38,58,Month-to-month,Premium,102.06,5939.1,No,Yes,Yes,4,1,1
+CUST-20853,Female,18,7,Month-to-month,Premium,52.11,406.21,Yes,No,No,3,1,1
+CUST-20854,Male,66,32,One year,Premium,79.12,2540.75,Yes,Yes,No,0,2,0
+CUST-20855,Male,33,66,Month-to-month,Premium,79.91,5308.28,No,Yes,No,1,1,1
+CUST-20856,Female,28,44,Month-to-month,Standard,55.41,2459.91,Yes,Yes,Yes,0,4,1
+CUST-20857,Male,30,60,Month-to-month,Basic,75.27,4541.56,Yes,No,No,0,5,0
+CUST-20858,Male,56,22,Month-to-month,Premium,94.4,2106.77,Yes,No,Yes,0,2,1
+CUST-20859,Male,69,50,Month-to-month,Basic,60.17,3022.28,No,Yes,No,0,4,1
+CUST-20860,Male,25,52,Month-to-month,Standard,101.87,5330.85,Yes,Yes,Yes,0,5,0
+CUST-20861,Male,48,62,Two year,Standard,94.0,5842.81,Yes,Yes,Yes,0,1,1
+CUST-20862,Male,70,44,One year,Premium,54.5,2441.82,No,No,No,0,4,0
+CUST-20863,Female,62,49,Two year,Standard,50.88,2493.8,No,Yes,No,0,3,0
+CUST-20864,Female,18,28,Two year,Premium,66.11,1867.61,Yes,No,Yes,0,4,0
+CUST-20865,Male,41,6,Month-to-month,Premium,109.83,663.37,No,No,Yes,1,5,1
+CUST-20866,Male,55,6,One year,Basic,35.27,248.66,Yes,Yes,No,0,5,0
+CUST-20867,Male,62,26,One year,Standard,98.12,2579.54,No,Yes,Yes,1,2,0
+CUST-20868,Male,21,69,Month-to-month,Basic,107.66,7451.71,No,No,No,0,3,0
+CUST-20869,Male,20,41,Month-to-month,Premium,116.63,4795.91,No,No,Yes,1,1,1
+CUST-20870,Male,63,71,One year,Standard,86.62,6176.49,No,No,No,0,4,1
+CUST-20871,Male,56,48,Month-to-month,Standard,85.48,4105.66,No,No,Yes,0,4,1
+CUST-20872,Female,71,18,Month-to-month,Standard,32.73,589.66,No,Yes,No,4,4,1
+CUST-20873,Male,40,9,Month-to-month,Standard,32.44,310.68,Yes,Yes,Yes,1,1,1
+CUST-20874,Male,38,55,Month-to-month,Premium,69.59,3830.54,Yes,Yes,No,0,2,1
+CUST-20875,Female,37,57,One year,Basic,93.86,5398.45,No,Yes,Yes,2,3,0
+CUST-20876,Female,55,7,Month-to-month,Standard,41.07,334.17,Yes,No,No,5,3,1
+CUST-20877,Female,55,28,Month-to-month,Standard,109.66,3098.17,Yes,No,No,0,5,1
+CUST-20878,Male,41,60,Month-to-month,Basic,117.34,7090.09,No,No,Yes,1,2,1
+CUST-20879,Male,54,24,Month-to-month,Premium,62.38,1521.56,Yes,Yes,Yes,2,5,0
+CUST-20880,Male,68,18,Month-to-month,Standard,56.01,1010.18,Yes,No,Yes,2,4,0
+CUST-20881,Female,42,24,Month-to-month,Standard,72.6,1754.24,Yes,Yes,No,2,1,1
+CUST-20882,Male,19,13,Month-to-month,Basic,35.86,497.02,Yes,Yes,No,0,2,0
+CUST-20883,Female,60,10,One year,Premium,43.43,464.71,No,No,No,3,3,0
+CUST-20884,Female,26,50,Month-to-month,Standard,59.11,2983.92,Yes,Yes,Yes,0,1,0
+CUST-20885,Female,68,37,Two year,Basic,90.6,3361.42,No,Yes,Yes,1,4,0
+CUST-20886,Male,22,54,Two year,Premium,92.98,5022.61,No,No,No,2,1,0
+CUST-20887,Female,18,27,One year,Basic,51.41,1427.95,No,No,Yes,1,3,0
+CUST-20888,Female,23,5,One year,Premium,56.77,286.53,No,No,Yes,2,4,0
+CUST-20889,Female,50,22,Month-to-month,Standard,42.38,960.82,Yes,No,Yes,0,1,1
+CUST-20890,Female,30,66,One year,Standard,87.08,5786.97,No,No,No,2,3,0
+CUST-20891,Female,38,63,One year,Basic,39.39,2527.84,No,No,Yes,0,5,0
+CUST-20892,Female,70,41,Month-to-month,Standard,83.74,3473.36,Yes,Yes,No,2,4,1
+CUST-20893,Male,26,29,Two year,Standard,110.38,3206.09,Yes,Yes,Yes,2,1,1
+CUST-20894,Female,53,44,Month-to-month,Basic,30.36,1339.5,No,No,Yes,0,2,0
+CUST-20895,Female,49,39,Month-to-month,Premium,44.54,1756.94,No,No,Yes,3,5,1
+CUST-20896,Male,31,58,Month-to-month,Premium,88.39,5129.51,No,Yes,No,1,4,0
+CUST-20897,Male,62,33,One year,Standard,66.06,2203.36,No,No,Yes,2,3,0
+CUST-20898,Female,57,35,One year,Standard,47.34,1690.81,Yes,Yes,No,0,4,0
+CUST-20899,Male,71,70,Month-to-month,Basic,67.54,4747.01,Yes,Yes,Yes,1,3,0
+CUST-20900,Female,61,65,Month-to-month,Standard,59.74,3916.38,No,No,No,2,3,0
+CUST-20901,Female,24,23,Month-to-month,Standard,54.7,1258.44,No,No,No,1,4,0
+CUST-20902,Male,36,8,Month-to-month,Standard,64.43,528.21,Yes,Yes,Yes,3,3,1
+CUST-20903,Female,36,1,Month-to-month,Basic,48.13,68.46,No,Yes,Yes,3,4,1
+CUST-20904,Male,46,3,Two year,Standard,47.45,186.44,No,No,Yes,4,5,1
+CUST-20905,Male,29,6,One year,Standard,95.81,601.89,Yes,Yes,No,2,2,1
+CUST-20906,Male,55,56,One year,Premium,72.8,4101.04,No,Yes,No,0,2,0
+CUST-20907,Male,31,47,Month-to-month,Standard,77.39,3652.27,Yes,No,Yes,0,4,0
+CUST-20908,Female,37,66,Two year,Basic,81.56,5407.87,Yes,No,Yes,3,5,0
+CUST-20909,Male,26,56,Month-to-month,Premium,85.52,4802.63,Yes,Yes,Yes,0,5,0
+CUST-20910,Male,39,67,Month-to-month,Basic,72.17,4877.61,Yes,Yes,Yes,0,4,0
+CUST-20911,Female,36,69,Month-to-month,Standard,84.86,5903.12,Yes,No,Yes,1,4,0
+CUST-20912,Male,30,1,Month-to-month,Premium,41.61,71.93,No,No,Yes,1,2,1
+CUST-20913,Male,28,55,Month-to-month,Premium,62.44,3461.63,No,Yes,No,1,4,1
+CUST-20914,Male,24,57,Month-to-month,Basic,64.55,3688.44,Yes,Yes,No,0,5,0
+CUST-20915,Male,47,70,Month-to-month,Standard,100.09,7050.62,No,No,No,1,5,1
+CUST-20916,Male,44,20,Month-to-month,Standard,95.23,1915.6,No,Yes,No,1,5,1
+CUST-20917,Male,74,22,Month-to-month,Premium,104.47,2301.17,No,No,No,3,5,1
+CUST-20918,Female,21,71,Month-to-month,Standard,118.59,8448.94,No,Yes,No,1,3,1
+CUST-20919,Male,70,70,Month-to-month,Premium,33.57,2372.52,Yes,No,Yes,0,1,1
+CUST-20920,Male,53,39,Month-to-month,Premium,98.58,3875.98,Yes,No,Yes,1,5,0
+CUST-20921,Female,31,68,Month-to-month,Basic,116.34,7945.38,No,Yes,Yes,0,4,0
+CUST-20922,Male,25,4,One year,Standard,96.43,413.08,Yes,Yes,No,3,1,1
+CUST-20923,Male,70,4,One year,Standard,30.62,142.57,Yes,Yes,Yes,1,2,1
+CUST-20924,Male,55,72,Month-to-month,Premium,84.59,6102.03,No,No,No,1,4,0
+CUST-20925,Male,63,41,Month-to-month,Standard,59.5,2465.05,No,Yes,Yes,0,4,1
+CUST-20926,Female,46,31,One year,Basic,105.58,3305.89,Yes,Yes,No,0,1,0
+CUST-20927,Female,46,5,Month-to-month,Premium,38.42,216.02,Yes,No,No,0,3,1
+CUST-20928,Male,24,10,Month-to-month,Standard,109.89,1146.45,Yes,Yes,Yes,5,3,1
+CUST-20929,Male,43,69,Two year,Basic,59.18,4120.92,Yes,Yes,No,3,4,0
+CUST-20930,Male,73,19,Month-to-month,Standard,102.38,1976.6,No,No,No,0,4,1
+CUST-20931,Female,19,30,Two year,Standard,95.3,2880.36,No,Yes,Yes,1,2,0
+CUST-20932,Female,31,64,Month-to-month,Basic,108.16,6939.99,No,No,No,2,2,1
+CUST-20933,Male,60,57,Month-to-month,Premium,65.41,3756.35,Yes,Yes,Yes,1,1,1
+CUST-20934,Female,63,39,One year,Basic,50.39,1980.21,No,No,Yes,1,3,0
+CUST-20935,Female,69,50,Month-to-month,Standard,111.92,5610.99,No,No,No,0,1,1
+CUST-20936,Female,52,37,One year,Premium,73.83,2768.75,Yes,No,Yes,1,3,1
+CUST-20937,Male,75,22,Month-to-month,Premium,38.45,874.13,Yes,No,Yes,0,3,0
+CUST-20938,Female,42,8,One year,Standard,103.55,838.57,No,No,No,0,2,1
+CUST-20939,Male,52,52,Month-to-month,Premium,119.71,6273.47,Yes,Yes,No,5,3,0
+CUST-20940,Male,54,50,One year,Basic,40.48,2068.53,No,No,No,1,5,0
+CUST-20941,Female,44,56,Two year,Basic,42.55,2398.47,No,Yes,No,0,1,1
+CUST-20942,Male,26,29,Month-to-month,Premium,78.97,2293.75,Yes,No,No,1,4,0
+CUST-20943,Male,24,61,Two year,Premium,36.49,2233.38,No,No,No,0,3,1
+CUST-20944,Male,31,32,One year,Standard,35.63,1155.36,No,No,No,3,2,0
+CUST-20945,Female,70,7,Month-to-month,Standard,52.16,402.7,No,Yes,Yes,1,3,0
+CUST-20946,Female,75,43,Month-to-month,Basic,87.53,3788.09,No,No,No,3,3,1
+CUST-20947,Male,31,71,Month-to-month,Basic,96.86,6893.79,Yes,Yes,No,2,3,0
+CUST-20948,Female,48,19,Month-to-month,Premium,50.57,960.87,No,Yes,Yes,0,3,1
+CUST-20949,Male,41,62,Month-to-month,Basic,43.38,2694.2,No,No,No,1,3,1
+CUST-20950,Male,73,2,Month-to-month,Premium,58.99,130.17,No,No,No,0,2,1
+CUST-20951,Female,50,7,Month-to-month,Premium,92.69,672.85,Yes,Yes,No,0,1,1
+CUST-20952,Male,34,30,Month-to-month,Premium,67.12,2045.17,Yes,No,Yes,1,1,1
+CUST-20953,Female,58,68,Month-to-month,Standard,41.59,2866.17,Yes,No,Yes,0,4,0
+CUST-20954,Male,33,10,Month-to-month,Standard,46.12,498.35,Yes,No,Yes,0,2,1
+CUST-20955,Female,73,43,Two year,Premium,114.8,4981.9,Yes,No,Yes,0,1,1
+CUST-20956,Male,19,52,Month-to-month,Basic,39.27,2045.81,No,Yes,Yes,0,4,1
+CUST-20957,Male,31,67,Month-to-month,Basic,106.75,7166.14,Yes,No,Yes,3,5,1
+CUST-20958,Male,21,48,Month-to-month,Premium,32.47,1606.6,Yes,Yes,Yes,2,3,0
+CUST-20959,Male,32,13,Month-to-month,Premium,45.68,602.92,No,Yes,Yes,0,5,1
+CUST-20960,Female,61,37,Month-to-month,Basic,57.38,2148.09,No,No,No,1,1,1
+CUST-20961,Female,45,25,Month-to-month,Premium,34.9,913.01,No,Yes,No,2,4,0
+CUST-20962,Male,35,71,One year,Standard,45.95,3286.04,Yes,No,No,3,1,1
+CUST-20963,Male,42,52,Month-to-month,Standard,80.63,4196.08,No,No,Yes,0,2,0
+CUST-20964,Male,57,54,Month-to-month,Basic,53.98,2954.06,No,Yes,Yes,1,5,0
+CUST-20965,Male,36,57,One year,Standard,113.13,6468.1,No,Yes,No,0,5,0
+CUST-20966,Female,26,71,Two year,Premium,52.48,3740.56,No,No,Yes,0,3,0
+CUST-20967,Male,59,59,Two year,Premium,114.05,6776.5,Yes,No,No,0,3,0
+CUST-20968,Female,50,55,Month-to-month,Premium,32.34,1817.94,No,Yes,No,1,5,0
+CUST-20969,Male,44,13,Month-to-month,Basic,90.63,1203.19,Yes,No,Yes,2,1,1
+CUST-20970,Male,49,27,Month-to-month,Standard,35.29,987.39,Yes,Yes,No,1,4,0
+CUST-20971,Male,53,18,Month-to-month,Standard,81.64,1475.41,Yes,No,No,2,5,0
+CUST-20972,Female,43,24,Month-to-month,Standard,105.44,2567.99,Yes,No,No,0,4,1
+CUST-20973,Male,56,14,Month-to-month,Premium,113.76,1635.67,No,Yes,Yes,0,5,1
+CUST-20974,Male,60,15,Month-to-month,Standard,93.22,1417.46,No,No,Yes,1,4,0
+CUST-20975,Male,44,71,Month-to-month,Standard,49.85,3544.9,Yes,No,Yes,0,5,1
+CUST-20976,Female,67,32,One year,Standard,95.81,3067.61,Yes,Yes,Yes,0,3,0
+CUST-20977,Female,71,62,One year,Basic,116.12,7213.12,Yes,No,Yes,3,5,0
+CUST-20978,Female,23,8,Two year,Standard,74.42,606.19,Yes,No,Yes,0,1,0
+CUST-20979,Male,67,4,Month-to-month,Standard,89.04,402.3,Yes,Yes,No,3,1,1
+CUST-20980,Male,65,10,Two year,Premium,33.55,350.1,Yes,Yes,No,1,3,0
+CUST-20981,Female,74,20,Two year,Basic,58.72,1178.13,Yes,No,Yes,1,5,0
+CUST-20982,Female,21,11,Month-to-month,Standard,38.89,462.88,Yes,No,Yes,0,2,1
+CUST-20983,Male,55,40,Two year,Basic,119.66,4801.57,No,Yes,Yes,5,5,0
+CUST-20984,Male,36,12,Month-to-month,Premium,71.33,887.56,No,Yes,No,4,1,1
+CUST-20985,Male,45,61,Two year,Standard,74.17,4539.1,No,Yes,Yes,0,1,1
+CUST-20986,Female,37,15,One year,Standard,40.98,643.58,No,Yes,Yes,1,1,1
+CUST-20987,Male,22,31,Month-to-month,Standard,49.59,1539.86,No,Yes,No,0,5,1
+CUST-20988,Female,39,22,Two year,Basic,98.18,2184.8,No,Yes,Yes,0,3,0
+CUST-20989,Male,63,60,One year,Premium,93.42,5619.0,No,No,No,1,5,0
+CUST-20990,Male,21,4,Month-to-month,Premium,119.13,511.56,No,No,No,0,4,1
+CUST-20991,Female,67,65,Month-to-month,Basic,106.65,6941.46,Yes,No,Yes,0,2,1
+CUST-20992,Female,43,47,Month-to-month,Standard,108.65,5130.37,Yes,Yes,No,3,3,1
+CUST-20993,Male,18,49,Month-to-month,Standard,107.49,5280.04,No,Yes,Yes,0,4,1
+CUST-20994,Male,61,35,Two year,Basic,73.72,2607.01,Yes,No,No,0,5,0
+CUST-20995,Male,40,21,Month-to-month,Basic,79.69,1682.54,Yes,No,Yes,1,4,1
+CUST-20996,Male,51,25,Month-to-month,Premium,83.18,2094.36,Yes,No,Yes,0,5,1
+CUST-20997,Male,32,48,Two year,Basic,93.4,4530.0,No,Yes,No,0,4,0
+CUST-20998,Male,67,68,One year,Basic,101.23,6905.47,Yes,No,No,1,1,0
+CUST-20999,Female,51,31,Month-to-month,Premium,31.54,981.38,No,Yes,No,4,3,1
+CUST-21000,Male,57,43,Two year,Basic,100.79,4359.5,Yes,No,No,1,4,0
+CUST-21001,Female,64,17,One year,Basic,37.64,665.38,Yes,Yes,No,0,3,0
+CUST-21002,Male,61,30,Month-to-month,Premium,99.57,3020.48,Yes,Yes,No,0,2,1
+CUST-21003,Female,56,2,Month-to-month,Standard,79.72,207.33,No,No,No,2,1,1
+CUST-21004,Female,29,1,Two year,Premium,116.82,145.14,Yes,No,No,3,5,1
+CUST-21005,Female,18,49,Month-to-month,Basic,64.96,3204.06,Yes,Yes,No,2,3,0
+CUST-21006,Male,23,52,Month-to-month,Standard,67.28,3544.88,No,Yes,No,1,5,1
+CUST-21007,Female,32,3,Month-to-month,Basic,73.09,239.19,Yes,No,No,0,4,0
+CUST-21008,Female,73,24,Month-to-month,Basic,77.83,1901.69,Yes,Yes,No,0,3,0
+CUST-21009,Male,35,11,Month-to-month,Basic,57.69,670.6,No,Yes,No,1,3,1
+CUST-21010,Female,47,37,Two year,Premium,113.52,4219.45,No,No,Yes,0,2,1
+CUST-21011,Male,33,28,Month-to-month,Basic,85.84,2420.42,No,No,Yes,4,1,1
+CUST-21012,Male,51,50,Month-to-month,Standard,31.81,1631.91,No,No,Yes,4,5,1
+CUST-21013,Female,28,13,Month-to-month,Basic,84.01,1133.59,Yes,No,Yes,1,5,0
+CUST-21014,Male,75,16,Month-to-month,Basic,83.12,1374.91,No,Yes,No,3,1,1
+CUST-21015,Male,70,46,One year,Basic,40.89,1892.47,Yes,Yes,No,1,3,1
+CUST-21016,Male,20,54,Month-to-month,Premium,34.38,1885.34,Yes,Yes,No,1,4,0
+CUST-21017,Male,56,8,Month-to-month,Premium,31.94,290.96,No,No,Yes,0,2,1
+CUST-21018,Female,63,36,One year,Basic,76.26,2763.78,No,Yes,No,1,5,0
+CUST-21019,Male,32,1,Month-to-month,Standard,95.42,144.29,Yes,Yes,Yes,5,4,1
+CUST-21020,Male,36,43,Month-to-month,Standard,96.04,4171.61,No,Yes,Yes,1,3,1
+CUST-21021,Male,23,58,Two year,Standard,117.22,6834.33,No,Yes,No,0,4,0
+CUST-21022,Female,22,17,Month-to-month,Premium,44.4,759.13,No,No,Yes,1,1,1
+CUST-21023,Male,27,17,Month-to-month,Premium,40.24,708.0,No,Yes,No,1,4,0
+CUST-21024,Male,39,32,Month-to-month,Basic,91.55,2935.76,No,Yes,Yes,3,4,1
+CUST-21025,Female,59,66,Month-to-month,Basic,112.04,7398.83,No,Yes,No,0,1,1
+CUST-21026,Male,47,44,One year,Basic,81.27,3602.77,Yes,Yes,Yes,0,3,0
+CUST-21027,Female,42,27,Month-to-month,Standard,97.94,2671.15,No,Yes,No,2,2,1
+CUST-21028,Female,44,44,One year,Standard,110.59,4911.93,Yes,Yes,Yes,0,3,0
+CUST-21029,Male,70,50,Two year,Basic,93.02,4670.65,Yes,No,No,3,2,0
+CUST-21030,Female,22,19,Month-to-month,Standard,58.42,1127.25,Yes,No,No,2,3,0
+CUST-21031,Female,57,61,Two year,Standard,77.59,4758.56,No,Yes,Yes,0,5,0
+CUST-21032,Female,71,16,Month-to-month,Standard,86.28,1396.23,No,Yes,No,0,5,0
+CUST-21033,Male,27,7,Two year,Basic,97.55,726.64,No,Yes,Yes,2,1,1
+CUST-21034,Male,34,35,Two year,Basic,41.78,1467.81,No,No,Yes,0,2,1
+CUST-21035,Female,47,71,Two year,Premium,114.13,8138.19,Yes,No,No,5,5,0
+CUST-21036,Male,41,15,Two year,Standard,92.82,1394.9,Yes,Yes,Yes,1,5,1
+CUST-21037,Female,46,72,One year,Basic,99.67,7185.89,Yes,Yes,No,0,4,0
+CUST-21038,Female,18,51,Month-to-month,Premium,49.76,2544.79,No,Yes,Yes,0,2,0
+CUST-21039,Male,19,7,Two year,Premium,90.82,650.35,No,Yes,No,3,5,1
+CUST-21040,Male,45,58,One year,Standard,32.05,1898.4,Yes,No,No,2,1,0
+CUST-21041,Female,18,43,One year,Standard,84.58,3651.24,No,Yes,Yes,1,3,0
+CUST-21042,Female,54,7,Month-to-month,Basic,43.09,332.71,Yes,Yes,No,0,1,1
+CUST-21043,Female,36,51,Month-to-month,Standard,100.83,5168.86,Yes,Yes,Yes,5,5,1
+CUST-21044,Male,36,33,One year,Basic,55.36,1840.48,Yes,No,No,0,5,0
+CUST-21045,Male,71,43,Month-to-month,Premium,88.9,3836.42,Yes,No,No,1,3,0
+CUST-21046,Male,20,2,Month-to-month,Standard,76.46,168.81,No,No,Yes,1,4,1
+CUST-21047,Male,23,5,Month-to-month,Standard,101.12,538.45,No,Yes,No,2,4,1
+CUST-21048,Female,51,50,Month-to-month,Premium,117.99,5905.14,No,No,No,0,5,1
+CUST-21049,Male,28,53,Month-to-month,Basic,94.74,5064.46,No,Yes,No,0,3,0
+CUST-21050,Male,55,45,Month-to-month,Standard,93.49,4234.32,Yes,No,Yes,6,5,1
+CUST-21051,Male,36,21,Month-to-month,Premium,42.77,921.58,No,No,Yes,0,3,0
+CUST-21052,Female,45,55,Month-to-month,Premium,108.2,5951.22,Yes,Yes,Yes,2,3,1
+CUST-21053,Female,29,62,One year,Standard,83.32,5206.4,Yes,No,No,0,3,0
+CUST-21054,Male,28,41,Month-to-month,Premium,63.35,2612.34,Yes,Yes,Yes,3,4,0
+CUST-21055,Male,52,61,Month-to-month,Premium,105.8,6485.75,Yes,Yes,No,2,4,1
+CUST-21056,Male,25,65,Month-to-month,Standard,41.53,2736.07,No,Yes,Yes,2,1,1
+CUST-21057,Male,27,10,Month-to-month,Basic,94.46,958.53,Yes,No,No,1,1,1
+CUST-21058,Female,72,58,Two year,Basic,98.16,5734.99,No,Yes,No,0,3,0
+CUST-21059,Female,40,52,Month-to-month,Standard,66.59,3464.71,No,Yes,Yes,0,3,1
+CUST-21060,Female,27,21,Two year,Standard,115.04,2465.16,No,No,Yes,2,5,1
+CUST-21061,Male,26,12,One year,Standard,51.94,654.47,Yes,No,Yes,0,3,0
+CUST-21062,Male,44,7,One year,Standard,74.35,552.48,Yes,Yes,No,0,1,1
+CUST-21063,Female,63,20,Month-to-month,Basic,75.34,1513.53,No,Yes,No,3,3,1
+CUST-21064,Male,32,41,Month-to-month,Premium,94.23,3881.34,Yes,Yes,Yes,0,4,1
+CUST-21065,Male,70,33,Month-to-month,Premium,75.47,2511.17,No,No,Yes,3,1,1
+CUST-21066,Male,49,18,Two year,Standard,68.09,1232.93,Yes,No,No,1,3,0
+CUST-21067,Male,64,64,One year,Standard,30.23,1975.26,Yes,Yes,No,2,1,1
+CUST-21068,Female,68,3,Month-to-month,Premium,32.16,134.76,No,Yes,Yes,1,1,1
+CUST-21069,Male,64,8,Two year,Premium,95.28,811.66,No,No,Yes,0,2,1
+CUST-21070,Male,21,8,One year,Premium,34.71,318.72,Yes,Yes,No,1,1,0
+CUST-21071,Female,72,69,Two year,Basic,77.4,5389.72,Yes,No,No,0,5,0
+CUST-21072,Male,57,7,One year,Basic,34.43,254.14,Yes,No,No,1,2,0
+CUST-21073,Female,28,69,Two year,Basic,76.06,5288.68,Yes,Yes,No,1,3,0
+CUST-21074,Female,67,59,Two year,Standard,99.21,5895.73,No,Yes,Yes,7,1,1
+CUST-21075,Female,61,71,Two year,Premium,100.17,7124.3,No,No,Yes,1,5,0
+CUST-21076,Male,24,72,One year,Basic,97.22,7006.84,No,Yes,No,7,3,0
+CUST-21077,Male,43,63,Month-to-month,Premium,108.0,6829.45,No,No,Yes,2,5,0
+CUST-21078,Male,44,31,Month-to-month,Premium,111.53,3490.77,Yes,Yes,No,3,2,1
+CUST-21079,Female,29,21,Month-to-month,Standard,69.14,1477.68,Yes,Yes,No,1,1,0
+CUST-21080,Female,28,24,One year,Premium,84.19,2065.16,Yes,No,No,1,2,0
+CUST-21081,Male,26,42,Month-to-month,Standard,73.21,3082.43,No,No,No,0,5,0
+CUST-21082,Female,65,69,Month-to-month,Basic,113.17,7854.65,No,Yes,No,0,4,1
+CUST-21083,Male,54,9,Two year,Basic,83.11,795.44,No,No,No,3,5,1
+CUST-21084,Male,59,15,Two year,Standard,77.29,1161.32,No,Yes,Yes,2,2,1
+CUST-21085,Male,51,58,One year,Standard,61.45,3587.25,Yes,Yes,Yes,2,5,0
+CUST-21086,Male,24,20,Month-to-month,Basic,35.73,739.96,Yes,No,No,0,1,1
+CUST-21087,Female,27,24,Month-to-month,Basic,66.72,1611.82,Yes,Yes,No,0,1,1
+CUST-21088,Female,58,26,Month-to-month,Basic,103.1,2719.87,No,No,Yes,0,5,1
+CUST-21089,Male,48,37,Two year,Premium,102.8,3828.34,Yes,No,No,0,5,0
+CUST-21090,Female,61,64,Month-to-month,Premium,64.23,4155.88,Yes,No,No,0,3,1
+CUST-21091,Female,64,9,Month-to-month,Premium,68.61,644.94,No,No,Yes,2,3,1
+CUST-21092,Female,53,30,One year,Standard,88.93,2715.13,Yes,No,No,0,4,0
+CUST-21093,Female,33,20,Month-to-month,Premium,103.02,2084.04,No,Yes,No,0,4,0
+CUST-21094,Male,60,33,Month-to-month,Premium,68.75,2298.6,No,Yes,No,0,3,1
+CUST-21095,Male,41,5,One year,Premium,54.21,294.22,Yes,Yes,No,0,2,0
+CUST-21096,Male,54,6,One year,Standard,50.44,339.56,Yes,No,No,1,3,0
+CUST-21097,Male,33,72,Two year,Basic,67.94,4908.43,No,Yes,No,0,2,0
+CUST-21098,Male,37,44,Month-to-month,Basic,116.34,5123.67,Yes,No,Yes,3,2,0
+CUST-21099,Female,67,30,Two year,Standard,85.83,2616.52,No,Yes,Yes,2,1,1
+CUST-21100,Male,60,46,One year,Standard,119.43,5502.12,No,Yes,No,3,2,1
+CUST-21101,Female,75,24,Two year,Standard,39.98,962.08,No,No,Yes,1,5,0
+CUST-21102,Female,40,38,Month-to-month,Basic,53.35,2065.13,Yes,Yes,Yes,0,1,1
+CUST-21103,Female,40,46,Month-to-month,Premium,49.78,2312.57,Yes,No,Yes,1,5,0
+CUST-21104,Female,47,26,Month-to-month,Standard,64.66,1731.04,Yes,Yes,No,3,3,0
+CUST-21105,Male,66,55,Month-to-month,Basic,45.63,2530.87,No,Yes,No,0,1,1
+CUST-21106,Male,45,30,Month-to-month,Standard,51.63,1588.4,Yes,No,Yes,1,4,0
+CUST-21107,Female,39,5,One year,Premium,85.39,456.46,Yes,Yes,No,1,1,0
+CUST-21108,Male,35,30,Two year,Premium,112.77,3409.63,Yes,No,No,3,1,1
+CUST-21109,Male,21,19,Month-to-month,Basic,66.06,1273.45,Yes,Yes,Yes,0,3,1
+CUST-21110,Female,67,48,Month-to-month,Standard,46.62,2268.24,Yes,No,No,1,3,0
+CUST-21111,Male,75,11,Month-to-month,Premium,48.27,545.93,No,No,Yes,4,1,1
+CUST-21112,Male,60,62,Month-to-month,Premium,87.82,5460.87,No,Yes,Yes,4,4,1
+CUST-21113,Female,75,44,Two year,Standard,49.22,2173.77,Yes,No,Yes,2,1,0
+CUST-21114,Female,32,20,Month-to-month,Premium,79.49,1609.65,Yes,No,No,0,4,0
+CUST-21115,Female,25,4,Month-to-month,Premium,76.24,327.52,Yes,No,No,0,5,0
+CUST-21116,Male,41,26,Month-to-month,Standard,58.59,1523.86,Yes,Yes,Yes,2,4,0
+CUST-21117,Male,53,64,One year,Basic,109.82,7065.72,No,No,Yes,0,3,0
+CUST-21118,Female,66,51,Month-to-month,Premium,100.11,5119.22,Yes,No,No,2,4,0
+CUST-21119,Female,58,9,Month-to-month,Premium,43.15,427.79,Yes,Yes,Yes,3,5,1
+CUST-21120,Female,29,10,Month-to-month,Standard,39.0,402.23,No,Yes,Yes,1,2,1
+CUST-21121,Male,33,69,One year,Basic,62.54,4327.06,Yes,Yes,Yes,3,4,0
+CUST-21122,Female,32,54,Two year,Basic,78.36,4265.28,Yes,No,Yes,2,5,1
+CUST-21123,Female,59,63,Month-to-month,Basic,34.15,2152.61,Yes,Yes,No,2,1,0
+CUST-21124,Female,18,59,Month-to-month,Basic,54.2,3216.06,Yes,No,Yes,0,4,1
+CUST-21125,Female,23,15,Two year,Premium,97.8,1498.11,No,No,No,4,4,0
+CUST-21126,Male,57,51,Month-to-month,Standard,104.03,5335.53,No,No,No,0,4,1
+CUST-21127,Male,62,65,Month-to-month,Basic,106.17,6913.08,No,No,Yes,0,4,0
+CUST-21128,Female,67,57,Month-to-month,Basic,63.49,3643.65,No,Yes,Yes,1,5,0
+CUST-21129,Female,70,6,Month-to-month,Basic,49.56,330.12,No,No,Yes,0,4,0
+CUST-21130,Male,49,55,Month-to-month,Basic,30.07,1701.42,Yes,Yes,No,1,1,1
+CUST-21131,Male,58,14,Month-to-month,Standard,76.01,1069.77,No,No,Yes,3,4,1
+CUST-21132,Male,71,33,Month-to-month,Standard,78.47,2617.78,No,Yes,Yes,0,5,0
+CUST-21133,Male,18,4,Month-to-month,Basic,73.77,325.25,Yes,No,Yes,2,1,1
+CUST-21134,Male,65,19,One year,Premium,118.89,2288.6,Yes,No,Yes,0,5,0
+CUST-21135,Male,20,34,Month-to-month,Premium,114.29,3893.12,Yes,Yes,No,0,5,1
+CUST-21136,Female,25,67,Month-to-month,Basic,78.27,5266.41,No,Yes,No,0,4,0
+CUST-21137,Female,71,62,Two year,Premium,85.28,5318.57,Yes,No,Yes,4,2,1
+CUST-21138,Male,25,36,Month-to-month,Standard,101.14,3690.43,No,Yes,Yes,7,1,1
+CUST-21139,Female,31,41,Month-to-month,Basic,38.51,1599.31,Yes,Yes,No,6,3,0
+CUST-21140,Female,70,23,One year,Standard,39.29,933.5,No,Yes,No,4,5,1
+CUST-21141,Male,51,7,Month-to-month,Basic,92.78,655.15,Yes,Yes,No,0,4,1
+CUST-21142,Male,25,50,Month-to-month,Premium,47.49,2420.55,Yes,Yes,No,1,5,1
+CUST-21143,Male,66,6,Month-to-month,Premium,105.12,642.85,Yes,No,No,0,3,1
+CUST-21144,Female,62,54,Two year,Basic,91.2,4970.65,Yes,Yes,No,3,2,1
+CUST-21145,Male,27,42,One year,Standard,39.52,1700.28,Yes,Yes,No,1,1,0
+CUST-21146,Female,71,64,Two year,Basic,111.4,7134.91,Yes,Yes,No,3,1,1
+CUST-21147,Female,32,34,Month-to-month,Basic,104.22,3579.65,No,No,Yes,0,4,1
+CUST-21148,Male,56,32,Month-to-month,Standard,83.79,2707.35,No,Yes,No,2,3,1
+CUST-21149,Female,26,36,Two year,Basic,80.61,2939.42,Yes,Yes,No,1,2,1
+CUST-21150,Male,44,52,Month-to-month,Basic,108.95,5676.19,No,Yes,No,1,4,0
+CUST-21151,Male,48,29,One year,Basic,93.56,2722.25,Yes,Yes,Yes,2,3,1
+CUST-21152,Male,69,8,Month-to-month,Basic,46.62,384.69,No,No,Yes,0,5,1
+CUST-21153,Female,36,35,Month-to-month,Premium,108.53,3812.09,Yes,Yes,No,0,3,1
+CUST-21154,Female,46,53,Month-to-month,Basic,40.61,2189.12,No,Yes,No,1,3,1
+CUST-21155,Female,24,40,Month-to-month,Basic,85.88,3466.2,Yes,Yes,No,0,3,0
+CUST-21156,Male,37,42,Two year,Premium,87.0,3656.79,Yes,No,Yes,2,1,1
+CUST-21157,Male,38,50,Month-to-month,Standard,46.3,2343.9,Yes,Yes,Yes,0,4,0
+CUST-21158,Female,55,55,One year,Basic,81.28,4482.09,No,Yes,No,0,1,0
+CUST-21159,Male,56,3,Two year,Basic,100.5,316.78,No,Yes,No,0,4,0
+CUST-21160,Male,35,53,Month-to-month,Standard,90.7,4834.04,Yes,Yes,No,0,3,1
+CUST-21161,Female,45,33,One year,Premium,69.11,2321.05,No,Yes,No,0,5,0
+CUST-21162,Male,53,43,Month-to-month,Standard,54.2,2347.6,Yes,No,Yes,5,5,1
+CUST-21163,Female,56,35,Two year,Standard,105.91,3750.13,Yes,No,No,0,2,1
+CUST-21164,Male,71,61,Month-to-month,Basic,53.27,3255.7,Yes,Yes,Yes,2,5,1
+CUST-21165,Male,53,66,Two year,Basic,114.1,7579.9,No,No,No,1,5,0
+CUST-21166,Female,47,3,Month-to-month,Basic,71.17,256.18,Yes,No,Yes,0,3,0
+CUST-21167,Male,23,4,Two year,Basic,101.85,420.44,No,Yes,No,0,3,1
+CUST-21168,Female,18,44,Month-to-month,Premium,75.46,3367.42,Yes,No,No,2,3,0
+CUST-21169,Male,31,37,One year,Standard,84.95,3175.13,No,No,Yes,3,3,1
+CUST-21170,Male,59,43,One year,Standard,107.11,4634.56,Yes,No,No,0,2,0
+CUST-21171,Female,75,23,One year,Standard,36.48,880.61,Yes,No,No,0,1,0
+CUST-21172,Female,21,31,Month-to-month,Premium,119.9,3738.29,Yes,No,No,1,1,1
+CUST-21173,Male,51,37,One year,Premium,66.64,2493.64,Yes,No,Yes,0,3,0
+CUST-21174,Male,19,11,Two year,Basic,69.52,793.63,No,Yes,Yes,0,3,0
+CUST-21175,Female,27,63,Month-to-month,Premium,63.83,4045.03,Yes,No,No,1,1,0
+CUST-21176,Female,31,33,Month-to-month,Standard,49.01,1647.09,No,No,Yes,0,5,1
+CUST-21177,Male,30,29,Month-to-month,Premium,67.94,1994.1,Yes,No,Yes,3,4,1
+CUST-21178,Female,47,60,Two year,Basic,90.76,5490.11,No,Yes,No,1,3,0
+CUST-21179,Female,70,64,Month-to-month,Standard,116.95,7527.73,No,No,Yes,4,5,1
+CUST-21180,Male,55,46,Two year,Standard,97.48,4523.44,Yes,Yes,No,0,4,0
+CUST-21181,Female,19,34,Two year,Basic,116.24,3976.16,No,No,Yes,0,4,0
+CUST-21182,Female,23,10,Month-to-month,Standard,98.98,1022.39,Yes,Yes,Yes,2,1,1
+CUST-21183,Female,65,5,One year,Standard,65.85,365.55,Yes,Yes,No,2,3,1
+CUST-21184,Female,59,55,Month-to-month,Standard,115.83,6416.34,Yes,No,No,6,1,1
+CUST-21185,Male,34,60,Month-to-month,Premium,96.31,5782.11,Yes,No,No,3,1,1
+CUST-21186,Female,71,41,Two year,Basic,79.28,3284.62,No,Yes,No,2,3,0
+CUST-21187,Male,37,40,Month-to-month,Standard,113.09,4549.14,No,No,Yes,0,4,0
+CUST-21188,Female,43,50,Month-to-month,Basic,93.73,4687.29,No,Yes,No,1,5,1
+CUST-21189,Male,51,9,Month-to-month,Basic,93.11,872.57,Yes,Yes,Yes,1,3,0
+CUST-21190,Female,35,62,One year,Premium,78.14,4853.42,Yes,Yes,No,0,1,1
+CUST-21191,Male,52,50,Month-to-month,Standard,73.6,3702.55,Yes,Yes,Yes,0,5,1
+CUST-21192,Female,47,39,Two year,Basic,30.23,1195.34,No,No,Yes,0,2,0
+CUST-21193,Male,68,65,Month-to-month,Basic,105.44,6903.21,No,No,No,4,4,1
+CUST-21194,Male,31,12,Two year,Standard,36.86,476.04,Yes,Yes,No,1,2,1
+CUST-21195,Female,67,41,Month-to-month,Basic,61.42,2565.76,No,Yes,Yes,1,5,1
+CUST-21196,Male,69,67,Month-to-month,Premium,101.42,6798.94,Yes,No,No,0,5,0
+CUST-21197,Male,42,59,Month-to-month,Premium,45.99,2740.31,Yes,Yes,No,1,5,1
+CUST-21198,Male,64,8,Two year,Premium,35.84,299.63,No,Yes,No,0,5,0
+CUST-21199,Male,37,21,Month-to-month,Premium,108.86,2314.77,Yes,Yes,Yes,0,5,1
+CUST-21200,Female,75,25,Month-to-month,Basic,56.61,1435.33,Yes,Yes,Yes,0,3,0
